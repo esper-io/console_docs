@@ -34,7 +34,7 @@
           class="title leading-none font-medium"
         >{{ $activeSet.setTitle ? $activeSet.setTitle : $activeSet.title }}</div>
       </RouterLink>
-      <div v-if="$activeSet.versions" class="doc-set-version-wrapper">
+      <!-- <div v-if="$activeSet.versions" class="doc-set-version-wrapper">
         <select name class="doc-set-version" @change="handleVersionSelect($event)">
           <option
             v-for="version in $activeSet.versions"
@@ -43,7 +43,7 @@
           >{{ version[0] }}</option>
         </select>
         <VersionArrow />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
