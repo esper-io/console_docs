@@ -4,17 +4,39 @@ helpfulVotes: false
 home: true
 ---
 
-# Documentation
+# Welcome
 
-This landing page splits off into documentation for [Craft CMS](/3.x/), [Craft Commerce](/commerce/3.x/), [Craft Nitro](/nitro/), and the [Intro to Craft CMS tutorial](/getting-started-tutorial/). Each section introduces core concepts and serves as a general reference.
+Esper is at heart a technology company that provides Android dedicated device fleet management solutions for enterprises led by APIs, SDKs, and tools for developers. Based in Silicon Valley with supporting teams in Seattle, Esper is currently the only company providing a full stack, API-driven implementation delivering a secure platform for purpose-built Android-based dedicated devices.
 
-Topical guides and support articles are available in the [Knowledge Base](https://craftcms.com/knowledge-base).
+# Overview
 
-## Browse Product Documentation
+Welcome to the Esper Console where Android™ developers can build, test, deploy, diagnose, and manage their applications seamlessly and securely to Android-based dedicated devices. Using the console, you will be able to generate API Keys and obtain your Enterprise ID; this enables you to use the Esper APIs either by calling them via REST, with our Esper SDK for Python, or by using our Esper CLI. Additionally, our Esper plugin for Android Studio is available for developers to use, and provides a set of resources to facilitate diagnostics and debugging of applications—whether running in a test lab or deployed in the field.
 
-<div class="w-full flex -mx-2">
-    <LinkPanel title="Craft CMS" subtitle="Flexible content management." link="/3.x/" icon="/docs/icons/craft.svg" />
-    <LinkPanel title="Craft Commerce" subtitle="Custom, extensible ecommerce." link="/commerce/3.x/" icon="/docs/icons/commerce.svg" />
+Esper provides tools that enable Android developers to deliver highly secure solutions to Dedicated Devices, all the while giving them superior flexibility and control over the process. This leads to a better development experience spanning the entire development lifecycle. Furthermore, this lightens the burden on IT, enabling them to focus on more pressing aspects of your product. A rich API set and a variety of open-source SDKs and tools allow you to incorporate device management for your dedicated device apps and dedicated devices.
+
+## What you need we got it all
+
+Get started with Esper's curated documentation
+
+<div class="w-full flex flex-wrap -mx-2">
+    <LinkPanel title="Platform" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="API Reference" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="CLI" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="Tools for Android studio" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/3.x/" icon="/docs/images/platform.png" />
+</div>
+
+
+## What's on your mind ?
+
+Learn from Esper's champs with upto date blogs, use cases and articles.
+
+<div class="w-full flex flex-wrap -mx-2">
+    <LinkPanel title="Platform" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="API Reference" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="CLI" subtitle="Learn how Esper Platform works from our curated content." link="/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="Tools for Android studio" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/3.x/" icon="/docs/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/3.x/" icon="/docs/images/platform.png" />
 </div>
 
 ## Follow Tutorials

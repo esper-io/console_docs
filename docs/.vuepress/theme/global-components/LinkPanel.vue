@@ -1,16 +1,22 @@
 <template>
   <div class="link-panel-wrapper">
-    <RouterLink v-if="isInternal" class="link-panel" :to="link" :class="{ 'has-icon': icon }">
-      <div v-if="icon" class="link-panel-icon">
+    <RouterLink
+      v-if="isInternal"
+      class="link-panel"
+      :to="link"
+      :class="{ 'has-icon': icon }"
+    >
+      <div v-if="icon" class="w-full">
         <img :src="icon" class="no-zoom" alt />
       </div>
-
-      <span class="title">{{ title }}</span>
-      <span class="subtitle">{{ subtitle }}</span>
-
-      <div v-if="repo" class="repo-icon">
-        <Octocat />
+      <div class="px-6 py-4">
+        <div class="leading-none text-lg font-medium block mb-1">{{ title }}</div>
+        <div class="text-sm text-slate block leading-tight">{{ subtitle }}</div>
+        <div class="font-bold text-sm text-slate block leading-tight mt-2">Learn more -> </div>
       </div>
+      <!-- <div v-if="repo" class="repo-icon">
+        <Octocat />
+      </div> -->
     </RouterLink>
     <a
       v-else
@@ -20,27 +26,28 @@
       :rel="rel"
       :class="{ 'has-icon': icon }"
     >
-      <div v-if="icon" class="link-panel-icon">
+      <div v-if="icon" class="w-full">
         <img :src="icon" class="no-zoom" alt />
       </div>
 
-      <span class="title">{{ title }}</span>
-      <span class="subtitle">{{ subtitle }}</span>
-
-      <div v-if="repo" class="repo-icon">
-        <Octocat />
+      <div class="px-6 py-4">
+        <span class="title">{{ title }}</span>
+        <span class="subtitle">{{ subtitle }}</span>
       </div>
+      <!-- <div v-if="repo" class="repo-icon">
+        <Octocat />
+      </div> -->
     </a>
   </div>
 </template>
 
 <style lang="postcss">
 .link-panel-wrapper {
-  @apply block w-1/2 mx-2 relative;
+  @apply block w-1/2 relative p-2;
 }
 
 .link-panel {
-  @apply rounded border block w-full p-4;
+  @apply rounded overflow-hidden shadow-lg border block w-full;
   transition: all 500ms cubic-bezier(0.16, 1, 0.3, 1);
 
   .title {
@@ -77,7 +84,7 @@
 
 @screen sm {
   .link-panel-wrapper {
-    @apply w-1/3;
+    @apply w-1/2;
   }
 }
 </style>
