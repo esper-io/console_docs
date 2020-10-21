@@ -105,109 +105,109 @@ module.exports = {
         {
           title: "Introduction",
           collapsable: false,
-          children: ["", "coc"]
+          children: [""]
         },
         {
-          title: "Installing & Updating",
+          title: "Core",
           collapsable: false,
-          children: ["requirements", "installation", "updating", "upgrade"]
+          children: ["devicegroups"]
         },
-        {
-          title: "Configuration",
-          collapsable: false,
-          children: ["config/", "config/config-settings", "config/db-settings"]
-        },
-        {
-          title: "System Overview",
-          collapsable: false,
-          children: [
-            "directory-structure",
-            "elements",
-            "fields",
-            "relations",
-            "user-management",
-            "sites",
-            "console-commands",
-            "project-config",
-            "plugins"
-          ],
-          toggleChildren: ["searching", "reference-tags", "gc"]
-        },
-        {
-          title: "Element Types",
-          collapsable: false,
-          children: [
-            "entries",
-            "categories",
-            "tags",
-            "assets",
-            "globals",
-            "matrix-blocks",
-            "users"
-          ]
-        },
-        {
-          title: "Field Types",
-          collapsable: false,
-          children: [
-            "assets-fields",
-            "categories-fields",
-            "checkboxes-fields",
-            "color-fields",
-            "date-time-fields",
-            "dropdown-fields",
-            "entries-fields",
-            "lightswitch-fields",
-            "matrix-fields",
-            "multi-select-fields",
-            "number-fields",
-            "plain-text-fields",
-            "radio-buttons-fields",
-            "table-fields",
-            "tags-fields",
-            "time-fields",
-            "users-fields"
-          ]
-        },
-        {
-          title: "Front End Development",
-          collapsable: false,
-          children: [
-            "image-transforms",
-            "element-queries",
-            "dev/eager-loading-elements",
-            "graphql",
-            "routing"
-          ]
-        },
-        {
-          title: "Twig Templating",
-          collapsable: false,
-          children: [
-            "dev/twig-primer",
-            "dev/global-variables",
-            "dev/filters",
-            "dev/functions",
-            "dev/tags",
-            "dev/tests"
-          ]
-        },
-        {
-          title: "Templating Examples",
-          collapsable: false,
-          children: [
-            "dev/examples/integrating-disqus",
-            "dev/examples/rss-feed",
-            "dev/examples/atom-feed",
-            "dev/examples/entry-form",
-            "dev/examples/search-form",
-            "dev/examples/login-form",
-            "dev/examples/user-profile-form",
-            "dev/examples/user-registration-form",
-            "dev/examples/forgot-password-form",
-            "dev/examples/set-password-form"
-          ]
-        }
+        // {
+        //   title: "Configuration",
+        //   collapsable: false,
+        //   children: ["config/", "config/config-settings", "config/db-settings"]
+        // },
+        // {
+        //   title: "System Overview",
+        //   collapsable: false,
+        //   children: [
+        //     "directory-structure",
+        //     "elements",
+        //     "fields",
+        //     "relations",
+        //     "user-management",
+        //     "sites",
+        //     "console-commands",
+        //     "project-config",
+        //     "plugins"
+        //   ],
+        //   toggleChildren: ["searching", "reference-tags", "gc"]
+        // },
+        // {
+        //   title: "Element Types",
+        //   collapsable: false,
+        //   children: [
+        //     "entries",
+        //     "categories",
+        //     "tags",
+        //     "assets",
+        //     "globals",
+        //     "matrix-blocks",
+        //     "users"
+        //   ]
+        // },
+        // {
+        //   title: "Field Types",
+        //   collapsable: false,
+        //   children: [
+        //     "assets-fields",
+        //     "categories-fields",
+        //     "checkboxes-fields",
+        //     "color-fields",
+        //     "date-time-fields",
+        //     "dropdown-fields",
+        //     "entries-fields",
+        //     "lightswitch-fields",
+        //     "matrix-fields",
+        //     "multi-select-fields",
+        //     "number-fields",
+        //     "plain-text-fields",
+        //     "radio-buttons-fields",
+        //     "table-fields",
+        //     "tags-fields",
+        //     "time-fields",
+        //     "users-fields"
+        //   ]
+        // },
+        // {
+        //   title: "Front End Development",
+        //   collapsable: false,
+        //   children: [
+        //     "image-transforms",
+        //     "element-queries",
+        //     "dev/eager-loading-elements",
+        //     "graphql",
+        //     "routing"
+        //   ]
+        // },
+        // {
+        //   title: "Twig Templating",
+        //   collapsable: false,
+        //   children: [
+        //     "dev/twig-primer",
+        //     "dev/global-variables",
+        //     "dev/filters",
+        //     "dev/functions",
+        //     "dev/tags",
+        //     "dev/tests"
+        //   ]
+        // },
+        // {
+        //   title: "Templating Examples",
+        //   collapsable: false,
+        //   children: [
+        //     "dev/examples/integrating-disqus",
+        //     "dev/examples/rss-feed",
+        //     "dev/examples/atom-feed",
+        //     "dev/examples/entry-form",
+        //     "dev/examples/search-form",
+        //     "dev/examples/login-form",
+        //     "dev/examples/user-profile-form",
+        //     "dev/examples/user-registration-form",
+        //     "dev/examples/forgot-password-form",
+        //     "dev/examples/set-password-form"
+        //   ]
+        // }
       ]
     },
     "2.x": {
@@ -426,20 +426,20 @@ module.exports = {
       ],
       "/": [
         {
-          title: "Extending Craft",
+          title: "Customer Support",
           icon: "/docs/icons/icon-book.svg",
           link: "/1.x/extend/"
         },
-        {
-          title: "Testing Craft",
-          icon: "/docs/icons/icon-flask.svg",
-          link: "/1.x/testing/"
-        },
-        {
-          title: "Class Reference",
-          icon: "/docs/icons/craft-api.svg",
-          link: "https://docs.craftcms.com/api/v3/"
-        },
+        // {
+        //   title: "Testing Craft",
+        //   icon: "/docs/icons/icon-flask.svg",
+        //   link: "/1.x/testing/"
+        // },
+        // {
+        //   title: "Class Reference",
+        //   icon: "/docs/icons/craft-api.svg",
+        //   link: "https://docs.craftcms.com/api/v3/"
+        // },
       ]
     },
     "2.x": {

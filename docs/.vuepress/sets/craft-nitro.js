@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Craft Nitro Documentation",
-  setTitle: "Craft Nitro",
+  title: "SDK Documentation",
+  setTitle: "Esper SDK",
   handle: "nitro",
   icon: "/docs/icons/nitro.svg",
   baseDir: "nitro",

@@ -12,7 +12,14 @@
       <div class="px-6 py-4">
         <div class="title">{{ title }}</div>
         <div class="subtitle">{{ subtitle }}</div>
-        <div class="font-bold subtitle mt-2">Learn more -> </div>
+        <ul v-if="items" class="w-full flex flex-wrap list-outside">
+          <li v-for="(item, index) in items" :key="index" class="w-1/2 pr-3" >
+              <RouterLink :to="item.link">
+                {{ item.text }}
+              </RouterLink>
+          </li>
+        </ul>
+        <div v-if="!items" class="font-bold subtitle mt-2">Learn more -></div>
       </div>
       <!-- <div v-if="repo" class="repo-icon">
         <Octocat />
@@ -94,7 +101,26 @@ import { isExternal, isMailto, isTel, ensureExt } from "../util";
 import Octocat from "../icons/Octocat";
 
 export default {
-  props: ["icon", "title", "link", "subtitle", "repo"],
+  props: {
+    icon: {
+      type: String,
+    },
+    title: {
+      type: String,
+    },
+    subtitle: {
+      type: String,
+    },
+    link: {
+      type: String,
+    },
+    repo: {
+      type: String,
+    },
+    items: {
+      type: Array,
+    },
+  },
   components: {
     Octocat,
   },

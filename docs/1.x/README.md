@@ -1,27 +1,93 @@
-# About Craft CMS
+# Explore it all !
 
-Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.
+Get started with Esper’s curated documentation and become expert.
 
-It features:
+<div class="w-full flex flex-wrap -mx-1 mb-8">
+    <LinkPanel 
+    title="Introduction to esper" 
+    subtitle="This section covers"
+    :items="[
+        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Esper Tools', link: '' },
+        { text: 'Esper and Android Developers', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: 'Sign up for an Esper Trail Account', link: '' },
+        { text: 'Scale your Deployment', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+     <LinkPanel 
+    title="Getting started" 
+    subtitle="First few thing to do get started with esper platform"
+    :items="[
+        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Esper Tools', link: '' },
+        { text: 'Esper and Android Developers', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: 'Sign up for an Esper Trail Account', link: '' },
+        { text: 'Scale your Deployment', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+     <LinkPanel 
+    title="Minimum requirements to use esper" 
+    subtitle="This section covers"
+    :items="[
+        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Esper Tools', link: '' },
+        { text: 'Esper and Android Developers', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: 'Sign up for an Esper Trail Account', link: '' },
+        { text: 'Scale your Deployment', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/docs/images/platform.png" />
+</div>
 
-- An intuitive, user-friendly control panel for content creation and administrative tasks.
-- A clean-slate approach to content modeling and [front-end development](dev/README.md) that doesn’t make any assumptions about your content or how it should be consumed.
-- A built-in Plugin Store with hundreds of free and commercial [plugins](https://plugins.craftcms.com/), all just a click away.
-- A robust framework for [module and plugin development](extend/README.md).
-- An active, vibrant [community](https://craftcms.com/community).
+# Choose what you are looking for
+Walk directly to section of platform you are looking to learn.
 
-You can learn all about it at [craftcms.com](https://craftcms.com).
 
-## Tech Specs
-
-Craft is a self-hosted PHP 7 application, built on [Yii 2](https://www.yiiframework.com/). It can connect to MySQL and PostgreSQL for content storage. Templating is powered by [Twig](https://twig.symfony.com).
-
-## Diving In
-
-If you’re new to Craft CMS the best place to start is [the tutorial](/getting-started-tutorial/).
-
-To start getting acquainted with how content modeling works in Craft, read [Entries](entries.md) and [Fields](fields.md).
-
-Before installing, check out the [Server Requirements](requirements.md) and [Installation Instructions](installation.md).
-
-Finally, read the [Front-End Development](dev/README.md) section when you’re ready to start building out the front-end of your site or application.
+<div class="flex flex-wrap -mx-1">
+    <LinkPanel 
+    title="Provisioning methods" 
+    subtitle="This section helps you identify what methods you could use to enrol your Device to esper platform"
+    :items="[
+        { text: 'Provisioning methods esper supports', link: '/1.x/overview' },
+        { text: 'AFW method', link: '' },
+        { text: 'Selecting a provisioning method', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: '6 Tap provisioning ', link: '' },
+        { text: 'Pre-requistes of Provisioning methods', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+     <LinkPanel 
+    title="Getting started" 
+    subtitle="First few thing to do get started with esper platform"
+    :items="[
+        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Esper Tools', link: '' },
+        { text: 'Esper and Android Developers', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: 'Sign up for an Esper Trail Account', link: '' },
+        { text: 'Scale your Deployment', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+     <LinkPanel 
+    title="Minimum requirements to use esper" 
+    subtitle="This section covers"
+    :items="[
+        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Esper Tools', link: '' },
+        { text: 'Esper and Android Developers', link: '' },
+        { text: 'Esper Device Orchestration', link: '' },
+        { text: 'Sign up for an Esper Trail Account', link: '' },
+        { text: 'Scale your Deployment', link: '' }
+    ]"
+     link="/1.x/" 
+     icon="/docs/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/docs/images/platform.png" />
+</div>

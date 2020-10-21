@@ -16,7 +16,7 @@
       @select-version="handleVersionUpdate"
       @select-language="handleLanguageUpdate"
     />
-    <div id="main" class="main-container">
+    <div id="main" class="main-container" v-bind:class="{ 'main-container-full': hasHeadingItems}">
       <div id="top-bar" class="top-bar">
         <Hamburger @click="toggleSidebar" />
         <div class="ml-12 lg:ml-0 lg:block max-w-screen-md h-full flex items-center">
@@ -73,6 +73,7 @@
   @apply mx-auto relative max-w-screen-md;
 }
 
+
 .top-bar {
   @apply block h-12 w-full content-center relative px-10 pt-2 max-w-screen-md;
 }
@@ -106,7 +107,8 @@
 
 .theme-default-content:not(.custom),
 .content-wrapper {
-  @apply py-8 px-10 max-w-screen-md;
+  @apply py-8 px-10;
+   /* max-w-screen-md; */
 }
 
 @screen lg {
@@ -115,12 +117,16 @@
     left: 8rem;
   }
 
+
   .left-bar {
     transform: translateX(0);
   }
 }
 
 @screen xl {
+  .main-container-full {
+    @apply mx-auto relative max-w-screen-lg transform translate-x-32;
+  }
   .main-container {
     left: 0;
   }
@@ -240,6 +246,11 @@ export default {
 
     headingItems() {
       return resolveHeaders(this.$page);
+    },
+
+    hasHeadingItems() {
+      const length = resolveHeaders(this.$page)?.[0]?.children?.length > 0
+      return !length;
     },
 
     colorMode() {

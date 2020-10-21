@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Craft Commerce Documentation | %v",
-  setTitle: "Craft Commerce",
+  title: "API Documentation | %v",
+  setTitle: "API Reference",
   handle: "commerce",
   icon: "/docs/icons/commerce.svg",
   baseDir: "commerce",
