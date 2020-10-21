@@ -65,11 +65,11 @@ module.exports = {
       require("./sets/craft-nitro"),
       require("./sets/getting-started-tutorial")
     ],
-    docsRepo: "craftcms/docs",
+    docsRepo: "esper-io/dev-docs",
     docsDir: "docs",
     docsBranch: "main",
     searchPlaceholder:
-      "Search Craft, Commerce, and Nitro docs (Press “/” to focus)",
+      "Search Esper, API, and SDK docs (Press “/” to focus)",
     editLinks: true,
     nextLinks: true,
     prevLinks: true,

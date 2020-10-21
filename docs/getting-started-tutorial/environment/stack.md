@@ -1,6 +1,6 @@
 # Set up a development stack
 
-The word “stack” refers to the web software that’s needed to work with Craft CMS, which is detailed in [Craft’s minimum requirements](/3.x/requirements.md).
+The word “stack” refers to the web software that’s needed to work with Craft CMS, which is detailed in [Craft’s minimum requirements](/1.x/requirements.md).
 
 Like your workstation, a web server can run different operating systems and apps. Web servers, however, use an OS and software specifically for running websites where common bundles of web software are referred to as “stacks”. (You’ve probably heard of a “full stack developer”, which means someone has experience with each of the software components in a particular stack.)
 

@@ -4,7 +4,7 @@ module.exports = {
   editLinkText: "Edit this page on GitHub",
   searchPlaceholder: "Search the Craft docs (Press “/” to focus)",
   sidebar: {
-    "3.x": {
+    "1.x": {
       "/extend/": [
         {
           title: "Extending Craft",
@@ -404,7 +404,7 @@ module.exports = {
     }
   },
   sidebarExtra: {
-    "3.x": {
+    "1.x": {
       "/extend/": [
         {
           title: "Class Reference",
@@ -414,26 +414,26 @@ module.exports = {
         {
           title: "Back to Craft Docs",
           icon: "/docs/icons/icon-back.svg",
-          link: "/3.x/"
+          link: "/1.x/"
         }
       ],
       "/testing/": [
         {
           title: "Back to Craft Docs",
           icon: "/docs/icons/icon-back.svg",
-          link: "/3.x/"
+          link: "/1.x/"
         }
       ],
       "/": [
         {
           title: "Extending Craft",
           icon: "/docs/icons/icon-book.svg",
-          link: "/3.x/extend/"
+          link: "/1.x/extend/"
         },
         {
           title: "Testing Craft",
           icon: "/docs/icons/icon-flask.svg",
-          link: "/3.x/testing/"
+          link: "/1.x/testing/"
         },
         {
           title: "Class Reference",

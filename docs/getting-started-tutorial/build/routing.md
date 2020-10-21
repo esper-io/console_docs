@@ -10,7 +10,7 @@ At this very moment, you can add a cat photo to your project at `web/cat.jpg` an
 
 ## Dynamic routes
 
-When we build a template-driven CMS website, the CMS is responsible for handling _dynamic_ routes. If the web server doesn’t find a static route in our case, it hands off to Craft CMS which then looks at [a series of things](/3.x/routing.md) to see if it can return a response. (If not, it returns a 404.)
+When we build a template-driven CMS website, the CMS is responsible for handling _dynamic_ routes. If the web server doesn’t find a static route in our case, it hands off to Craft CMS which then looks at [a series of things](/1.x/routing.md) to see if it can return a response. (If not, it returns a 404.)
 
 ![](../images/tutorial-dynamic-request.png)
 

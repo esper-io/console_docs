@@ -60,7 +60,7 @@
             <span class="right-footer-icon">
               <Reply />
             </span>
-            back to craftcms.com
+            back to esper.io
           </a>
         </p>
         <div class="switch-wrapper block xl:hidden">

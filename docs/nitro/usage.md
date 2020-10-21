@@ -47,7 +47,7 @@ return [
 :::
 
 ::: tip
-Instead of hardcoding the value of `isWindows` inside `config/app.php`, you can instead use an [environment variable](/3.x/config/#config-files) defined in your `.env` file.
+Instead of hardcoding the value of `isWindows` inside `config/app.php`, you can instead use an [environment variable](/1.x/config/#config-files) defined in your `.env` file.
 :::
 
 ### Mounting your entire dev folder at once

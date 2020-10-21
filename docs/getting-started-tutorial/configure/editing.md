@@ -42,7 +42,7 @@ Craft will set a slug for you by default, and it’ll be used in the post URL on
 
 ### You can share drafts privately.
 
-Choosing “Share” at the top of the entry will always give you a URL for viewing the content you’re looking at. If it’s unpublished content, the URL will include an `x-craft-preview` token that can be used for a limited time [determined by your settings](/3.x/config/config-settings.md#defaulttokenduration).
+Choosing “Share” at the top of the entry will always give you a URL for viewing the content you’re looking at. If it’s unpublished content, the URL will include an `x-craft-preview` token that can be used for a limited time [determined by your settings](/1.x/config/config-settings.md#defaulttokenduration).
 
 ## Add about content
 

@@ -1,6 +1,6 @@
 # Working with Twig
 
-[Twig](https://twig.symfony.com/doc/3.x/templates.html) templates are plain text files that use special syntax to render Craft CMS content for the web browser.
+[Twig](https://twig.symfony.com/doc/1.x/templates.html) templates are plain text files that use special syntax to render Craft CMS content for the web browser.
 
 ::: tip
 If you’ve used Twig in other projects that’ll be useful here. Craft adds its own layer of functionality to standard Twig.
@@ -79,5 +79,5 @@ Once the extensions are installed, your Twig templates will get helpful syntax h
 ![](../images/tutorial-vs-code-extensions.png)
 
 ::: tip
-You’ll be able to copy and paste everything in the section that follows, but we have [an introduction to templating](/3.x/dev/twig-primer.md) if you’d like to learn how to work with it!
+You’ll be able to copy and paste everything in the section that follows, but we have [an introduction to templating](/1.x/dev/twig-primer.md) if you’d like to learn how to work with it!
 :::

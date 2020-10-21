@@ -104,11 +104,11 @@ export default ({ Vue, options, router, siteData }) => {
        * Every doc set base path, including set base, version, and/or language. Example:
        * - `/2.x/`
        * - `/2.x/ja/`
-       * - `/3.x/`
-       * - `/3.x/ja/`
+       * - `/1.x/`
+       * - `/1.x/ja/`
        * - `/commerce/1.x/`
        * - `/commerce/2.x/`
-       * - `/commerce/3.x/`
+       * - `/commerce/1.x/`
        * - `/getting-started-tutorial/`
        */
       $allLocales() {

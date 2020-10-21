@@ -1,149 +1,83 @@
 # Payment Gateways
 
-Craft Commerce can be used with over 20+ payment gateways out of the box, through the use of the [Omnipay](https://github.com/thephpleague/omnipay) PHP library. Additional Omnipay gateways not included in the standard Craft Commerce install can be added with a [plugin](#adding-additional-gateways).
+With Craft Commerce, payments gateways are provided by Craft CMS plugins.
 
-All included gateways should work as expected, but logistically we are unable to test them all. See our [testing matrix](https://craftcommerce.com/support/which-payment-gateways-do-you-support) for more information.
+To create a payment gateway you must install the appropriate plugin, navigate to Commerce → Settings → Gateways, and set up the appropriate gateway. For more detailed instructions, see each plugin’s `README.md` file.
 
-To create a new payment method, go to Commerce → Settings → Payment Methods in the Control Panel. Each payment method’s gateway requires different settings, which you will need to obtain from your gateway provider.
+Payment gateways generally fit in one of two categories:
 
-Payment gateways can be one of two categories:
+- External or _offsite_ gateways.
+- Merchant-hosted or _onsite_ gateways.
 
-- External gateways, or offsite gateways.
-- Merchant-hosted gateways, or onsite gateways.
+Merchant-hosted gateways collect the customer’s credit card details directly on your site, but have much stricter requirements such as an SSL certificate for your server. You will also be subject to much more rigorous security requirements under the PCI DSS (Payment Card Industry Data Security Standard). These security requirements are your responsibility, but some gateways allow payment card tokenization.
 
-Merchant hosted gateways let you to collect the customer’s credit card details directly on your site, but have much stricter requirements, such as an SSL certificate for your server. You will also be subject to much more rigorous security requirements under the PCI DSS (Payment Card Industry Data Security Standard). These security requirements are your responsibility.
+## First-Party Gateway Plugins
 
-The following Omnipay gateways are included the standard installation of Craft Commerce.
-
-- 2checkout
-- Authorize.net
-- Buckaroo
-- Cardsave
-- Coinbase
-- Dummy
-- eWAY
-- First Data
-- GoCardless
-- Manual
-- MIGS
-- Mollie
-- MultiSafepay
-- Netaxept
-- Netbanx
-- PayFast
-- Payflow
-- Payment Express
-- PayPal
-- Pin
-- SagePay
-- SecurePay
-- Stripe
-- TargetPay
-- Worldpay
-
-To see the levels of support for each gateway see this [support article](https://craftcommerce.com/support/which-payment-gateways-do-you-support).
-
-## Adding additional gateways
-
-Additional Omnipay gateways can be added to Craft Commerce. They require the creation of a plugin that wraps the Omnipay gateway class with a Commerce GatewayAdapter. An example plugin can be found [here](https://github.com/lukeholder/craftcommerce-ogone).
-
-## Storing config outside of the database
-
-If you do not wish to store your payment gateway config information in the database (which could include secret API keys), you can override the values of a payment method’s settings by placing a `paymentMethodSettings` key into your `commerce.php` config file. You then use the payment method's ID  as the key to the config for that payment method.
-
-```php
-return [
-    'paymentMethodSettings' => [
-        '2' => [
-            'apiKey' => getenv('STRIPE_API_KEY'),
-        ],
-    ],
-];
-```
-
-## CSRF Protection issues
-
-Craft CMS [supports CSRF protection](https://craftcms.com/support/csrf-protection) when turned on. Some gateways attempt to POST data back to Craft Commerce which they can’t do with a valid token. If you wish to have CSRF protection enabled on your site and your gateway uses a POST request when communicating with Craft Commerce, you will need to disable CSRF protection for that request.
-
-To learn how to disable CSRF on a per controller action basis, see this [Stack Overflow answer](http://craftcms.stackexchange.com/a/4554/91).
+| Plugin                                                                                      | Gateways                                | Remarks                                                            | 3D Secure Support   |
+| ------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------ | ------------------- |
+| [`craftcms/commerce-stripe`](https://github.com/craftcms/commerce-stripe)                   | Stripe                                  | Uses Stripe SDK; only first-party gateway to support subscriptions | Yes                 |
+| [`craftcms/commerce-paypal`](https://github.com/craftcms/commerce-paypal)                   | PayPal Pro; PayPal REST; PayPal Express | PayPal REST supports storing payment information                   | Only PayPal Express |
+| [`craftcms/commerce-paypal-checkout`](https://github.com/craftcms/commerce-paypal-checkout) |                                         |                                                                    |                     |
+| [`craftcms/commerce-sagepay`](https://github.com/craftcms/commerce-sagepay)                 | SagePay Direct; SagePay Server          | SagePay Direct requires setting up webhooks                        | Yes                 |
+| [`craftcms/commerce-multisafepay`](https://github.com/craftcms/commerce-multisafepay)       | MultiSafePay REST                       | Does not support authorize charges                                 | Yes                 |
+| [`craftcms/commerce-worldpay`](https://github.com/craftcms/commerce-worldpay)               | Worldpay JSON                           | -                                                                  | No                  |
+| [`craftcms/commerce-eway`](https://github.com/craftcms/commerce-eway)                       | eWAY Rapid                              | Supports storing payment information                               | Yes                 |
+| [`craftcms/commerce-mollie`](https://github.com/craftcms/commerce-mollie)                   | Mollie                                  | Does not support authorize charges                                 | Yes                 |
 
 ## Dummy Gateway
 
-After installing Commerce, the plugin will install some demo products and a basic config. It will also install a Dummy payment gateway
-that can be used for testing.
+After installation, Craft Commerce will install some demo products and a basic config along with a Dummy payment gateway for testing.
 
-This is a dummy gateway driver intended for testing purposes. If you provide a valid card number ending in an even number, the gateway will return a success response. If it ends in an odd number, the driver will return a generic failure response. For example:
+This dummy gateway driver is only for testing with placeholder credit card numbers. A valid card number ending in an even digit will get a successful response. If the last digit is an odd number, the driver will return a generic failure response:
 
-- `4929000000006` - Success
-- `4444333322221111` - Failure
-
-For general usage instructions, please see the main Omnipay repository.
-
-## PayPal Express
-
-### Important
-
-If you’re going to use the PayPal Express payment gateway you are required to change the default value of [tokenParam](https://craftcms.com/docs/2.x/config-settings.html#tokenparam) in your Craft config.
-
-Choose any different token name other than `token`, for example you could put `craftToken`. Otherwise redirects from PayPal will fail.
-
-PayPal Express Checkout requires an API Username, Password, and Signature. These are different from your PayPal account details. You can obtain your API details by logging in to your PayPal account, and going to Profile → My Selling Tools → API Access → Request/View API Credentials → Request API Signature.
-
-::: warning
-PayPal have increased their TLS requirements, which affects MAMP 3 and some macOS users. If you are affected, you will see an error relating to SSL when attempting to pay with PayPal. Upgrading to MAMP 4 should fix the issue. Read more here: <https://github.com/paypal/TLS-update#php>
-:::
+`4242424242424242` <span style="color:green"> ✓ Success</span>\
+`4444333322221111` <span style="color:red"> ✗ Failure</span>
 
 ## Manual Gateway
 
 The manual payment gateway is a special gateway that does not communicate with any third party.
 
-When you need to accept cheque or bank deposit payments, you should use the manual payment gateway.
+You should use the manual payment gateway to accept checks or bank deposits: it simply authorizes all payments allowing the order to proceed. Once the payment is received, the payment can be manually marked as captured in the control panel.
 
-The gateway simply authorizes all payments, allowing the order to proceed. You may then manually mark the payment as captured in the Control Panel when payment is received.
+## Other gateway specifics
+
+Before using a plugin-provided gateway, consult the plugin’s readme for specifics pertaining to the gateway.
+
+## Adding additional gateways
+
+Additional payment gateways can be added to Commerce with relatively little work. The [first-party gateway plugins](#first-party-gateway-plugins), with the exception of Stripe, use the [Omnipay payment library](https://github.com/craftcms/commerce-omnipay) and can be used as point of reference when creating your own.
+
+## Storing config outside of the database
+
+If you do not wish to store your payment gateway config information in the database (which could include secret API keys), you can override the values of a payment method’s setting via the `commerce-gateways.php` config file. Use the payment gateway’s handle as the key to the config for that payment method.
 
 ::: tip
-When creating a Manual payment method, you must select the payment type to be “Authorize Only”.
+The gateway must be set up in the control panel in order to reference its handle in the config file.
 :::
 
-## Worldpay JSON
+```php
+return [
+  'myStripeGateway' => [
+    'apiKey' => getenv('STRIPE_API_KEY'),
+  ],
+];
+```
 
-The “Worldpay JSON” gateway is the newly recommended modern gateway API for Worldpay. The “Worldpay” gateway below is the older offsite gateway API.
+## Payment sources
 
-The Worldpay JSON gateway uses client side JavaScript `worldpay.js` on your payment template page to generate a token representing the credit card. This token can be passed to the standard `commerce/payments/pay` form action like the Stripe gateway.
+Craft Commerce supports storing payment sources for select gateways. Storing a payment source allows for a more streamlined shopping experience for your customers.
 
-You have the option of a simple implementation using the `worldpay.js` “Template Form” documented [here](https://developer.worldpay.com/jsonapi/docs/template-form), and a more advanced customized implementation called “Own Form” documented [here](https://developer.worldpay.com/jsonapi/docs/own-form).
+The following [first-party provided gateways](#first-party-gateway-plugins) support payment sources:
 
-The example templates that come with Craft Commerce include an example of the “Template Form” method.
+- Stripe
+- PayPal REST
+- eWAY Rapid
 
-## Worldpay
+## 3D Secure payments
 
-WorldPay is an offsite payment gateway. You must make some changes in your WorldPay Merchant Admin Interface before it will work correctly:
+3D Secure payments add another authentication step for payments. If a payment has been completed using 3D Secure authentication, the liability for fraudulent charges is shifted from the merchant to the card issuer.
+Support for this feature depends on the gateway used and its settings.
 
-- Log into your WorldPay Merchant Admin Interface
-- Under “Installations”, click Setup next to your Installation ID
-- In the “Payment Response URL” field, enter `<wpdisplay item=MC_callback>`
-- Make sure the “Payment Response enabled?” option is enabled
-- Make sure the “Enable the Shopper Response” option is enabled
-- In the “Payment Response” password field, choose a password, and record this in your Craft Commerce payment method settings
-- In the “MD5 Secret for Transactions” field, choose a password, and record this in your Craft Commerce payment method settings
-- In your Craft Commerce payment method settings, set the “Signature Fields” setting to `instId:amount:currency:cartId`
+## Partial refunds
 
-## Authorize.net
-
-The Authorize.net omnipay driver offers a more modern AIM xml based gateway (onsite), as well as the SIM (offsite) redirect-based gateway.
-
-When configuring the AIM gateway, use the following endpoints:
-
-Live: `https://api.authorize.net/xml/v1/request.api`
-Developer: `https://apitest.authorize.net/xml/v1/request.api`
-
-When configuring the SIM gateway, use the following endpoints:
-
-Live: `https://secure2.authorize.net/gateway/transact.dll`
-Developer: `https://test.authorize.net/gateway/transact.dll`
-
-## Payment Express PxPay
-
-Payment Express PxPay is an offsite redirect gateway.
-
-When setting up the payment method for this gateway and entering credentials, only use `Username` and `Password` fields. Don’t use the `Px Post Username` and `Px Post Password` fields.
+All [first-party provided gateways](#first-party-gateway-plugins) support partial refunds as of Commerce 2.0.

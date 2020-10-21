@@ -347,7 +347,7 @@ export function resolveNavLinkItem(linkItem) {
 }
 
 /**
- * Takes the regular path (like `/3.x/extend/widget-types.html`) and locale-resolved config
+ * Takes the regular path (like `/1.x/extend/widget-types.html`) and locale-resolved config
  * to return the current base and relevant section of the sidebar config.
  *
  * Modified to account for the active docSet and version.
@@ -522,7 +522,7 @@ export function resolveExtraItem(item, pages, base, groupDepth = 1) {
 /**
  * Returns the relative path of the docSet’s default landing,
  * accounting for versions if present. Example:
- * `/commerce/3.x/`
+ * `/commerce/1.x/`
  *
  * @param {*} set docSet object
  */
@@ -630,13 +630,13 @@ function getAnchorHash(path) {
  * Craft (two versions + JA translation):
  * - `/2.x/`
  * - `/2.x/ja/`
- * - `/3.x/`
- * - `/3.x/ja/`
+ * - `/1.x/`
+ * - `/1.x/ja/`
  *
  * Commerce (three versions, no translations):
  * - `/commerce/1.x/`
  * - `/commerce/2.x/`
- * - `/commerce/3.x/`
+ * - `/commerce/1.x/`
  *
  * Tutorial (one version, no translations):
  * - `/getting-started-tutorial/`

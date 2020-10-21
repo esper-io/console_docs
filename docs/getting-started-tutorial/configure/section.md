@@ -41,7 +41,7 @@ Here’s what we’ll set up for our blog posts:
 
 First, let’s create a place to upload the files we’ll use for our feature and post images.
 
-Craft uses the concept of Assets to describe uploaded files. Assets consist of the files themselves and any other fields we’d like to attach to them. All Assets are stored in folders referred to as Volumes. These can be in your filesystem or different cloud storage providers—see the documentation on [Volumes](/3.x/assets.md#volumes) for more about those options.
+Craft uses the concept of Assets to describe uploaded files. Assets consist of the files themselves and any other fields we’d like to attach to them. All Assets are stored in folders referred to as Volumes. These can be in your filesystem or different cloud storage providers—see the documentation on [Volumes](/1.x/assets.md#volumes) for more about those options.
 
 We’ll create a local Asset Volume within the web root for blog post images:
 
@@ -53,7 +53,7 @@ We’ll create a local Asset Volume within the web root for blog post images:
 Craft will create that folder and let you upload and manage its Assets from the control panel.
 
 ::: tip
-`@web` and `@webroot` are [aliases](/3.x/config/#aliases) Craft includes by default, pointing to the base website URL and document root file path respectively.
+`@web` and `@webroot` are [aliases](/1.x/config/#aliases) Craft includes by default, pointing to the base website URL and document root file path respectively.
 :::
 
 <BrowserShot url="http://tutorial.test/admin/settings/assets/volumes/new" :link="false" caption="Settings for the new blog volume.">

@@ -102,7 +102,7 @@ Now it’s looking better!
 <img src="../images/tutorial-entry-dynamic.png" alt="Screenshot of detail page with dynamic title and entry date" />
 </BrowserShot>
 
-Notice how we’re using the [`|date` Twig filter](/3.x/dev/filters.md#date) to specify formats for the `entry.postDate` value. This is a typical example of using a filter to modify something in Twig; a value you want to modify or transform is followed by a pipe (`|`), the name of the filter, and sometimes settings specific to that filter. You can see all Craft’s available [filters](/3.x/dev/filters.md) to get a better idea of what you can do with them.
+Notice how we’re using the [`|date` Twig filter](/1.x/dev/filters.md#date) to specify formats for the `entry.postDate` value. This is a typical example of using a filter to modify something in Twig; a value you want to modify or transform is followed by a pipe (`|`), the name of the filter, and sometimes settings specific to that filter. You can see all Craft’s available [filters](/1.x/dev/filters.md) to get a better idea of what you can do with them.
 
 Let’s display the “Feature Image” next, using the `featureImage` handle we created with that custom field:
 
@@ -122,7 +122,7 @@ Let’s display the “Feature Image” next, using the `featureImage` handle we
 {% endblock %}
 ```
 
-This first uses an [`if` conditional statement](https://twig.symfony.com/doc/3.x/tags/if.html) to see whether the editor added an image in this field. The “Assets” field we used can have one or many images depending on how we configure it, so the statement uses the [`|length` Twig filter](/3.x/dev/filters.md#length) to count the number of items—where `0` will be `false` and anything else will be `true`.
+This first uses an [`if` conditional statement](https://twig.symfony.com/doc/1.x/tags/if.html) to see whether the editor added an image in this field. The “Assets” field we used can have one or many images depending on how we configure it, so the statement uses the [`|length` Twig filter](/1.x/dev/filters.md#length) to count the number of items—where `0` will be `false` and anything else will be `true`.
 
 If the statement is `true`, meaning we have at least one feature image, we’ll use `entry.featureImage.all()` to get the set and a `for` statement to loop through and display each item using the `image` variable. (We limited the field settings to allow only one image, but increasing that limit means _every_ image would be shown here!)
 
@@ -136,7 +136,7 @@ We should now see the image after refreshing the page:
 
 ## Transform an asset
 
-[Image Transforms](/3.x/image-transforms.md) let you specify the exact dimensions you need and have Craft CMS crop and size an image accordingly. Let’s specify a size for our “Feature Image”.
+[Image Transforms](/1.x/image-transforms.md) let you specify the exact dimensions you need and have Craft CMS crop and size an image accordingly. Let’s specify a size for our “Feature Image”.
 
 We’ll use Twig to create an object called `featureImage` with the settings we want, then pass those settings to `image.getUrl()` in place of `image.url`:
 
@@ -412,7 +412,7 @@ We used a global set to store a blurb to be displayed at the bottom of all the s
 </html>
 ```
 
-The “Site Description” field is Plain Text without any formatting, and just for fun we can use Craft’s [`markdown` filter](/3.x/dev/filters.md#markdown) to output it in a paragaph tag (`<p></p>`) and support [markdown syntax](https://daringfireball.net/projects/markdown/).
+The “Site Description” field is Plain Text without any formatting, and just for fun we can use Craft’s [`markdown` filter](/1.x/dev/filters.md#markdown) to output it in a paragaph tag (`<p></p>`) and support [markdown syntax](https://daringfireball.net/projects/markdown/).
 
 ## Add a listing page
 
@@ -441,7 +441,7 @@ Our entry detail page came with an automatically-available `entry` variable, but
 {% set posts = craft.entries.section('blog').all() %}
 ```
 
-The technical term for what we’re doing is [querying entries](/3.x/entries.md#querying-entries). Once these content elements are stored in Craft CMS, there are lots of options and parameters you can use in these queries to get exactly what you need wherever you need it.
+The technical term for what we’re doing is [querying entries](/1.x/entries.md#querying-entries). Once these content elements are stored in Craft CMS, there are lots of options and parameters you can use in these queries to get exactly what you need wherever you need it.
 
 Now create `templates/_includes/listing.twig`. We’ll use this for listing blog entries here and re-use it again shortly:
 
@@ -474,7 +474,7 @@ Here’s what the result looks like:
 
 In this template we’ve chosen to display a square thumbnail of the “Feature Image” along with the post title. Some of these images may crop weirdly into squares, but we can use focal points to have some control over how they’re cropped!
 
-Transformed images will automatically be cropped from the center, but a content editor may also adjust this by setting a [focal point](/3.x/assets.md#focal-points) in the control panel:
+Transformed images will automatically be cropped from the center, but a content editor may also adjust this by setting a [focal point](/1.x/assets.md#focal-points) in the control panel:
 
 1. In the control panel, navigate to the image either using the “Assets” menu item or “Entries” and choosing the relevant blog post.
 2. Double-click the asset, then choose “Edit” from the top-right corner of the image preview. (This will open the editor.)
@@ -508,7 +508,7 @@ Create `templates/blog/_category.twig` and add the following:
 {% endblock %}
 ```
 
-In the same way that entry detail pages came automatically loaded with an `entry` variable, category pages come with a special `category` variable. We’re using that here to limit only to posts in the selected category using the [`relatedTo` query parameter](/3.x/entries.md#relatedto):
+In the same way that entry detail pages came automatically loaded with an `entry` variable, category pages come with a special `category` variable. We’re using that here to limit only to posts in the selected category using the [`relatedTo` query parameter](/1.x/entries.md#relatedto):
 
 ```twig
 {% set posts = craft.entries.section('blog').relatedTo(category).all() %}

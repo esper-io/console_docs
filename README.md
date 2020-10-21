@@ -1,4 +1,4 @@
-# Craft Docs
+# Esper Docs
 
 This project includes all project documentation and tutorials at [craftcms.com/docs](https://craftcms.com/docs). It does not include class reference documentation.
 

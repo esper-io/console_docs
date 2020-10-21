@@ -8,7 +8,7 @@ Building a front end this way requires more development experience than we’ve 
 
 ## Overview
 
-GraphQL is a developer API for querying Craft CMS content. Fetching content, or [querying elements](/3.x/element-queries.md) in Craft-specific terms, is almost identical to how you would fetch content in Twig templates. Before you can use the API, you need to configured Craft CMS to make it available.
+GraphQL is a developer API for querying Craft CMS content. Fetching content, or [querying elements](/1.x/element-queries.md) in Craft-specific terms, is almost identical to how you would fetch content in Twig templates. Before you can use the API, you need to configured Craft CMS to make it available.
 
 ## Configure GraphQL
 
@@ -53,12 +53,12 @@ By default, the Craft CMS GraphiQL interface will use the full schema, or availa
 
 To use GraphQL externally, you’ll need to do two things:
 
-1. [Establish a GraphQL API endpoint](/3.x/graphql.md#create-your-api-endpoint) for querying externally.
-2. Either create your own private schema with a secret access token, or edit the public schema to enable querying content without an access token. (By default, the public schema leaves all content disabled.) See [Define Your Schemas](/3.x/graphql.md#getting-started) in the GraphQL documentation.
+1. [Establish a GraphQL API endpoint](/1.x/graphql.md#create-your-api-endpoint) for querying externally.
+2. Either create your own private schema with a secret access token, or edit the public schema to enable querying content without an access token. (By default, the public schema leaves all content disabled.) See [Define Your Schemas](/1.x/graphql.md#getting-started) in the GraphQL documentation.
 
 ## Optionally enable headless mode
 
-If you want to query Craft CMS for content but handle your own routing, you can enable [`headlessMode`](/3.x/config/config-settings.md#headlessmode). This will optimize the installation to hide template settings and route management and return all front end responses as JSON.
+If you want to query Craft CMS for content but handle your own routing, you can enable [`headlessMode`](/1.x/config/config-settings.md#headlessmode). This will optimize the installation to hide template settings and route management and return all front end responses as JSON.
 
 To enable headless mode, add `'headlessMode' => true` to `config/general.php`:
 
@@ -78,7 +78,7 @@ return [
 
 ## Twig examples as GraphQL queries
 
-Content may be fetched with GraphQL in the same way as with Twig: using [element queries](/3.x/element-queries.md).
+Content may be fetched with GraphQL in the same way as with Twig: using [element queries](/1.x/element-queries.md).
 
 Let’s retrace each step of the tutorial where we fetched content, seeing how the Twig example maps to a GraphQL query.
 
@@ -304,7 +304,7 @@ Limiting on more than one category ID, like entries in category `30` or `40`, wo
 }
 ```
 
-For more on relationship querying, see the [Relations](/3.x/relations.md) page in the Craft CMS documentation.
+For more on relationship querying, see the [Relations](/1.x/relations.md) page in the Craft CMS documentation.
 
 ### `_singles/about`
 
@@ -372,6 +372,6 @@ Result:
 
 As with the Twig examples, we’re just scratching the surface of ways you can fetch content with Craft CMS.
 
-See the [GraphQL API](/3.x/graphql.md) section of the Craft CMS documentation to learn more about working with GraphQL.
+See the [GraphQL API](/1.x/graphql.md) section of the Craft CMS documentation to learn more about working with GraphQL.
 
 You may also want to check out our [blog starter project](https://github.com/craftcms/starter-blog) that includes an example Craft CMS + [Gatsby](https://www.gatsbyjs.org/) integration.

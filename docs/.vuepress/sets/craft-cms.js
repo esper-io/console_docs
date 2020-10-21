@@ -1,15 +1,15 @@
 module.exports = {
-  title: "Craft CMS Documentation | %v",
-  setTitle: "Craft CMS",
+  title: "Esper Console Documentation | %v",
+  setTitle: "Esper Console",
   handle: "craft",
   icon: "/docs/icons/craft.svg",
   baseDir: "",
   versions: [
-    ["3.x", { label: "3.x" }],
+    ["1.x", { label: "1.x" }],
     ["2.x", { label: "2.x" }]
   ],
-  defaultVersion: "3.x",
-  searchPlaceholder: "Search the Craft docs (Press “/” to focus)",
+  defaultVersion: "1.x",
+  searchPlaceholder: "Search the Esper Console (Press “/” to focus)",
   primarySet: true,
   locales: {
     "/": {

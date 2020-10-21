@@ -5,15 +5,15 @@ module.exports = {
   icon: "/docs/icons/commerce.svg",
   baseDir: "commerce",
   versions: [
-    ["3.x", { label: "3.x" }],
+    ["1.x", { label: "1.x" }],
     ["2.x", { label: "2.x" }],
     ["1.x", { label: "1.x" }]
   ],
-  defaultVersion: "3.x",
+  defaultVersion: "1.x",
   searchPlaceholder: "Search the Commerce docs (Press “/” to focus)",
   primarySet: true,
   sidebar: {
-    "3.x": {
+    "1.x": {
       "/": [
         {
           title: "Introduction",
@@ -293,7 +293,7 @@ module.exports = {
     }
   },
   sidebarExtra: {
-    "3.x": {
+    "1.x": {
       "/": [
         {
           title: "Class Reference",

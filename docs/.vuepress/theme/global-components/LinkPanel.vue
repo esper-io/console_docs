@@ -10,9 +10,9 @@
         <img :src="icon" class="no-zoom" alt />
       </div>
       <div class="px-6 py-4">
-        <div class="leading-none text-lg font-medium block mb-1">{{ title }}</div>
-        <div class="text-sm text-slate block leading-tight">{{ subtitle }}</div>
-        <div class="font-bold text-sm text-slate block leading-tight mt-2">Learn more -> </div>
+        <div class="title">{{ title }}</div>
+        <div class="subtitle">{{ subtitle }}</div>
+        <div class="font-bold subtitle mt-2">Learn more -> </div>
       </div>
       <!-- <div v-if="repo" class="repo-icon">
         <Octocat />
@@ -75,10 +75,10 @@
       @apply block w-6 h-6 absolute;
     }
 
-    .title,
+    /* .title,
     .subtitle {
       padding-left: 2.25rem;
-    }
+    } */
   }
 }
 

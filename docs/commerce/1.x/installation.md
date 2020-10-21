@@ -2,25 +2,21 @@
 
 ## Pre-flight check
 
-Before installing Craft Commerce, make sure you’ve got everything you need:
+Before installing Craft Commerce, make sure your web server meets Commerce’s [minimum requirements](requirements.md).
 
-* A web host that meets Commerce’s [minimum requirements](requirements.md) (hint: you’ll need PHP 5.4 or later).
-* Craft CMS 2.6 or later (see Craft’s [installation instructions](https://craftcms.com/docs/2.x/installing.html) for details).
-* The latest version of Commerce, downloaded from <https://craftcms.com/commerce-latest-v1.zip>.
+## Plugin Store
 
-## Upload the files
+Log into the control panel, navigate to “Plugin Store”, then search for “Commerce”.
 
-Extract the Commerce zip somewhere on your computer. You’ll notice that it contains two folders:
+## Composer
 
-- `commerce/`
-- `templates/`
+Ensure that you have Composer [installed correctly](https://craftcms.com/docs/1.x/installation.html#downloading-with-composer) in your Craft 3 project. Then run the following terminal commands from within your Craft project:
 
-Upload the `commerce` folder to your `craft/plugins/` folder within your Craft CMS install.
+```bash
+composer require craftcms/commerce
+php craft plugin/install commerce
+```
 
-The `templates/` folder contains example templates that demonstrate how to create a basic ecommerce site with a cart and checkout process. If you’d like to use them, just upload the `templates/shop/` folder to your `craft/templates/` folder.
+## Example Templates
 
-## Install the plugin
-
-With your files uploaded, log into your Craft site’s Control Panel (located at `http://example.com/admin`), and navigate to Settings → Plugins. Click the “Install” button next to “Commerce” and wait a few seconds. When the page reloads, Commerce will be fully installed!
-
-You will find some example products located in Commerce → Products, and if you’ve uploaded the example templates, you’ll be able to view them right away on the front end.
+See the included [example templates](example-templates.md) to start learning how to use Commerce.

@@ -4,7 +4,7 @@ module.exports = {
   editLinkText: "このページを GitHub で編集",
   searchPlaceholder: "Search the Craft docs (Press “/” to focus)",
   sidebar: {
-    "3.x": {
+    "1.x": {
       "/ja/extend/": [
         {
           title: "Craft の拡張",
@@ -208,7 +208,7 @@ module.exports = {
     }
   },
   sidebarExtra: {
-    "3.x": {
+    "1.x": {
       "/ja/extend/": [
         {
           title: "Class Reference",
@@ -218,26 +218,26 @@ module.exports = {
         {
           title: "Back to Craft Docs",
           icon: "/docs/icons/icon-back.svg",
-          link: "/3.x/ja/"
+          link: "/1.x/ja/"
         }
       ],
       "/ja/testing/": [
         {
           title: "Back to Craft Docs",
           icon: "/docs/icons/icon-back.svg",
-          link: "/3.x/ja/"
+          link: "/1.x/ja/"
         }
       ],
       "/ja/": [
         {
           title: "Extending Craft",
           icon: "/docs/icons/icon-book.svg",
-          link: "/3.x/ja/extend/"
+          link: "/1.x/ja/extend/"
         },
         {
           title: "Testing Craft",
           icon: "/docs/icons/icon-flask.svg",
-          link: "/3.x/ja/testing/"
+          link: "/1.x/ja/testing/"
         },
         {
           title: "Class Reference",

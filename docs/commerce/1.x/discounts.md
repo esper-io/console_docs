@@ -1,47 +1,208 @@
 # Discounts
 
-Discounts are deductions off line items and an order, while products are in the cart. Discounts are only calculated while items are in the cart, [Sales](sales.md) can apply to a product outside of the cart context.
+::: warning
+Discounts are only available in the [Pro edition](editions.md) of Craft Commerce.
+:::
 
-To create a new discount, go to Commerce → Promotions → Discounts in the Control Panel.
+Discounts are deductions that can be applied either to line items or the order as a whole.
 
-## Ordering
+Discounts are only calculated _while_ items are in the cart. [Sales](sales.md) are pricing rules that apply to products _before_ they’re added to the cart.
 
-Discounts are processed and applied in the order they are sorted in the Control Panel.
+To create a new discount, navigate to Commerce → Promotions → Discounts in the control panel.
 
-By setting the *Stop processing further discounts after this discount matches* checkbox on a discount, and if that discount conditions matches, no further discounts will be applied to the cart.
+## Discount Sort Order
+
+Discounts are processed and applied in the order they are sorted in the control panel.
+
+Inside each discount is a checkbox labelled “Stop processing further discounts after this discount matches”. If this option is ticked and the discount matches the order, no further discounts will be applied to the cart.
 
 ## Coupon Discounts
 
-Discounts can optionally be a coupon based discounts. Coupon discounts have a coupon code entered in as a special condition on the “Coupon” tab.
+Discounts can have a coupon requirement as an optional condition. The coupon condition can be
+found on the “Coupon” tab.
 
-If no coupon is entered, this discount is matched on all other conditions configured. If a coupon is added to the discount, all other conditions still need to be met in addition to the coupon being applied to the cart.
+If no coupon is entered for the cart and the discount has a coupon code, the discount will not apply.
 
-If you enter a coupon code as discount condition, additional conditions are shown that pertain to a coupon discount:
+If a coupon is added to the discount, all other conditions still need to be met in addition to the coupon being applied to the cart.
 
-### Per User Coupon Limit
+To update the coupon code on the cart, see the [coupon codes](coupon-codes.md) template guide.
 
-How many times one user is allowed to use this discount. Setting this requires a user to be logged in to use the discount. Setting this limit will not allow guests to use the discount. Set to zero for unlimited use of this coupon by guests or users.
+## Discount Conditions
 
-This limit is controlled at the discount ID level, meaning if you change the coupon code itself, the counter still applies.
+The discount functionality comes with a variety of conditions allowing you to specify criteria to be met in order for a discount to be applied.
 
-### Per Email Address Coupon Limit
+Conditions are all optional and can be used in any combination.
 
-How many times one email address is allowed to use this discount. This applies to all previous orders, whether guest or user. Set to zero for unlimited use by guests or users.
+### Dates
 
-This limit is controlled at the discount coupon code itself, so changing the code on a discount will reset this limit condition.
+Restrict the discount to a specific time period defined by start and end date fields.
 
-### Total Coupon Use Limit
+### Discount Condition Formula
 
-How many times this coupon can be used in total by guests or logged in users. Set zero for unlimited use.
+The discount condition formula lets you use a simple twig condition syntax to add a matching rule to the discount.
+If the field is left blank, then the condition will match the order being matched to the discount (the other conditions will still apply).
 
-This limit is controlled at the discount ID level, meaning if you change the coupon code itself, the counter still applies.
+The field accepts the [Twig’s expression syntax](https://twig.symfony.com/doc/2.x/templates.html#expressions), which is an expression that returns `true` or `false`.
 
-### Times Coupon Used
+If the expression is calculated as `true` then the discount matches the order. If not, the condition disqualifies the order from the discount. A blank condition is the same as
+a `true` expression.
 
-Read only field that counts how many times this coupon has been used, if a total coupon usage limit has been set.
+Inside the condition formula you have access to the `order` variable. This is a data only representation of the order.
+The `variable` contains the same data that would be exported when clicking the export button on the order index page.
 
-This limit is controlled at the discount ID level, meaning if you change the coupon code itself, the counter still applies.
+Here are some examples of an discount’s condition formula:
 
-### Reset Counter
+Example 1:
 
-After this coupon has been used at least once, there is the ability to reset all usage counters. This applies to all conditions based on the discount ID, not the “Per Email Address Coupon Limit”, which is based on the coupon code itself.
+```twig
+'@myclient.com' in order.email
+```
+
+The above would be a `true` statement if the order’s email contains the string `@myclient.com`.
+
+This would be a way of giving this discount to anyone from that company.
+
+Example 2:
+
+```twig
+order.shippingAddressId and order.shippingAddress.zipCode[0:2] == '70'
+```
+
+The above would be a `true` statement if the order has a shipping address and the shipping address `zipCode` starts with `70`.
+
+This would be a way of giving this discount to anyone shipping to that zip code.
+
+### User Groups
+
+Limit the discount to selected user groups the customer must belong to when checking out.
+
+### Product Variant
+
+Require one or more specific product variants for the discount to apply.
+
+### Categories
+
+Limit the discount to one or more categories the purchasables/products must relate to.
+
+### Categories Relationship Type
+
+This field specifies the type of relationship must exist between the purchasable and category in order for the [Categories](#categories) condition to be met. There are three options:
+
+- **Source**: the relational field exists on the product/purchasable.
+- **Target**: the category has a product/variant relational field.
+- **Both**: the relationship can be either **Source** or **Target**
+
+For more information on how this works please see [Relations Terminology](https://craftcms.com/docs/1.x/relations.html#terminology).
+
+### Purchase Total
+
+Require a minimum total value or matching items for the discount to apply.
+
+### Minimum Purchase Quantity
+
+Require a minimum number of matching order items for the discount to apply.
+
+### Maximum Purchase Quantity
+
+Require a maximum number of matching order items for the discount to apply. A zero value here will skip this condition.
+
+### Per User Discount Limit
+
+Limit how many times, per user, the discount is allowed to be applied. This requires a user to be logged in; guests users will not be able to use the discount.
+
+::: tip
+Usage/counts can be reset at any point with the “Reset usage” button.
+:::
+
+### Per Email Address Discount Limit
+
+Limit how many times one email address may use the discount. This applies to all previous orders, whether guest or user. Set to zero for unlimited use by guests or users.
+
+::: tip
+Usage/counts can be reset at any point with the “Reset usage” button.
+:::
+
+### Total Discount Use Limit
+
+Limit how many times this coupon can be used in total by guests or logged in users. Set to zero for unlimited use.
+
+::: tip
+The counter can be reset at any point with the “Clear counter” button.
+:::
+
+::: tip
+The discount uses counter will always increment whether or not a limit is set. This is helpful to keep an eye on the usage of the discount.
+:::
+
+### Exclude this discount for products that are already on sale
+
+If the item is already on sale, the discount will not be applied.
+
+## Discount Actions
+
+Discount actions control the effect the discount have on the order.
+
+To take an amount off a line item, a discount adjustment is applied. One discount can add multiple discount adjustments.
+The first thing the discount does is create an adjustment for each “Per Item Amount Off”. It then calculates the “Per Item Percentage Off”, then takes away the “Flat Amount Off Order”.
+
+### Applied Scope
+
+To determine which line items in the order will be discounted, a discount has an “Applied Scope”.
+
+The options are:
+
+**Discount the matching items only**\
+This will only add “Per Item Amount Off” and “Per Item Percentage Off” discount amounts to the matching line items.
+
+Matching items are those items used to match this discount’s conditions, like “Product Variant” or “Category” conditions.
+
+**Discount all line items**\
+This will add “Per Item Amount Off” and “Per Item Percentage Off” discount amounts to all line items.
+
+Please note that the “Flat Amount Off Order” is applied to the whole order, so it’s not affected by the applied scope option and applies its discount to every line item—most expensive to least expensive—until it’s used up.
+
+### Per Item Amount Off
+
+The flat value which should discount each item in the order e.g. \$1. This is controlled by the "Applied Scope".
+
+### Per Item Percentage Off
+
+The percentage value which should discount each item in the order, and whether it should be off the original or discounted price.
+
+Original price is the sale price of the item. The Discounted price is the sale price of the item minus any other discounts that were applied before this one.
+
+Whether it is based on the Original or Dicounted price, it is always calculated after the “Per Item Amount Off” has been taken off the item.
+
+This is controlled by the "Applied Scope".
+
+### Ignore sales when this discount is applied to matching line items
+
+When checked, this will prevent sales from being applied to matching line items.
+
+Matching line items are those items used to match this discount’s conditions, like “Product Variant” or “Category” conditions.
+
+### Flat Amount Off Order
+
+A discounted currency amount to be taken off the whole order e.g. \$100.
+
+This amount will be spread across the whole order from the most expensive item to the least expensive item.
+
+If all line items have been discounted to a zero price then the remaining amount of discount is discarded. It cannot make the order negative.
+
+This amount is not affected by the Applied Scope.
+
+### Additional Actions
+
+#### Remove all shipping costs from the order
+
+Remove all shipping costs from the order.
+
+#### Remove shipping costs for matching products only
+
+If the discount is applied, no shipping costs for matching items will be added to the order.
+
+Matching items are those items used to match this discount’s conditions, like “Product Variant” or “Category” conditions.
+
+#### Don’t apply any subsequent discounts to an order if this discount is applied
+
+When this setting is on and the discount applies, discounts further down in the discounts list will not be applied. This makes it possible to prevent cumulative discounts from being applied.

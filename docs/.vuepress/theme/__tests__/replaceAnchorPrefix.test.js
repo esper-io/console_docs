@@ -78,7 +78,7 @@ test("handles Yii API links", () => {
 const config = [
   {
     source: "config3:softDeleteDuration",
-    result: "/3.x/config/config-settings.md#softdeleteduration"
+    result: "/1.x/config/config-settings.md#softdeleteduration"
   },
   {
     source: "config2:defaultImageQuality",

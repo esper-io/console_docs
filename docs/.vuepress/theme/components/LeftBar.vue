@@ -2,7 +2,10 @@
   <aside class="left-bar">
     <div class="wrap">
       <div id="top" class="h-12 flex items-center">
-        <RouterLink :to="`/`" ref="siteName" class="site-name font-bold px-4 mt-1">{{ $siteTitle }}</RouterLink>
+        <RouterLink :to="`/`" ref="siteName" class="site-name font-bold px-4 mt-1">
+        <!-- <img class="site-logo" src="/docs/images/esper.svg"/> -->
+        <EsperIcon/>
+        </RouterLink>
       </div>
 
       <slot name="top" />
@@ -68,6 +71,11 @@
 <style lang="postcss">
 .site-name {
   color: var(--sidebar-link-color);
+}
+.site-logo {
+  color: var(--sidebar-link-color);
+  width: 100%;
+  max-width: 130px;
 }
 
 .left-bar-links {
@@ -203,6 +211,7 @@
 <script>
 import DocSetPanel from "./DocSetPanel.vue";
 import SidebarLinks from "./SidebarLinks.vue";
+import EsperIcon from "../icons/EsperIcon.vue";
 import {
   resolveSidebarConfig,
   getRelativeActiveBaseFromConfig,
@@ -212,7 +221,7 @@ import {
 
 export default {
   props: ["items", "extraItems", "set", "language"],
-  components: { DocSetPanel, SidebarLinks },
+  components: { DocSetPanel, SidebarLinks, EsperIcon },
   data() {
     return {
       currentSidebarDepth: null,
