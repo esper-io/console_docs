@@ -46,7 +46,7 @@ Self-contained, step-by-step training materials.
     <div class="w-1/2">
         <IconLink title="Knowledge Base"
             subtitle="Read support articles."
-            link="https://craftcms.com/knowledge-base"
+            link="https://esper.io"
             icon="/docs/icons/icon-knowledge-base.svg"
             icon-size="large"
         />
@@ -54,7 +54,7 @@ Self-contained, step-by-step training materials.
     <div class="w-1/2">
         <IconLink title="Stack Exchange"
             subtitle="Get help and help others."
-            link="https://craftcms.stackexchange.com/"
+            link="https://esper.io"
             icon="/docs/icons/icon-stack-exchange.svg"
             icon-size="large"
         />
@@ -62,15 +62,15 @@ Self-contained, step-by-step training materials.
     <div class="w-1/2">
         <IconLink title="Discord"
             subtitle="Meet the community."
-            link="https://craftcms.com/discord"
+            link="https://esper.io"
             icon="/docs/icons/icon-discord.svg"
             icon-size="large"
         />
     </div>
     <div class="w-1/2">
         <IconLink title="Twitter"
-            subtitle="See the latest Craft tweets."
-            link="https://twitter.com/craftcms"
+            subtitle="See the latest tweets."
+            link="https://esper.io"
             icon="/docs/icons/icon-twitter.svg"
             icon-size="large"
         />

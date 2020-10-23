@@ -3,7 +3,7 @@ editLink: true
 helpfulVotes: true
 ---
 
-# Nested Groups introduction
+# Add new devices to sub group
 
 Once you’ve added actual or simulated devices to the Console, the Devices  and Groups view will list all the devices and groups structure 
 Into this screen. On left side of pane you can see all you device groups in nested structure. And right side of screen section you can see

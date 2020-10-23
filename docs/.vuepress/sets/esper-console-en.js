@@ -2,7 +2,7 @@ module.exports = {
   selectText: "Language",
   label: "English",
   editLinkText: "Edit this page on GitHub",
-  searchPlaceholder: "Search the Craft docs (Press “/” to focus)",
+  searchPlaceholder: "Search the Esper Console (Press “/” to focus)",
   sidebar: {
     "1.x": {
       "/extend/": [
@@ -103,14 +103,24 @@ module.exports = {
       ],
       "/": [
         {
-          title: "Introduction",
+          title: "About Esper",
           collapsable: false,
           children: [""]
         },
         {
-          title: "Core",
+          title: "Introduction to Esper",
           collapsable: false,
-          children: ["devicegroups"]
+          children: ["overview", "androiddevs"]
+        },
+        {
+          title: "Getting Started",
+          collapsable: false,
+          children: ["signup", "uploadapp"]
+        },
+        {
+          title: "Devices and groups",
+          collapsable: false,
+          children: ["devicegroups", "adddevices"]
         },
         // {
         //   title: "Configuration",

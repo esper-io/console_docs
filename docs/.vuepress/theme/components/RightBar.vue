@@ -10,6 +10,12 @@
         :items="headingItems"
         fixed-heading="On this Page"
       />
+      <SidebarLinks
+        :depth="depth"
+        :sidebar-depth="$page.frontmatter.sidebarDepth || sidebarDepth"
+        :items="headingItems"
+        fixed-heading="Related links and help"
+      />
     </div>
   </div>
 </template>

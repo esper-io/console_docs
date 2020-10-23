@@ -60,7 +60,7 @@ module.exports = {
   themeConfig: {
     title: "Esper Documentation",
     docSets: [
-      require("./sets/craft-cms"),
+      require("./sets/esper-console"),
       require("./sets/craft-commerce"),
       require("./sets/craft-nitro"),
       require("./sets/getting-started-tutorial")

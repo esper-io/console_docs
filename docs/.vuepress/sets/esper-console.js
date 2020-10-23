@@ -15,18 +15,18 @@ module.exports = {
     "/": {
       lang: "en-US",
       name: "English",
-      title: "Craft CMS Documentation | %v",
-      config: require("./craft-cms-en.js")
+      title: "Esper Console Documentation | %v",
+      config: require("./esper-console-en.js")
     },
     "/ja/": {
       lang: "ja",
-      title: "Craft CMS ドキュメント | %v",
-      config: require("./craft-cms-ja.js")
+      title: "Esper Console ドキュメント | %v",
+      config: require("./esper-console-ja.js")
     },
     "/fr/": {
       lang: "fr",
-      title: "Craft CMS Documentation | %v",
-      config: require("./craft-cms-fr.js")
+      title: "Esper Console Documentation | %v",
+      config: require("./esper-console-fr.js")
     }
   }
 };
