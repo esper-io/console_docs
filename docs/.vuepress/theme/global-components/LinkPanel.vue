@@ -1,8 +1,8 @@
 <template>
-  <div class="link-panel-wrapper">
+  <div class="link-panel-wrapper block w-1/2 relative p-2">
     <RouterLink
       v-if="isInternal"
-      class="link-panel"
+      class="link-panel rounded overflow-hidden shadow-lg border block w-full"
       :to="link"
       :class="{ 'has-icon': icon }"
     >
@@ -10,8 +10,8 @@
         <img :src="icon" class="no-zoom" alt />
       </div>
       <div class="px-6 py-4">
-        <div class="title">{{ title }}</div>
-        <div class="subtitle">{{ subtitle }}</div>
+        <div class="leading-none text-lg font-medium block mb-1">{{ title }}</div>
+        <div class="text-sm text-slate block leading-tight">{{ subtitle }}</div>
         <ul v-if="items" class="w-full flex flex-wrap list-outside">
           <li v-for="(item, index) in items" :key="index" class="w-1/2 pr-3" >
               <RouterLink :to="item.link">
@@ -19,15 +19,12 @@
               </RouterLink>
           </li>
         </ul>
-        <div v-if="!items" class="font-bold subtitle mt-2">Learn more -></div>
+        <div v-if="!items" class="font-bold text-sm text-slate block leading-tight mt-2">Learn more -></div>
       </div>
-      <!-- <div v-if="repo" class="repo-icon">
-        <Octocat />
-      </div> -->
     </RouterLink>
     <a
       v-else
-      class="link-panel"
+      class="link-panel rounded overflow-hidden shadow-lg border block w-full"
       :href="link"
       :target="target"
       :rel="rel"
@@ -38,38 +35,17 @@
       </div>
 
       <div class="px-6 py-4">
-        <span class="title">{{ title }}</span>
-        <span class="subtitle">{{ subtitle }}</span>
+        <span class="leading-none text-lg font-medium block mb-1">{{ title }}</span>
+        <span class="text-sm text-slate block leading-tight">{{ subtitle }}</span>
       </div>
-      <!-- <div v-if="repo" class="repo-icon">
-        <Octocat />
-      </div> -->
     </a>
   </div>
 </template>
 
 <style lang="postcss">
-.link-panel-wrapper {
-  @apply block w-1/2 relative p-2;
-}
 
 .link-panel {
-  @apply rounded overflow-hidden shadow-lg border block w-full;
   transition: all 500ms cubic-bezier(0.16, 1, 0.3, 1);
-
-  .title {
-    @apply leading-none text-lg font-medium block mb-1;
-  }
-
-  .subtitle {
-    @apply text-sm text-slate block leading-tight;
-  }
-
-  .repo-icon {
-    @apply absolute;
-    top: 0.9rem;
-    right: 0.9rem;
-  }
 
   &:hover {
     @apply no-underline !important;
@@ -77,16 +53,11 @@
     transform: translateY(-4px) translateZ(0);
   }
 
-  &.has-icon {
+  /* &.has-icon {
     .link-panel-icon {
       @apply block w-6 h-6 absolute;
     }
-
-    /* .title,
-    .subtitle {
-      padding-left: 2.25rem;
-    } */
-  }
+  } */
 }
 
 @screen sm {
