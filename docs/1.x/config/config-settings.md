@@ -313,7 +313,7 @@ Note that drafts *will* be autosaved while Live Preview is open, regardless of t
 
 Allowed types
 
-:   [string](http://php.net/language.types.string), [null](http://php.net/language.types.null)
+:   [string](http://php.net/language.types.string), [false](http://php.net/language.types.boolean), [null](http://php.net/language.types.null)
 
 Default value
 
@@ -327,10 +327,10 @@ Defined by
 
 The shell command that Craft should execute to create a database backup.
 
-By default Craft will run `mysqldump` or `pg_dump`, provided that those libraries are in the `$PATH` variable for the system user running
-the web server.
+When set to `null` (default), Craft will run `mysqldump` or `pg_dump`, provided that those libraries are in the `$PATH` variable
+for the system user running the web server.
 
-There are several tokens you can use that Craft will swap out at runtime:
+You may provide your own command optionally using several tokens Craft will swap out at runtime:
 
 - `{path}` - the target backup file path
 - `{port}` - the current database port
@@ -651,7 +651,8 @@ Defined by
 
 
 
-The default language the control panel should use for users who haven’t set a preferred language yet.
+The default language the control panel should use for users who haven’t set a preferred language yet,
+as well as for console requests.
 
 
 
@@ -742,7 +743,7 @@ Defined by
 
 
 
-The quality level Craft will use when saving JPG and PNG files. Ranges from 0 (worst quality, smallest file) to
+The quality level Craft will use when saving JPG and PNG files. Ranges from 1 (worst quality, smallest file) to
 100 (best quality, biggest file).
 
 
@@ -895,11 +896,11 @@ Whether the system should run in [Dev Mode](https://craftcms.com/support/dev-mod
 
 Allowed types
 
-:   [string](http://php.net/language.types.string)[]
+:   [string](http://php.net/language.types.string)[], [string](http://php.net/language.types.string), [null](http://php.net/language.types.null)
 
 Default value
 
-:   `[]`
+:   `null`
 
 Defined by
 
@@ -913,13 +914,21 @@ Since
 
 Array of plugin handles that should be disabled, regardless of what the project config says.
 
-
-
 ```php
 'dev' => [
     'disabledPlugins' => ['webhooks'],
 ],
 ```
+
+This can also be set to `'*'` to disable **all** plugins.
+
+```php
+'dev' => [
+    'disabledPlugins' => '*',
+],
+```
+
+
 
 ### `disallowRobots`
 
@@ -2524,6 +2533,39 @@ See [craft\helpers\ConfigHelper::localizedValue()](https://docs.craftcms.com/api
 
 ::: tip
 You might also want to set <config3:invalidUserTokenPath> in case a user clicks on an expired password reset link.
+:::
+
+
+
+### `setPasswordRequestPath`
+
+Allowed types
+
+:   `mixed`
+
+Default value
+
+:   `null`
+
+Defined by
+
+:   [GeneralConfig::$setPasswordRequestPath](craft3:craft\config\GeneralConfig::$setPasswordRequestPath)
+
+Since
+
+:   3.5.14
+
+
+
+The URI to the page where users can request to change their password.
+
+See [craft\helpers\ConfigHelper::localizedValue()](https://docs.craftcms.com/api/v3/craft-helpers-confighelper.html#method-localizedvalue) for a list of supported value types.
+
+If this is set, Craft will redirect [.well-known/change-password requests](https://w3c.github.io/webappsec-change-password-url/) to this URI.
+
+::: tip
+You will also need to set the <config:setPasswordPath> config setting, which determines the URI and template path for your Set Password form,
+which is where the user will actually reset their password, once they’ve clicked the link in the Password Reset email.
 :::
 
 

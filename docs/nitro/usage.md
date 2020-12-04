@@ -22,7 +22,7 @@ Added plugins-dev to config file.
 Apply changes from config? [yes]
 Mounting /path/to/project to nitro-dev
 Adding site example.test to nitro-dev
-Applied changes from /Users/vin/.nitro/nitro-dev.yaml
+Applied changes from /Users/oli/.nitro/nitro-dev.yaml
 Editing your hosts file
 Password: ******
 ```
@@ -77,6 +77,20 @@ To avoid permission issues, we recommend you always mount folders into `/home/ub
 If your projects contain any symlinks, such as `path` Composer repositories, those symlinks **must** be relative (`../`), not absolute (`/` or `~/`).
 :::
 
+### Using Nitro with ngrok
+
+If you’re using [ngrok](https://ngrok.com/) to create a public tunnel to a Nitro site, you can use the `-host-header` option like this:
+
+```
+$ ngrok http -host-header=example1.test example1.test:80
+```
+
+With a paid ngrok plan you may also set a custom hostname:
+
+```
+$ ngrok http -hostname=my-hostname.ngrok.io -host-header=example1.test example1.test:80
+```
+
 ## Connecting to the Database
 
 To connect to the machine from a Craft install, set the following environment variables in your `.env` file:
@@ -129,7 +143,7 @@ To add a new mount, follow these steps:
 
    ```yaml
    mounts:
-     - source: /Users/vin/dev
+     - source: /Users/oli/dev
        dest: /home/ubuntu/sites
    ```
 

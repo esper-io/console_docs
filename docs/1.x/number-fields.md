@@ -25,10 +25,10 @@ Possible values include:
 | - | -
 | `100` | with a value of 100.
 | `'>= 100'` | with a value of at least 100.
-| `['>= 100', '<= 1000']` | with a value between 100 and 1,000.
+| `['and', '>= 100', '<= 1000']` | with a value between 100 and 1,000.
 
 ```twig
-{# Fetch entries with a Numbber field set to at least 100 #}
+{# Fetch entries with a Number field set to at least 100 #}
 {% set entries = craft.entries()
     .myFieldHandle('>= 100')
     .all() %}
@@ -56,9 +56,9 @@ If the number will always be an integer, pass `decimals=0` to format the number 
 {{ entry.myFieldHandle|number(decimals=0) }}
 ```
 
-### Saving Number Fields in Entry Forms
+### Saving Number Fields
 
-If you have an [entry form](dev/examples/entry-form.md) that needs to contain a Number field, you can use this template as a starting point:
+If you have an element form, such as an [entry form](https://craftcms.com/knowledge-base/entry-form), that needs to contain a Number field, you can use this template as a starting point:
 
 ```twig
 {% set field = craft.app.fields.getFieldByHandle('myFieldHandle') %}

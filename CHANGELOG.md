@@ -2,6 +2,45 @@
 
 Theme and significant content changes will be documented in this file.
 
+## 2020-11-25
+### Changed
+- Changed typographic widow handling approach to improve HMR and scroll issues.
+- Updated VuePress to 1.5.3.
+
+## 2020-11-16
+### Added
+- Added element form examples to the Categories, Tags, and Users field pages in the Craft 3 docs.
+
+## 2020-11-13
+### Changed
+- Documented some missing parameters on the Craft 3 Controller Actions page.
+
+## 2020-10-22
+### Changed
+- Improved the Control Panel Template page in the Craft 3 docs.
+
+## 2020-10-20
+### Added
+- Documented controller actions.
+- Documented new `ul()` and `ol()` Twig functions.
+- Added the `verb` style for Badge components.
+- Improved Badge component adding `role` and `focusable` attributes and a default label.
+- Documented new `project-config/touch` console command.
+- Documented `project-config/write` console command.
+- Documented `--invert` option for `project-config/diff` console command.
+
+### Removed
+- Moved templating example pages to the Knowledge Base.
+
+## 2020-10-13
+### Added
+- Added Commerce 3 Console Commands page with new `commerce/reset-data` command.
+- Documented using `craft\services\ProjectConfig::$writeYamlAutomatically` to disable writing project config YAML files automatically.
+
+## 2020-10-12
+### Added
+- Documented new `nitro create` command and `--silent` flag for `xon`, `xoff`, and `php iniset` commands.
+
 ## 2020-10-02
 ### Fixed
 - Fixed an issue that may have led to incorrect search result headings when a heading match was preceded by the search keyword in body content.

@@ -56,6 +56,10 @@ When you [deploy your changes to other environments](https://craftcms.com/knowle
 
 Either way, Craft will compare the files in the local `config/project/` folder with its already-loaded project config, and pull in whatever changes it finds.
 
+::: tip
+When [installing Craft](installation.md), any existing configuration in your `config/project/` directory will be applied automatically as long as its Craft and plugin versions match those being installed.
+:::
+
 ## Caveats
 
 There are a few things you should keep in mind when working with the project config:
@@ -119,19 +123,26 @@ php craft project-config/apply --force
 
 This will treat all project config values as added or updated, resulting in a longer sync process and potentially overriding any expected changes that might have been favored in the database.
 
-## Opting Out
+## Manual YAML File Generation
 
-You can opt out of sharing your project config files with other environments by adding the following line to the `.gitignore` file at the root of your project:
+You can configure Craft to stop writing out the project config YAML files to `config/project/` when they are missing or when changes are made, by adding the following to your `config/app.php` file:
 
+```php
+return [
+    // ...
+    'components' => [
+        // ...
+        'projectConfig' => function() {
+            $config = craft\helpers\App::projectConfigConfig();
+            $config['writeYamlAutomatically'] = false;
+            return Craft::createObject($config);
+        },
+    ]
+];
 ```
-/config/project
-```
 
-Then run the following terminal commands to delete all existing `config/project/` files from your repository:
+You will still be able to manually trigger YAML file generation from the Project Config utility, or by running the following terminal command:
 
 ```bash
-git rm -r --cached config/project/\*
-git commit -a -m 'Remove project config files'
+php craft project-config/write
 ```
-
-Craft will continue recording changes to YAML files within the `config/project/` folder, but they will no longer get committed to your project’s Git repository or shared with other environments.
