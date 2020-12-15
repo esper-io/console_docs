@@ -11,6 +11,12 @@ module.exports = {
       }
     ],
     [
+      'sitemap',
+      {
+          hostname: 'https://docs.esper.io',
+      },
+    ],
+    [
       "vuepress-plugin-medium-zoom",
       {
         selector: ".theme-default-content img:not(.no-zoom)",
