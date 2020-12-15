@@ -15,14 +15,10 @@ module.exports = {
       {
         title: "Introduction",
         collapsable: false,
-        children: [""]
-      },
-      {
-        title: "Selecting a provisioning method",
-        collapsable: false,
         children: [
-          "selecting-provisioning-method"
-        ]
+          "",
+          "selecting-provisioning-method",
+          "how-to-factory-reset-a-device"]
       },
     ]
   }
