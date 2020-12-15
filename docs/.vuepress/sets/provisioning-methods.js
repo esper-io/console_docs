@@ -18,7 +18,10 @@ module.exports = {
         children: [
           "",
           "selecting-provisioning-method",
-          "how-to-factory-reset-a-device"]
+          "how-to-factory-reset-a-device",
+          "android-for-work-provisioning",
+          "6-tap-provisioning"
+        ]
       },
     ]
   }
