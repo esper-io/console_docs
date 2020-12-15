@@ -1,5 +1,5 @@
 <template>
-  <div class="block w-1/2 sm:w-1/2 relative p-2 flex flex-col">
+  <div class="block sm:w-full md:w-1/2 relative p-2 flex flex-col">
     <RouterLink
       v-if="isInternal"
       class="link-panel rounded overflow-hidden shadow-lg border block w-full"

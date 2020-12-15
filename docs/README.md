@@ -9,10 +9,10 @@ Get started with Esper’s curated documentation and become expert.
 <!-- <div>
 <StepView
     :items="[
-        { title: 'Step 1: identify the group you wish to rename from left section of the devices and groups screen.', image: '/docs/images/platform.png' },
-        { title: 'Step 2: identify the group you wish to rename from left section of the devices and groups', image: '/docs/images/platform.png' },
-        { title: 'Step 3: identify the group you wish to rename from left section of the devices and groups', image: '/docs/images/platform.png' },
-        { title: 'Step 4: identify the group you wish to rename from left section of the devices and groups', image: '/docs/images/platform.png' },
+        { title: 'Step 1: identify the group you wish to rename from left section of the devices and groups screen.', image: '/images/platform.png' },
+        { title: 'Step 2: identify the group you wish to rename from left section of the devices and groups', image: '/images/platform.png' },
+        { title: 'Step 3: identify the group you wish to rename from left section of the devices and groups', image: '/images/platform.png' },
+        { title: 'Step 4: identify the group you wish to rename from left section of the devices and groups', image: '/images/platform.png' },
     ]"
 />
 </div> -->
@@ -23,7 +23,7 @@ Get started with Esper’s curated documentation and become expert.
     title="Introduction to esper" 
     subtitle="This section covers"
     :items="[
-        { text: 'Overview', link: '/1.x/overview' },
+        { text: 'Overview', link: '/introduction' },
         { text: 'Esper Tools', link: '' },
         { text: 'Esper and Android Developers', link: '' },
         { text: 'Esper Device Orchestration', link: '' },
@@ -77,8 +77,8 @@ Walk directly to section of platform you are looking to learn.
         { text: '6 Tap provisioning ', link: '' },
         { text: 'Pre-requistes of Provisioning methods', link: '' }
     ]"
-     link="/1.x/" 
-     icon="/docs/images/homepage/introduction_to_esper.png" />
+     link="/provisioning-methods/" 
+     icon="/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Getting started" 
     subtitle="First few thing to do get started with esper platform"
@@ -91,7 +91,7 @@ Walk directly to section of platform you are looking to learn.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/homepage/introduction_to_esper.png" />
+     icon="/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Minimum requirements to use esper" 
     subtitle="This section covers"
@@ -104,6 +104,6 @@ Walk directly to section of platform you are looking to learn.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
-    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/docs/images/platform.png" />
+     icon="/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/images/platform.png" />
 </div>
