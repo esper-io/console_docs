@@ -17,7 +17,7 @@
       <div>
         <button
           @click="slide(-1)"
-          class="bg-white inline-flex justify-center rounded-full py-2 px-6 hover:bg-gray-200"
+          class="bg-white text-black inline-flex justify-center rounded-full py-2 px-6 hover:bg-gray-200"
         >
           Prev
         </button>
