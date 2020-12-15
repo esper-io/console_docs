@@ -28,9 +28,6 @@
     "url": "https://github.com/ekoeryanto/vuepress-plugin-sitemap/issues"
   },
   "homepage": "https://github.com/ekoeryanto/vuepress-plugin-sitemap#readme",
-  "dependencies": {
-    "sitemap": "^3.0.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
