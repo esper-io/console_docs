@@ -31,7 +31,7 @@ Get started with Esper’s curated documentation and become expert.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/homepage/introduction_to_esper.png" />
+     icon="/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Getting started" 
     subtitle="First few thing to do get started with esper platform"
@@ -44,7 +44,7 @@ Get started with Esper’s curated documentation and become expert.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/homepage/getting_started.jpg" />
+     icon="/images/homepage/getting_started.jpg" />
      <LinkPanel 
     title="Minimum requirements to use esper" 
     subtitle="This section covers"
@@ -57,8 +57,8 @@ Get started with Esper’s curated documentation and become expert.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
-    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/docs/images/platform.png" />
+     icon="/images/platform.png" />
+    <LinkPanel title="SDK" subtitle="Learn how Esper Platform works from our curated content." link="/commerce/1.x/" icon="/images/platform.png" />
 </div>
 
 # Choose what you are looking for
