@@ -10,5 +10,7 @@ Provisioning is the initial step of enrolling, configuring, and managing an Andr
 
 Additional provisioning methods may be available including Google Zero-Touch Enrollment, Samsung Knox Mobile Enrollment, IMEI/Serial Number-based, NFC-based, and in some specific cases using a downloaded APK. Please [contact Esper](mailto: support@esper.io) directly to find out if your account qualifies and your device is supported.
 
+![Additional provisioning methods](./images/image1.png)
+
 If you meet the prerequisites, you may provision your device using any of the above methods. To select one of the provisioning methods, or to view detailed steps for that method, hold your mouse over it and the Provision button will appear. Click on the Provision button and detailed steps for the selected method will be displayed
 
