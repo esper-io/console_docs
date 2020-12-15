@@ -60,10 +60,12 @@ module.exports = {
   themeConfig: {
     title: "Esper Documentation",
     docSets: [
-      require("./sets/esper-console"),
-      require("./sets/craft-commerce"),
-      require("./sets/craft-nitro"),
-      require("./sets/getting-started-tutorial")
+      require("./sets/introduction-to-esper"),
+      require('./sets/provisioning-methods'),
+      // require("./sets/esper-console"),
+      // require("./sets/craft-commerce"),
+      // require("./sets/craft-nitro"),
+      // require("./sets/getting-started-tutorial")
     ],
     docsRepo: "esper-io/dev-docs",
     docsDir: "docs",

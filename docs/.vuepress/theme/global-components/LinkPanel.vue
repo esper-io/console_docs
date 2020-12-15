@@ -1,24 +1,31 @@
 <template>
-  <div class="link-panel-wrapper block w-1/2 relative p-2">
+  <div class="block w-1/2 sm:w-1/2 relative p-2 flex flex-col">
     <RouterLink
       v-if="isInternal"
       class="link-panel rounded overflow-hidden shadow-lg border block w-full"
       :to="link"
       :class="{ 'has-icon': icon }"
     >
-      <div v-if="icon" class="w-full">
-        <img :src="icon" class="no-zoom" alt />
+      <div v-if="icon" class="w-full relative pb-2/3 h-48">
+        <img :src="icon" class="no-zoom absolute h-full w-full object-cover" alt />
       </div>
       <div class="px-6 py-4">
-        <div class="leading-none text-lg font-medium block mb-1">{{ title }}</div>
-        <div class="text-sm text-slate block leading-tight">{{ subtitle }}</div>
-        <ul v-if="items" class="w-full flex flex-wrap list-outside">
-          <li v-for="(item, index) in items" :key="index" class="w-1/2 pr-3" >
-              <RouterLink :to="item.link">
+        <div class="title leading-none text-lg font-medium block mb-1">{{ title }}</div>
+        <div class="subtitle text-sm text-slate block leading-tight mb-4">{{ subtitle }}</div>
+        <div v-if="items" class="w-full flex flex-wrap list-outside">
+          <div v-for="(item, index) in items.slice(0,3)" :key="index" class="w-1/2 mt-1 pr-3 flex flex-wrap" >
+            <div class="w-5 mr-2">👉</div>
+            <RouterLink class="w-5/6" style="color: var(--sidebar-link-color)" :to="item.link">
                 {{ item.text }}
               </RouterLink>
-          </li>
-        </ul>
+          </div>
+          <div v-if="items.length > 3" class="w-1/2 mt-1 pr-3 flex flex-wrap" >
+            <div class="w-5 mr-2">+</div>
+            <RouterLink class="w-5/6" style="color: var(--sidebar-link-color)" :to="items[0].link">
+                More items
+              </RouterLink>
+          </div>
+        </div>
         <div v-if="!items" class="font-bold text-sm text-slate block leading-tight mt-2">Learn more -></div>
       </div>
     </RouterLink>
@@ -60,17 +67,17 @@
   } */
 }
 
-@screen sm {
+/* @screen sm {
   .link-panel-wrapper {
-    @apply w-1/2 mx-2 py-0;
+    @apply w-1/2 py-0;
   }
 }
 
 @screen md {
   .link-panel-wrapper {
-    @apply w-1/3 mx-2 py-0;
+    @apply w-1/3 py-0;
   }
-}
+} */
 
 </style>
 

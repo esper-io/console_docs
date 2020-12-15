@@ -6,7 +6,7 @@ home: true
 # Explore it all !
 
 Get started with Esper’s curated documentation and become expert.
-<div>
+<!-- <div>
 <StepView
     :items="[
         { title: 'Step 1: identify the group you wish to rename from left section of the devices and groups screen.', image: '/docs/images/platform.png' },
@@ -15,10 +15,9 @@ Get started with Esper’s curated documentation and become expert.
         { title: 'Step 4: identify the group you wish to rename from left section of the devices and groups', image: '/docs/images/platform.png' },
     ]"
 />
-</div>
+</div> -->
 
 
-# data
 <div class="w-full flex flex-wrap -mx-1 mb-8">
     <LinkPanel 
     title="Introduction to esper" 
@@ -32,7 +31,7 @@ Get started with Esper’s curated documentation and become expert.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
+     icon="/docs/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Getting started" 
     subtitle="First few thing to do get started with esper platform"
@@ -45,7 +44,7 @@ Get started with Esper’s curated documentation and become expert.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
+     icon="/docs/images/homepage/getting_started.jpg" />
      <LinkPanel 
     title="Minimum requirements to use esper" 
     subtitle="This section covers"
@@ -79,7 +78,7 @@ Walk directly to section of platform you are looking to learn.
         { text: 'Pre-requistes of Provisioning methods', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
+     icon="/docs/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Getting started" 
     subtitle="First few thing to do get started with esper platform"
@@ -92,7 +91,7 @@ Walk directly to section of platform you are looking to learn.
         { text: 'Scale your Deployment', link: '' }
     ]"
      link="/1.x/" 
-     icon="/docs/images/platform.png" />
+     icon="/docs/images/homepage/introduction_to_esper.png" />
      <LinkPanel 
     title="Minimum requirements to use esper" 
     subtitle="This section covers"
