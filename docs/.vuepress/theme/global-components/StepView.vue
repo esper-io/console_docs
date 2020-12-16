@@ -1,18 +1,19 @@
 <template>
-  <div class="w-auto m-2 mt-4 bg-green-200 grid rounded-lg relative">
+  <div class="w-auto m-2 mt-4 bg-indigo-200 grid rounded-lg relative">
     <img
-      class="w-5/6 no-zoom mt-10 rounded-md justify-self-center border-4 border-green-900"
+      class="max-w-lg object-contain no-zoom mt-10 rounded-md justify-self-center border-4 border-indigo-900"
+      style="max-height: 32rem"
       :src="items[current].image"
       :key="current"
       alt
     />
     <div
-      class="text-center text-green-900 leading-none text-lg mt-8 font-medium block mb-1"
+      class="text-center text-indigo-900 leading-none text-lg px-8 mt-8 font-medium block mb-1"
     >
       {{ items[current].title }}
     </div>
     <div
-      class="w-full flex flex-wrap justify-center p-4 mt-8 bg-green-900 rounded-b-lg"
+      class="w-full flex flex-wrap justify-center p-4 mt-8 bg-indigo-900 rounded-b-lg"
     >
       <div>
         <button
