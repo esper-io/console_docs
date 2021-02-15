@@ -6,7 +6,7 @@ To try out Esper, simply sign up for a developer trial account on the [Esper Web
 
 Your first step is to [sign up for a free trial account](https://esper.io/signup). During the signup process, you will be asked to enter a few quick details to set up your environment:
 
-![](https://lh5.googleusercontent.com/x-biMleLNrLoDS7qxqiI27PEVxwX7KdZZG1NmzwDqU1p0bvWkRc3sL4-1pJFrdP8-SPb5l83N5gpRkHtG7nxcxUTjQVaAtwnRxObZYwmci_4WoHvTy-BjIxIUOGhCVjV0GtvijqV)
+![Strat a free trial for Esper](./images/FreeTrial_Signup.png)
 
 Once you click Start My Free Trial, you'll automatically log in to your new environment’s Console. You’ll also get an email with your temporary login credentials, along with the URL of your console. (It will be something like foooo.esper.cloud, where “foooo” is the randomly generated five-letter name of your environment).
 
