@@ -2,7 +2,7 @@
 
 One way to explore and interact with your devices is to use Esper’s Web Console. Once your device is provisioned, you’ll start seeing it on your Console:
 
-![](./images/dashboard.png)
+![](./images/Dashboard.png)
 
 Here are some of the exciting things you can try out:
 
