@@ -22,4 +22,4 @@ Then click **Suggest Provisioning Method**.
 
 Based on your selections, the tool will suggest one of the four provisioning methods by highlighting it. Click on it to see the steps to provision your device. If you still have trouble figuring the provisioning process, Esper’s support will be happy to assist you. Send an email to support@esper.io.
 
-Note: If a device stalls during provisioning, there’s a way to exit out and factory reset it. On any provisioning screen showing the Esper logo, tap the logo seven times. This will bring up the Factory Reset button. Simply click the button to start the reset process.
+**Note**: If a device stalls during provisioning, there’s a way to exit out and factory reset it. On any provisioning screen showing the Esper logo, tap the logo seven times. This will bring up the Factory Reset button. Simply click the button to start the reset process.
