@@ -29,23 +29,23 @@ To upload a set of IMEI/Serial Numbers for devices you want to provision using A
 
 The example below is using a text editor to create the CSV file:
 
-![](./images/imei/1IMEIUploadTextEditor.png)
+![](./images/Imei/1IMEIUploadTextEditor.png)
 
 If you are using a spreadsheet program instead of a text editor, each field goes into three consecutive columns by row.
 
 See the example below using Excel:
 
-![](./images/imei/2ExcelIMEI.png)
+![](./images/Imei/2ExcelIMEI.png)
 
-If you only have IMEIs, you can copy and paste them into the first column after the header row. If you are using only serial numbers, copy and paste them into the third column after the header row. Note that Excel’s default cell format is General which will turn an IMEI into an Exponential causing an error when uploading.![](./images/imei/3imeiExcelExponential.png)
+If you only have IMEIs, you can copy and paste them into the first column after the header row. If you are using only serial numbers, copy and paste them into the third column after the header row. Note that Excel’s default cell format is General which will turn an IMEI into an Exponential causing an error when uploading.![](./images/Imei/3imeiExcelExponential.png)
 
 To prevent this the cell range must be properly formatted before the data is copied over. Start by selecting the cell range where the data will be copied to. The right-click to bring up the options for the range, and select Format Cells:
 
-![](./images/imei/4ImeiExcelFormatCells.png)
+![](./images/Imei/4ImeiExcelFormatCells.png)
 
 Now select Number, and then set the decimal places to 0. Click OK
 
-![](./images/imei/5ImeiExcelNumberFormat.png)
+![](./images/Imei/5ImeiExcelNumberFormat.png)
 
 If the list is just serial numbers, copy them to the third column (C) underneath the first row. If Serial Numbers are numeric-only you may encounter the exponential problem requiring formatting the cell range as described for IMEI.
 
@@ -53,7 +53,7 @@ However, if the serial number starts with 0, Excel will automatically remove the
 
 Finally, remember to save the file as CSV. Do this by choosing File | Save As…
 
-![](./images/imei/6ImeiExcelSaveAs.png)
+![](./images/Imei/6ImeiExcelSaveAs.png)
 
 And then choose the file type of CSV, then save the file.
 
