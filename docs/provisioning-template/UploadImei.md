@@ -57,7 +57,7 @@ Finally, remember to save the file as CSV. Do this by choosing File | Save As…
 
 And then choose the file type of CSV, then save the file.
 
-![](./images/imei/7ImeiExcelCSV.png)
+![](./images/Imei/7ImeiExcelCSV.png)
 
 You can use either the IMEI or serial number for a particular device. As cellular devices will have both an IMEI and serial number, or in some cases have two IMEIs (dual SIM) and a serial number, the Esper system follows a particular order when processing a new device for IMEI-based provisioning:
 
