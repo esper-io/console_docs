@@ -8,7 +8,7 @@ Step 1: In the Esper Console, click **Apps** in the navigation sidebar and selec
 
   
 
-![](./images/control/Apps_main.png)
+![](./images/control/1-apps.png)
 
 Step 2: Hover over the sidebar within the Google Play screen and click on **Organize Apps** from the popup menu.
 
