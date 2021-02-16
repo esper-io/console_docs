@@ -68,7 +68,7 @@ You can use either the IMEI or serial number for a particular device. As cellula
 -   Serial Number
     
 
-This means if you added IMEI 1 to Provisioning Template 1, IMEI 2 to Provisioning Template 2, and serial number to Provisioning Template 3, then Esper will provision the device according to Provisioning Template 1.
+This means if you added IMEI 1 to Provisioning Template 1, IMEI 2 to Provisioning Template 2, and serial number to Provisioning Template 3, then Esper will provision the device according to Provisioning Template 1. 
 
 If you have already added an IMEI or serial number to a provisioning template and try to upload it again to another provisioning template, Esper will not use the uploaded CSV and will return a toast error message in the lower-left corner of your screen.
 
