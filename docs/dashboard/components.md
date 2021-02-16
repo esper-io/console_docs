@@ -10,7 +10,9 @@ The main body of the Dashboard contains the following status panels:
 
 #### Device Status
 
-The Device status panel shows the current deployment status of all your devices, with the number of devices in each of three possible statuses: online devices, offline devices, and under-provisioning. Clicking one of these bars will take you to the Device Dashboard section, filtered to show the devices under the selected status.![](./images/components/1-status.png)
+The Device status panel shows the current deployment status of all your devices, with the number of devices in each of three possible statuses: online devices, offline devices, and under-provisioning. Clicking one of these bars will take you to the Device Dashboard section, filtered to show the devices under the selected status.
+
+![](./images/components/1-status.png)
 
 #### Device Security
 
