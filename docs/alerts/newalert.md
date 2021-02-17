@@ -23,11 +23,11 @@ Step 3: Set the Alert Condition: Set the alert condition which is specific to th
 
 **Note**: Minimum value for this alert is 5 min.
 
-![](./image/newalert/3-networkCondition.png)
+![](./images/newalert/3-networkCondition.png)
 
 *Bluetooth Alert Condition*: You can set an later to fire when the bluetooth is On or OFF.
 
-![](./image/newalert/3-bluetooth.png)
+![](./images/newalert/3-bluetooth.png)
 
 Step 4: Set the alert communication. You can have alerts sent to:
 
