@@ -1,0 +1,1 @@
+In this section you will find all the general information. It includes information about everything that is not a feature.
