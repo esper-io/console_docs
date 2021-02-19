@@ -2,9 +2,8 @@
 
 Esper Pipeline enables you to ensure smooth completion of actions on large fleets of devices by providing a way to automate them. Using a pipeline you define the stages through which the actions must go and the events that trigger each of those stages, providing an effective way to control complex or large processes.
 
-Esper Pipeline currently only supports app installation and requires the user to manually promote to the next stage. Clicking on a new pipeline will create a default pipeline for you, with three stages. You only need to update the target device(s) or group(s) to make it ready to use. You can create one or more jobs for each pipeline and select the corresponding operation. In this case, Application Installation is the operation and the particular application version.
+Esper Pipeline currently only supports app installation and requires the user to manually promote to the next stage. Clicking on a new pipeline will create a default pipeline for you, with three stages. You only need to update the target device(s) or group(s) to make it ready to use. You can create one or more jobs for each pipeline and select the corresponding operation. In this case, Application Installation is the operation and the particular application version. Following are the key terms related to pipelines:
 
-Key Terminologies
 
 Pipeline - A chain of processes/functions connected in a serial manner.
 

@@ -12,7 +12,7 @@ Once you click Start My Free Trial, you'll automatically log in to your new envi
 
 Note: Please change your password when you are redirected to your endpoint!
 
-### Password Requirements?
+### Password Policy for Esper
 
 All users are responsible for taking appropriate steps to ensure password security. We recommend that you follow best practices for password construction:
 
