@@ -60,6 +60,12 @@ Step 3: If you have multiple app versions or builds you can select which version
   
 
 ![](./images/deviceapps/98_Groups_devices_details_screen_app_install_select_version.png)
+
+If you choose the manage config check box, you will be prompted to enter a valid JSON code. This feature gives administrators flexibility to remotely configure work apps. 
+
+![](./images/deviceapps/102_Groups_devices_manageConfig.png)
+
+
   
 
 Step 4: On selection of version, the system will show you app preview, check if all the details are correct, and then click on Install.
@@ -76,7 +82,7 @@ Step 5: App installation will start and you can see the status â€œ In progressâ€
 
 ![](./images/deviceapps/100_Groups_devices_details_screen_app_install_status.png)
 
-  
+ The app installation screen also includes an estimated total time required for the installation. If an error occurs, the console will display an error message. 
 
 Step 6: Upon successful installation, you will see the app installation success message in the status section.
 
@@ -90,11 +96,10 @@ Once you close the slideout, you can see the app you installed in your app list.
 
   
 
-![](./images/deviceapps/102_Groups_devices_details_screen_app_install_app_list.png)
 
-  
 
-The app installation screen also includes an estimated total time required for the installation. If an error occurs, the console will display an error message.
+
+
 
 ### Set App Permissions on Device From the Console
 
