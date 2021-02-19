@@ -45,11 +45,13 @@ Step 3: Then select the app you’d like to install from the Select App dropdown
 
   
 
-Step 4: select app version.
+Step 4: Select app version.If you select the check box for manage configurations, you will be prompted to enter JSON code. Managed configurations will allow the administrator to configure work apps remotely.
 
   
 
 ![](./images/groupapps/48_DeviceGroup_Manage_Apps_select_App_Version.png)
+
+![](./images/groupapps/48-1_manageconfig.png)
 
   
 
@@ -201,3 +203,12 @@ ADB will return a list of all the apps running on the device:
 ![](./images/groupapps/65_DeviceGroup_Manage_App_state_find_package_Name_.png)
 
 You can also view the package names for any apps installed on a device by viewing the device’s details and selecting Apps. The package name for each app is displayed in the resulting list view.
+
+### Manage Configurations
+
+This section enables you to view the configurations applied to the group. When you enter a valid package name, you will be able to see the JSON code. All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
+
+![](./images/groupapps/66-DeviceGroups-ManageConfig.png)
+
+  
+**Note**: Manage configurations are supported only on android devices 5.0 or above.

@@ -288,7 +288,8 @@ Step 2: Choose ‘Manage Configurations’ from the drop-down. On the pop-up, ty
 
 Step 3: Click **Apply** to save the changes. Clicking **Cancel** will take you back to the app setting screen.
 
-  
+ **Note:** If you have managed configurations applied for an app, you will be able to edit the configurations. 
+ 
 
 A toast message will indicate success or failure for the action.
 
