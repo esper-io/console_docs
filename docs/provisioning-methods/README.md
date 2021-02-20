@@ -18,4 +18,8 @@ Additional provisioning methods may be available, including Google Zero-Touch En
 
 If you meet the prerequisites, you may provision your device using any of the above methods. To select one of the provisioning methods, or to view detailed steps for that method, hold your mouse over the method, and the **Provision** button will appear. Click on the **Provision** button, and detailed steps for the selected method will be displayed.
 
+ <center>   
+
 ![](./images/provision_tile.png)
+
+</center>
