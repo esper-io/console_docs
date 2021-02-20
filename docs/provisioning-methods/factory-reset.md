@@ -19,7 +19,7 @@ Step 3: Select ‘Reset’ options.
 
 Step 4: Click on Erase all data (factory reset) option.
 
-![SystemSettings](https://lh4.googleusercontent.com/DKVOJ3eaDRcoINf1a7STjfa9O63e4_YUItODuT3TOU7AB4TWQePGjWROKaCE4tSIGbSX0qs-iBFu5t4_dN4wY9W9WIeCBuixP-TtmGeHkidPlzhkgKWqN8eQS9JjAZl5qEmynU1j)
+![SystemSettings](./images/FactoryReset_EraseAll.png)
 
   
 
