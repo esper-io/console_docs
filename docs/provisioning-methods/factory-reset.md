@@ -11,7 +11,7 @@ Step 1: Open up the Settings app, and select ‘System.’
 
 Step 2: Select ‘Advanced’.
 
-![SystemSettings](./images/factory_reset_advance.png)
+![SystemSettings](./images/reset/2-Advanced.png)
 
 Step 3: Select ‘Reset’ options.
 
