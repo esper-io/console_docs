@@ -59,7 +59,7 @@ The Esper agent will now start the installation, and a series of screens will di
 
 ![alt text](./images/AFW-image/12-StartingServices.png)
 
-Step 11:Step 11: The screen flow will stop on the Authentication screen. Enter the Passcode that you set up in the associated Provisioning Template. If you purposely did not set a passcode, leave the Passcode field blank. Once the device is ready, click or tap on **CONTINUE**.
+Step 11: The screen flow will stop on the Authentication screen. Enter the Passcode that you set up in the associated Provisioning Template. If you purposely did not set a passcode, leave the Passcode field blank. Once the device is ready, click or tap on **CONTINUE**.
 
 ![alt text](./images/imei-image/IMEI_AuthenticationContinue.png)
 
@@ -74,7 +74,7 @@ Step 12: Once Esper has successfully read the QR code, provisioning will start a
 2.  If your Provisioning Template enables Google Play, Google Play Services will not be updated. Be aware that this is done by Google and depends on their current quality of service.
     
 
-![alt text]()
+![alt text](./images/AFW-image/18-GooglePlay.png)
 
 Typically (but not always), you need to resolve the permission and allow Esper to modify System settings. Click on **RESOLVE** to open up the Android System settings app to provide the consent.
 
