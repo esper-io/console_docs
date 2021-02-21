@@ -32,4 +32,4 @@ Step 5: Confirm your choice on the screen or screens that follow.
 
 **Note**: It can take several minutes to complete a factory reset.
 
-Once the 'Welcome,' screen is displayed, you are ready to enroll and provision your device.
+Once the 'Welcome' screen is displayed, you are ready to enroll and provision your device.
