@@ -130,7 +130,7 @@ Step 16: You will now be taken back to the 'Can modify system settings' screen. 
 
 Step 17: You will now return to the Esper agent. You will typically need to grant another permission to allow Esper to draw over other apps. This is done to ensure a smooth experience for Kiosk mode apps. Click on **RESOLVE** to open up the Android system settings app to provide the permission.
 
-![alt text](./images/AFW-image/19-GooglePlay-Resolve.png
+![alt text](./images/AFW-image/19-GooglePlay-Resolve.png)
 
 Step 18: On the 'Display Over Other Apps' or 'Draw Over Other Apps' screen, you will see a list of apps that have been granted or are requesting permission to display over other apps.
 
