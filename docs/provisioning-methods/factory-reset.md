@@ -15,17 +15,18 @@ Step 2: Select ‘Advanced’.
 
 Step 3: Select ‘Reset’ options.
 
-![SystemSettings](./images/factory_reset_reset.png)
+![SystemSettings](./images/reset/3-ResetOption.png)
+
 
 Step 4: Click on Erase all data (factory reset) option.
 
-![SystemSettings](./images/FactoryReset_EraseAll.png)
+![SystemSettings](./images/reset/4-EraseAll.png)
 
   
 
 Step 5: Confirm your choice on the screen or screens that follow.
 
-![SystemSettings](./images/factoryReset_Confirm1.png) ![SystemSettings](./images/FactoryResetConfirm2.png)
+![SystemSettings](./images/reset/5-resetPhone.png) ![SystemSettings](./images/reset/6-eraseEverything.png)
 
   
 
