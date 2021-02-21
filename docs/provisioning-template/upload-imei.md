@@ -37,7 +37,9 @@ See the example below using Excel:
 
 ![](./images/Imei/2ExcelIMEI.png)
 
-If you only have IMEIs, you can copy and paste them into the first column after the header row. If you are using only serial numbers, copy and paste them into the third column after the header row. Note that Excel’s default cell format is General which will turn an IMEI into an Exponential causing an error when uploading.![](./images/Imei/3imeiExcelExponential.png)
+If you only have IMEIs, you can copy and paste them into the first column after the header row. If you are using only serial numbers, copy and paste them into the third column after the header row. Note that Excel’s default cell format is General which will turn an IMEI into an Exponential causing an error when uploading.
+
+![](./images/Imei/3imeiExcelExponential.png)
 
 To prevent this the cell range must be properly formatted before the data is copied over. Start by selecting the cell range where the data will be copied to. The right-click to bring up the options for the range, and select Format Cells:
 
