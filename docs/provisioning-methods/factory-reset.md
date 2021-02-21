@@ -5,7 +5,7 @@ It is required to factory reset the device before provisioning. Here are the ins
 
 Step 1: Open up the Settings app, and select ‘System.’
 
-![SystemSettings](./images/factory_reset.png)
+![SystemSettings](./images/reset/1-factory-reset.png)
 
   
 
