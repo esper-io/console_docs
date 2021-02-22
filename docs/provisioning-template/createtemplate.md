@@ -184,7 +184,7 @@ To learn more about individual setting details check the link below:
 
   
 
-**[Managing and controlling settings for a single device](../device-groups/apps-device.md)**
+**[Managing and controlling settings for a single device](../devices-groups/apps-device.md)**
 
 ### Link a Device Group to a Template
 
