@@ -38,7 +38,7 @@ Hovering your mouse cursor over any item will give you a short explanation on-sc
 
 To learn more about individual settings in compliance policy check the link below:
 
-[How to create Compliance policy](../comp;iance-policy/create-policy.md)
+**[How to create Compliance policy](../compliance-policy/create-policy.md)**
 
 ### Configure Apps Section in the Template
 
@@ -167,7 +167,7 @@ The 'Play Store Apps' section of the 'Your Apps' tab gives you the ability to lo
 
 ### Apply Device Settings in the Template
 
-The Settings section lets you determine levels for most of the device settings: These include things like screen brightness, wallpaper, alarm volume, and screen timeout. You can also set up devices with Wi-Fi credentials, along with determining the duration of an ADB session if ADB was enabled in the [Compliance Policy] section.
+The Settings section lets you determine levels for most of the device settings: These include things like screen brightness, wallpaper, alarm volume, and screen timeout. You can also set up devices with Wi-Fi credentials, along with determining the duration of an ADB session if ADB was enabled in the Compliance Policy section.
 
   
 
