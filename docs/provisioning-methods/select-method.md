@@ -17,7 +17,7 @@ The AFW method is best used for:
 
 * Factory reset of device required
 
-You can also use IMEI / Serial Numbers with the AFW provisioning method on some devices. This is useful when shipping a device directly to a customer, so they can provision it themselves or for the devices without a camera. Provisioning devices using IMEI/Serial number also prevents users from repurposing the device by exploiting the ability to conduct a factory reset. To learn more about provisioning devices using the IMEI or serial number method, please review [IMEI/Serial Number Based Provisioning](./imei-provisioning.md). Please view the [Upload IMEI CSV](../provisioning-template/upload-imei.md) for more information on loading IMEIs and Serial Numbers into a Provisioning Template.
+You can also use IMEI / Serial Numbers with the AFW provisioning method on some devices. This is useful when shipping a device directly to a customer, so they can provision it themselves or for the devices without a camera. Provisioning devices using IMEI/Serial number also prevents users from repurposing the device by exploiting the ability to conduct a factory reset. To learn more about provisioning devices using the IMEI or serial number method, please review [IMEI/Serial Number Based Provisioning](./imei-provisioning.md). Please view the [Upload IMEI CSV](./docs/provisioning-template/upload-imei.md) for more information on loading IMEIs and Serial Numbers into a Provisioning Template.
 
 ### Six Tap QR Code Provisioning
 
