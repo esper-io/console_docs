@@ -74,4 +74,4 @@ This means if you added IMEI 1 to Provisioning Template 1, IMEI 2 to Provisionin
 
 If you have already added an IMEI or serial number to a provisioning template and try to upload it again to another provisioning template, Esper will not use the uploaded CSV and will return a toast error message in the lower-left corner of your screen.
 
-You can also upload a CSV or individually add IMEIs and Serial Numbers when [editing a template](https://docs.esper.io/home/console.html#provisioning-templates).
+You can also upload a CSV or individually add IMEIs and Serial Numbers when [editing a template](./actions.md).
