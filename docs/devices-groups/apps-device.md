@@ -298,7 +298,7 @@ Step 3: Click **Apply** to save the changes. Clicking **Cancel** will take you b
 
  **Note:** If you have managed configurations applied for an app, you will be able to edit the configurations. 
  
-
+![](./images/deviceapps/118-a-Manage_configEdit.png)
 A toast message will indicate success or failure for the action.
 
 ### Activity feed
