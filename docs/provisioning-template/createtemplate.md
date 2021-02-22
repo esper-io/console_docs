@@ -36,9 +36,9 @@ A Compliance Policy is a set of configurations or permissions that will be appli
 
 Hovering your mouse cursor over any item will give you a short explanation on-screen. Below is a detailed explanation of each of the configurations you can set in this section.
 
-To learn more about individual settings in compliance policy check the link below
+To learn more about individual settings in compliance policy check the link below:
 
-How to create Compliance policy
+[How to create Compliance policy](../comp;iance-policy/create-policy.md)
 
 ### Configure Apps Section in the Template
 
