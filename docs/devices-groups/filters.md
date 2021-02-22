@@ -12,4 +12,4 @@ Once you select the filter parameters, click **Apply** to update the view. Custo
 
   
 
-**Note**: the blue dot in the upper right corner on the filter button indicates a filter has been applied.
+**Note**: The blue dot in the upper right corner on the filter button indicates a filter has been applied.
