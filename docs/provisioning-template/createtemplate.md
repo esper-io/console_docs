@@ -180,11 +180,11 @@ The Settings section lets you determine levels for most of the device settings: 
 
   
 
-To learn more about individual setting details check the link below
+To learn more about individual setting details check the link below:
 
   
 
-Managing and controlling settings for a single device
+**[Managing and controlling settings for a single device](../device-groups/apps-device.md)**
 
 ### Link a Device Group to a Template
 
