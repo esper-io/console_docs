@@ -2,10 +2,10 @@
 
 Esper enables you to use IMEI and serial numbers to provision your devices using the Android for Work (AFW) method. Only Android GMS devices running Android 6.0 or above support AFW. It works by using the AFW provisioning process to pass the available IMEIs and serial number for the device to Esper which is then matched to a Provisioning Template that includes either the device's IMEI or serial number. That template is then used to provision the device.
 
-You first need to prepare a Provisioning Template and then go back to either edit the template to [add IMEI and/or serial number](https://docs.esper.io/home/console.html#provisioning-templates) or upload a CSV file from the Provisioning Template’s tile.
+You first need to prepare a Provisioning Template and then go back to either edit the template or upload a CSV file from the Provisioning Template’s tile.
 
 
-Step 1: Begin by [factory resetting](https://docs.esper.io/home/console.html#how-to-factory-reset-your-device) your device.
+Step 1: Begin by [factory resetting](./factory-reset.md) your device.
 
 Step 2: Once the factory reset is completed, on the first screen, click on the **START** button.
 
