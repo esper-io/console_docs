@@ -14,11 +14,11 @@ The Action drop-down is available when you select a device using the ‘Select D
 
   
 
-You will use the ‘Move Devices’ option to move devices between groups. Make sure you are in the List view or the Grid View to select the devices you wish to move. Go to Actions > Move Devices, and you can select the destination group to move the devices. Select the button on the right side of the group, then click Move Devices.
+You will use the ‘Move Devices’ option to move devices between groups. Make sure you are in the List view or the Grid View to select the devices you wish to move. Go to **Actions** > **Move Devices**, and you can select the destination group to move the devices. Select the button on the right side of the group, then click Move Devices.
 
   
 
-Visit  How to move devices to another device group  for the step by step instructions on how to move devices.
+Visit  [How to move devices to another device group](./device-move.md)  for the step by step instructions on how to move devices.
 
   
 
