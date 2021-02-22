@@ -14,13 +14,14 @@ Step1: Click on add tags either in list view or grid view.
 
 ![](./images/tags/45_Groups_devices_main_screen_list_view_add_tag.png)
 
+![](./images/tags/46_Groups_devices_main_screen_grid_view_add_tag.png)
   
 
 Step 2: In the popup enter the tag name, and click **Add** button. Your tag will be saved.
 
   
 
-![](./images/tags/46_Groups_devices_main_screen_grid_view_add_tag.png)
+![](./images/tags/47_Groups_devices_main_screen_add_tag_modal.png)
 
 **Note**: You cannot add more than 3 tags to a device.
 
@@ -30,7 +31,7 @@ Step 3: Click on the pencil icon to edit a tag.
 
   
 
-![](./images/tags/47_Groups_devices_main_screen_add_tag_modal.png)
+![](./images/tags/48_Groups_devices_main_screen_edit_tag_modal.png)
 
   
 
