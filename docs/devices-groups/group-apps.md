@@ -80,9 +80,12 @@ Step 7: After clicking on install, the right sidebar will slide and you can chec
 
   
 
-You can anytime check the history of app installation/schedules etc.
+You can anytime check the history of app installation/schedules. Here, if you click on the ‘view’ link under manage configurations column, you will be able to see the JSON code.
+
 
 ![](./images/groupapps/52_DeviceGroup_Manage_Apps_History_View.png)
+
+ **Note:** You can also view the managed configurations by clicking the information icon. On the slide-out, click on the view configuration link.  
 
 ###  How to Schedule App Install/Uninstall on device group from the Console?
 
