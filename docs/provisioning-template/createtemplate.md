@@ -26,7 +26,7 @@ If you create a quick template, you simply enter a unique template name, select 
 
 If you choose to Create Full Template, enter a unique name and an optional description for the Provisioning Template, then click **Next**.
 
-![](./images/cteatetemplate/19_ProvisioningTemplates_Create_full_template_Next_button.png)
+![](./images/createtemplate/19_Create_full_template_Next_button.png)
 
 ### Set up Compliance Policy Section in the Template
 
