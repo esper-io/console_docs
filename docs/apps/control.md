@@ -28,6 +28,6 @@ To add an app to this collection, click + Add Apps
 
 To learn more about how to manage enterprise and google apps on devices check the below links:
 
-How to manage apps on a single device.
+[How to manage apps on a single device.](../devices-groups/aaps-device.md)
 
-How to Manage apps on device groups.
+[How to Manage apps on device groups](../devices-groups/group-apps.md).
