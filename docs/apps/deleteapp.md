@@ -6,7 +6,7 @@ If you delete an app version from the Esper Cloud and the app is currently insta
 
  
 
-![](./images/manageversion/2-appVersionDetails.png)
+![](./images/2-DeleteApp.png)
 
   
   
