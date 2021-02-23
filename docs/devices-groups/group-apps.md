@@ -53,7 +53,24 @@ Step 4: Select app version.If you select the check box for manage configurations
 
 ![](./images/groupapps/48-1_manageconfig.png)
 
+**Notes:**
+
   
+
+1.  Manage configurations can be applied to android devices 5.0 or above.
+    
+2.  All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
+    
+3.  Manage configurations cannot be applied to a google play store app while installing it. However, an installed app can have managed configurations.
+
+You can anytime check the history of app installation/schedules etc. Here, if you click on the ‘view’ link under the manage configurations column, you will be able to see the JSON code.
+
+  
+
+![](./images/groupapps/48-2-ManageConfigViewLink.png)
+
+  
+Note: You can also view the managed configurations by clicking the information icon. On the slide-out, click on the view configuration link.
 
 Step 5: Once you’ve selected an app, its details will appear in the App Details Preview section, including the app’s version, package name, and app type—that is, whether it’s an enterprise app or a Google app.
 

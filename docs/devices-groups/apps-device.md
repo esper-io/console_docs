@@ -74,6 +74,7 @@ If you choose the manage config check box, you will be prompted to enter a valid
     
 2.  All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
 
+3.  Manage configurations cannot be applied to a google play store app while installing it. However, an installed app can have managed configurations.
   
 
 Step 4: On selection of version, the system will show you app preview, check if all the details are correct, and then click on Install.
@@ -296,7 +297,8 @@ Step 2: Choose ‘Manage Configurations’ from the drop-down. On the pop-up, ty
 
 Step 3: Click **Apply** to save the changes. Clicking **Cancel** will take you back to the app setting screen.
 
- **Note:** If you have managed configurations applied for an app, you will be able to edit the configurations. 
+ **Note:** If you have managed configurations applied for an app, you will be able to edit the configurations. Only valid key-value pairs will be applied to the app and shown in the box below. 
+
  
 ![](./images/deviceapps/118-a-Manage_configEdit.png)
 A toast message will indicate success or failure for the action.
