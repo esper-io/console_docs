@@ -10,4 +10,4 @@ Esper Enhanced Android devices are shipped with custom Android OS for improved s
 
   
   
-Note: Only the latest thirty build versions of Esper Enhanced Android are listed for deployment.
+**Note:** Only the latest thirty build versions of Esper Enhanced Android are listed for deployment.

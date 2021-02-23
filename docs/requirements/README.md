@@ -8,37 +8,6 @@ We will Esper always support Development Devices running Esper Enhanced Android.
 
 ## What feature Does Esper Support?
 
-## What are Esper Development Tools?
-
-Esper gives you access to a suite of development tools you need to build, deliver, and maintain dedicated device solutions all in one place. Below is an overview of the Esper Tools:
-
--   [Esper Dev Portal](https://docs.esper.io/): Provides all Esper documentation in a portal that’s easy to access and use
-    
--   Esper Dev Console: A developer-specific console organizing all of the Esper tools
-    
--   Esper Cloud: A private Cloud dedicated to each development team
-    
--   [Esper Virtual Device](https://docs.esper.io/home/esperplugin.html#esper-android-virtual-device): An emulation environment for development and verification testing use with Esper Enhanced Android. You can also use emulation in Android Studio with a stock Android image running our Esper Agent.
-    
--   Esper Enhanced Android: A fortified version built with Android OS for Dedicated Devices. Adds key features for Dedicated Device needs not met by stock Android.
-    
--   Esper Development Devices: Esper sourced Dedicated Devices for your test drive Esper Enhanced Android.
-    
--   [Esper APIs](https://api.esper.io/): Rich API set for Dedicated Device application development, deployment, and management.
-    
--   [Esper SDKs](https://docs.esper.io/home/pythonsdk.html): Available for Python—and soon for Kotlin, Java, and JavaScript
-    
--   [Esper CLI](https://docs.esper.io/home/espercli.html): A unified command-line interface to the Esper APIs, provided with source code to extend it yourself.
-    
--   Esper Remote Debug: Everything you need to secure remote debugging of deployed Dedicated Devices running Esper Enhanced Android.
-    
--   Esper Dedicated Device Cookbooks: Available quick starts for Kiosk, POS, Restaurant, and Logistics Dedicated Device solutions.
-    
--   Esper Manage Console: Use the Esper console to access Device Orchestration capabilities that elevate the MDM of dedicated devices to a whole new level.
-    
--   [Esper Support](https://docs.esper.io/home/support.html): Chat, GitHub, email, and phone
-    
-
 ## What are the Firewall Requirements?
 
 Dedicated devices are often behind corporate firewalls, preventing the Esper backend from communicating with them (or vice-versa). Please make sure to whitelist the following URLs and Ports if your fleet runs behind such a firewall.
