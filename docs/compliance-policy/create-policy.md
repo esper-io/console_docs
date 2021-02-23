@@ -2,7 +2,7 @@
 
   
 
-To create a new Compliance Policy, click New Policy. This will bring up a screen in which you can set all the configurations of the new Compliance Policy. The layout is the same as when you [define a Compliance Policy in a Provisioning Template](https://docs.esper.io/home/console.html#provisioning-templates),  but uniquely includes the name and description.
+To create a new Compliance Policy, click New Policy. This will bring up a screen in which you can set all the configurations of the new Compliance Policy. The layout is the same as when you [define a Compliance Policy in a Provisioning Template](../provisioning-template/createtemplate.md),  but uniquely includes the name and description.
 
   
 
@@ -57,7 +57,7 @@ There are three possible settings:
     
 -   Ask User: This keeps the default behavior intact with regards to permission management. All apps on the device will show a prompt to the user to request permission. For example, by choosing this option then every app will ask the user each time before accessing a device module with a message such as “Allow app X to access Gallery? Allow/Deny”. This may be unsuitable for some solutions, especially Kiosk-based apps. It can be useful for certain unusual situations dealing with App permissions— contact us directly to find out more.
     
--   Deny Automatically: This rule will deny any permission request from any app on the device. No notification will be shown to the user. You can [grant permissions to apps individually](https://docs.esper.io/home/console.html#apps-tab) from the Esper Console.
+-   Deny Automatically: This rule will deny any permission request from any app on the device. No notification will be shown to the user. You can [grant permissions to apps individually](../apps/control.md) from the Esper Console.
     
 
 ### Set System update Rules via Policy
@@ -145,7 +145,7 @@ This setting enables you to restrict the number of Google accounts that can be a
 
 ### Protect Device from Hard/Soft Factory Reset via Policy
 
-Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [Compliance Policy section](https://docs.esper.io/home/console.html#compliance-policy).
+Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](../aaps/googlepalysignup.md).
 
 When you turn on the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
