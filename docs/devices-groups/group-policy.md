@@ -6,7 +6,7 @@ Compliance Policy lets you apply an existing compliance policy to all the device
 
   
 
-You’ll find more information on compliance policies in the  [Compliance Policy section](https://docs.esper.io/home/console.html#compliance-policy-tab).
+You’ll find more information on compliance policies in the  [Compliance Policy section](../provisioning-template/createtemplate.md).
 
 ###  Apply a New Compliance Policy on a Group of Devices
 
