@@ -14,6 +14,8 @@ List view.
 Grid view
 
 ![](./images/GeofenceGridView.png)
+
+
 To look at an existing geofence, click on the name of the device from the list. This will bring up an overview of the geofence.
 
 ![](./images/geofenceDetails.png)
