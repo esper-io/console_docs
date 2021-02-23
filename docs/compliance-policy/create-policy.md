@@ -268,7 +268,7 @@ Android Debug Bridge (ADB) is a command-line tool that provides a Unix shell to 
 
 ![](./images/createpolicy/17-ABD.png)
 
-Opening the device ADB port is required on most stock Android devices before the Esper agent can securely connect to the Esper Cloud for ADB debugging. Learn more about using ADB with Esper [here](../devices-groips/device-settings.mdß).
+Opening the device ADB port is required on most stock Android devices before the Esper agent can securely connect to the Esper Cloud for ADB debugging. Learn more about using ADB with Esper [here](../devices-groups/device-settings.mdß).
 
 Note: Turning on ADB from the device is never allowed on any Esper-provisioned device.
 
