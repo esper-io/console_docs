@@ -1,0 +1,7 @@
+Once the policy is created it can be further applied to devices and groups of devices via provisioning templates, device details page, and group details page. To learn more about compliance policy application click on the below links:
+
+[How to set compliance policies in a template](../provision-template/createtemplate.md)
+
+[How to manage compliance policy on a single device](../devices-groups/device-compliance.md)
+
+[How to manage compliance policy on a group of devices](../devices-groups/group-policy.md)
