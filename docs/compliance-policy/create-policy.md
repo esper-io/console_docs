@@ -145,7 +145,7 @@ This setting enables you to restrict the number of Google accounts that can be a
 
 ### Protect Device from Hard/Soft Factory Reset via Policy
 
-Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](../aaps/googlepalysignup.md).
+Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](../apps/googlepalysignup.md).
 
 When you turn on the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
@@ -155,7 +155,7 @@ Note: Factory reset protection is only available on GMS devices running Android 
 
 ### Lock Screen Configuration via Policy
 
-The lock screen template setting enables the default lock screen to be displayed whenever a device screen times out, according to the default timeout specified in the Settings section. If this is on, the device user will have the option to set the password. If [Lock screen password](https://docs.esper.io/home/console.html#creating-a-new-compliance-policy) rules are defined, users must enter a password that conforms with these rules.
+The lock screen template setting enables the default lock screen to be displayed whenever a device screen times out, according to the default timeout specified in the Settings section. If this is on, the device user will have the option to set the password. The users must enter a password that conforms with the rules.
 
 
 ### Safe Mode Login Configuration via Policy
@@ -194,7 +194,7 @@ If you want device users to be able to make outgoing calls, set Outgoing Calls t
 
 If you want device users to be able to use the camera, set Camera Access to on. If you don’t, set it off.
 
-Note: Your app can still access the camera if this setting is off.
+**Note:** Your app can still access the camera if this setting is off.
 
 ### NFC Configuration in Policy
 
@@ -218,7 +218,7 @@ Edit Date and Time If you’d like device users to be able to set device date an
 
 Setting Application Uninstall to On will block app uninstalls locally on the device and via Esper's cloud console. Set it to off if you need to uninstall apps remotely.
 
-Note: You can update your application installed on the device using Esper if Application Uninstall is set to ON.
+**Note:** You can update your application installed on the device using Esper if Application Uninstall is set to ON.
 
 ### USB File Transfer Configuration via Policy
 
@@ -228,11 +228,11 @@ If you’d like device users to be able to transfer files from the device using 
 
 If you’d like device users to be able to use voice command via Google Assistant on supported devices, set Google Assistant to On; if you don’t, set it to Off.
 
-Note: On some devices, this setting may need to be on if you wish to have Google Play Store show up on the device.
+**Note:** On some devices, this setting may need to be on if you wish to have Google Play Store show up on the device.
 
 ### Local App Install Configuration via Policy
 
-This feature allows the installation of apps from unknown sources on the device. To enable this on the device, the user needs to follow these instructions. Settings >Apps and Notifications > Special App Permissions> Install Unknown Apps and choose the route they wish to install the apps from.
+This feature allows the installation of apps from unknown sources on the device. To enable this on the device, the user needs to follow these instructions. **Settings** >**Apps** and **Notifications** > **Special App Permissions**> Install Unknown Apps and choose the route they wish to install the apps from.
 
 For example, if the device user chooses Chrome, they will be able to download and install apps from the Chrome browser on the device. If turned off, the device user will not be allowed to install apps from any unknown sources.
 
@@ -260,7 +260,7 @@ You can add phone numbers or upload a CSV file of contacts to add to the allowed
   
   
 
-Note: All numbers must be preceded by +country code (for example, +1 for the US). All numbers must be separated by a comma.
+**Note:** All numbers must be preceded by +country code (for example, +1 for the US). All numbers must be separated by a comma.
 
 ### ADB Configuration in the Policy
 
@@ -268,7 +268,7 @@ Android Debug Bridge (ADB) is a command-line tool that provides a Unix shell to 
 
 ![](./images/createpolicy/17-ABD.png)
 
-Opening the device ADB port is required on most stock Android devices before the Esper agent can securely connect to the Esper Cloud for ADB debugging. Learn more about using ADB with Esper [here](https://docs.esper.io/home/console.html#connecting-to-a-device-using-secure-remote-adb).
+Opening the device ADB port is required on most stock Android devices before the Esper agent can securely connect to the Esper Cloud for ADB debugging. Learn more about using ADB with Esper [here](../devices-groips/device-settings.mdß).
 
 Note: Turning on ADB from the device is never allowed on any Esper-provisioned device.
 
