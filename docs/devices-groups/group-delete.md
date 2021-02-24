@@ -13,7 +13,7 @@ Step 2: On hover, click on the ellipsis icon to see more actions.
 
   
 
-![](./images/delete/14_Groups_devices_main_screen_delete_group.png)
+![](./images/group-delete/1-deleteOption.png)
 
   
   
@@ -22,7 +22,7 @@ Step 3: Click the **Delete** option. You will get a message to confirm the delet
 
   
 
-![](./images/delete/15_Groups_devices_main_screen_delete_group_modal.png)
+![](./images/group-delete/2-deletepopup.png)
 
   
 
@@ -30,4 +30,4 @@ Step 4: On confirmation of the message, your group will be deleted and you will 
 
   
 
-![](./images/delete/16_Groups_devices_main_screen_delete_group_success.png)
+![](./images/group-delete/3-successmessage.png)
