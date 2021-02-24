@@ -99,7 +99,9 @@ You can also choose from more actions if you want to clear the app from the list
 
 #### Advanced Settings
 
-Clicking on Advanced Settings will launch a dialog box in which you can select either the Esper DPC Launcher or the default Android launcher.![](./image/createtemplate/27_provisioningtemplate_advance.png)
+Clicking on Advanced Settings will launch a dialog box in which you can select either the Esper DPC Launcher or the default Android launcher.
+
+![](./images/createtemplate/27_provisioningtemplate_advance.png)
 
 #### Choosing between Esper and Android launcher in a template
 
