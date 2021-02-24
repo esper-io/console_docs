@@ -14,7 +14,9 @@ Step 1: Click on ‘View Details’ of any pipeline for which you wish to create
 
 Note: Adding a new job is enabled only if targets are set for every stage. A device or group or more should be linked to add a new job.
 
-Step 2: Click on the **New Job** button to create a new job for the selected pipeline.![](./images/createjob/2-create.png)
+Step 2: Click on the **New Job** button to create a new job for the selected pipeline.
+
+![](./images/createjob/2-create.png)
 
   
 
