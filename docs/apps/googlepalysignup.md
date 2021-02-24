@@ -28,7 +28,9 @@ If you have not signed up for Play for Work to create a managed Google Play acco
 
 **Note**: You will need a Gmail account to create your managed Google Play account. You can not use a G Suite account. A best practice is to use a dedicated Gmail account for this purpose.
 
-Click on the Enroll from **Google play Website** button.![](./images/signup/2-createButton.png)
+Click on the Enroll from **Google play Website** button.
+
+![](./images/signup/2-createButton.png)
 
 You’ll be taken to a Google’s managed Google Play sign up page. Click **Sign in.**
 
