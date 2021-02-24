@@ -13,7 +13,7 @@ Step 2: On hover, click on the ellipsis icon to see more actions.
   
   
 
-![](./images/movedevice/23_Groups_devices_main_screen_move_group.png
+![](./images/movegroup/23_Groups_devices_main_screen_move_group.png
 )
 
   
@@ -22,7 +22,7 @@ Step 3: Click on the **Move** to option. You will get a popup screen where you c
 
   
 
-![](./images/movedevice/24_Groups_devices_main_screen_move_group_modal.png)
+![](./images/movegroup/24_Groups_devices_main_screen_move_group_modal.png)
 
   
   
