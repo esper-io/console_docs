@@ -8,6 +8,25 @@ We will Esper always support Development Devices running Esper Enhanced Android.
 
 ## What feature Does Esper Support?
 
+Esper supports a large number of features. You can find a detailed list at [Esper Support Features](https://esper.io/pricing). Below is a list of some of the key features:
+
+-   Application Management
+    
+-   Device Management
+    
+-   Device Groups
+    
+-   Remote Diagnosis
+    
+-   Developer Tools
+    
+-   Advanced DevOps Pipelines
+    
+-   Kiosk Mode Lockdown
+    
+-   Reports
+    
+-   Geofencing
 ## What are the Firewall Requirements?
 
 Dedicated devices are often behind corporate firewalls, preventing the Esper backend from communicating with them (or vice-versa). Please make sure to whitelist the following URLs and Ports if your fleet runs behind such a firewall.
