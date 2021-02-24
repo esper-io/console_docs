@@ -8,9 +8,10 @@ To see the status of a transfer in the Activity Feed, click on the information i
 
   
 
-A slide-out from the right will show you the status of each transfer. Click on View Results link to see more details for a transfer.
+A slide-out from the right will show you the status of each transfer. 
 
 ![](./images/viewtransfer/2-Slideout.png)
 
+ Click on View Results link to see more details for a transfer.
   
 ![](./images/viewtransfer/3-details.png)
