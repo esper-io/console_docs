@@ -83,7 +83,7 @@ Clicking the Lockdown button triggers a complete lockdown of the device. This is
 
   
 
-![](./iamges/devicesettings/6_Groups_devices_details_screen_settings_quick_actions_device_lockdown.png)
+![](./images/devicesettings/6_Groups_devices_details_screen_settings_quick_actions_device_lockdown.png)
 
   
 
