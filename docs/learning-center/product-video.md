@@ -16,7 +16,10 @@ Step 2: You will get video tutorials categories. Choose the one which you wish t
 
   
 
-Step 3:You can pick a video from the set of videos available in that category.![](./images/productvideo/3-slideout.png)
+Step 3:You can pick a video from the set of videos available in that category.
+
+
+![](./images/productvideo/3-slideout.png)
 
   
 
