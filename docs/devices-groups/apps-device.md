@@ -81,7 +81,7 @@ Step 4: On selection of version, the system will show you app preview, check if 
 
   
 
-![](./images/deviceapps/99_Groups_devices_details_screen_app_install_app_details.png)
+![](./images/deviceapps/99-install_app_details.png)
 
   
 
@@ -301,6 +301,8 @@ Step 3: Click **Apply** to save the changes. Clicking **Cancel** will take you b
 
  
 ![](./images/deviceapps/118-a-Manage_configEdit.png)
+
+
 A toast message will indicate success or failure for the action.
 
 ### Activity feed
