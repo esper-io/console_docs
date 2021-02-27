@@ -67,6 +67,8 @@ module.exports = {
     title: "Esper Documentation",
     docSets: [
       require("./sets/introduction-to-esper"),
+      require('./sets/requirements'),
+      require('./sets/getting-started'),
       require('./sets/provisioning-methods'),
       // require("./sets/esper-console"),
       // require("./sets/craft-commerce"),
