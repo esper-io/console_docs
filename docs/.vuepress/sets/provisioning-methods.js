@@ -17,10 +17,15 @@ module.exports = {
         collapsable: false,
         children: [
           "",
-          "selecting-provisioning-method",
-          "how-to-factory-reset-a-device",
-          "android-for-work-provisioning",
-          "6-tap-provisioning"
+          "select-method",
+          "help",
+          "factory-reset",
+          "android-for-work",
+          "6-tap",
+          "notification",
+          "imei-provisioning",
+          "provisioner-tool",
+          "seamless"
         ]
       },
     ]
