@@ -2,7 +2,7 @@ module.exports = {
   title: "Esper Console Documentation | %v",
   setTitle: "Provisioning Methods",
   handle: "craft",
-  // icon: "/docs/icons/craft.svg",
+  icon: "/docs/icons/icon-tip.svg",
   baseDir: "provisioning-methods",
   // versions: [
   //   ["introduction", { label: "1.x" }]
