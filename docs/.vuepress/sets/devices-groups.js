@@ -17,8 +17,35 @@ module.exports = {
         collapsable: false,
         children: [
           "",
-          "add-device"
-        ]
+          "add-device",
+          "rename",
+          "device-move",
+          "apps-device",
+          "customize",
+          "switch-view",
+          "device-compliance",
+          "device-graph",
+          "device-security",
+          "device-settings",
+          "download-csv",
+          "event-feed",
+          "filters",
+          "logs",
+          "tags",
+          "group-apps",
+          "group-delete",
+          "group-move",
+          "group-pane",
+          "group-policy",
+          "group-rename",
+          "group-updates",
+          "group-feed",
+          "group-settings",
+          "quick-actions",
+          "remote-viewer",
+          "static-info",
+          "switch-nested",
+         ]
       },
     ]
   }
