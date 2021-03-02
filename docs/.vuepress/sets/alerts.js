@@ -17,6 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "newalert",
+          "editalert",
+          "deletealert",
+          "pausealert",
+          "emailchannel",
         ]
       },
     ]
