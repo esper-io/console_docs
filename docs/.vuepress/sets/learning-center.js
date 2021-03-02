@@ -17,6 +17,10 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "product-tour",
+          "product-video",
+          "new",
+          "faq",
         ]
       },
     ]
