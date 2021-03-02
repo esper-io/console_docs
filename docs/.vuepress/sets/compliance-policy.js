@@ -17,6 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+         "create-policy",
+         "apply-policy",
+         "edit-policy",
+         "duplicate-policy",
+         "delete-policy", 
         ]
       },
     ]
