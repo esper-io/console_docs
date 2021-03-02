@@ -46,7 +46,7 @@ module.exports = {
           "static-info",
           "switch-nested",
          ]
-      }
+      },
     ]
   }
   // locales: {
