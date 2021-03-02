@@ -17,6 +17,9 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "create-geofence",
+          "delete",
+          "deletefromdevice",
         ]
       },
     ]
