@@ -17,6 +17,9 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "actions",
+          "createtemplate",
+          "upload-imei",
         ]
       },
     ]
