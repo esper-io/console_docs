@@ -17,6 +17,13 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "upload",
+          "transfer",
+          "view-transfer",
+          "add-description",
+          "add-tag",
+          "delete",
+          "download",
         ]
       },
     ]
