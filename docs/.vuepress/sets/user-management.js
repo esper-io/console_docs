@@ -17,6 +17,10 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "new-user",
+          "edit-user",
+          "delete-user",
+          "user-roles",
         ]
       },
     ]
