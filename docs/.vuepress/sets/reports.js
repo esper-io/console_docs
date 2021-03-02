@@ -17,6 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "view-report",
+          "download-customreport",
+          "email-subscribe",
+          "email-unsubscribe",
+          "custom-report",
         ]
       },
     ]
