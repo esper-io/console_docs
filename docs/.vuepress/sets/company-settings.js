@@ -17,6 +17,8 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "company-code",
+          "edit-profile",
         ]
       },
     ]
