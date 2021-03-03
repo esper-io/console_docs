@@ -2,7 +2,7 @@
 
 Provisioning Templates give you a straightforward way to enroll and provision multiple devices. These allow you to create templates for devices in which you specify the compliance policy, applications, device settings, device group, and even the wallpapers you want to be added to your devices.
 
-Provisioning Templates are shown as tiles with the most-recently created at the top. You can find templates by name using the Search Templates feature:
+Provisioning Templates are shown as tiles with the most-recently created at the top. You can arrange them in ascending or descending alphabetical order. You can also sort the templates with the recently modified template at the top. You can find templates by name using the Search Templates feature.
 
 ![Template main screen](./images/ProvisioningTemplates_MainScreen.png)
 
