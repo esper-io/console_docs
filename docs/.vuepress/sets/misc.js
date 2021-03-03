@@ -17,6 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "feedback",
+          "logout",
+          "password",
+          "url",
+          "wrong-password",
         ]
       },
     ]
