@@ -26,7 +26,7 @@ Step 3: Click on **view job** to see running pipeline status.
   
 
 Step 4: You can check the stage status by clicking on view results.
-ß
+
   
 
 ![](./images/runjob/5-pipeline.png)

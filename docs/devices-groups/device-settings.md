@@ -281,6 +281,13 @@ When you are adding a new access point, this section has four fields to configur
     
 -   EAP- Extensible Authentication Protocol
     
+**None**: None is a open type network.
+Requirement: SSID
+**WEP**: WEP is a open type network with password.
+Requirements: SSID, Password
+**WPA** :Android refers to WPA as WPA/WPA2 but technically WPA and WPA2 are little different from each other. WPA is an enhanced version of WEP.
+Requirements: SSID,Password
+**EAP**: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
 
 ![](./images/devicesettings/19_Groups_devices_details_screen_settings_add_WAP.png)
 
@@ -292,12 +299,57 @@ Wi-Fi EAP Method is a drop-down with the following options:
 
 -   PEAP-
     
+
+    Phase 2 Authentication: None
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+    Password
+
 -   TLS-
     
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
 -   TTLS-
     
+
+    Phase 2 Authentication: None
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+Password
+
 -   PWD-
     
+
+    Identity (Optional)
+
+    Password (Optional)
+
+  
 
 Similarly, the Phase 2 Authentication is also a dropdown with the following options:
 
@@ -305,18 +357,69 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
     
 -   PAP
     
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+    Password
+
 -   MSCHAP
     
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+    Password
+
 -   MSCHAPV2
     
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+    Password
+
 -   GTC
     
+
+    CA Certificate: Use system certificate
+
+    Domain
+
+    Do not valid
+
+    Identity (Optional)
+
+    Anonymous Identity (Optional)
+
+    Password
+
 -   SIM
     
 -   AKA
     
 -   AKA_PRIME
-    
 
 ###  Location settings
 
