@@ -69,6 +69,7 @@ module.exports = {
       require("./sets/introduction-to-esper"),
       require('./sets/requirements'),
       require('./sets/getting-started'),
+      require('./sets/dashboard'),
       require('./sets/provisioning-methods'),
       require('./sets/provisioning-templates'),
       require('./sets/devices-groups'),
