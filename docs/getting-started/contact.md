@@ -1,4 +1,4 @@
-**Contact Us**
+## Contact Us
 
 If you face any issues while using Esper, we are here to help you! Support options available to you depend on your Esper tier:
 
