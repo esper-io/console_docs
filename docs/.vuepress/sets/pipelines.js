@@ -3,7 +3,7 @@ module.exports = {
   setTitle: "Pipelines",
   handle: "craft",
   icon: "/docs/icons/icon-tip.svg",
-  baseDir: "pipelines",
+  baseDir: "pipeline",
   // versions: [
   //   ["introduction", { label: "1.x" }]
   // ],
