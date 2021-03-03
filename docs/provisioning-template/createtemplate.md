@@ -150,7 +150,7 @@ In the field below the text “Enter package name of preloaded apps”, users ma
 
 In this example screenshot, we have added packages “com.facebook.android”, “com.google.android.maps” and “com.chrome.android”. We have set the state of the app as “Show”, “Hide”, “Disable”. Show/Hide will simply either show or hide the preloaded app on the device screen.
 
-By default, after provisioning an android device on the Esper platform, the preloaded apps are being hidden. By using this section, users may choose to show them. The “Disable” feature lets the IT Admin prevent the app from functioning unless chosen otherwise.
+By default, after provisioning an Android device on the Esper platform, the preloaded apps are being hidden. By using this section, users may choose to show them. The “Disable” feature lets the IT Admin prevent the app from functioning unless chosen otherwise.
 
 The feature to disable preloaded apps is also available via 'Device Settings' as well as during the Device Provisioning process via this section in the Template.
 

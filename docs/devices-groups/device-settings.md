@@ -483,7 +483,7 @@ The Time Zone field has a robust search capability. As you begin to type, sugges
 
   
 
-Android Debug Bridge (ADB) is a command-line tool that enables administrators to use a Unix shell to communicate with an android device. If ADB was checked in the Compliance Policy section, you can turn on ADB here for a configurable time period. If ADB wasn’t checked in the Compliance Policy section, ADB can not be turned ON.
+Android Debug Bridge (ADB) is a command-line tool that enables administrators to use a Unix shell to communicate with an Android device. If ADB was checked in the Compliance Policy section, you can turn on ADB here for a configurable time period. If ADB wasn’t checked in the Compliance Policy section, ADB can not be turned ON.
 
   
 

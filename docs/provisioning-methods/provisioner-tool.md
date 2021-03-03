@@ -2,7 +2,7 @@
 
 For your ease, we have created a tool for Provisioning which internally uses the ADB (Android Debugging Tool).
 
-This method can be used to provision most android devices regardless of whether they are -
+This method can be used to provision most Android devices regardless of whether they are -
 
 -   GMS or Non-GMS
     

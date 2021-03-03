@@ -70,7 +70,7 @@ If you choose the manage config check box, you will be prompted to enter a valid
 
   
 
-1.  Manage configurations can be applied to android devices 5.0 or above.
+1.  Manage configurations can be applied to Android devices 5.0 or above.
     
 2.  All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
 
