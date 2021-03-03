@@ -14,7 +14,7 @@ Step 2: Select the Groups and/or Devices to push the file to. Simply click Link 
 
   
 
-Step 3: You then choose the path on the devices where you want the file to be transferred. Once completed click on **Transfer**.
+Step 3: You then choose the path on the devices where you want the file to be transferred. Once completed click on **Transfer**. Previously, you could push files to the internal storage of a device. Now, you can push and store the files on a removable storage device like SD cards. All the removable storage devices will have an unique eight-character ID. But you don’t need to worry about the ID. You just need to add "ESPER_EXTERNAL" at the beginning.
 
   
 
