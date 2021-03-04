@@ -8,7 +8,7 @@ In this example, ESP is a three-letter abbreviation for our company, Esper. DOC 
 
 **Note**: If you change your short code after you’ve provisioned devices, those devices will display the old short code prefix. But, the new short code will be displayed in the Esper Console and used for API, SDK, and CLI calls. It's a best practice to make changes to short code before you provision any devices.
 
-Step 1: Click on your profile icon at the top right corner of the console. Choose ‘Company Settings’ from the drop down.
+Step 1: Click on your profile icon at the top right corner of the Console. Choose ‘Company Settings’ from the drop down.
 
   
 

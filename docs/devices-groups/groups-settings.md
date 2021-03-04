@@ -147,7 +147,7 @@ Step 2: Enter the subject and the body of the message. You can also include a li
 
   
 
-When you select the ‘Schedule Delivery’ checkbox, the message will be sent for the specified date and time. Here, you will be prompted to enter the start date and the time. You can choose the date and time to correspond with the console time zone or the device time zone.
+When you select the ‘Schedule Delivery’ checkbox, the message will be sent for the specified date and time. Here, you will be prompted to enter the start date and the time. You can choose the date and time to correspond with the Console time zone or the device time zone.
 
 ![](./images/groupsettings/14_DeviceGroup_Manage_Settings_QuickActions_Broadcast_Message__new_message_schedule_delivery.png)
 

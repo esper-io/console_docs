@@ -141,7 +141,7 @@ Step 4: Select the app you want to install or uninstall from the Select App drop
 
   
 
-Step 5: Use the radio buttons to choose between using the device’s time or your console’s time when scheduling an application installation or uninstallation for a group. If you select Device time when you schedule an app installation, the installation (or uninstallation) will be performed on the devices in that group whenever it’s the specified time on each device.
+Step 5: Use the radio buttons to choose between using the device’s time or your Console’s time when scheduling an application installation or uninstallation for a group. If you select Device time when you schedule an app installation, the installation (or uninstallation) will be performed on the devices in that group whenever it’s the specified time on each device.
 
   
 
@@ -194,7 +194,7 @@ To change the app state status of an app, enter its package name in the box and 
 
   
 
-Click Apply. The console will display the group command status.
+Click Apply. The Console will display the group command status.
 
   
 

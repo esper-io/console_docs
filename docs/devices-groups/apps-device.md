@@ -31,7 +31,7 @@ The applications that are already installed on the device are specified in this 
 
   
 
-### Install a New App on Device From Console
+### Install a New App on Device From the Console
 
   
 
@@ -91,7 +91,7 @@ Step 5: App installation will start and you can see the status “ In progress�
 
 ![](./images/deviceapps/100_Groups_devices_details_screen_app_install_status.png)
 
- The app installation screen also includes an estimated total time required for the installation. If an error occurs, the console will display an error message. 
+ The app installation screen also includes an estimated total time required for the installation. If an error occurs, the Console will display an error message. 
 
 Step 6: Upon successful installation, you will see the app installation success message in the status section.
 
@@ -210,7 +210,7 @@ Once you set the state click on save changes and your changes will be applied to
 
   
 
-Esper provides users a way to clear app data from the console on their device.
+Esper provides users a way to clear app data from the Console on their device.
 
   
 
@@ -258,7 +258,7 @@ Step 1: In the apps section, click on the ellipsis and choose the ‘Uninstall�
 
   
 
-Step 2: On the slide-out from the right side console, click the button **Uninstall**.
+Step 2: On the slide-out from the right side, click the button **Uninstall**.
 
 ![](./images/deviceapps/115_Groups_devices_details_screen_app_uninstall_message.png)
 
@@ -279,7 +279,7 @@ Step 3: A command will be sent to the device to uninstall the app and you will g
 
   
 
-Manage configuration gives the admins the flexibility to manage work apps from the console. From the ‘Device and Group’ screen, click on the name of the device for which you want to manage apps. Navigate to the ‘Apps’ tab.
+Manage configuration gives the admins the flexibility to manage work apps from the Console. From the ‘Device and Group’ screen, click on the name of the device for which you want to manage apps. Navigate to the ‘Apps’ tab.
 
   
 

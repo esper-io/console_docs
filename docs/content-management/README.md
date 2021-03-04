@@ -2,7 +2,7 @@
 
 You can upload or transfer file(s) up to 2 GB, including config files and other file formats, to devices and device groups. Now, you can:
 
--   Store files in Esper’s cloud console.
+-   Store files in Esper’s cloud Console.
     
 -   See the file transfer history for devices or device groups.
     

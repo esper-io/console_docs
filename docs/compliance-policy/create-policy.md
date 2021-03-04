@@ -216,7 +216,7 @@ Edit Date and Time If you’d like device users to be able to set device date an
 
 ### Block App Uninstall Locally on the Device via Policy
 
-Setting Application Uninstall to On will block app uninstalls locally on the device and via Esper's cloud console. Set it to off if you need to uninstall apps remotely.
+Setting Application Uninstall to On will block app uninstalls locally on the device and via Esper's cloud Console. Set it to off if you need to uninstall apps remotely.
 
 **Note:** You can update your application installed on the device using Esper if Application Uninstall is set to ON.
 

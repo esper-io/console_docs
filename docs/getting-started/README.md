@@ -8,7 +8,7 @@ Your first step is to [sign up for a free trial account](https://esper.io/signup
 
 ![Strat a free trial for Esper](./images/FreeTrial_Signup.png)
 
-Once you click Start My Free Trial, you'll automatically log in to your new environment’s Console. You’ll also get an email with your temporary login credentials, along with the URL of your console. (It will be something like foooo.esper.cloud, where “foooo” is the randomly generated five-letter name of your environment).
+Once you click Start My Free Trial, you'll automatically log in to your new environment’s Console. You’ll also get an email with your temporary login credentials, along with the URL of your Console. (It will be something like foooo.esper.cloud, where “foooo” is the randomly generated five-letter name of your environment).
 
 Note: Please change your password when you are redirected to your endpoint!
 

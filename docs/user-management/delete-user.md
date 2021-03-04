@@ -1,6 +1,6 @@
 ## How to Delete a User?
 
-Click on your profile icon at the top right corner of the console. Choose ‘User Management’ from the drop-down.
+Click on your profile icon at the top right corner of the Console. Choose ‘User Management’ from the drop-down.
 
   
 

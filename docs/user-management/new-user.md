@@ -1,6 +1,6 @@
 ## How to Add a New User?
 
-Step 1: Click on your profile icon at the top right corner of the console. Choose ‘User Management’ from the drop-down.
+Step 1: Click on your profile icon at the top right corner of the Console. Choose ‘User Management’ from the drop-down.
 
   
 

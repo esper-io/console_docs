@@ -45,7 +45,7 @@ The last updated security patch version is used to determine if the device is up
 
 #### H4 Calculating the Security Score
 
-Your Esper console will receive the above values and calculate the security state as follows:
+Your Esper Console will receive the above values and calculate the security state as follows:
 
 -   If basic integrity is false, then the device is a high-risk device (<=5 points)
     

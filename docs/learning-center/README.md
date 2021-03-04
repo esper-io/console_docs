@@ -1,6 +1,6 @@
 ## What is a Learning Center?
 
-The Learning Centre is designed to help a new user get comfortable with the Esper console and various features. It starts with a curated tour detailing various aspects that a new user gets to experience. You may choose to skip the tour at any point. The Learning Centre is available at the top right section of the console.
+The Learning Centre is designed to help a new user get comfortable with the Esper Console and various features. It starts with a curated tour detailing various aspects that a new user gets to experience. You may choose to skip the tour at any point. The Learning Centre is available at the top right section of the Console.
 
   
 

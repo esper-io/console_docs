@@ -1,6 +1,6 @@
 ## How to Edit the Company Profile?
 
-Step 1: Click on your profile icon at the top right corner of the console. Choose ‘Company Settings’ from the drop down.
+Step 1: Click on your profile icon at the top right corner of the Console. Choose ‘Company Settings’ from the drop down.
 
   
 

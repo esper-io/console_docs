@@ -11,7 +11,7 @@ To access Esper’s user management functions, click on the user profile icon at
   
   
 
-On the ‘User Management’ page, you can see all the users in your console. You can add more users , delete users or change the authorisation and control of the users from this section.
+On the ‘User Management’ page, you can see all the users in your Console. You can add more users , delete users or change the authorisation and control of the users from this section.
 
 ![](./images/2-usermain.png)
 
@@ -21,4 +21,4 @@ On the ‘User Management’ page, you can see all the users in your console. Yo
 
   
 
-You could go back to the console by selecting the ‘Go back to Console’ link on the top left corner.
+You could go back to the Console by selecting the ‘Go back to Console’ link on the top left corner.

@@ -20,4 +20,4 @@ Step 3: You then choose the path on the devices where you want the file to be tr
 
 ![](./images/transfer/3-transferButton.png)
 
-Success or fail toast will appear on the bottom left of your console screen once the file transfer has been successfully completed. 
+Success or fail toast will appear on the bottom left of your Console screen once the file transfer has been successfully completed. 

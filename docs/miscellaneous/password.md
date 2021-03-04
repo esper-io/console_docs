@@ -2,7 +2,7 @@
 
   
 
-Step 1: Click on the ‘User Profile’ icon at the top right of the console screen.
+Step 1: Click on the ‘User Profile’ icon at the top right of the Console screen.
 
 ![](./images/password/1-user.png)
 
