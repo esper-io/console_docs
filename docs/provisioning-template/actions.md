@@ -36,6 +36,23 @@ To edit a template, click **Edit**. You can update the Policy, Apps, Settings, G
 
 The **Cancel** button will take you back to the ‘Provisioning Templates’ landing page.
 
+#### Manage Devices
+
+The Manage device section is added only when you are editing a template.
+
+![](./images/5a-managedevice.png)
+
+  
+**Note**: This section is not available when you create a new template.
+
+You can add, upload or download IMEI or serial number through a CSV file using the Manage Devices section. You can delete IMEI/Serial numbers from the CSV table. If the IMEI/Serial number is on another template, Esper will confirm if you want to move the device to the new template.
+
+Clicking on the **Take a Tour** button gives you a walkthrough of how to upload an IMEI/Serial number CSV file.
+
+**Note**: Duplicate entries are not allowed. In duplicate entries, the list of duplicate IMEI/serial values (same template, different template, different endpoint) from the uploaded CSV file is returned.
+
+The **Next** button will take you to the “Preview” screen. Clicking on the **Back** button will bring you to the “Groups” screen. You can exit the editing template mode by clicking on the **Cancel** button.
+
 ### Duplicate
 
 To copy a template, click **Duplicate**.
