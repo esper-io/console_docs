@@ -8,7 +8,7 @@ Step 1: Go to the learning center and choose the â€˜Frequently Asked Questionsâ€
 
   
 
-Step 2: You can check all the FAQs of this screen. Also, you can check the forums and discussions between the esper community.
+Step 2: You can check all the FAQs of this screen. Also, you can check the forums and discussions between the Esper community.
 
   
 

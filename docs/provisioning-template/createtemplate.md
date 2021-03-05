@@ -192,7 +192,7 @@ To learn more about individual setting details check the link below:
 
   
 
-Whenever you use any template Qr code to provision a device, this group liking will determine where that device will be positioned in the esper platform. So users can assign a group to where they wish to have it later post provisioning.
+Whenever you use any template Qr code to provision a device, this group liking will determine where that device will be positioned in the Esper platform. So users can assign a group to where they wish to have it later post provisioning.
 
 ![](./images/createtemplate/32_provisioningtemplate_linkgroup.png)
 
