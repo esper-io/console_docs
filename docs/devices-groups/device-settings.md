@@ -464,7 +464,7 @@ Once a change is made, a toast message will appear in the bottom right corner of
 
   
 
-Select the time zone in which the device will be deployed. After deployment, you will have the ability to change the device’s time zone remotely via the dashboard.
+Select the time zone in which the device will be deployed. After deployment, you will have the ability to change the device’s time zone remotely via the Dashboard.
 
   
 
