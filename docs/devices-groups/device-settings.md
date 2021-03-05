@@ -504,8 +504,7 @@ On a managed device, you can turn on ADB using the toggle switch to enable a sec
 
 After the completion of this time period from the point of provisioning, ADB will automatically turn off for the device.
 
-You can choose the Always On option to keep ADB on, but Esper does not recommend this practice; as ADB is a gateway to communication with the core of the device and should be used in a highly secure manner. You can find out more about using ADB with Esper [here](https://docs.esper.io/home/console.html#connecting-to-a-device-using-secure-remote-adb).
-
+You can choose the Always On option to keep ADB on, but Esper does not recommend this practice; as ADB is a gateway to communication with the core of the device and should be used in a highly secure manner. 
 **Note**: We never allow turning on ADB from the device on any Esper-provisioned device.
 
 Once all changes are made, click Apply Changes link to push them out to the device, or Cancel if you wish to keep the current settings.
