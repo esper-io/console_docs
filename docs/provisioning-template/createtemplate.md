@@ -44,7 +44,7 @@ To learn more about individual settings in compliance policy check the link belo
 
   
 
-The Apps section lets you choose the apps you would like to have installed on your device during provisioning. You may choose to install Enterprise apps uploaded via the [App Management](https://docs.esper.io/home/console.html#apps) section of the Console or apps approved via [Play For Work](https://docs.esper.io/home/console/play-work/) from your Managed Google Play Store account.
+The Apps section lets you choose the apps you would like to have installed on your device during provisioning. You may choose to install Enterprise apps uploaded via the [App Management](../apps/README.md) section of the Console or apps approved via [Play For Work](../apps/googlepalysignup.md) from your Managed Google Play Store account.
 
 ![](./images/createtemplate/21_ProvisioningTemplates_Create_full_template_Apps.png)
 
