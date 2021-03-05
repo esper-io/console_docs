@@ -1,3 +1,5 @@
+## How to Apply a New Policy?
+
 Once the policy is created it can be further applied to devices and groups of devices via provisioning templates, device details page, and group details page. To learn more about compliance policy application click on the below links:
 
 [How to set compliance policies in a template](../provisioning-template/createtemplate.md)
