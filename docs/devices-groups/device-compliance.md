@@ -16,7 +16,7 @@ To install a new **Compliance Policy** on the device, first, select the policy f
 
   
 
-You’ll find more information on compliance policies in the  [Compliance Policy section](https://docs.esper.io/home/console.html#compliance-policy-tab).
+You’ll find more information on compliance policies in the  [Compliance Policy section](../compliance-policy/README.md).
 
   
 
