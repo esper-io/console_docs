@@ -6,4 +6,4 @@ To start creating a template, click on the Provisioning Templates link that appe
 
 ![](./images/ProvisioningTemplate_Selection.png)
 
-Please read  [Steps to Create a Device Template](./provisioning-template/createtemplate.md)  for more information on this process.
+Please read  [Steps to Create a Device Template](../provisioning-template/createtemplate.md)  for more information on this process.
