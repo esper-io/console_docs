@@ -1,4 +1,4 @@
-## How to Upload an Enterprise Application to Esper Cloud?
+## How to Upload an Enterprise Application to the Esper Cloud?
 
   
 

@@ -1,4 +1,4 @@
-## How to Upload Content to Esper Console?
+## How to Upload Content to the Esper Console?
 
   
 
