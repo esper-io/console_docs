@@ -3,11 +3,10 @@
 
   
 
-You can not approve an app from all devices. To unapprove an app, click on the tile for the app.
+To unapprove an app, click on the tile for the app.
 
 ![](./images/unapprove/1-selectapp.png)
 
-  
 
 On the detail screen for the app, click **Unapprove**.
 
