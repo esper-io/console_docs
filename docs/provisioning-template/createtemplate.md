@@ -16,7 +16,7 @@ You have a choice to Create a Full Template or Create a Quick Template.
 
   
 
-If you create a quick template, you simply enter a unique template name, select the app or apps to install when you provision the device along with Kiosk mode, then preview and save the template. Once you save the template you can go back and edit it at any time with the full template options.
+If you create a quick template, you simply enter a unique template name, select the application or applications to install when you provision the device along with Kiosk mode, then preview and save the template. Once you save the template you can go back and edit it at any time with the full template options.
 
   
 
@@ -30,7 +30,7 @@ If you choose to Create Full Template, enter a unique name and an optional descr
 
 ### Set up Compliance Policy Section in the Template
 
-A Compliance Policy is a set of configurations or permissions that will be applied to all the devices provisioned through the template. Each configuration determines particular system behavior, in some cases including whether the device user is able to change a configuration on the device using the Android Settings app. This section lets you set the Compliance Policy that will govern all the devices provisioned using this template. You can change this after provisioning by defining a new Compliance Policy and then applying it to a Device or a Group.
+A Compliance Policy is a set of configurations or permissions that will be applied to all the devices provisioned through the template. Each configuration determines particular system behavior, in some cases including whether the device user is able to change a configuration on the device using the Android Settings application. This section lets you set the Compliance Policy that will govern all the devices provisioned using this template. You can change this after provisioning by defining a new Compliance Policy and then applying it to a Device or a Group.
 
 ![](./images/createtemplate/20_ProvisioningTemplates_Create_full_template_Compliance_Policy.png)
 
@@ -44,7 +44,7 @@ To learn more about individual settings in compliance policy check the link belo
 
   
 
-The Apps section lets you choose the apps you would like to have installed on your device during provisioning. You may choose to install Enterprise apps uploaded via the [App Management](../apps/README.md) section of the Console or apps approved via [Play For Work](../apps/googlepalysignup.md) from your Managed Google Play Store account.
+The Applications section lets you choose the applications you would like to have installed on your device during provisioning. You may choose to install Enterprise applications uploaded via the [Application Management](../apps/README.md) section of the Console or applications approved via [Play For Work](../apps/googlepalysignup.md) from your Managed Google Play Store account.
 
 ![](./images/createtemplate/21_ProvisioningTemplates_Create_full_template_Apps.png)
 
@@ -60,17 +60,17 @@ Once you click next Begin by clicking a radio button to choose whether you would
 
 ![](./images/createtemplate/22_ProvisioningTemplates_Create_full_template_Device_Mode.png)
 
-Kiosk Mode pins a selected Enterprise or Google Play Store app to the device unless the user exits kiosk mode. This is useful for cases in which the device will be used for a single purpose (for example, as an airport kiosk) and only the selected app needs to run on it.
+Kiosk Mode pins a selected Enterprise or Google Play Store application to the device unless the user exits kiosk mode. This is useful for cases in which the device will be used for a single purpose (for example, as an airport kiosk) and only the selected application needs to run on it.
 
 **Note**: For an optimal Kiosk Mode implementation, other Compliance Policy configurations need to be properly set. See this [technical article](https://blog.esper.io/kiosk-on-esper) for more details.
 
-In Multi-Application Mode, the device user is free to use any Enterprise or Google Play app approved and installed using Esper.
+In Multi-Application Mode, the device user is free to use any Enterprise or Google Play application approved and installed using Esper.
 
-#### Adding Apps for Installation to a Template
+#### Adding Applications for Installation to a Template
 
-The 'Add Application' section gives you the ability to load any Enterprise apps and approved Managed Google Play apps onto the device when it is provisioned. These apps must have been previously uploaded to Esper as an Enterprise app through 'Apps' or previously approved through Managed Google Play.
+The 'Add Application' section gives you the ability to load any Enterprise applications and approved Managed Google Play applications onto the device when it is provisioned. These applications must have been previously uploaded to Esper as an Enterprise application through 'Apps' or previously approved through Managed Google Play.
 
-Approved Managed Google Play apps will only appear if you have enrolled your endpoint in Managed Google Play. These apps must have been approved through Play for Work before they can be selected here. Simply find the Play store application you wish to install in the Get Play Store App, and it will be added to the list of apps. Once an Enterprise app has been uploaded into your Esper Cloud Endpoint, select it from the dropdown menu, then select the version, and click on 'Add' to add it to your template.
+Approved Managed Google Play applications will only appear if you have enrolled your endpoint in Managed Google Play. These applications must have been approved through Play for Work before they can be selected here. Simply find the Play store application you wish to install in the Get Play Store App, and it will be added to the list of applications. Once an Enterprise application has been uploaded into your Esper Cloud Endpoint, select it from the dropdown menu, then select the version, and click on 'Add' to add it to your template.
 
 ![](./images/createtemplate/23_ProvisioningTemplates_Create_full_template_Select_Application.png)
 
@@ -78,22 +78,22 @@ Approved Managed Google Play apps will only appear if you have enrolled your end
 
 1.  Before using a managed Google Play account, you need to set up a Managed Google Play account through Esper.
     
-2.  If you include a Google Play Store app in your template but use it to provision a non-GMS device without support for Google Play, the app will not be installed when provisioned.
+2.  If you include a Google Play Store application in your template but use it to provision a non-GMS device without support for Google Play, the application will not be installed when provisioned.
     
 
-Once you click on the **Add Application** button you will see the apps listed.
+Once you click on the **Add Application** button you will see the applications listed.
 
 ![](./images/createtemplate/24_ProvisioningTemplates_Create_full_template_See_Application.png)
 
 #### Installation Rule
 
-Users can enable faster provisioning by choosing to install a given app during provisioning or afterward. For applications pinned on boot, the installation rule is set to during provisioning.
+Users can enable faster provisioning by choosing to install a given application during provisioning or afterward. For applications pinned on boot, the installation rule is set to during provisioning.
 
 ![](./images/createtemplate/25_ProvisioningTemplates_Create_full_template_Installation_Rule.png)
 
   
 
-You can also choose from more actions if you want to clear the app from the list or wish to launch this app on the device when the device is turned on.
+You can also choose from more actions if you want to clear the application from the list or wish to launch this application on the device when the device is turned on.
 
 ![](./images/createtemplate/26_ProvisioningTemplates_Create_full_template_Application_More_options.png)
 
@@ -105,9 +105,9 @@ Clicking on Advanced Settings will launch a dialog box in which you can select e
 
 #### Choosing between Esper and Android launcher in a template
 
-Most users will use the default setting: The Esper DPC Launcher. If you select Esper DPC Launcher, the Esper Device agent will take administrative control of the device, and only approved apps will be able to be installed or used. All the features of Esper Device agents will be functional. This gives you more control over the apps that can be used, and the actions that can be taken on the device.
+Most users will use the default setting: The Esper DPC Launcher. If you select Esper DPC Launcher, the Esper Device agent will take administrative control of the device, and only approved applications will be able to be installed or used. All the features of Esper Device agents will be functional. This gives you more control over the applications that can be used, and the actions that can be taken on the device.
 
-If you select Default Android Launcher, the default Android launcher will be used. The device user will be able to exit the Esper Agent (DPC) as they would any other Android app. DPC will continue to run in the background and provide some device management, but many management features will not be available.
+If you select Default Android Launcher, the default Android launcher will be used. The device user will be able to exit the Esper Agent (DPC) as they would any other Android application. DPC will continue to run in the background and provide some device management, but many management features will not be available.
 
 Specifically, the following features will be unavailable:
 
@@ -130,11 +130,11 @@ Even when the device user has exited Esper Device Agent, they‘ll be able to se
 
 There is also a checkbox that allows you to include or bypass Google Play setup during provisioning on GMS devices. If this is unchecked, the Google Play store will not be set up on the device, reducing provisioning time dramatically. If you have enrolled the device into a Managed Google Play account, the default value for this is set to On'; if the endpoint is not enrolled, then the default is 'Off'. It does not apply to Android Open Source Project devices that are non-GMS. Once you have made your selection, click Close.
 
-#### How to Set the App State of Preloaded Apps in the Template
+#### How to Set the Application State of Preloaded Applications in the Template
 
   
 
-Android devices normally come with a number of apps loaded onto them in ROM. The Preloaded Apps section enables you to select which of these will be available on the device after provisioning.
+Android devices normally come with a number of applications loaded onto them in ROM. The Preloaded Applications section enables you to select which of these will be available on the device after provisioning.
 
 You can access the Advanced Settings section from Provisioning Template->**Apps**->**Advanced Settings**.
 
@@ -142,30 +142,30 @@ You can access the Advanced Settings section from Provisioning Template->**Apps*
 
   
 
-An Esper customer can explicitly set the App state to “Show”, “Hide” or “Disable” after adding a preloaded app package as shown in the screenshot above.
+An Esper customer can explicitly set the Application state to “Show”, “Hide” or “Disable” after adding a preloaded application package as shown in the screenshot above.
 
-In the field below the text “Enter package name of preloaded apps”, users may enter the package name of the apps which are pre-existing in the In-ROM memory of the device as packaged by the hardware manufacturer of the specific device.
+In the field below the text “Enter package name of preloaded apps”, users may enter the package name of the applications which are pre-existing in the In-ROM memory of the device as packaged by the hardware manufacturer of the specific device.
 
-**Note**: One easy way to find the package names is to provision one of your devices and then view the Preloaded Apps on that device. The package name for each app will be listed. You can also use ADB as well. You currently cannot set a Preloaded App as the Kiosk mode app via a Provisioning Template, but you can do so at the Device level after the device has been provisioned.
+**Note**: One easy way to find the package names is to provision one of your devices and then view the Preloaded Applications on that device. The package name for each application will be listed. You can also use ADB as well. You currently cannot set a Preloaded Application as the Kiosk mode application via a Provisioning Template, but you can do so at the Device level after the device has been provisioned.
 
-In this example screenshot, we have added packages “com.facebook.android”, “com.google.android.maps” and “com.chrome.android”. We have set the state of the app as “Show”, “Hide”, “Disable”. Show/Hide will simply either show or hide the preloaded app on the device screen.
+In this example screenshot, we have added packages “com.facebook.android”, “com.google.android.maps” and “com.chrome.android”. We have set the state of the application as “Show”, “Hide”, “Disable”. Show/Hide will simply either show or hide the preloaded application on the device screen.
 
-By default, after provisioning an Android device on the Esper platform, the preloaded apps are being hidden. By using this section, users may choose to show them. The “Disable” feature lets the IT Admin prevent the app from functioning unless chosen otherwise.
+By default, after provisioning an Android device on the Esper platform, the preloaded applications are being hidden. By using this section, users may choose to show them. The “Disable” feature lets the IT Admin prevent the application from functioning unless chosen otherwise.
 
-The feature to disable preloaded apps is also available via 'Device Settings' as well as during the Device Provisioning process via this section in the Template.
+The feature to disable preloaded applications is also available via 'Device Settings' as well as during the Device Provisioning process via this section in the Template.
 
-#### Approve and Disapprove Google Play apps in the Templates
+#### Approve and Disapprove Google Play Applications in the Templates
 
   
 
-The 'Play Store Apps' section of the 'Your Apps' tab gives you the ability to load approved apps from the Google Play Store onto the device as it is provisioned. This section will only appear if you have enrolled your endpoint in [Managed Google Play]. These apps must have been approved through Play for Work before they can be selected here. Click on the approved Play Store app you wish to install, and it will be added to the list of apps.
+The 'Play Store Applications' section of the 'Your Applications' tab gives you the ability to load approved apps from the Google Play Store onto the device as it is provisioned. This section will only appear if you have enrolled your endpoint in [Managed Google Play]. These apps must have been approved through Play for Work before they can be selected here. Click on the approved Play Store application you wish to install, and it will be added to the list of applications.
 
   
 
 ![](./images/createtemplate/30_googleplay.png)
 
   
-**Note**: If you include a Google Play Store app in your template but use it to provision a non-GMS device without support for Google Play, the app will not be installed when provisioned.
+**Note**: If you include a Google Play Store application in your template but use it to provision a non-GMS device without support for Google Play, the application will not be installed when provisioned.
 
 ### Apply Device Settings in the Template
 
@@ -178,7 +178,7 @@ The Settings section lets you determine levels for most of the device settings: 
   
  
 
-**Note**: If the Android Settings App is enabled for a device in Multi-application mode, the device user can access these settings and change them on the device.
+**Note**: If the Android Settings Application is enabled for a device in Multi-application mode, the device user can access these settings and change them on the device.
 
   
 

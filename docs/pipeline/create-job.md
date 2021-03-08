@@ -20,7 +20,7 @@ Step 2: Click on the **New Job** button to create a new job for the selected pip
 
   
 
-Note: App Installation will be selected by default. Select the application version and click **create Job**. You can also upload a new app and create a job.
+Note: Application Installation will be selected by default. Select the application version and click **create Job**. You can also upload a new application and create a job.
 
 ![](./images/createjob/3-newjob.png)
 

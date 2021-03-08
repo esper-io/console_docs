@@ -2,7 +2,7 @@
 
   
 
-If you delete an app version from the Esper Cloud and the app is currently installed on a device or devices managed by Esper, the app will remain installed on the device or devices. If the app version is included in one or more Provisioning Templates, it will be removed from each template when the app is deleted. If this is the case, you will need to confirm the deletion of the app and it will then be removed from any associated Provisioning Templates.
+If you delete an application version from the Esper Cloud and the application is currently installed on a device or devices managed by Esper, the application will remain installed on the device or devices. If the application version is included in one or more Provisioning Templates, it will be removed from each template when the application is deleted. If this is the case, you will need to confirm the deletion of the application and it will then be removed from any associated Provisioning Templates.
 
  
 

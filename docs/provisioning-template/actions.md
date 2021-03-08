@@ -28,7 +28,7 @@ Click **Preview** to preview the Provisioning Template. Click on the ‘^’ sig
 
 ### Edit
 
-To edit a template, click **Edit**. You can update the Policy, Apps, Settings, Group, and Manage Devices options as you wish. The edit screen will take you through steps to make changes. Clicking on the **Next** button, you will be able to access the following setting. To save your changes, click on the **Update** button on the ‘Preview’ page.
+To edit a template, click **Edit**. You can update the Policy, Applications, Settings, Group, and Manage Devices options as you wish. The edit screen will take you through steps to make changes. Clicking on the **Next** button, you will be able to access the following setting. To save your changes, click on the **Update** button on the ‘Preview’ page.
 
   
 
@@ -59,7 +59,7 @@ To copy a template, click **Duplicate**.
 
 ![](./images/6_ProvisioningTemplates_Duplicate.png)
 
-You can then rename the template and update the Policy, Apps, Branding, Settings, Group, and Add Devices options using the Edit option. To save your changes, click on the **Update** button on the Preview page.
+You can then rename the template and update the Policy, Applications, Branding, Settings, Group, and Add Devices options using the Edit option. To save your changes, click on the **Update** button on the Preview page.
 
 **Note**: Any IMEI or Serial Numbers included in the original template will not be carried over to the duplicated template.
 
@@ -88,4 +88,4 @@ Selecting the’ Delete' option will delete a selected template. You will be pro
 
 When you click on the **Delete Template** button, the selected template will be deleted. If you click on the **Cancel** button, you will be brought back to the ‘Provisioning template’ landing page.
 
-**Note**: You will still be able to view the policy, apps, and settings of the template when viewing a device previously provisioned using that template.
+**Note**: You will still be able to view the policy, applications, and settings of the template when viewing a device previously provisioned using that template.

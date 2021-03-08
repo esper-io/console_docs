@@ -47,17 +47,17 @@ The lock screen must be on in order to set Lock screen password rules. If you se
 
   
 
-Default app permissions determine enforcement of the runtime-permission rule across all the apps on a device including Enterprise apps installed by Esper, in-ROM apps that are enabled, as well as any installed via Managed Google Play. This ensures you can control the user experience on the device regarding how run-time permissions are granted.
+Default application permissions determine enforcement of the runtime-permission rule across all the apps on a device including Enterprise applications installed by Esper, in-ROM applications that are enabled, as well as any installed via Managed Google Play. This ensures you can control the user experience on the device regarding how run-time permissions are granted.
 
 ![](./images/createpolicy/5-AppPermission.png)
 
 There are three possible settings:
 
--   Allow Automatically: This rule will grant all the permissions any app requests without showing a prompt to the user. This is the typical setting used for single-purpose solutions using a fully trusted, customer-supplied application.
+-   Allow Automatically: This rule will grant all the permissions any application requests without showing a prompt to the user. This is the typical setting used for single-purpose solutions using a fully trusted, customer-supplied application.
     
--   Ask User: This keeps the default behavior intact with regards to permission management. All apps on the device will show a prompt to the user to request permission. For example, by choosing this option then every app will ask the user each time before accessing a device module with a message such as “Allow app X to access Gallery? Allow/Deny”. This may be unsuitable for some solutions, especially Kiosk-based apps. It can be useful for certain unusual situations dealing with App permissions— contact us directly to find out more.
+-   Ask User: This keeps the default behavior intact with regards to permission management. All applications on the device will show a prompt to the user to request permission. For example, by choosing this option then every application will ask the user each time before accessing a device module with a message such as “Allow application X to access Gallery? Allow/Deny”. This may be unsuitable for some solutions, especially Kiosk-based applications. It can be useful for certain unusual situations dealing with App permissions— contact us directly to find out more.
     
--   Deny Automatically: This rule will deny any permission request from any app on the device. No notification will be shown to the user. You can [grant permissions to apps individually](../apps/control.md) from the Esper Console.
+-   Deny Automatically: This rule will deny any permission request from any application on the device. No notification will be shown to the user. You can [grant permissions to applications individually](../apps/control.md) from the Esper Console.
     
 
 ### Set System update Rules via Policy
@@ -79,13 +79,13 @@ There are four possible settings:
 -   Disable Update: This option allows you to disable updates on the device. It is available for a limited set of OTA services that support this feature. If the device does not support disabling updates, it will default to Postpone installation. Before setting this option please contact Esper directly to make sure the devices you plan to provision support this configuration.
     
 
-### Configure Esper Settings App via Policy
+### Configure Esper Settings Application via Policy
 
-Esper offers a custom settings app that gives device users access to a subset of the available Android settings when servicing a device. The Esper settings app is intended for use by technicians servicing a device locally.
+Esper offers a custom settings application that gives device users access to a subset of the available Android settings when servicing a device. The Esper settings application is intended for use by technicians servicing a device locally.
 
 ![](./images/createpolicy/7-espersettings.png)
 
-Esper setting app has two modes:
+Esper setting application has two modes:
 
 1.  User mode
     
@@ -94,7 +94,7 @@ Esper setting app has two modes:
 
 ![](./images/createpolicy/8-typeofuser.png)
 
-This app offers a reduced number of settings:
+This application offers a reduced number of settings:
 
 -   Wi-Fi: Change the Wi-Fi access point used by the device.
     
@@ -119,13 +119,13 @@ Admin mode is protected by a password to prevent unauthorized access. This passw
 
 The default password is 1234. It is possible to set up a template without a password for these features, or just leave the default password; Esper strongly recommends setting up a more complex password for stronger security. The same password will be set for all devices provisioned using the template
 
-*TIP*: If your device is set up in Kiosk mode, the dock will be accessible even if you choose either no settings app or the Android settings app as part of your applied Compliance Policy. That means you should set an appropriate password for the Dock & Esper Settings app if you plan to deploy your devices in Kiosk mode.
+*TIP*: If your device is set up in Kiosk mode, the dock will be accessible even if you choose either no settings application or the Android settings application as part of your applied Compliance Policy. That means you should set an appropriate password for the Dock & Esper Settings application if you plan to deploy your devices in Kiosk mode.
 
-### Manage Android Settings App via Policy
+### Manage Android Settings Application via Policy
 
   
 
-This setting will display the icon for the default Android settings app on the Home screen of the device. Clicking this icon will take the user to the default Android settings. Depending on the other configurations set by the Compliance Policy, some options may be disabled to the user. Just by switching On/Off via console users can control it on the device.
+This setting will display the icon for the default Android settings application on the Home screen of the device. Clicking this icon will take the user to the default Android settings. Depending on the other configurations set by the Compliance Policy, some options may be disabled to the user. Just by switching On/Off via console users can control it on the device.
 
 ![](./images/createpolicy/10-androidappsetting.png)
 
@@ -139,7 +139,7 @@ This setting enables you to restrict the number of Google accounts that can be a
 
 ![](./images/createpolicy/11-googlerestrictions.png)
 
-**Note**: If you don’t check the Google account restrictions box and plan to provision your device in Multi-application mode, we recommend disabling Google Play Store to prevent the installation of unapproved apps.
+**Note**: If you don’t check the Google account restrictions box and plan to provision your device in Multi-application mode, we recommend disabling Google Play Store to prevent the installation of unapproved applications.
 
 *TIP*: The Google Account Restriction feature is applicable only to Google Mobile Services (GMS) Android devices. If you include the Android Settings App and wish to prevent any Google accounts from being added, set the Number of accounts to 0.
 
@@ -165,7 +165,7 @@ When Safe-Mode login is on, users will be able to boot to Safe Mode on the devic
 
 ### Factory Reset Configuration Control for Android Settings via Policy
 
-Factory Reset controls if users can perform a factory reset using the Android Settings app. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](./console.md# to prevent hard-key factory reset.
+Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](./console.md# to prevent hard-key factory reset.
 
 
 ### Notification Bar Configuration via Policy
@@ -184,7 +184,7 @@ USB connectivity allows users to connect USB devices, such as flash drives, digi
 
 ### SMS Configuration via Policy
 
-SMS controls sending and receiving of SMS, or text, messages. If SMS is turned off, the device will not send or receive text messages from any SMS app. Set SMS to on if you wish to enable sending and receiving of text messages.
+SMS controls sending and receiving of SMS, or text, messages. If SMS is turned off, the device will not send or receive text messages from any SMS application. Set SMS to on if you wish to enable sending and receiving of text messages.
 
 ### Outgoing Calls Configuration via Policy
 
@@ -194,17 +194,17 @@ If you want device users to be able to make outgoing calls, set Outgoing Calls t
 
 If you want device users to be able to use the camera, set Camera Access to on. If you don’t, set it off.
 
-**Note:** Your app can still access the camera if this setting is off.
+**Note:** Your application can still access the camera if this setting is off.
 
 ### NFC Configuration in Policy
 
-If you want device users to use near-field communication (NFC) on their devices when supported, set NFC to on; if you don’t, set it to off. If any of your apps require NFC, make sure this setting is on.
+If you want device users to use near-field communication (NFC) on their devices when supported, set NFC to on; if you don’t, set it to off. If any of your applications require NFC, make sure this setting is on.
 
 ### Google Play Store Configuration via Policy
 
 If you want device users to have access to your Managed Google Play Store, set the Google Play Store setting to On; if you don’t, set it to Off.
 
-You’ll still be able to install any approved Google Play Store apps from Esper on if Play Store is turned off. This only applies to GMS devices, as AOSP devices do not include Google Play Store support.
+You’ll still be able to install any approved Google Play Store applications from Esper on if Play Store is turned off. This only applies to GMS devices, as AOSP devices do not include Google Play Store support.
 
 ### USB Tethering Configuration via Policy
 
@@ -214,9 +214,9 @@ USB tethering specifies if the user can share a mobile connection to another dev
 
 Edit Date and Time If you’d like device users to be able to set device date and time, set the Edit Date and Time setting to On; if you don’t set it to Off.
 
-### Block App Uninstall Locally on the Device via Policy
+### Block Application Uninstall Locally on the Device via Policy
 
-Setting Application Uninstall to On will block app uninstalls locally on the device and via Esper's cloud Console. Set it to off if you need to uninstall apps remotely.
+Setting Application Uninstall to On will block application uninstalls locally on the device and via Esper's cloud Console. Set it to off if you need to uninstall applications remotely.
 
 **Note:** You can update your application installed on the device using Esper if Application Uninstall is set to ON.
 
@@ -230,11 +230,11 @@ If you’d like device users to be able to use voice command via Google Assistan
 
 **Note:** On some devices, this setting may need to be on if you wish to have Google Play Store show up on the device.
 
-### Local App Install Configuration via Policy
+### Local Application Install Configuration via Policy
 
-This feature allows the installation of apps from unknown sources on the device. To enable this on the device, the user needs to follow these instructions. **Settings** >**Apps** and **Notifications** > **Special App Permissions**> Install Unknown Apps and choose the route they wish to install the apps from.
+This feature allows the installation of applications from unknown sources on the device. To enable this on the device, the user needs to follow these instructions. **Settings** >**Apps** and **Notifications** > **Special App Permissions**> Install Unknown Applications and choose the route they wish to install the applications from.
 
-For example, if the device user chooses Chrome, they will be able to download and install apps from the Chrome browser on the device. If turned off, the device user will not be allowed to install apps from any unknown sources.
+For example, if the device user chooses Chrome, they will be able to download and install applications from the Chrome browser on the device. If turned off, the device user will not be allowed to install applications from any unknown sources.
 
 ![](./images/createpolicy/13-radiosettings.png)
 

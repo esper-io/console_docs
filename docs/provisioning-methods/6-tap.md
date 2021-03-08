@@ -65,12 +65,12 @@ Step 12: If your Provisioning Template enables Google Play, Google Play Services
 
 ![alt text](./images/QR-image/AFW_GooglePlay.png)
 
-Often, the device will complete provisioning without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify System settings and/or Esper to draw over other apps. Please grant these permissions if prompted.
+Often, the device will complete provisioning without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify System settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
 
-Step 13: You will now return to the Esper agent to install any Esper Enterprise apps and complete the provisioning process.
+Step 13: You will now return to the Esper agent to install any Esper Enterprise applications and complete the provisioning process.
 
 ![alt text](./images/QR-image/QR_DeviceInstalling.png)
 
-Provisioning will complete, and you’ll see your device set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise apps installed from the Esper Cloud and managed Google Play enabled.
+Provisioning will complete, and you’ll see your device set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
 
 ![alt text](./images/QR-image/QR_DeviceScreen.png)

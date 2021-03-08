@@ -102,13 +102,13 @@ Step 13: Once Esper has successfully read the QR code, provisioning will start.
 
 ![alt text](./images/AFW-image/18-GooglePlay.png)
 
-Typically (but not always), you need to resolve the permission and allow Esper to modify System settings. Click on **RESOLVE** to open up the Android System settings app to provide the consent.
+Typically (but not always), you need to resolve the permission and allow Esper to modify System settings. Click on **RESOLVE** to open up the Android System settings application to provide the consent.
 
 ![alt text](./images/AFW-image/19-GooglePlay-Resolve.png)
 
-Step 14: On the 'Can modify system settings’ screen and a list of Apps will be displayed.
+Step 14: On the 'Can modify system settings’ screen and a list of Applications will be displayed.
 
-**Note**: These are Apps that have been granted or are requesting permission to modify system settings. Esper Device Management will be set to 'No,' or 'Not Allowed.' Click on Esper Device Management to change this setting.
+**Note**: These are Applications that have been granted or are requesting permission to modify system settings. Esper Device Management will be set to 'No,' or 'Not Allowed.' Click on Esper Device Management to change this setting.
 
 ![](./images/AFW-image/20-EsperDeviceManagement.png)
 
@@ -128,11 +128,11 @@ Step 16: You will now be taken back to the 'Can modify system settings' screen. 
 
 ![alt text](./images/AFW-image/23-ModifySettingYesBack.png)
 
-Step 17: You will now return to the Esper agent. You will typically need to grant another permission to allow Esper to draw over other apps. This is done to ensure a smooth experience for Kiosk mode apps. Click on **RESOLVE** to open up the Android system settings app to provide the permission.
+Step 17: You will now return to the Esper agent. You will typically need to grant another permission to allow Esper to draw over other applications. This is done to ensure a smooth experience for Kiosk mode applications. Click on **RESOLVE** to open up the Android system settings application to provide the permission.
 
 ![alt text](./images/AFW-image/19-GooglePlay-Resolve.png)
 
-Step 18: On the 'Display Over Other Apps' or 'Draw Over Other Apps' screen, you will see a list of apps that have been granted or are requesting permission to display over other apps.
+Step 18: On the 'Display Over Other Apps' or 'Draw Over Other Apps' screen, you will see a list of apps that have been granted or are requesting permission to display over other applications.
 
 Note: Esper Device Management will currently be set to 'No,' or 'Not Allowed.'
 
@@ -152,10 +152,10 @@ Step 21: You will now be taken back to the 'Display Over Other Apps' screen. Esp
 
 ![alt text](./images/AFW-image/27-DrawAppsEDMYes.png)
 
-Step 22: You will now return to the Esper agent to install any Esper Enterprise apps.
+Step 22: You will now return to the Esper agent to install any Esper Enterprise applications.
 
 ![alt text](./images/AFW-image/28-DeviceInstalling.png)
 
-Now the provisioning is complete, and your device is set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise apps installed from the Esper Cloud and managed Google Play enabled.
+Now the provisioning is complete, and your device is set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
 
 ![alt text](./images/AFW-image/29-DeviceScreen.png)

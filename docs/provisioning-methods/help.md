@@ -13,7 +13,7 @@ You’ll need to provide the following information:
 -   GMS support — Click **YES** if your Android device supports Google Mobile Services.
     
 
-**Note**: If the Play Store app is included on your device, your device will likely support GMS.
+**Note**: If the Play Store application is included on your device, your device will likely support GMS.
 
 -   Camera — Choose **YES**, if your device has a working camera.
     

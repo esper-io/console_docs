@@ -22,7 +22,7 @@ Step 1: To remotely view a device, click on **Start Session**.
 
 On devices using Android 9.0 and above, the Esper Console will establish a secure connection with the device, and the device’s screen will be streamed to the Console. On devices Android 7.0 or earlier, the remote control will be enabled by default. Now, supervisor permission is not required to allow remote control. Once the remote view request is allowed, a secure connection will be established, and the device’s screen will be streamed to the Console.
 
-***Warning**: If your device is running with an app in Kiosk mode and permission is required to initiate a remote view session, the notification will not display over the pinned Kiosk mode app. To get around this some customers exit Kiosk mode after provisioning and Always accept the notification part of their preparation process. Alternatively, if the device is already in the field it can be done at the deployment site by a local device user.*
+***Warning**: If your device is running with an application in Kiosk mode and permission is required to initiate a remote view session, the notification will not display over the pinned Kiosk mode application. To get around this some customers exit Kiosk mode after provisioning and Always accept the notification part of their preparation process. Alternatively, if the device is already in the field it can be done at the deployment site by a local device user.*
 
 **Note**: The session will end automatically after 15 minutes.
 

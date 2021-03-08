@@ -2,7 +2,7 @@
 
   
 
-The Action drop-down is available when you select a device using the ‘Select Device’ link on the right side of the ‘Device and Group’ screen. The Actions drop-down gives you a set of specific actions you can take on any devices you’ve selected when in Device Pane List view and Grid View. It is an unavailable Map view. We support a few quick actions like Move Devices, Ping, Reboot, App Install, App Uninstall, Apply Policy and Remove/Factory Reset Device.
+The Action drop-down is available when you select a device using the ‘Select Device’ link on the right side of the ‘Device and Group’ screen. The Actions drop-down gives you a set of specific actions you can take on any devices you’ve selected when in Device Pane List view and Grid View. It is an unavailable Map view. We support a few quick actions like Move Devices, Ping, Reboot, Application Install, Application Uninstall, Apply Policy and Remove/Factory Reset Device.
 
   
 
@@ -47,17 +47,17 @@ When you click on the Reboot option, the Esper Console will send the command to 
 
   
 
-### App Install:
+### Application Install:
 
   
 
-The App install quick action lets you install both privately uploaded apps—also known as Enterprise Apps—and Google Play apps to the selected devices.
+The Application install quick action lets you install both privately uploaded applications—also known as Enterprise Applications—and Google Play applications to the selected devices.
 
 ![](./images/quickactions/37_Groups_devices_main_screen_actions_app_install.png)
 
   
 
-Visit how to install an app for the step by step instructions on how to install an app.
+Visit how to install an application for the step by step instructions on how to install an application.
 
   
 
@@ -65,7 +65,7 @@ Visit how to install an app for the step by step instructions on how to install 
 
   
 
-The App Uninstall quick action lets you Uninstall both privately uploaded apps—also known as Enterprise Apps—and Google Play apps to the selected devices.
+The Application Uninstall quick action lets you Uninstall both privately uploaded applications—also known as Enterprise Applications—and Google Play applications to the selected devices.
 
   
 
@@ -73,7 +73,7 @@ The App Uninstall quick action lets you Uninstall both privately uploaded apps�
 
   
 
-Visit  how to Uninstall an app for step by step instructions.
+Visit  how to Uninstall an application for step by step instructions.
 
 ### Apply Policy:
 

@@ -1,28 +1,28 @@
-##  How to Manage Apps for a Group?
+##  How to Manage Applications for a Group?
 
   
 
-The Apps tab lets you manage the apps on all the devices in the group. This includes installing new apps, uninstalling apps, scheduling an app installation, and approving apps for the group.
+The Applications tab lets you manage the applications on all the devices in the group. This includes installing new applications, uninstalling applications, scheduling an application installation, and approving apps for the group.
 
   
 
 ![](./images/groupapps/44_DeviceGroup_Manage_Apps.png)
 
-**Note**: If you wish to update a currently installed app to a new version, you install that new version using any of the available means. You cannot uninstall in-ROM apps (called Preloaded apps). Instead, you can Disable these apps using Approvals.
+**Note**: If you wish to update a currently installed application to a new version, you install that new version using any of the available means. You cannot uninstall in-ROM applications (called Preloaded applications). Instead, you can Disable these applications using Approvals.
 
 ###  Install/Uninstall a New App on Device Group From the Console
 
   
 
-The Apps section lets you install or uninstall both privately uploaded apps—also known as Enterprise Apps—and Google Play apps to the groups immediately. The action will only be performed on online devices.
+The Applications section lets you install or uninstall both privately uploaded applications—also known as Enterprise Applications—and Google Play Apps to the groups immediately. The action will only be performed on online devices.
 
   
 
-Group Uninstall works much the same. Simply select Uninstall rather than Install from the Select App Action dropdown.
+Group Uninstall works much the same. Simply select Uninstall rather than Install from the Select Application Action dropdown.
 
   
 
-Step 1: To install an app on all the devices in the group first select Install/Uninstall, then select Install from the Select App Action dropdown.
+Step 1: To install an application on all the devices in the group first select Install/Uninstall, then select Install from the Select Application Action dropdown.
 
   
   
@@ -39,13 +39,13 @@ Step 2: Device info preview shows how many devices are offline or online.
 
   
 
-Step 3: Then select the app you’d like to install from the Select App dropdown. You can also type the first few letters of the app’s name into the search box to quickly find the app.
+Step 3: Then select the application you’d like to install from the Select Application dropdown. You can also type the first few letters of the application’s name into the search box to quickly find the application.
 
 ![](./images/groupapps/47_DeviceGroup_Manage_Apps_select_App.png)
 
   
 
-Step 4: Select app version.If you select the check box for manage configurations, you will be prompted to enter JSON code. Managed configurations will allow the administrator to configure work apps remotely.
+Step 4: Select application version.If you select the check box for manage configurations, you will be prompted to enter JSON code. Managed configurations will allow the administrator to configure work applications remotely.
 
   
 
@@ -59,11 +59,11 @@ Step 4: Select app version.If you select the check box for manage configurations
 
 1.  Manage configurations can be applied to android devices 5.0 or above.
     
-2.  All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
+2.  All the applications will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
     
-3.  Manage configurations cannot be applied to a google play store app while installing it. However, an installed app can have managed configurations.
+3.  Manage configurations cannot be applied to a Google Play store application while installing it. However, an installed aplicationp can have managed configurations.
 
-You can anytime check the history of app installation/schedules etc. Here, if you click on the ‘view’ link under the manage configurations column, you will be able to see the JSON code.
+You can anytime check the history of application installation/schedules etc. Here, if you click on the ‘view’ link under the manage configurations column, you will be able to see the JSON code.
 
   
 
@@ -72,7 +72,7 @@ You can anytime check the history of app installation/schedules etc. Here, if yo
   
 Note: You can also view the managed configurations by clicking the information icon. On the slide-out, click on the view configuration link.
 
-Step 5: Once you’ve selected an app, its details will appear in the App Details Preview section, including the app’s version, package name, and app type—that is, whether it’s an enterprise app or a Google app.
+Step 5: Once you’ve selected an application, its details will appear in the Application Details Preview section, including the application’s version, package name, and app type—that is, whether it’s an enterprise application or a Google App.
 
   
 
@@ -97,21 +97,21 @@ Step 7: After clicking on install, the right sidebar will slide and you can chec
 
   
 
-You can anytime check the history of app installation/schedules. Here, if you click on the ‘view’ link under manage configurations column, you will be able to see the JSON code.
+You can anytime check the history of application installation/schedules. Here, if you click on the ‘view’ link under manage configurations column, you will be able to see the JSON code.
 
 
 ![](./images/groupapps/52_DeviceGroup_Manage_Apps_History_View.png)
 
  **Note:** You can also view the managed configurations by clicking the information icon. On the slide-out, click on the view configuration link.  
 
-###  How to Schedule App Install/Uninstall on device group from the Console?
+###  How to Schedule Application Install/Uninstall on device group from the Console?
 
-This section lets you schedule an app installation or uninstallation for a specific point in the future. To schedule an install, select Schedule Install. Schedule Group Uninstall works much the same. Simply select Uninstall rather than Install from the Select App Action dropdown.
+This section lets you schedule an application installation or uninstallation for a specific point in the future. To schedule an install, select Schedule Install. Schedule Group Uninstall works much the same. Simply select Uninstall rather than Install from the Select Application Action dropdown.
 
   
   
 
-Step 1: To schedule an app installation or uninstallation, click on the Create scheduled install button.
+Step 1: To schedule an application installation or uninstallation, click on the Create scheduled install button.
 
 ![](./images/groupapps/53_DeviceGroup_Manage_Apps_SSchedule_Install.png)
 
@@ -127,7 +127,7 @@ Step 2: You will be taken to a new screen where you enter the schedule details. 
 
   
 
-Step 3: Select Install or Uninstall from the Select App Action dropdown.
+Step 3: Select Install or Uninstall from the Select Application Action dropdown.
 
   
 
@@ -135,13 +135,13 @@ Step 3: Select Install or Uninstall from the Select App Action dropdown.
 
   
 
-Step 4: Select the app you want to install or uninstall from the Select App dropdown.
+Step 4: Select the application you want to install or uninstall from the Select Application dropdown.
 
 ![](./images/groupapps/56_DeviceGroup_Manage_Apps_SSchedule_Install_Create_Select_App.png)
 
   
 
-Step 5: Use the radio buttons to choose between using the device’s time or your Console’s time when scheduling an application installation or uninstallation for a group. If you select Device time when you schedule an app installation, the installation (or uninstallation) will be performed on the devices in that group whenever it’s the specified time on each device.
+Step 5: Use the radio buttons to choose between using the device’s time or your Console’s time when scheduling an application installation or uninstallation for a group. If you select Device time when you schedule an application installation, the installation (or uninstallation) will be performed on the devices in that group whenever it’s the specified time on each device.
 
   
 
@@ -174,11 +174,11 @@ Step 8: After the scheduled installation has been completed, you can see the sta
   
   
 
-###  Set App State on the Device Group From the Console
+###  Set Application State on the Device Group From the Console
 
   
 
-The App State section enables you to show, hide or disable in-ROM apps (also referred to as Preloaded apps) on all the devices in the group.
+The Application State section enables you to show, hide or disable in-ROM applications (also referred to as Preloaded applications) on all the devices in the group.
 
   
 
@@ -186,7 +186,7 @@ The App State section enables you to show, hide or disable in-ROM apps (also ref
 
   
 
-To change the app state status of an app, enter its package name in the box and click Show, Hide, or Disable.
+To change the application state status of an application, enter its package name in the box and click Show, Hide, or Disable.
 
   
 
@@ -206,27 +206,27 @@ Clicking See Details will cause a sidebar to slide in from the right showing the
 
 ![](./images/groupapps/64_DeviceGroup_Manage_App_state_package_Name_View_Details_Status.png)
 
-Note: You will need to enter the exact package name of any in-ROM apps you wish to show, hide, or delete. For example, Chrome’s package name is “com.android.chrome;” just entering “Chrome” or “Google Chrome” will not work.
+Note: You will need to enter the exact package name of any in-ROM applications you wish to show, hide, or delete. For example, Chrome’s package name is “com.android.chrome;” just entering “Chrome” or “Google Chrome” will not work.
 
   
 
 ###  Finding Package Names
 
-The best way to get the exact package name of an in-ROM app is to use an Android Debug Bridge (ADB) command to retrieve the names of all the packages.
+The best way to get the exact package name of an in-ROM application is to use an Android Debug Bridge (ADB) command to retrieve the names of all the packages.
 
 Physically connect to the device using a USB cable and authorize ADB usage on the device by going to Device > Settings. Once ADB usage is authorized, the following command will retrieve the names of all the package names:
 
 adb shell pm list packages
 
-ADB will return a list of all the apps running on the device:
+ADB will return a list of all the applications running on the device:
 
 ![](./images/groupapps/65_DeviceGroup_Manage_App_state_find_package_Name_.png)
 
-You can also view the package names for any apps installed on a device by viewing the device’s details and selecting Apps. The package name for each app is displayed in the resulting list view.
+You can also view the package names for any applications installed on a device by viewing the device’s details and selecting Applications. The package name for each application is displayed in the resulting list view.
 
 ### Manage Configurations
 
-This section enables you to view the configurations applied to the group. When you enter a valid package name, you will be able to see the JSON code. All the apps will accept these JSON values. You will be able to see the changes only on the apps where the JSON values are applicable.
+This section enables you to view the configurations applied to the group. When you enter a valid package name, you will be able to see the JSON code. All the applications will accept these JSON values. You will be able to see the changes only on the applications where the JSON values are applicable.
 
 ![](./images/groupapps/66-DeviceGroups-ManageConfig.png)
 

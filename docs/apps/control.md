@@ -2,9 +2,9 @@
 
   
 
-You have control over the apps that appear in the Google Play Store on the devices you manage.
+You have control over the applications that appear in the Google Play Store on the devices you manage.
 
-Step 1: In the Esper Console, click **Apps** in the navigation sidebar and select play store tab.
+Step 1: In the Esper Console, click **App** in the navigation sidebar and select play store tab.
 
   
 
@@ -14,15 +14,15 @@ Step 2: Hover over the sidebar within the Google Play screen and click on **Orga
 
 ![](./images/control/2-organize.png)
 
-Step 3: Any app listed in the collections on this page will show up in the Google Play Store app on the device.
+Step 3: Any application listed in the collections on this page will show up in the Google Play Store app on the device.
 
 ![](./images/control/3-applist.png)
 
-To remove an app from the collection displayed, click the (x) icon above and to the right of its icon.
+To remove an application from the collection displayed, click the (x) icon above and to the right of its icon.
 
 ![](./images/control/4-remove.png)
 
-To add an app to this collection, click + Add Apps
+To add an application to this collection, click + Add Apps
 
 ![](./images/control/5-add.png)
 

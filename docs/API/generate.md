@@ -11,7 +11,7 @@ You can also copy the Enterprise ID, necessary for API calls, by clicking on the
   
   
 
-Enter a unique app name and description (optional) and click **Create Key**.
+Enter a unique API name and description (optional) and click **Create Key**.
 
   
   

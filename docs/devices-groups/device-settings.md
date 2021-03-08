@@ -129,11 +129,11 @@ Users will have an option to remove devices from the Esper Dashboard. This is ap
 
   
 
-The Device mode function enables you to switch a device between multi-app mode and kiosk mode. When a device is in Multi-Application mode, the user can see and use all the approved apps. When a device is in Kiosk mode, the device acts as a kiosk, and users can only use the kiosk app. Oftentimes, users’ provision with additional apps is useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those apps available for use by a field technician or customer, and then switch back into Kiosk mode when done.
+The Device mode function enables you to switch a device between multi-app mode and kiosk mode. When a device is in Multi-Application mode, the user can see and use all the approved apps. When a device is in Kiosk mode, the device acts as a kiosk, and users can only use the kiosk app. Oftentimes, users’ provision with additional applications is useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done.
 
   
 
-To change a device to Kiosk mode, click **Switch to Kiosk Mode**. A panel will slide in from the right side; click the radio button for the mode you prefer. If you click the Kiosk Mode radio button, you will also need to choose the application that will be pinned to the device’s start screen as its primary app. Select it from the searchable 'Select Kiosk App' dropdown, and then click **Save**.
+To change a device to Kiosk mode, click **Switch to Kiosk Mode**. A panel will slide in from the right side; click the radio button for the mode you prefer. If you click the Kiosk Mode radio button, you will also need to choose the application that will be pinned to the device’s start screen as its primary application. Select it from the searchable 'Select Kiosk App' dropdown, and then click **Save**.
 
   
 
@@ -142,7 +142,7 @@ To change a device to Kiosk mode, click **Switch to Kiosk Mode**. A panel will s
 
   
 
-**Note**: In some situations, a device provisioned in Kiosk mode will be unable to connect to the Internet—if, for example, a Wi-Fi access point has changed credentials. In these cases, the Esper Dock can be used to open the Esper Settings app giving access to Wi-Fi settings locally on the device.
+**Note**: In some situations, a device provisioned in Kiosk mode will be unable to connect to the Internet—if, for example, a Wi-Fi access point has changed credentials. In these cases, the Esper Dock can be used to open the Esper Settings application giving access to Wi-Fi settings locally on the device.
 
   
 

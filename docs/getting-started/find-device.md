@@ -8,7 +8,7 @@ Here are some of the exciting things you can try out:
 
 -   Define a Compliance Policy (read more  [here](../compliance-policy/README.md)) and then push it out to your device ([here](../compliance-policy/apply-policy.md)).
     
--   Update an app you installed on your device to a newer version.
+-   Update an application you installed on your device to a newer version.
     
 -   Initiate a remote view (or if supported remote control) session (read more  [here](../devices-groups/remote-viewer.md)).
     
