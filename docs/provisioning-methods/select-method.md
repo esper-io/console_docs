@@ -33,15 +33,19 @@ You can also use IMEI / Serial Numbers with the AFW provisioning method on some 
 
 Beginning with Android 9, you can include credentials for the Wi-Fi network to be used for provisioning in your template. They’ll be included in the QR code, thus eliminating the need to enter them on the device to establish the required Internet connectivity.
 
+**Note** Xiaomi/Redmi devices do not support a 6-tap provisioning method.
+
 ### Device Provisioner
 
-The Device Provisioner is a user-friendly provisioning tool by Esper that runs on Mac and Windows. You can conveniently use this to provision:
+The Device Provisioner is a user-friendly provisioning tool by Esper that runs on Mac, Linux and Windows. You can conveniently use this to provision:
 
 All Android Devices—GMS and most Non-GMS—running on Android 4.4 or newer, devices with or without a camera, multiple devices at once Android Studio AVDs for development and test purposes.
 
 You’ll need a USB cable to connect the device to the computer you’re using for provisioning. Ethernet-based and Wi-Fi-based methods can be used if the device is on the same subnet as the computer running the Device Provisioner. You are required to turn on the Developer Options and enable USB Debugging on the device.
 
-**Note**: The Device Provisioner does not support Google Single Sign-On (SSO).
+**Notes**: 
+1) The Device Provisioner does not support Google Single Sign-On (SSO).
+2) Some additional steps are needed to provision Xiaomi/Redmi devices using the Device Provisioner tool. Please refer to [Device Provisioner](https://docs.esper.io/home/provisioner.html) documentation for more information.
 
 If you set up your Esper Console login using Google SSO, then you need to go to your account on the Esper Console, enter and save your password. You will no longer be using Google SSO and can now sign-in on the Device Provisioner and continue to use the Esper Console login method.
 

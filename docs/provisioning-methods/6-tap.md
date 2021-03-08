@@ -2,7 +2,9 @@
 
 Android devices with Google Mobile Services (GMS) support and a camera can be enrolled and provisioned onto Esper using the Android for Work (AFW) provisioning method. The particular provisioning screens and device provisioning flow vary across Android versions.
 
-**Note**: 6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based provisioning, please email us.
+**Note**: 
+1) 6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based provisioning, please email us.
+2) Xiaomi/Redmi devices do not support a 6-tap provisioning method.
 
 Device makers and carriers customize the setup process. Thus it is likely you’ll encounter unique setup screens specific to your device. Generally, you can either skip or decline most of the options.
 
