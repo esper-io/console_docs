@@ -11,7 +11,7 @@ Step 1: Select any geofence from the geofence main page by clicking on it.
 
   
 
-Step 2: Choose the‘ Devices on Fence’ tab.
+Step 2: Choose the "Devices on Fence" tab.
 
   
   
