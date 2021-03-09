@@ -10,7 +10,7 @@ Step 1: Go to  [the Google Play Admin Settings page](https://play.google.com/wor
 Step 2: Select your account or give login credentials.
 
   
-![FAQ](./images/unsubscribe/image463.png)
+![FAQ](./images/unsubscribe/2-account.png)
 
 Step 3: Under Settings, you will see the Organization information section. Click on the vertical ellipsis on the right. You will see an option to “Delete Organization”. Clicking this will disassociate your email with the said organization.
 
