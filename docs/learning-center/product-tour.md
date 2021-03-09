@@ -2,7 +2,7 @@
 
   
 
-Step 1: go to the learning center and choose the video tutorials option from the slid-out.
+Step 1: Go to the learning center and choose the video tutorials option from the slid-out.
 
   
 
@@ -10,7 +10,7 @@ Step 1: go to the learning center and choose the video tutorials option from the
 
   
 
-Step 2: You will see a list of all the product feature tours, Click **Start** on the one you wish to see.
+Step 2: You will see a list of all the product feature tours, Click **Start Here** on the one you wish to see.
 
 ![](./images/producttour/2-start.png)
 
