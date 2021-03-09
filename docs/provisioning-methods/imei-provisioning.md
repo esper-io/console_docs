@@ -65,7 +65,9 @@ Step 11: The screen flow will stop on the Authentication screen. Enter the Passc
 
 Step 12: Once Esper has successfully read the QR code, provisioning will start and the 'Starting Provisioning' screen will display.
 
-![alt text](./images/AFW-image/16-PreparingDevice.png)![alt text](./images/AFW-image/17-reparingDevice2.png)
+![alt text](./images/AFW-image/16-PreparingDevice.png)
+
+![alt text](./images/AFW-image/17-reparingDevice2.png)
 
 **Notes**:
 
