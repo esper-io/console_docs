@@ -91,7 +91,9 @@ Step 12: The QR code scanner should appear on your device. Hold the device’s c
 
 Step 13: Once Esper has successfully read the QR code, provisioning will start.
 
-![alt text](./images/AFW-image/16-PreparingDevice.png)![alt text](./images/AFW-image/17-reparingDevice2.png)
+![alt text](./images/AFW-image/16-PreparingDevice.png)
+
+![alt text](./images/AFW-image/17-reparingDevice2.png)
 
 **Notes**:
 
