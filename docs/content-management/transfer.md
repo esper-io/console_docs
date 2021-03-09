@@ -6,7 +6,7 @@ Step 1: Click on the ellipsis for more actions on any file. Choose the ‘Transf
 
   
 
-Step 2: Select the Groups and/or Devices to push the file to. Simply click Link for any Group or Device to add it to the transfer list. Use search to easily find your device or group.
+Step 2: Select the Groups and/or Devices to push the file to. Simply click **Link** for any Group or Device to add it to the transfer list. Use search to easily find your device or group.
 
   
 
