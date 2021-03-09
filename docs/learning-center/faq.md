@@ -1,6 +1,6 @@
 ## How to Access FAQs From the Learning Centre?
 
-Step 1: Go to the learning center and choose the ‘Frequently Asked Questions’ from the slide-out.
+Step 1: Go to the learning center and choose ‘Frequently Asked Questions’ from the slide-out.
 
   
 
