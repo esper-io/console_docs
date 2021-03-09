@@ -4,7 +4,7 @@ Click on the user profile icon at the top right of the Console. Select the ‘Lo
 
   
 
-**Note**: The USer profile is a static component for the Console. It can be accessed from all the Console screens.
+**Note**: The User profile is a static component for the Console. It can be accessed from all the Console screens.
 
   
 
