@@ -16,13 +16,13 @@ The Compliance Policy section lists all the policies that have already been crea
 
 The options are:
 
--   Duplicate the Policy (two pages icon) Clicking this icon duplicates an existing compliance policy so you can use it as the basis for a new policy.
+-   Duplicate the Policy (two pages icon)- Clicking this icon duplicates an existing compliance policy so you can use it as the basis for a new policy.
     
--   View the Policy (eye icon) Clicking this icon lets you view an existing compliance policy.
+-   View the Policy (eye icon)- Clicking this icon lets you view an existing compliance policy.
     
--   Edit the Policy (pencil icon) Clicking this icon lets you make changes to an existing compliance policy. Once the policy has been applied to a device or devices, it cannot be changed and this option will be greyed out.
+-   Edit the Policy (pencil icon)- Clicking this icon lets you make changes to an existing compliance policy. Once the policy has been applied to a device or devices, it cannot be changed and this option will be greyed out.
     
--   Delete the Policy (garbage can icon) Clicking this icon deletes a policy.
+-   Delete the Policy (garbage can icon)- Clicking this icon deletes a policy.
     
 
 Use Search to find an already created Compliance Policy by Policy name.
