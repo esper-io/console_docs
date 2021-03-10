@@ -18,10 +18,10 @@ module.exports = {
         children: [
           "",
           "view-report",
-          "download-customreport",
           "email-subscribe",
           "email-unsubscribe",
           "custom-report",
+          "download-customreport",
         ]
       },
     ]
