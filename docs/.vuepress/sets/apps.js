@@ -17,10 +17,10 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "googlepalysignup",
           "approveapp",
           "control",
           "deleteapp",
-          "googlepalysignup",
           "manageversion",
           "unapprove",
           "unsubscribe",
