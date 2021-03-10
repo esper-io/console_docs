@@ -19,8 +19,8 @@ module.exports = {
           "",
           "newalert",
           "editalert",
-          "deletealert",
           "pausealert",
+          "deletealert",
           "emailchannel",
         ]
       },
