@@ -10,17 +10,17 @@ The Security tab shows the security risks faced by the device if any. If there a
 
   
 
-### H3 Security Criteria
+### Security Criteria
 
 The following are the basis on which security risks are calculated:
 
-#### H4 Basic Integrity
+#### Basic Integrity
 
 BasicIntegrity gives you a signal about the general integrity of the device and its API.
 
 Rooted devices fail basic integrity, as do emulators, virtual devices, and devices with signs of tampering, such as API hooks.
 
-#### H4 CtsProfileMatch
+#### CtsProfileMatch
 
 CtsProfileMatch gives you a much stricter signal about the compatibility of the device. Only unmodified devices that have been certified by Google can pass the CTS profile match. Devices that will fail CTS profile match include the following:
 
@@ -39,11 +39,11 @@ CtsProfileMatch gives you a much stricter signal about the compatibility of the 
 
 When this alarm is thrown, the advice parameter will provide additional information which is then displayed by Esper.
 
-#### H4 Security Patch Version
+#### Security Patch Version
 
 The last updated security patch version is used to determine if the device is up-to-date on Android security patches.
 
-#### H4 Calculating the Security Score
+#### Calculating the Security Score
 
 Your Esper Console will receive the above values and calculate the security state as follows:
 
@@ -65,7 +65,7 @@ The points table works out as follows:
 -   9-10 points → Secure
     
 
-#### H3 Security Check Frequency
+#### Security Check Frequency
 
 Basic Integrity and CtsProfileMatch are calculated on three instances:
 
