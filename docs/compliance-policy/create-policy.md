@@ -165,7 +165,7 @@ When Safe-Mode login is on, users will be able to boot to Safe Mode on the devic
 
 ### Factory Reset Configuration Control for Android Settings via Policy
 
-Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](./console.md# to prevent hard-key factory reset.
+Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](../provisioning-methods/factory-reset.md) to prevent hard-key factory reset.
 
 
 ### Notification Bar Configuration via Policy
