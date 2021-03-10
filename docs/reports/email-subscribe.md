@@ -11,7 +11,7 @@ You can subscribe via email to automatically generated system reports. To subscr
   
   
 
-The Email subscription pane slides in from the right. Enter user email addresses in the Enter your email ID field. You can enter multiple email addresses into this field, just use commas to separate them. Click **Subscribe**.
+The Email subscription pane slides in from the right. Enter user email addresses in the Enter your "email ID" field. You can enter multiple email addresses into this field, just use commas to separate them. Click **Subscribe**.
 
 ![](./images/subscribe/2-SubscribeButton.png)
 
