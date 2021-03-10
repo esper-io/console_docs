@@ -178,7 +178,7 @@ If you want device users to be able to take screenshots, set Screenshot to on. I
 
 ### Block External Hardware via USB Connectivity Configuration via Policy
 
-USB connectivity allows users to connect USB devices, such as flash drives, digital cameras, mice, or keyboards, to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to on. If you don’t, set it off.
+USB connectivity allows users to connect USB devices, such as flash drive, digital camera, mouse, or keyboard to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to on. If you don’t, set it off.
 
   
 
