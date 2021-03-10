@@ -18,14 +18,14 @@ module.exports = {
         children: [
           "",
           "googlepalysignup",
+          "upload-apps",
           "approveapp",
           "control",
           "deleteapp",
           "manageversion",
           "unapprove",
           "unsubscribe",
-          "upload-apps",
-        ]
+         ]
       },
     ]
   }
