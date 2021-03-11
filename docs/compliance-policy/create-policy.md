@@ -119,7 +119,7 @@ Admin mode is protected by a password to prevent unauthorized access. This passw
 
 The default password is 1234. It is possible to set up a template without a password for these features, or just leave the default password; Esper strongly recommends setting up a more complex password for stronger security. The same password will be set for all devices provisioned using the template
 
-*TIP*: If your device is set up in Kiosk mode, the dock will be accessible even if you choose either no settings application or the Android settings application as part of your applied Compliance Policy. That means you should set an appropriate password for the Dock & Esper Settings application if you plan to deploy your devices in Kiosk mode.
+**Note:** A hidden doc is available in both the kiosk mode and the multi-app mode. You can access it with 3-taps on the right corner in kiosk mode or 3-clicks on the power button in multi-app mode. 
 
 ### Manage Android Settings Application via Policy
 
