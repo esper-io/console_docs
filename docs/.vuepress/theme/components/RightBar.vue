@@ -1,5 +1,5 @@
 <template>
-  <div  class="right-bar">
+  <div class="right-bar" v-bind:class="{ inactivesidebar: sidebarItemsAbsent }">
     <div class="switch-wrapper hidden xl:block">
       <ColorModeSwitch v-on="$listeners" :on="isDark" />
     </div>
@@ -45,12 +45,19 @@ export default {
       default: 0,
     },
   },
+  computed: {
+    sidebarItemsAbsent() {
+      return this.headingItems[0]?.children?.length === 0
+    }
+  },
 };
 </script>
 
 <style lang="postcss">
+.inactivesidebar {
+  width: auto !important;
+} 
 .right-bar {
-  pointer-events: none; 
   @apply w-64 absolute right-0 top-0 bottom-0 hidden;
 
   .sidebar-heading {
