@@ -2,7 +2,7 @@ module.exports = {
   title: "Esper Console Documentation | %v",
   setTitle: "Geofence",
   handle: "craft",
-  icon: "/docs/icons/icon-tip.svg",
+  icon: "/icons/icon-tip.svg",
   baseDir: "geofence",
   // versions: [
   //   ["introduction", { label: "1.x" }]

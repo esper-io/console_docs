@@ -2,7 +2,7 @@ module.exports = {
   title: "Esper Console Documentation | %v",
   setTitle: "Esper Enhanced Updates",
   handle: "craft",
-  icon: "/docs/icons/icon-tip.svg",
+  icon: "/icons/icon-tip.svg",
   baseDir: "esper-enhanced-updates",
   // versions: [
   //   ["introduction", { label: "1.x" }]
