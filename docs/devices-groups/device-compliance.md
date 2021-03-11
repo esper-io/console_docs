@@ -20,7 +20,7 @@ You’ll find more information on compliance policies in the  [Compliance Policy
 
   
 
-### H3 Apply a New Compliance Policy on a Single Device
+### Apply a New Compliance Policy on a Single Device
 
   
 
@@ -68,4 +68,4 @@ Step 5: A success message will be displayed after the new compliance policy is d
   
   
 
-**Note**: In order to create a new policy, you need to navigate to the static menu on the Dashboard and choose Compliance Policy from the menu.  Click here to learn how to create a new policy
+**Note**: In order to create a new policy, you need to navigate to the static menu on the Dashboard and choose Compliance Policy from the menu.  Click [here](../compliance-policy/create-policy.md). to learn how to create a new policy

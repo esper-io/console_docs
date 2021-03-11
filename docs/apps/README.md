@@ -20,4 +20,4 @@ There are two different types of Applications you can authorize on your Android 
     You can authorize—or disallow—apps from your managed Google Play store.
     
 
-**Note**: You may approve in-ROM applications or Preloaded applications in a device from a Provisioning Template during provisioning by entering the package name in the applications screen. You can find information about the package name ([here](../devices-groups/group-apps.md)).
+**Note**: You may approve in-ROM applications or Preloaded applications in a device from a Provisioning Template during provisioning by entering the package name in the applications screen. You can find information about the package name ([here](../provisioning-template/README.md)).

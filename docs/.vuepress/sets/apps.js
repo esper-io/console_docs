@@ -17,15 +17,15 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "googlepalysignup",
+          "upload-apps",
           "approveapp",
           "control",
           "deleteapp",
-          "googlepalysignup",
           "manageversion",
           "unapprove",
           "unsubscribe",
-          "upload-apps",
-        ]
+         ]
       },
     ]
   }

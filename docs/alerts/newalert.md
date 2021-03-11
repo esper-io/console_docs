@@ -25,7 +25,7 @@ Step 3: Set the Alert Condition: Set the alert condition which is specific to th
 
 ![](./images/newalert/3-networkCondition.png)
 
-*Bluetooth Alert Condition*: You can set an later to fire when the bluetooth is On or OFF.
+*Bluetooth Alert Condition*: You can set an alter to fire when the bluetooth is On or OFF.
 
 ![](./images/newalert/3-bluetooth.png)
 
@@ -44,7 +44,7 @@ Step 4: Set the alert communication. You can have alerts sent to:
 -   Create a new email channel by clicking on create a new channel. A channel lets you create a list of contact information and then use that list to subscribe to alerts. It’s an enter once and use again and again solution.
     
 
-Know more about how to create a email channel
+Know more about how to create a email channel:
 
 ![](./images/newalert/4-alert-newchannel.png)
 
@@ -57,12 +57,12 @@ Step 6: Link Devices Select devices on which you’d like to see alerts by click
 
 To add a group rather than an individual device, click Groups, then select the group for which you’d like to see alerts, then click Next.
 
-Note : An alert cannot be linked to a combination of devices and groups. It needs to be either only devices, or only groups.
+**Note**: An alert cannot be linked to a combination of devices and groups. It needs to be either only devices, or only groups.
 
 Step 7: Preview and Save your alert. If everything is as it should be, click **Save**. If not, click Back until you get to the panel that needs changing.
 
 ![](./images/newalert/6-preview.png)
 
-The created alert will be seen on thge alerts page.
+The created alert will be seen on the alerts page.
 
 ![](./images/newalert/7-alertcreated.png)

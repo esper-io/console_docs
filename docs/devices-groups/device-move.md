@@ -14,7 +14,7 @@ Step 1: Click on the Select devices link on the top right corner to expose the s
 
   
 
-Step 2: Click in the checkbox next to the devices you wish to move.
+Step 2: Click on the checkbox next to the devices you wish to move.
 
   
 

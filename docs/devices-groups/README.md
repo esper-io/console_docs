@@ -14,7 +14,7 @@ Once you’ve added actual or simulated devices to the Console, the Devices and 
 
   
 
-### H3 Nested Groups
+###  Nested Groups
 
 We also provide the capability of “Nested Groups” which is essentially a hierarchical structure of groups that enhances the flexibility of taking actions for devices. Thus introducing two more concepts:
 
@@ -26,7 +26,7 @@ We also provide the capability of “Nested Groups” which is essentially a hie
   
   
 
-Nested groups can be created at any level. You can create a maximum of 5 sub-levels to any parent device group. You can create as many as parents you want. By default, there is always one super parent group named “ All devices ”. devices are automatically added to this group unless otherwise specified during provisioning via a template. “All device” groups cannot be deleted.
+Nested groups can be created at any level. You can create a maximum of 5 sub-levels to any parent device group. You can create as many as parents you want. By default, there is always one super parent group named “ All Devices ”. devices are automatically added to this group unless otherwise specified during provisioning via a template. “All Device” groups cannot be deleted.
 
   
 
@@ -35,13 +35,13 @@ Nested groups can be created at any level. You can create a maximum of 5 sub-lev
   
   
 
-### H3 Groups Pane
+### Groups Pane
 
 As groups may be deeply nested, the Groups pane has a dynamic horizontal scroll bar that will appear to be able to pull those groups and their options into view. You can resize the pane by hovering over the vertical bar separating the Groups and Devices panes. You can also use the left pointer to collapse the Groups pane to give you the maximum view for the Devices Pane.
 
 ![](./images/4_Groups_devices_group_list.png)
 
-To view all the devices in a group, click on a device in the Devices pane. All the devices will be displayed in the right device pane.
+To view all the devices in a group, click on a device in the Group pane. All the devices will be displayed in the right device pane.
 
   
 

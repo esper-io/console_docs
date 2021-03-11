@@ -39,7 +39,7 @@ If you choose alphabetic or alphanumeric, you must set a minimum password length
 
 The password for a device will be set up during the initial setup of the device by the user.
 
-The lock screen must be on in order to set Lock screen password rules. If you select either Alphabetic or Alphanumeric password rules, then the lock screen will be set to On by Esper if it is currently Off.
+The lock screen must be On in order to set Lock screen password rules. If you select either Alphabetic or Alphanumeric password rules, then the lock screen will be set to On by Esper if it is currently Off.
 
   
 
@@ -98,15 +98,15 @@ This application offers a reduced number of settings:
 
 -   Wi-Fi: Change the Wi-Fi access point used by the device.
     
--   Torch: Turn on the Torch (AKA “flashlight”) if the device has a camera flash LED.
+-   Torch: Turn On the Torch (AKA “flashlight”) if the device has a camera flash LED.
     
--   Auto-Rotation: Turn auto-rotation on or off.
+-   Auto-Rotation: Turn auto-rotation On or Off.
     
 -   Factory Reset: Perform a factory reset of the device, regardless of the Compliance Policy applied.
     
 -   Kiosk App: Change the app that runs in kiosk mode. The device user can choose any installed app on the device to act as the kiosk app, with the Esper Console kept in sync on the configuration stats.
     
--   Esper Branding: Turn off the Esper logo on the Home screen.
+-   Esper Branding: Turn Off the Esper logo On the Home screen.
     
 -   About: Supplies information regarding the endpoint name the device is enrolled in, in case the customer has access to multiple Esper endpoints.
     
@@ -119,7 +119,7 @@ Admin mode is protected by a password to prevent unauthorized access. This passw
 
 The default password is 1234. It is possible to set up a template without a password for these features, or just leave the default password; Esper strongly recommends setting up a more complex password for stronger security. The same password will be set for all devices provisioned using the template
 
-*TIP*: If your device is set up in Kiosk mode, the dock will be accessible even if you choose either no settings application or the Android settings application as part of your applied Compliance Policy. That means you should set an appropriate password for the Dock & Esper Settings application if you plan to deploy your devices in Kiosk mode.
+**Note:** A hidden doc is available in both the kiosk mode and the multi-app mode. You can access it with 3-taps on the right corner in kiosk mode or 3-clicks on the power button in multi-app mode. 
 
 ### Manage Android Settings Application via Policy
 
@@ -147,7 +147,7 @@ This setting enables you to restrict the number of Google accounts that can be a
 
 Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](../apps/googlepalysignup.md).
 
-When you turn on the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
+When you turn On the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
 ![](./images/createpolicy/12-factoryreset.png)
 
@@ -155,56 +155,56 @@ Note: Factory reset protection is only available on GMS devices running Android 
 
 ### Lock Screen Configuration via Policy
 
-The lock screen template setting enables the default lock screen to be displayed whenever a device screen times out, according to the default timeout specified in the Settings section. If this is on, the device user will have the option to set the password. The users must enter a password that conforms with the rules.
+The lock screen template setting enables the default lock screen to be displayed whenever a device screen times out, according to the default timeout specified in the Settings section. If this is On, the device user will have the option to set the password. The users must enter a password that conforms with the rules.
 
 
 ### Safe Mode Login Configuration via Policy
 
-When Safe-Mode login is on, users will be able to boot to Safe Mode on the device; when Safe-Mode login is off, users will be unable to boot to Safe Mode.
+When Safe-Mode login is On, users will be able to boot to Safe Mode on the device; when Safe-Mode login is Off, users will be unable to boot to Safe Mode.
 
 
 ### Factory Reset Configuration Control for Android Settings via Policy
 
-Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](./console.md# to prevent hard-key factory reset.
+Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](../provisioning-methods/factory-reset.md) to prevent hard-key factory reset.
 
 
 ### Notification Bar Configuration via Policy
 
-If you want device users to be able to swipe down to see the notification bar, set Notification Bar to on. If you don’t, set it off. You will typically want the notification bar turned off for Android kiosk mode. But, you may choose to leave this setting on if you will request bug report submissions from device users. User bug report requests from Esper generally must be sent via the notification bar.
+If you want device users to be able to swipe down to see the notification bar, set Notification Bar to on. If you don’t, set it off. You will typically want the notification bar turned off for Android kiosk mode. But, you may choose to leave this setting On if you will request bug report submissions from device users. User bug report requests from Esper generally must be sent via the notification bar.
 
 ### Screenshot Configuration via Policy
 
-If you want device users to be able to take screenshots, set Screenshot to on. If you don’t, set it off. Turning this setting off blocks users from taking a screenshot using a hard key sequence or available softkeys.
+If you want device users to be able to take screenshots, set Screenshot to On. If you don’t, set it Off. Turning this setting off blocks users from taking a screenshot using a hard key sequence or available softkeys.
 
 ### Block External Hardware via USB Connectivity Configuration via Policy
 
-USB connectivity allows users to connect USB devices, such as flash drives, digital cameras, mice, or keyboards, to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to on. If you don’t, set it off.
+USB connectivity allows users to connect USB devices, such as flash drive, digital camera, mouse, or keyboard to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to On. If you don’t, set it Off.
 
   
 
 ### SMS Configuration via Policy
 
-SMS controls sending and receiving of SMS, or text, messages. If SMS is turned off, the device will not send or receive text messages from any SMS application. Set SMS to on if you wish to enable sending and receiving of text messages.
+SMS controls sending and receiving of SMS, or text messages. If SMS is turned off, the device will not send or receive text messages from any SMS application. Set SMS to On if you wish to enable sending and receiving of text messages.
 
 ### Outgoing Calls Configuration via Policy
 
-If you want device users to be able to make outgoing calls, set Outgoing Calls to on. If you don’t, set it off.
+If you want device users to be able to make outgoing calls, set Outgoing Calls to On. If you don’t, set it Off.
 
 ### Camera Access Configuration via Policy
 
-If you want device users to be able to use the camera, set Camera Access to on. If you don’t, set it off.
+If you want device users to be able to use the camera, set Camera Access to On. If you don’t, set it Off.
 
 **Note:** Your application can still access the camera if this setting is off.
 
 ### NFC Configuration in Policy
 
-If you want device users to use near-field communication (NFC) on their devices when supported, set NFC to on; if you don’t, set it to off. If any of your applications require NFC, make sure this setting is on.
+If you want device users to use near-field communication (NFC) On their devices when supported, set NFC to On; if you don’t, set it to Off. If any of your applications require NFC, make sure this setting is On.
 
 ### Google Play Store Configuration via Policy
 
 If you want device users to have access to your Managed Google Play Store, set the Google Play Store setting to On; if you don’t, set it to Off.
 
-You’ll still be able to install any approved Google Play Store applications from Esper on if Play Store is turned off. This only applies to GMS devices, as AOSP devices do not include Google Play Store support.
+You’ll still be able to install any approved Google Play Store applications from Esper On if Play Store is turned Off. This only applies to GMS devices, as AOSP devices do not include Google Play Store support.
 
 ### USB Tethering Configuration via Policy
 
@@ -218,7 +218,7 @@ Edit Date and Time If you’d like device users to be able to set device date an
 
 Setting Application Uninstall to On will block application uninstalls locally on the device and via Esper's cloud Console. Set it to off if you need to uninstall applications remotely.
 
-**Note:** You can update your application installed on the device using Esper if Application Uninstall is set to ON.
+**Note:** You can update your application installed on the device using Esper if Application Uninstall is set to On.
 
 ### USB File Transfer Configuration via Policy
 
@@ -234,7 +234,7 @@ If you’d like device users to be able to use voice command via Google Assistan
 
 This feature allows the installation of applications from unknown sources on the device. To enable this on the device, the user needs to follow these instructions. **Settings** >**Apps** and **Notifications** > **Special App Permissions**> Install Unknown Applications and choose the route they wish to install the applications from.
 
-For example, if the device user chooses Chrome, they will be able to download and install applications from the Chrome browser on the device. If turned off, the device user will not be allowed to install applications from any unknown sources.
+For example, if the device user chooses Chrome, they will be able to download and install applications from the Chrome browser on the device. If turned Off, the device user will not be allowed to install applications from any unknown sources.
 
 ![](./images/createpolicy/13-radiosettings.png)
 
@@ -264,13 +264,13 @@ You can add phone numbers or upload a CSV file of contacts to add to the allowed
 
 ### ADB Configuration in the Policy
 
-Android Debug Bridge (ADB) is a command-line tool that provides a Unix shell to communicate with an Android device. If the ADB option is checked in the device’s Compliance Policy, you may turn on ADB via Devices Device > Settings for a configurable time period. If the ADB option is unchecked in the Compliance Policy, ADB cannot be turned on from Settings.
+Android Debug Bridge (ADB) is a command-line tool that provides a Unix shell to communicate with an Android device. If the ADB option is checked in the device’s Compliance Policy, you may turn On ADB via Devices Device > Settings for a configurable time period. If the ADB option is unchecked in the Compliance Policy, ADB cannot be turned On from Settings.
 
 ![](./images/createpolicy/17-ABD.png)
 
 Opening the device ADB port is required on most stock Android devices before the Esper agent can securely connect to the Esper Cloud for ADB debugging. Learn more about using ADB with Esper [here](../devices-groups/device-settings.md).
 
-Note: Turning on ADB from the device is never allowed on any Esper-provisioned device.
+Note: Turning On ADB from the device is never allowed on any Esper-provisioned device.
 
 ### Resetting to Default Settings
 

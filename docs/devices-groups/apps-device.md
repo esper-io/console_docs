@@ -186,7 +186,7 @@ This is useful for applications such as in-ROM applications that cannot be unins
 
 ![](./images/deviceapps/108_Groups_devices_details_screen_app_app_state_disable.png)
 
-**Note**: In-ROM (preloaded) applications cannot be uninstalled. They can be hidden but can not be uninstalled
+**Note**: In-ROM (preloaded) applications cannot be uninstalled. They can be hidden but can not be uninstalled.
 
 Following are the steps to access the application state:
 
@@ -214,7 +214,7 @@ Esper provides users a way to clear application data from the Console on their d
 
   
 
-To access the “Clear data” of any application, click on the ellipsis and select the “clear data” option.
+To access the “Clear data” of any application, click on the ellipsis and select the “Clear Data” option.
 
   
 

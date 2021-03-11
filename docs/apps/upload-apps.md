@@ -44,7 +44,7 @@ Step 4: When the progress bar completes, you will notice an automatically genera
   
   
 
-Step 5: Click **Close** or click outside of the window to exit the application upload screen. This will complete the application upload. Once successful uploaded, your Enterprise application will be shown under the “Uploaded Apps” section.
+Step 5: Click **Close** or click outside of the window to exit the application upload screen. This will complete the application upload. Once successful uploaded, your Enterprise application will be shown under the “Esper Cloud Apps” section.
 
 ![](./images/uploadApp/5-uploadAppFilemanager.png)
 
