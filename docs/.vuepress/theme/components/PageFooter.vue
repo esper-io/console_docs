@@ -48,7 +48,7 @@
           <PageEdit />
         </p>
         <p>
-          <a href="https://craftcms.com/contact" target="_blank" rel="noopener">
+          <a href="mailto:support@esper.io">
             <span class="right-footer-icon">
               <Envelope />
             </span>
@@ -56,11 +56,11 @@
           </a>
         </p>
         <p>
-          <a href="https://craftcms.com/" target="_blank" rel="noopener">
+          <a href="/" >
             <span class="right-footer-icon">
               <Reply />
             </span>
-            back to esper.io
+            back to console docs
           </a>
         </p>
         <div class="switch-wrapper block xl:hidden">

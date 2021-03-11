@@ -1,5 +1,5 @@
 <template>
-  <div class="right-bar">
+  <div  class="right-bar">
     <div class="switch-wrapper hidden xl:block">
       <ColorModeSwitch v-on="$listeners" :on="isDark" />
     </div>
@@ -10,12 +10,12 @@
         :items="headingItems"
         fixed-heading="On this Page"
       />
-      <SidebarLinks
+      <!-- <SidebarLinks
         :depth="depth"
         :sidebar-depth="$page.frontmatter.sidebarDepth || sidebarDepth"
         :items="headingItems"
         fixed-heading="Related links and help"
-      />
+      /> -->
     </div>
   </div>
 </template>
@@ -50,6 +50,7 @@ export default {
 
 <style lang="postcss">
 .right-bar {
+  pointer-events: none; 
   @apply w-64 absolute right-0 top-0 bottom-0 hidden;
 
   .sidebar-heading {
