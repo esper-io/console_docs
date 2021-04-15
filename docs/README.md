@@ -25,7 +25,7 @@ Navigate directly to the section you want to explore.
      link="/provisioning-methods/" 
       />
       <LinkPanel 
-    title="Provisioning Tempates"
+    title="Provisioning Templates"
     icon="/icons/homepage/templates.png"
     subtitle="Learn about enrolling multiple devices with a specific configuration here."
      link="/provisioning-template/" 
