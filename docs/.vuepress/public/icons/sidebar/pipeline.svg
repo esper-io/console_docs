@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar_menu_icons_dark" transform="translate(-27.000000, -677.000000)">
+            <g id="Group-9" transform="translate(27.000000, 677.000000)">
+                <path d="M7.3929,7.3926 C4.8489,7.3926 2.7859,9.4556 2.7859,11.9996 C2.7859,14.5446 4.8479,16.6076 7.3929,16.6076 C9.9379,16.6076 11.9999,14.5446 11.9999,11.9996 C11.9999,9.4556 14.0629,7.3926 16.6069,7.3926 C19.1519,7.3926 21.2139,9.4556 21.2139,11.9996 C21.2139,14.5446 19.1519,16.6076 16.6069,16.6076" id="Stroke-3" stroke="#8696ab" stroke-width="1.5" stroke-linecap="round"></path>
+                <polyline id="Stroke-5" stroke="#8696ab" stroke-width="1.5" stroke-linecap="round" points="7.0882 9.2354 8.9652 7.3584 7.1572 5.5494"></polyline>
+                <polyline id="Stroke-7" stroke="#8696ab" stroke-width="1.5" stroke-linecap="round" points="16.8782 18.4502 15.0012 16.5722 16.8092 14.7642"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

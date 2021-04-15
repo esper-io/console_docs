@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar_menu_icons_dark" transform="translate(-138.000000, -438.000000)">
+            <g id="Apps-Copy" transform="translate(138.000000, 438.000000)">
+                <path d="M10,10 L3,10 L3,5 C3,3.896 3.896,3 5,3 L10,3 L10,10 Z" id="Stroke-3" stroke="#8696ab" stroke-width="1.5"></path>
+                <path d="M21,10 L14,10 L14,3 L19,3 C20.104,3 21,3.896 21,5 L21,10 Z" id="Stroke-5" stroke="#8696ab" stroke-width="1.5"></path>
+                <path d="M10,21 L5,21 C3.896,21 3,20.104 3,19 L3,14 L10,14 L10,21 Z" id="Stroke-7" stroke="#8696ab" stroke-width="1.5"></path>
+                <path d="M12.75,17.25 L21.75,17.25" id="Stroke-9" stroke="#8696ab" stroke-width="1.5"></path>
+                <path d="M17.25,21.75 L17.25,12.75" id="Stroke-11" stroke="#8696ab" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
