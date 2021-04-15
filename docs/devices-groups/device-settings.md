@@ -310,13 +310,7 @@ Wi-Fi EAP Method is a drop-down with the following options:
 -   PEAP-
     
 
-    Phase 2 Authentication: None
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
+    Phase 2 Authentication
 
     Identity (Optional)
 
@@ -326,25 +320,9 @@ Wi-Fi EAP Method is a drop-down with the following options:
 
 -   TLS-
     
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
-
     Identity (Optional)
 
 -   TTLS-
-    
-
-    Phase 2 Authentication: None
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
 
     Identity (Optional)
 
@@ -366,13 +344,6 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
 -   NONE
 -   PAP
     
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
-
     Identity (Optional)
 
     Anonymous Identity (Optional)
@@ -381,13 +352,6 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
 
 -   MSCHAP
     
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
-
     Identity (Optional)
 
     Anonymous Identity (Optional)
@@ -395,28 +359,13 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
     Password
 
 -   MSCHAPV2
-    
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
-
-    Identity (Optional)
-
+   
     Anonymous Identity (Optional)
 
     Password
 
 -   GTC
-    
-
-    CA Certificate: Use system certificate
-
-    Domain
-
-    Do not valid
+   Do not valid
 
     Identity (Optional)
 
