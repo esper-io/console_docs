@@ -27,5 +27,5 @@ To view the devices in relation to your geofence, navigate to the ‘Devices on 
 ![device on fence tab](./images/deviceRelation.png)
 
 :::tip
-Geofencing performance depends on the quality of GPS built into the devices. Also, your ability to track device location is dependent on Wi-Fi, Bluetooth, cellular connectivity, and internet connectivity. Geofencing is not supported for Android version 4.x.
+Geofencing performance depends on the quality of GPS built into the devices. Also, your ability to track device location is dependent on Wi-Fi, Bluetooth, cellular connectivity, and internet connectivity. Geofence is supported on Android 5 (Lollipop) and above.
 :::
