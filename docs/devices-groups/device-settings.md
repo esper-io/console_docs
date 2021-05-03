@@ -293,10 +293,13 @@ When you are adding a new access point, you have four fields to configure: Wi-Fi
     
 **None**: None is a open type network.
 Requirement: SSID
+
 **WEP**: WEP is a open type network with password.
-Requirements: SSID, Password
+Requirements: SSID, Password (limit: 13 characters)
+
 **WPA** :Android refers to WPA as WPA/WPA2 but technically WPA and WPA2 are little different from each other. WPA is an enhanced version of WEP.
-Requirements: SSID,Password
+ß
+Requirements: SSID,Password (limit: 63 characters)
 **EAP**: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
 
 ![wifi access point](./images/devicesettings/19_Groups_devices_details_screen_settings_add_WAP.png)
