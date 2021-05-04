@@ -20,9 +20,9 @@ Choose the ‘View on Map’ option from the drop-down menu. This will display t
 ![possible actions](./images/deviceactions/2-viewmap.png)
 
   
-
-**Note**: Maps will be opened in a new window.
-
+:::
+Map will be opened in a new window.
+:::
   
 
 ### Add Tags
@@ -66,9 +66,9 @@ In the grid view, there is an additional action to change the device icon. To ac
 On the pop-up, you will see the list of icons available. Esper allows you to set the icon for all the devices with the same model or to a particular device.
 
   
-
-**Note**: This option is available only in the Grid View.
-
+:::
+This option is available only in the Grid View.
+:::
   
 
 ![possible actions](./images/deviceactions/6-deviceicon.png)
