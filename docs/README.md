@@ -42,14 +42,6 @@ Navigate directly to the section you want to explore.
 
 <div class="sm:flex sm:flex-wrap">
     <div class="py-1 sm:w-1/2 sm:py-0">
-        <IconLink title="Extended Documentation"
-            subtitle="Read about other Esper components."
-            link="https://docs.esper.io"
-            icon="/icons/icon-knowledge-base.svg"
-            icon-size="large"
-        />
-    </div>
-    <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Esper Blog"
             subtitle="Read articles published by Esper team."
             link="https://blog.esper.io"
@@ -70,6 +62,14 @@ Navigate directly to the section you want to explore.
             subtitle="Learn more about Esper APIs."
             link="https://api.esper.io/"
             icon="/icons/link-list.svg"
+            icon-size="large"
+        />
+    </div>
+    <div class="py-1 sm:w-1/2 sm:py-0">
+        <IconLink title="Extended Documentation"
+            subtitle="Read about other Esper components - API, SDK, CLI, etc"
+            link="https://docs.esper.io"
+            icon="/icons/icon-knowledge-base.svg"
             icon-size="large"
         />
     </div>
