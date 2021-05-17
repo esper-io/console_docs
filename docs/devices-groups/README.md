@@ -46,7 +46,7 @@ All the devices in a selected group wilol be displayed on the right Devices pane
 
 Click on the name of the device to acces the device's details.
 
-![devices pane](./images/grouppane/142_Groups_devices_main_screen_group_name.png)
+![devices pane](./images/4b_group_pane.png)
   
   
 
