@@ -58,16 +58,16 @@ Navigate directly to the section you want to explore.
         />
     </div>
     <div class="py-1 sm:w-1/2 sm:py-0">
-        <IconLink title="API Documentation"
-            subtitle="Learn more about Esper APIs."
-            link="https://api.esper.io/"
+        <IconLink title="Esper Support"
+            subtitle="Our support forum with commonly asked questions and solutions."
+            link=" https://support.esper.io/support/home"
             icon="/icons/link-list.svg"
             icon-size="large"
         />
     </div>
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Extended Documentation"
-            subtitle="Read about other Esper components - API, SDK, CLI, etc"
+            subtitle="Read about other Esper components - API, SDK, CLI."
             link="https://docs.esper.io"
             icon="/icons/icon-knowledge-base.svg"
             icon-size="large"
