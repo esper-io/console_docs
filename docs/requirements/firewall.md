@@ -4,7 +4,7 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 
 ### URLs
 
--   *.amazonaws.com
+-   *.amazonaws.com (443 and 8883)
 -   [mqtt.shoonyacloud.com:1883](http://mqtt.shoonyacloud.com:1883/) (device telemetry/management)
 -   [customer endpoint].esper.cloud:443
 -   [customer-endpoint]-api.esper.cloud
