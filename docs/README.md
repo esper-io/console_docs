@@ -60,7 +60,7 @@ Navigate directly to the section you want to explore.
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Esper Support"
             subtitle="Our support forum with commonly asked questions and solutions."
-            link=" https://support.esper.io/support/home"
+            link="https://support.esper.io/"
             icon="/icons/link-list.svg"
             icon-size="large"
         />
