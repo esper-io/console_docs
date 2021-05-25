@@ -26,3 +26,15 @@ You will be able to view the line run preview for the pipeline. Here, you will b
   
 
 ![Run pipeline](./images/viewV2/2-livePreview.png)
+
+
+When you click the “View Results” link, you will see details of the pipeline. Here you can find the list of targets, the operation performed, the start date and time, and the status of the pipeline. You also have the ability to cancel the running of the pipeline.
+
+  
+
+![View Results](./images/viewV2/3-viewResults.png)
+  
+
+:::tips
+The Cancel button will be disabled once the pipeline is successfully completed.
+:::
