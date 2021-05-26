@@ -30,6 +30,7 @@
     "vuepress-plugin-container": "2.1.5",
     "vuepress-plugin-medium-zoom": "1.1.9",
     "vuepress-plugin-sitemap": "2.3.1",
+    "vuepress-plugin-google-tag-manager": "0.0.5",
     "vuex": "3.6.2"
   },
   "scripts": {

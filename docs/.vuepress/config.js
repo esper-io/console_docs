@@ -1,7 +1,7 @@
 module.exports = {
   base: "/",
   plugins: [
-    ["@vuepress/google-analytics", { ga: "UA-39036834-9" }],
+    ['vuepress-plugin-google-tag-manager', { gtm: 'GTM-WSQ32KQ'}],
     [
       'sitemap',
       {
