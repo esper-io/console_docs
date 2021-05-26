@@ -2,7 +2,7 @@
 
 Esper Pipelines enable you to ensure smooth completion of actions on large fleets of devices by providing a way to automate them. Using a pipeline you define the stages through which the actions must complete and the events that trigger each of those stages, providing an effective way to control complex or large processes.
 
-Esper Pipelines currently supports application installation and Esper Agent updates. It requires the user to manually promote to the next stage. Following are the key terms related to pipelines:
+Esper Pipelines currently supports application installation. It requires the user to manually promote to the next stage. Following are the key terms related to pipelines:
 
 
 *Pipeline* - A chain of processes/functions connected in a serial manner.
@@ -13,7 +13,7 @@ Esper Pipelines currently supports application installation and Esper Agent upda
 
 *Target* - Destination intended for a specific operation in each stage. For instance, if the operation is installing an application, the target is the device/list of devices the application is being installed.
 
-*Job* - The action performed (operation) as part of a pipeline. For instance, a pipeline could have two separate jobs - one for application installation, another for Esper Agent updates.
+*Job* - The action performed (operation) as part of a pipeline. For instance, a pipeline could have two separate jobs - for installing two different applications.
 
 *Run* - An instance of pipeline in execution.
 
