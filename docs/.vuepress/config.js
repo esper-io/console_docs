@@ -78,7 +78,7 @@ module.exports = {
       require('./sets/api-key-management'),
       require('./sets/misc'),
     ],
-    docsRepo: "esper-io/dev-docs",
+    docsRepo: "esper-io/console_docs",
     docsDir: "docs",
     docsBranch: "main",
     searchPlaceholder:
