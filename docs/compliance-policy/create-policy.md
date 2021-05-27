@@ -100,6 +100,7 @@ This application offers the following settings:
 -   Esper Branding: Turn Off the Esper logo on the 'Home' screen.
 -   About: Supplies information regarding the endpoint name the device is enrolled in, in case the customer has access to multiple Esper endpoints.
 -   Mobile Data: Access mobile data on the device.
+-   Clear App Data: Clears the data and cache for a particular application.
 -   Display: Manage screen rotation, screen brightness and screen timeout.
 -   Sound: Manage ringtone, alarm, device volume and the notification volume.
 -   Reboot: Ability to reboot the device.
