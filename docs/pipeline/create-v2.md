@@ -45,7 +45,7 @@ Use the switch to move between groups and devices. Click **Done** when you have 
 ![add targets](./images/createV2/11-selectedDevice.png)
 
 
-:::tips
+::: tip
 You can add a list of devices or groups in one stage but not both.
 :::
 

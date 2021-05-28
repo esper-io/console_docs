@@ -14,7 +14,7 @@ Step 1: Once you have created the pipeline and added the operations and the targ
 Step 2: The status of the run is displayed. Here, you can use the ‘Active’ toggle button to set the pipeline ON/OFF.
 
   
-:::tips
+::: tip
 You cannot run an inactive pipeline.
 :::
 
@@ -22,7 +22,7 @@ You cannot run an inactive pipeline.
 ![Run pipeline](./images/runV2/2-displayPipeline.png)
   
 
-:::tips
+::: tip
 Only one instance of a pipeline can be run at a time.
 :::
   
