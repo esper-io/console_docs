@@ -17,11 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           "",
-          "create-pipeline",
-          "edit-pipeline",
-          "delete-pipeline",
-          "create-job",
-         "run-job",
+          "create-v2",
+          "edit-v2",
+          "run-pipelinev2",
+          "view-pipelinev2",
+         "delete-v2",
         ]
       },
     ]

@@ -12,7 +12,7 @@ Step 1: On the Pipeline landing page, click the ‘View Details’ link for the 
 Step 2: Click the ‘View Run’ link to view the live run preview for the pipeline. You can use the ‘Active’ pipeline toggle switch to turn the pipeline ON/OFF on the pipeline details.
 
   
-:::tips
+::: tip
 You cannot run an inactive pipeline.
 :::
   
@@ -35,6 +35,6 @@ When you click the “View Results” link, you will see details of the pipeline
 ![View Results](./images/viewV2/3-viewResults.png)
   
 
-:::tips
+::: tip
 The Cancel button will be disabled once the pipeline is successfully completed.
 :::
