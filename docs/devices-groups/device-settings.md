@@ -121,7 +121,7 @@ For online devices, the factory reset option will be enabled by default.
   
   
 
-![Remove Device button](./images/devicesettings/9_Groups_devices_details_screen_settings_quick_actions_Remove_Factory_ResetDevice.png)
+![Remove Device button](./images/devicesettings/9-Remove_Factory_reset.png)
 
   
 
