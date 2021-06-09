@@ -92,7 +92,7 @@ Esper setting application has two modes:
 
 This application offers the following settings:
 
--   Wi-Fi: Change the Wi-Fi access point used by the device.
+-   Wi-Fi: Change the Wi-Fi access point used by the device. In Android 10 devices and above, it is recommended to enable GPS to view the network information on the device’s Wi-Fi screen. In the devices below Android 10, enabled GPS is needed to display scanned network information.
 -   Flashlight: Turn On the Torch (AKA “flashlight”) if the device has a camera flash LED.
 -   Auto-Rotation: Turn auto-rotation On or Off.
 -   Factory Reset: Perform a factory reset of the device, regardless of the compliance policy applied.
