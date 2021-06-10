@@ -123,7 +123,7 @@ The default password is 1234. It is possible to set up a template without a pass
 A hidden doc is available in both the kiosk mode and the multi-app mode. You can access it with 3-taps on the right corner in kiosk mode or 3-clicks on the power button in multi-app mode. 
 :::
 
-You can now launch the Esper Setting or Wi-Fi settings directly from the third-party application. If the 3-tap or power button is not available, you can send intent to open the Esper settings or wifi menu now from your application. 
+**Open Esper Settings or Wi-Fi settings directly-** You can now launch the Esper Setting or Wi-Fi settings directly from the third-party application. If the 3-tap or power button is not available, you can send intent to open the Esper settings or wifi menu now from your application. 
 
 ```java
 fun launchEsperSettings() {
