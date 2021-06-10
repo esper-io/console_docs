@@ -125,12 +125,14 @@ A hidden doc is available in both the kiosk mode and the multi-app mode. You can
 
 You can now launch the Esper Setting or Wi-Fi settings directly from the third-party application. If the 3-tap or power button is not available, you can send intent to open the Esper settings or wifi menu now from your application. 
 
-        fun launchEsperSettings() {
-       val intent = Intent()
-       intent.component = ComponentName("io.shoonya.shoonyadpc", "com.shoonyaos.shoonyasettings.activities.MainActivity")
-       intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-       startActivity(intent)
-       }
+```java
+fun launchEsperSettings() {
+        val intent = Intent()
+        intent.component = ComponentName("io.shoonya.shoonyadpc", "com.shoonyaos.shoonyasettings.activities.MainActivity")
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+        startActivity(intent)
+}
+```
 
 ### Manage Android Settings Application via Policy
 
