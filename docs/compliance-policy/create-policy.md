@@ -92,7 +92,7 @@ Esper setting application has two modes:
 
 This application offers the following settings:
 
--   Wi-Fi: Change the Wi-Fi access point used by the device.
+-   Wi-Fi: Change the Wi-Fi access point used by the device. In Android 10 devices and above, it is recommended to enable GPS to view the network information on the device’s Wi-Fi screen. In the devices below Android 10, enabled GPS is needed to display scanned network information.
 -   Flashlight: Turn On the Torch (AKA “flashlight”) if the device has a camera flash LED.
 -   Auto-Rotation: Turn auto-rotation On or Off.
 -   Factory Reset: Perform a factory reset of the device, regardless of the compliance policy applied.
@@ -122,6 +122,15 @@ The default password is 1234. It is possible to set up a template without a pass
 :::tip
 A hidden doc is available in both the kiosk mode and the multi-app mode. You can access it with 3-taps on the right corner in kiosk mode or 3-clicks on the power button in multi-app mode. 
 :::
+
+You can now launch the Esper Setting or Wi-Fi settings directly from the third-party application. If the 3-tap or power button is not available, you can send intent to open the Esper settings or wifi menu now from your application. 
+
+        fun launchEsperSettings() {
+       val intent = Intent()
+       intent.component = ComponentName("io.shoonya.shoonyadpc", "com.shoonyaos.shoonyasettings.activities.MainActivity")
+       intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+       startActivity(intent)
+       }
 
 ### Manage Android Settings Application via Policy
 

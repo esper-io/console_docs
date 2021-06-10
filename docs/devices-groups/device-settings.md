@@ -380,6 +380,8 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
 -   AKA
 -   AKA_PRIME
 
+In Android 10 and above, when a WiFi access point is added directly from the device, it is recommended that GPS is ON so that  WiFi access point can reflect back on the Console.
+
 ###  Location Settings
 
   
