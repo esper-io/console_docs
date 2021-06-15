@@ -261,6 +261,10 @@ This feature allows the installation of applications from unknown sources on the
 
 For example, if the device user chooses Chrome, they will be able to download and install applications from the Chrome browser on the device. If turned Off, the device user will not be allowed to install applications from any unknown sources.
 
+### Bluetooth setting via Policy
+If you would like the device user to use bluetooth on the device, set the bluetooth toggle button to On; if you don’t, set it to Off.
+
+
 ![Toggle buttons](./images/createpolicy/13-radiosettings.png)
 
 ### Allow List Configuration for Incoming and Outgoing Calls via Policy
