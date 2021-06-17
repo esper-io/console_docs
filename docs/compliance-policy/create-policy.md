@@ -97,6 +97,7 @@ This application offers the following settings:
 -   Auto-Rotation: Turn auto-rotation On or Off.
 -   Factory Reset: Perform a factory reset of the device, regardless of the compliance policy applied.
 -   Kiosk App Selection: Change the app that runs in kiosk mode. The device user can choose any installed app on the device to act as the kiosk app, with the Esper Console kept in sync on the configuration stats.
+- Storage: Helps to grant permissions to any directories on the device. On devices running Android 10 or below, it is advised that the admins inform the users to grant permissions to the root folder. On Android 11 devices, permission cannot be granted to the root folders and download folder.
 -   Esper Branding: Turn Off the Esper logo on the 'Home' screen.
 -   About: Supplies information regarding the endpoint name the device is enrolled in, in case the customer has access to multiple Esper endpoints.
 -   Mobile Data: Access mobile data on the device.
