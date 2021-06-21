@@ -108,7 +108,7 @@ This application offers the following settings:
 -   Keyboard: Navigate to Android settings on the Android 8.1 and lower devices to change the keyboard settings.
 -   Accessibility: Navigate to Android settings on the Android 8.1 and lower devices to change the accessibility settings.
 -   Input Selection: Navigate to Android settings on the Android 8.1 and lower devices to change the input selection for the device.
--   Bluetooth: Navigate to Android settings on the Android 8.1 and lower devices to change the bluetooth setting.
+-   Bluetooth: Navigate to Android settings on the Android 8.1 and lower devices to change the Bluetooth setting.
 -   Language: Navigate to Android settings on the Android 8.1 and lower devices to change the language setting.
 -   Date and Time: Navigate to Android settings on the Android 8.1 and lower devices to change the date and time for the device.
 
