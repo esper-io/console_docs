@@ -163,7 +163,7 @@ The Google Account Restriction feature is applicable only to Google Mobile Servi
 
 ### Protect Device from Hard/Soft Factory Reset via Policy
 
-Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](https://docs.esper.io/home/console/policy-management/getgoogleaccount.html#how-to-get-google-id-and-use-frp-factory-reset-protection-feature).
+Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found in the [here](./frp.md).
 
 When you turn On the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 

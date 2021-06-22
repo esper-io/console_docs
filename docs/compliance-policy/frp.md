@@ -15,7 +15,9 @@ Click **Allow** on this screen-
 
 A pop-up will appear in the lower right corner. Copy the id from this response.
 
-**Note**: This "id" is the Google Account Id that you need to enter on the Esper Dashboard under the Factory Reset Protection button on the Policy page.
+:::tip
+This "id" is the Google Account Id that you need to enter on the Esper Dashboard under the Factory Reset Protection button on the Policy page.
+:::
 
 ![Esper Get Google Account Id](./images/frp/4-googleaccountid.png)
 
@@ -30,4 +32,4 @@ Once your device is factory reset, you will see the following screen on boot. En
 ![Esper Get Google Account Id](./images/frp/5-factoryresetdevice.png)
 An unauthorized user can not get through this security feature which protects the device against unauthorized factory reset.
 
-If you forget your google account id or cannot use this feature and have more questions, contact us at [Esper support](support@esper.io).
+If you forget your google account id or cannot use this feature and have more questions, send us an email at ([support@esper.io](mailto:support@esper.io)). 
