@@ -20,6 +20,7 @@ module.exports = {
          "create-policy",
          "apply-policy",
          "edit-policy",
+         "frp",
          "duplicate-policy",
          "delete-policy", 
         ]
