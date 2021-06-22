@@ -19,6 +19,9 @@ Step 3:  Provide the destination file path on the devices. One example of an int
 Once complete, click **Transfer**. 
 
 You can transfer files to internal storage or removable storage device like SD cards. All the removable storage devices will have a unique eight-character ID. You just need to add a prefix "ESPER_EXTERNAL" if the ID is not known.
+
+You can append the path with the "forced/" keyword ("forced/storage/emulated/0/Esper/NewFolder/"), which will ask users permission for that directory (if the directory exists). On granting access, the files will be saved anywhere in internal storage, public directories, and removable storage. 
+
  
 
 ![Specify path for file transfer](./images/transfer/3-transferButton.png)
