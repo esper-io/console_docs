@@ -23,13 +23,14 @@ This "id" is the Google Account Id that you need to enter on the Esper Dashboard
 
 Entering this ID under the Factory Reset Toggle button on Policy (or Template) will authorize the user to unlock the device post factory reset.
 
-As a result, an unauthorized user can not simply factory reset your device and use it against your permission.
+As a result, an unauthorized user cannot simply factory reset your device and use it against your permission.
 
 ## On the Device
 
 Once your device is factory reset, you will see the following screen on boot. Enter the email account corresponding to the Google Account ID entered in policy, and the device will get unlocked!
 
 ![Esper Get Google Account Id](./images/frp/5-factoryresetdevice.png)
-An unauthorized user can not get through this security feature which protects the device against unauthorized factory reset.
+
+An unauthorized user cannot get through this security feature which protects the device against unauthorized factory reset.
 
 If you forget your google account id or cannot use this feature and have more questions, send us an email at ([support@esper.io](mailto:support@esper.io)). 
