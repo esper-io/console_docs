@@ -23,7 +23,7 @@ You can transfer files to internal storage or removable storage device like SD c
 You can append the path with the "forced/" keyword (example:"forced/storage/emulated/0/Esper/NewFolder/"), which will ask users permission for that directory (if the directory exists). On granting access, the files will be saved anywhere in internal storage, public directories, and removable storage. 
 
 :::tip
-This feature is available in Esper Agent version v7.4.9751 and above.
+The ability to store files anywhere is available in Esper Agent version v7.4.9751 and above. Please reach out to ([Esper support](mailto:support@esper.io)) for this version.
 :::
  
 

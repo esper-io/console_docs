@@ -268,6 +268,11 @@ If you would like the device user to use Bluetooth on the device, set the Blueto
 
 ![Toggle buttons](./images/createpolicy/13-radiosettings.png)
 
+:::tip
+The Bluetooth settingg is available in Esper Agent version v7.4.9751 and above. Please reach out to ([Esper support](mailto:support@esper.io)) for this version.
+:::
+ 
+
 ### Allow List Configuration for Incoming and Outgoing Calls via Policy
 
 Selecting allow all incoming and outgoing calls button will not block any caller. 
