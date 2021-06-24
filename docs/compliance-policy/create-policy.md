@@ -97,7 +97,7 @@ This application offers the following settings:
 -   Auto-Rotation: Turn auto-rotation On or Off.
 -   Factory Reset: Perform a factory reset of the device, regardless of the compliance policy applied.
 -   Kiosk App Selection: Change the app that runs in kiosk mode. The device user can choose any installed app on the device to act as the kiosk app, with the Esper Console kept in sync on the configuration stats.
-- Storage: Helps to grant permissions to any directories on the device. On devices running Android 10 or below, it is advised that the admins inform the users to grant permissions to the root folder. On Android 11 devices, permission cannot be granted to the root folders and download folder.
+- Storage: Helps to grant permissions to any directories on the device. On devices running Android 10 or below, it is advised that the Console admins inform the users to grant permissions to the root folder. On Android 11 devices, permission cannot be granted to the root folders and download folder.
 -   Esper Branding: Turn Off the Esper logo on the 'Home' screen.
 -   About: Supplies information regarding the endpoint name the device is enrolled in, in case the customer has access to multiple Esper endpoints.
 -   Mobile Data: Access mobile data on the device.
@@ -108,7 +108,7 @@ This application offers the following settings:
 -   Keyboard: Navigate to Android settings on the Android 8.1 and lower devices to change the keyboard settings.
 -   Accessibility: Navigate to Android settings on the Android 8.1 and lower devices to change the accessibility settings.
 -   Input Selection: Navigate to Android settings on the Android 8.1 and lower devices to change the input selection for the device.
--   Bluetooth: Navigate to Android settings on the Android 8.1 and lower devices to change the Bluetooth setting.
+-   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting.
 -   Language: Navigate to Android settings on the Android 8.1 and lower devices to change the language setting.
 -   Date and Time: Navigate to Android settings on the Android 8.1 and lower devices to change the date and time for the device.
 
@@ -263,7 +263,7 @@ This feature allows the installation of applications from unknown sources on the
 For example, if the device user chooses Chrome, they will be able to download and install applications from the Chrome browser on the device. If turned Off, the device user will not be allowed to install applications from any unknown sources.
 
 ### Bluetooth setting via Policy
-If you would like the device user to use bluetooth on the device, set the bluetooth toggle button to On; if you don’t, set it to Off.
+If you would like the device user to use Bluetooth on the device, set the Bluetooth toggle button to On; if you don’t, set it to Off.
 
 
 ![Toggle buttons](./images/createpolicy/13-radiosettings.png)
