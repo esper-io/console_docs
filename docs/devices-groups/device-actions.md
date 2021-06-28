@@ -36,7 +36,10 @@ Choose the ‘Add Tags’ option to add tags. Tags help you identify the device.
 
 Click **ADD** button to  add a tag. Clicking **Close** will take you back to the ‘Device and Group’ landing page.
 
-  
+:::tip
+Using the drop-down you can also choose from the perviously added tags.
+:::
+ 
 
 ### Rename Device
 
