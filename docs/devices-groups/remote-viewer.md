@@ -50,7 +50,7 @@ While in Full-Screen mode using Remote Control, a widget at the middle of the sc
 To exit the Full-screen view, simply press esc on your PC’s keyboard.
 
 :::tip
-For Esper Agent versions v7.4.9891 and below, Remote Viewing will work but Remote Control won't work through accessibility service. However, the Remote Control and Remote Viewer will continue to work with the supervisor and Knox.
+For Esper Agent versions v7.4.9891 and below, Remote Viewing will work, but Remote Control won't work through accessibility service. However, the Remote Control and Remote Viewer will continue to work with the supervisor and Knox.
 
 :::
 
