@@ -4,7 +4,7 @@ Remote Viewer enables you to view the  device's current screen on your Console. 
 
 **Note:** Only a single device-to-Esper Console session is allowed at a time. 
 
-If you have the ‘Group Viewer’ user role, you can remotely view the device. However, you won’t be able to control the device.
+If you have the ‘Viewer’ role, you can remotely view the device. However, you won’t be able to control the device.
 
 
 ### Setup Remote Viewer on a Single Device
