@@ -51,7 +51,7 @@ To exit the Full-screen view, simply press esc on your PC’s keyboard.
 
 :::tip
 For Esper Agent versions v7.4.9891 and below, Remote Viewing will work, but Remote Control won't work through accessibility service. However, the Remote Control and Remote Viewer will continue to work with the supervisor and Knox.
-
+Click [here](./agent-version.md). if you need help finding the Esper Agent Version.
 :::
 
 ### Capturing a Screenshot on a Device
