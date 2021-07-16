@@ -70,7 +70,7 @@ There is a recorded history of all screenshots captured per device at the bottom
 
 On Esper Enhanced Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
 
-:::tips
+:::tip
 Please make sure the device is unlocked before you start the Remote Controller session.
 :::
 
