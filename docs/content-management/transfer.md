@@ -27,6 +27,7 @@ The ability to store files anywhere is available in Esper Agent version v7.4.975
 :::
  
 The admins can push files to to multiple SD cards at the same time using the scheme format (scheme: path). The scheme will be common to all the devices. 
+
 E.g. internal://download/Esper/Notes in this, the scheme internal translates to: /storage/emulated/0.
 
 Esper is introducing the following 6 schemes:
