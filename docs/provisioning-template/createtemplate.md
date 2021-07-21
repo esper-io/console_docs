@@ -187,6 +187,8 @@ If the Android Settings Application is enabled for a device in Multi-application
 
 You can set the language for the device under ‘Device Language’ while creating or editing a template.  You can choose a language while provisioning a device using the 6 tap QR code method or the Android For Work (AFW) method.  
 
+![device language](./images/createtemplate/31a_DeviceLanguage.png)
+
 :::tip
 The device language cannot be set post-provisioning.This language setting will not be applied when provisioning the device using the device provisioner or seamless provisioning. 
 :::
