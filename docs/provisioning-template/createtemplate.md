@@ -185,13 +185,17 @@ The Settings section lets you determine levels for most of the device settings: 
 If the Android Settings Application is enabled for a device in Multi-application mode, the device user can access these settings and change them on the device.
 :::
 
-  
+You can set the language for the device under ‘Device Language’ while creating or editing a template.  You can choose a language while provisioning a device using the 6 tap QR code method or the Android For Work (AFW) method.  
+
+:::tip
+The device language cannot be set post-provisioning.This language setting will not be applied when provisioning the device using the device provisioner or seamless provisioning. 
+:::
 
 To learn more about individual setting details check the link below:
 
   
 
-**[Managing and controlling settings for a single device](../devices-groups/apps-device.md)**
+**[Managing and controlling settings for a single device](../devices-groups/device-settings.md)**
 
 ### Link a Device Group to a Template
 
