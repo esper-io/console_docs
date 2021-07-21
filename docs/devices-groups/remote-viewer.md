@@ -4,6 +4,9 @@ Remote Viewer enables you to view the  device's current screen on your Console. 
 
 **Note:** Only a single device-to-Esper Console session is allowed at a time. 
 
+If you have the ‘Viewer’ role, you can remotely view the device. However, you won’t be able to control the device.
+
+
 ### Setup Remote Viewer on a Single Device
  
 
@@ -46,6 +49,10 @@ While in Full-Screen mode using Remote Control, a widget at the middle of the sc
 
 To exit the Full-screen view, simply press esc on your PC’s keyboard.
 
+:::tip
+For Esper Agent versions below 7.5.0005, Remote Viewing will work, but Remote Control won't work through accessibility service. However, the Remote Control and Remote Viewer will continue to work with the supervisor and Knox.
+Click [here](./agent-version.md). if you need help finding the Esper Agent Version.
+:::
 
 ### Capturing a Screenshot on a Device
 
@@ -63,7 +70,7 @@ There is a recorded history of all screenshots captured per device at the bottom
 
 On Esper Enhanced Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
 
-:::tips
+:::tip
 Please make sure the device is unlocked before you start the Remote Controller session.
 :::
 
