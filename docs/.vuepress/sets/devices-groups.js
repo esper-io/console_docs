@@ -46,7 +46,6 @@ module.exports = {
           "group-move",
           "group-policy",
           "group-rename",
-          "group-updates",
           "groups-feed",
           "groups-settings",
           "group-delete",
