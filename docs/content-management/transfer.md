@@ -26,6 +26,20 @@ You can append the path with the "forced/" keyword (example:"forced/storage/emul
 The ability to store files anywhere is available in Esper Agent version v7.4.9751 and above. Please reach out to [Esper support](mailto:support@esper.io) for this version.
 :::
  
+The admins can push files to multiple SD cards at the same time using the scheme format (scheme: path). The scheme will be common to all the devices. 
+
+E.g. internal://download/Esper/Notes in this, the scheme internal translates to: /storage/emulated/0.
+
+Esper is introducing the following 6 schemes:
+ - internal- Translates to: /storage/emulated/0
+ - external- Translates to: /storage/SD-card ID
+ - forced_internal- Translates to: /storage/emulated/0
+ - forced_external- Translates to: /storage/SD-card ID
+ - esper_internal- Translates to:
+ /storage/emulated/0/Android/data/io.shoonya.shoonyadpc/files
+ - esper_external- Translates to: /storage/3M110ECD/Android/data/io.shoonya.shoonyadpc/files
+
+Please contact [Esper](support@esper.io) to know more about this feature.
 
 ![Specify path for file transfer](./images/transfer/3-transferButton.png)
 

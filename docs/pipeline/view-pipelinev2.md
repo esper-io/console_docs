@@ -17,16 +17,11 @@ You cannot run an inactive pipeline.
 :::
   
 
-![Run pipeline](./images/viewV2/2-ViewRun.png)
+![Run pipeline](./images/viewV2/2-livePreview.png)
 
   
 
 You will be able to view the line run preview for the pipeline. Here, you will be able to see the progress of each stage. Click **Cancel** to stop the pipeline in the process.
-
-  
-
-![Run pipeline](./images/viewV2/2-livePreview.png)
-
 
 When you click the “View Results” link, you will see details of the pipeline. Here you can find the list of targets, the operation performed, the start date and time, and the status of the pipeline. You also have the ability to cancel the running of the pipeline.
 
