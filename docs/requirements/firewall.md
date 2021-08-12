@@ -24,4 +24,7 @@ For customers that are provisioning devices behind a firewall, there are a few a
 -   5228 
 -   5229 
 -   5230
-    
+
+-   3478, 5349 [TCP] (For TURN Server)
+-   3478, 5349, 49152 - 65535 [UDP] (For TURN Server)
+  
