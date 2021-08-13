@@ -199,6 +199,27 @@ To learn more about individual setting details check the link below:
 
 **[Managing and controlling settings for a single device](../devices-groups/device-settings.md)**
 
+#### What are Extra Settings for Android?
+
+Enable JSON setting when On, lets you input a vaild JSON code. 
+
+```
+{
+"dpc_params": [
+{"key": "hideEsperIcon",
+"value": "true"}
+]
+} 
+```
+
+For default Android Launcher, if set true, the Esper app icon will be hidden on the device. To make it visible you need to set it false under template and reprovision device with that template.
+
+
+:::tip
+ This config will only work in template (pre-provisioning state) because setting launcher is set at boot time.
+:::
+
+
 ### Link a Device Group to a Template
 
   
