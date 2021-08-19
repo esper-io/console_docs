@@ -292,11 +292,20 @@ You can add phone numbers or upload a CSV file of contacts to add to the allowed
 ![CSV](./images/createpolicy/16-csv.png)
 
   
-  
-
 :::tip
 All numbers must be preceded by +country code (for example, +1 for the US). All numbers must be separated by a comma.
 :::
+
+Following are some general guidelines on what the CSV should look like when uploading the CSV for Contacts.
+For example,
+1) Download the template CSV file.
+2) Fill in the Contact's information according to the Header (e.g. Phone Number, Tag, Tag, Tag)
+     a. Please make sure that the Country Code is included in the Phone Number (e.g., +1)
+     b. Phone numbers should not include parentheses or hyphens (e.g. +18881234567)
+     c. Tag should not contain any Numeric or special characters (e.g., hyphens, quotes, etc.)
+3) Upload the filled out CSV (make sure the header is included in the file)
+     a. For Mac Users, you want want to alter the files End-Of-Line character to the Windows or Linux format.
+
 
 ### ADB Configuration in the Policy
 
