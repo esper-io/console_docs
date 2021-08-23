@@ -108,7 +108,15 @@ This application offers the following settings:
 -   Keyboard: Navigate to Android settings on the Android 8.1 and lower devices to change the keyboard settings.
 -   Accessibility: Navigate to Android settings on the Android 8.1 and lower devices to change the accessibility settings.
 -   Input Selection: Navigate to Android settings on the Android 8.1 and lower devices to change the input selection for the device.
--   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting.
+-   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting. 
+
+The scan button on the bottom right will allow searching and show nearby devices. Click the **Connect** button to pair the device, and the connection will happen immediately.
+You can connect only non-A2DP devices like headphones, mouse, and keyboards and can’t connect mobiles and laptops.
+
+:::tip
+It is always advised to pair and use one device only. In case another device is required, delete and unpair the old device before connecting the new one.
+:::
+
 -   Language: Navigate to Android settings on the Android 8.1 and lower devices to change the language setting.
 -   Date and Time: Navigate to Android settings on the Android 8.1 and lower devices to change the date and time for the device.
 
