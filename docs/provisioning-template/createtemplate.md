@@ -201,7 +201,7 @@ To learn more about individual setting details check the link below:
 
 #### What are Extra Settings for Android?
 
-Enable JSON setting when On, lets you input a vaild JSON code. 
+Enabling JSON settings when ON, lets you input vaild JSON code. 
 
 ```
 {
@@ -212,7 +212,7 @@ Enable JSON setting when On, lets you input a vaild JSON code.
 } 
 ```
 
-For default Android Launcher, if set true, the Esper app icon will be hidden on the device. To make it visible you need to set it false under template and reprovision device with that template.
+For default Android Launcher, if set to true, the Esper app icon will be hidden on the device. To make it visible you need to set it to false under template and reprovision the device with that template.
 
 
 :::tip

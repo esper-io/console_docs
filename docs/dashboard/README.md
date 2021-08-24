@@ -29,5 +29,5 @@ If you’d like to simulate an Android device, click **Simulate Device**. A noti
 Once you provision your first device, this screen changes to the full Dashboard view.
 
 :::tip
-You will see a toast message at the bottom left corner when Esper team delivers new release.
+You will see a toast message at the bottom left corner when the Esper team delivers a new release.
 ::: 
