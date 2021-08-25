@@ -109,12 +109,10 @@ Clicking on Advanced Settings will launch a dialog box in which you can select e
 
 Most users will use the default setting: The Esper DPC Launcher. If you select Esper DPC Launcher, the Esper Device agent will take administrative control of the device, and only approved applications will be able to be installed or used. All the features of Esper Device agents will be functional. This gives you more control over the applications that can be used, and the actions that can be taken on the device.
 
-If you select Default Android Launcher, the default Android launcher will be used. The device user will be able to exit the Esper Agent (DPC) as they would any other Android application. DPC will continue to run in the background and provide some device management, but many management features will not be available.
+If you select Default Android Launcher, the default Android launcher will be used. The device user will be able to exit the Esper Agent as they would any other Android application. Esper Agent will continue to run in the background and provide some device management, but many management features will not be available.
 
 Specifically, the following features will be unavailable:
 
--   Capture Screenshot
--   Remote View and Remote Control
 -   Over-the-Air OS updates for Esper Enhanced Android OS
 -   Latest Device Agent updates for Devices running an Android version less than 6.0
     
