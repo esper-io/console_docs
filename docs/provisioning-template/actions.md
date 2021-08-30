@@ -43,7 +43,7 @@ The Manage device section is added only when you are editing a template.
 This section is not available when you create a new template.
 :::
 
-You can add, upload or download IMEI or serial number through a CSV file using the Manage Devices section. You can delete IMEI/Serial numbers from the CSV table. Please click [here](/develop_sample_CSV.csv) to download a sample CSV. 
+You can add, upload or download IMEI or serial number through a CSV file using the Manage Devices section. You can now upload CSV files with over 3000 IMEI/ Serial numbers to the template. This limit allows you to provision a large number of devices at once. You can delete IMEI/Serial numbers from the CSV table. Please click [here](/develop_sample_CSV.csv) to download a sample CSV. 
 
 If the IMEI/Serial number is on another template, Esper will confirm if you want to move the device to the new template.
 
