@@ -24,4 +24,8 @@ For customers that are provisioning devices behind a firewall, there are a few a
 -   5228 
 -   5229 
 -   5230
-    
+
+-  URL: https://turn.shoonyacloud.com
+
+Port: 3478, 5349 (TCP) and 3478, 5349, 49152 - 65535 (UDP)
+  

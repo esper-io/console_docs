@@ -108,7 +108,15 @@ This application offers the following settings:
 -   Keyboard: Navigate to Android settings on the Android 8.1 and lower devices to change the keyboard settings.
 -   Accessibility: Navigate to Android settings on the Android 8.1 and lower devices to change the accessibility settings.
 -   Input Selection: Navigate to Android settings on the Android 8.1 and lower devices to change the input selection for the device.
--   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting.
+-   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting. 
+
+The scan button on the bottom right will allow searching and show nearby devices. Click the **Connect** button to pair the device, and the connection will happen immediately.
+You can connect only non-A2DP devices like headphones, mouse, and keyboards and can’t connect mobiles phones and laptops.
+
+:::tip
+It is always advised to pair and use one device only. In case another device is required, delete and unpair the old device before connecting the new one.
+:::
+
 -   Language: Navigate to Android settings on the Android 8.1 and lower devices to change the language setting.
 -   Date and Time: Navigate to Android settings on the Android 8.1 and lower devices to change the date and time for the device.
 
@@ -292,11 +300,27 @@ You can add phone numbers or upload a CSV file of contacts to add to the allowed
 ![CSV](./images/createpolicy/16-csv.png)
 
   
-  
-
 :::tip
 All numbers must be preceded by +country code (for example, +1 for the US). All numbers must be separated by a comma.
 :::
+
+The following are some general guidelines on what the CSV should look like when uploading the CSV for Contacts.
+
+For example,
+1) Download the template CSV file.
+
+2) Fill in the Contact's information according to the Header (e.g. Phone Number, Tag, Tag, Tag)
+
+     a. Please make sure that the Country Code is included in the Phone Number (e.g., +1)
+
+     b. Phone numbers should not include parentheses or hyphens (e.g. +18881234567)
+
+     c. Tag should not contain any Numeric or special characters (e.g., hyphens, quotes, etc.)
+
+3) Upload the filled out CSV (make sure the header is included in the file)
+
+     a. For Mac Users, you want want to alter the files End-Of-Line character to the Windows or Linux format.
+
 
 ### ADB Configuration in the Policy
 
