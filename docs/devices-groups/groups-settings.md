@@ -154,7 +154,20 @@ When you select the ‘Schedule Delivery’ checkbox, the message will be sent o
 ![schedule delivery](./images/groupsettings/14_DeviceGroup_Manage_Settings_QuickActions_Broadcast_Message__new_message_schedule_delivery.png)
 
   
-  
+ ###  Device Mode
+
+ Device Mode allows you to change the mode of all the devices in the group. You can switch between the Kiosk Mode and Multi App Mode at the group level. 
+
+ ![Device mode](./images/groupsettings/14.1_DeviceMode.png)
+
+When you click 'Switch to Kiosk Mode,' you will choose an application for the Kiosk. You can queue the offline devices to switch mode once the devices are online. 
+
+![Device mode](./images/groupsettings/14.2_KioskMode.png)
+
+When you click 'Switch to Multi Application,' you can see the number of online and offline devices.  You can queue the offline devices to switch mode once the devices are online. 
+
+![Device mode](./images/groupsettings/14.3_MultiMode.png)
+
 
 ### Changing the Display Settings for a Group of Devices from the Console
 
