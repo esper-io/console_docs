@@ -8,7 +8,7 @@ Here are IMEI provisioning steps if your device is running Esper Enhanced Androi
 
 1.  In the Esper Console, create a provisioning template then edit the same template.
     
-2.  Go to'Manage Devices’ to upload the required IMEI CSV file or by individual IMEI or Serial Numbers. Update the template.
+2.  Go to 'Manage Devices’ to upload the required IMEI CSV file or by individual IMEI or Serial Numbers. Update the template.
     
 
 If you need help, please refer to [Creating a Template with IMEI](./imei-provisioning.md).

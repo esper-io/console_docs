@@ -2,7 +2,7 @@
 
 If you face any issues while using Esper, we are here to help you! Support options available to you depend on your Esper tier:
 
--   Esper Starter -  [Esper Support Forum](https://esperhelp.freshdesk.com/support/home)
+-   Esper Starter -  [Esper Support Forum](https://support.esper.io)
 -   Esper Essentials - [support@esper.io](mailto:support@esper.io)
 -   Esper Pro - Direct ticketing of support issues by customers
 

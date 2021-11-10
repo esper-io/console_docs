@@ -42,7 +42,9 @@ The user will set up the password for a device during the initial setup.
 
 The lock screen must be On in order to set Lock Screen Password rules. If you select either Alphabetic or Alphanumeric password rules, then the lock screen will be set to On by Esper if it is currently Off.
 
-  
+ :::tip
+When the Compliance policy is applied with password type "None", but a password is already set by the user on device, then the device will get priority. You can remove the password from the device remotely using our API. Contact [Esper team](https://support.esper.io) for more information.
+::: 
 
 ### Set Default App Permission Rules via Policy
 
