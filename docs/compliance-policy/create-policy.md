@@ -113,7 +113,8 @@ This application offers the following settings:
 -   Bluetooth: Navigate to Android settings application on the Android 8.1 and lower devices to change the Bluetooth setting. 
 
 The scan button on the bottom right will allow searching and show nearby devices. Click the **Connect** button to pair the device, and the connection will happen immediately.
-You can connect only non-A2DP devices like headphones, mouse, and keyboards and can’t connect mobiles phones and laptops.
+You can connect only non-A2DP devices like headphones, mouse, and keyboards and can’t connect phones and laptops.
+Note: Bluetooth Scan support requires location to be turned ON. 
 
 :::tip
 It is always advised to pair and use one device only. In case another device is required, delete and unpair the old device before connecting the new one.

@@ -28,7 +28,13 @@ Click **Generate Token**. This will generate a unique OAuth-based API key.
 
   
 
-You can then copy (or renew if needed) your API key. API keys need to be renewed every 3 months.
+You can then copy (or renew if needed) your API key. 
+
+:::tip
+API key is not renewed automatically.
+:::
+
+API keys created after end of July 2020 needs to be renewed every 1000 days after creation. But the API keys created before end of July 2020 will expire at the start of February 2023.  
 
   
 
