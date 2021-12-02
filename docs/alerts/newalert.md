@@ -62,7 +62,7 @@ You can configure alerts to send to an AWS SNS topic. To receive alerts on an SN
 
 1.  Select SNS as the communication channel.
     
-2.  Enter details of your SNS topic, including SNS topic Arn: An AWS resource identifier, AWS access key id, and secret key which has access publish to this topic.
+2.  Enter details of your SNS topic, including SNS topic ARN: An AWS resource identifier, AWS access key id, and secret key which has access publish to this topic.
     
 For security, please create a separate user for this topic with restricted permissions that have access only to publish to this topic. 
 
