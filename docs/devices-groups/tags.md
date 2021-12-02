@@ -25,6 +25,10 @@ Step 2: In the popup enter the tag name, and click **Add** button. Your tag will
 
 ![name](./images/tags/47_Groups_devices_main_screen_add_tag_modal.png)
 
+You can now add or delete tags from a drop-down of previously added list of tags. 
+
+![name](./images/tags/47-a_AddDelTags.png)
+
 :::tip
 You cannot add more than 3 tags to a device.
 :::
