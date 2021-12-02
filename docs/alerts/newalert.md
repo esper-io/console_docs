@@ -55,7 +55,10 @@ Channels can be created once and reused across alerts.
 Frequency and time interval between notifications can be set in Email Alert Frequency section. Click **Next**.
 
 -   SNS
+
 You can configure alerts to send to an AWS SNS topic. To receive alerts on an SNS topic, you need to configure the SNS topic.
+
+![Create email channel](./images/newalert/4-alert-sns.png)
 
 1.  Select SNS as the communication channel.
     
@@ -67,7 +70,6 @@ For security, please create a separate user for this topic with restricted permi
 The access key id and secret correspond to this user.
 :::
 
-![Create email channel](./images/newalert/4-alert-sns.png)
 
 Once configured, whenever alerting condition matches, Esper will send an event to this topic. You need to configure your system to consume from this topic.
 
