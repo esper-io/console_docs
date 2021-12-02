@@ -30,7 +30,7 @@ You can now add or delete tags from a drop-down of previously added tags.
 ![name](./images/tags/47-a_AddDelTags.png)
 
 :::tip
-You cannot add more than 3 tags to a device.
+You cannot add more than 5 tags to a device.
 :::
 
   
