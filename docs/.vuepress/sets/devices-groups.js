@@ -17,6 +17,7 @@ module.exports = {
         collapsable: false,
         children: [
           "",
+          "directory",
           "group-pane",
           "switch-view",
           "switch-nested",
