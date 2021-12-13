@@ -22,6 +22,7 @@ module.exports = {
           "customize",
           "download-csv",
           "filters",
+          "blueprint-settings",
           "static-info",  
           "device-settings", 
           "event-feed", 
