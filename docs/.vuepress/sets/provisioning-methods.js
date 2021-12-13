@@ -26,7 +26,8 @@ module.exports = {
           "imei-provisioning",
           "provisioner-tool",
           "seamless",
-          "kme"
+          "kme",
+          "zte"
         ]
       },
     ]
