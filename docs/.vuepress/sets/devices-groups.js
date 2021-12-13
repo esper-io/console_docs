@@ -18,6 +18,7 @@ module.exports = {
         children: [
           "",
           "directory",
+          "view",
           "group-pane",
           "switch-view",
           "switch-nested",
