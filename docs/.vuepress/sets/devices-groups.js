@@ -28,6 +28,7 @@ module.exports = {
           "device-app-install-uninstall",
           "remote-viewer",
            "activity",
+           "add-group",
           ]
       },
     ]
