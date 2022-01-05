@@ -18,6 +18,7 @@ module.exports = {
         children: [
           "",
           "directory",
+          "unmanaged",
           "view",
           "customize",
           "download-csv",
