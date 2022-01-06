@@ -13,7 +13,7 @@ Select Onboarding Methods from the drop-down. This option will open a popup for 
 
 ![](https://lh4.googleusercontent.com/R8UwPuQCoABEVRuZXLL26sW3yn1fbfxPUvMaNQOl2qcdl6863rEOqubDLLFNBLXz-ME0c_YWkyt_SXFIqKl_rCPPmC2Ob3OrB0qB1BJUyRX8iSLuAbbUj-hm32cU_e0lytYxDk9f)
 
-Click select for the Onboarding method you wish to use. This will walk you through the process.
+Click select for the [Onboarding method](https://console-docs.esper.io/provisioning-methods/) you wish to use. This will walk you through the process.
 
 ## Move
 
