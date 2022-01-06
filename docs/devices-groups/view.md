@@ -1,7 +1,13 @@
 
 # What Are the Different Device Views?
 
-The Directory allows you to manage the nested architecture and oversee your fleet status using a variety of views. You can freely move between views by selecting it from the top right side of their screen. Each view provides different benefits depending on your use case. The two grid views offer a compact, high-level view of your entire fleet, broken down by Parent-level Groups. The two List views provide a more detailed view of your Parent Groups and nested Subgroups. List views also allow you to fire commands to Groups or individual devices without having to separately navigate to each device.
+The Directory allows you to manage the nested architecture and oversee your fleet status using a variety of views. You can freely move between views by selecting it from the top right side of their screen. 
+
+
+![](https://lh4.googleusercontent.com/4XTKDQ9AaFnsvC_v7hbmZx9SAjL9HJO-tBUb47ysP70YAfMYWUrzYdHPYJ8e0sdvSKFmtLqf51YwJ_tHeCVAJgT62IlOi36vtRCsKIerVz7XciL1FCCAZ-4tsYKy5gZzvkvKvxmd)
+
+
+Each view provides different benefits depending on your use case. The two grid views offer a compact, high-level view of your entire fleet, broken down by Parent-level Groups. The two List views provide a more detailed view of your Parent Groups and nested Subgroups. List views also allow you to fire commands to Groups or individual devices without having to separately navigate to each device.
 
 Once a list or grid view is selected, that view will be used for their continued navigation until you select a different view. For example, if you click on a Parent Group from the Directory-level grid view, you will be taken to that parent group grid view. When the group contains no subgroups, you will always be taken to the List: Devices view.
 
