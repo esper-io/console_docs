@@ -47,7 +47,7 @@ Click Rename to change the device name.
 ## Reject Device
 
 Rejecting the record will prevent this device from being onboarded to your endpoint. The record will remain in your Directory, however, it will be hidden by default. You will stop receiving prompts to approve this record, but you may approve it at any time to continue onboarding the device.  
-*Make note of the filter for showing rejected records
+
 
   
 
