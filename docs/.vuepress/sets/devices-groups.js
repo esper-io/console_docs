@@ -20,6 +20,7 @@ module.exports = {
           "directory",
           "unmanaged",
           "pending-action",
+          "readyonboard-action",
           "view",
           "customize",
           "download-csv",
