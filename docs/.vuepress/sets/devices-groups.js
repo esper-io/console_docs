@@ -19,6 +19,7 @@ module.exports = {
           "",
           "directory",
           "unmanaged",
+          "pending-action",
           "view",
           "customize",
           "download-csv",
