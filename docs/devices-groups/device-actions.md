@@ -1,30 +1,30 @@
-# What Actions can be Performed on the Devices in the Assign to group tab?
+# What are the Actions Available for the Device?
 
-  
+On the device view, clicking on the ellipsis will open you a list of options to perform on the device.
 
-Navigate to the Directory view> Select Unmanaged Devices> Assign to Group. Click the ellipsis (...) for a selected device.
-
-![](https://lh6.googleusercontent.com/wSNacL4kmTz4EECqO557k3FRmLRdfcf2FabA7LjXGAGCrUpIKDVoSCjzhr3Ci897CwwiHjysHD0GzKaicoOkhqJjhTjOkkfxyz4R4NJW9FRLHNZ3KMEtQnr7AHflTlgkBWli4lzq)
-
-## Add Tags
-
-Tags make it easy to identify devices in a specific location, type, Wi-Fi, or SSID. You can add up to 5 tags. Select Add Tags from the dropdown. You can add a new tag or select from a list of already added tags.
-
-![](https://lh3.googleusercontent.com/f646xDX19YsJ-KiWJOccLjeszHhzHAMXX2YxwTuFMHqsQNN8evReRQq56ERxenI8J3WXN1Vycm45sQKz65h_NCxtpda3pZ6aero-h0DFiTGXx02PVhcBoc5T5owqxM3h3ub5lfV2)
-
-Click ‘X’ to remove the existing tag. Deleting a tag will also remove it from all devices with that tag. We display a warning that the action will remove this tag from any tagged device. When a tag no longer exists on any device, it will be deleted from the dropdown.
+![](https://lh6.googleusercontent.com/XKux8uttzJJ0ZDpMY3KAKnU8EQneDxuVG5Uub5ntuU4az3QL5GYnDA_oRTN3PF3tO-3FD2bUzGwCOA5tgboMeEP6xbMoJFpFxjxUp1IbGArLk6bdrI6Ijy0qJHJ2aVT86yVDSLr7)
 
 ## Move
 
-Select Move from the drop-down. This action allows you to move a device from the director or Parent Group to another. Select the destination group from the dropdown, add optional details and click Continue.
+You can move the device from the existing group to another. Select the Move option from the drop-down. On the pop-up, choose the target Group.
 
-![](https://lh3.googleusercontent.com/n6bN_LPHHqdgeexicpr20pLML_dV8BM75yMC0uxbIEw3Od5InPcNY-j8kuUuWifs_YeA_gn_-Y1vpOofA5XgUjpMVIWA7hiO4hq5ku2PmwbK52p_c-B1Kpf143ADoahw0uOAGPVl)
+![](https://lh6.googleusercontent.com/dGNcNbrqTRT_ez65PxLBS9easRKWBb_YTM2jIUwaExA3i-SxXBo62CZsJ6dSoKgoY3TcOPTKbyPJoVCET0yrl6hVcU8Pzlc1C7kxtV6Bfgr7CZj-HpjDV2jb6JVOBeNi_os3-P_F)
+
+Add the optional alias, sequence, and tags and click ‘Submit’. When successful, the device will be moved to the target Parent Group.
+
+## Add Tags
+
+Tags make it easy to identify devices in a specific location, type, Wi-Fi, or SSID. You can add upto 5 tags. Select Add Tags from the dropdown. You can add a new tag or select from a list of already added tags.
+
+![](https://lh6.googleusercontent.com/Qtm7EnWsOi-9l-LMA0VjvwR7wpDq63HMtsE8E_AO0XlVEfepVM1EGwKZpXnjib17nrD0DSVK3x2tZ4ktrUQuFjKeqBm_lD50BSmXkHKqLbx-r2HPwPzQ9NOVmYumlFN0_CP92o1B)
+
+Click ‘X’ to remove the existing tag. Deleting a tag will also remove it from all devices with that tag. We display a warning that the action will remove this tag from any tagged device. When a tag no longer exists on any device, it will be deleted from the dropdown.
 
 ## Rename Device
 
 Choosing the ‘Rename Device’ option from the dropdown allows you to select the device ID or add a Custom Alias name for the device.
 
-![](https://lh3.googleusercontent.com/8Z5Glo_A4CJNLJtYmECJvGBps0Xzm--wt2P39ImnpcclNV7vglTm1_3GsHG9rZVQRbMPI65wuUPs7pJjFFJFjP5Nly0M9Y2v6IgN4nS0COsnvCEodpSSXP0S0bpbtyPlpnIsNsee)
+![](https://lh5.googleusercontent.com/TL6SnXDaECkfafEvRGUcYeYXfnGg_zyps2Tpva9z5hOohEboesbYy0Nxt35N_IVblIrj1c6_7HjJRtfLSiGW3IzBs8anGw004ERHE0fpgLl7JDzUPlt20OGaP6OtuHjs7Xbav4qj)
 
   
 
@@ -32,35 +32,42 @@ Click Rename to change the device name.
 
 ## Lockdown
 
-## The lockdown option from the menu triggers a complete lockdown of the device. This is useful to prevent unauthorized use or relocation.
+The lockdown option from the menu triggers a complete lockdown of the device. This is useful to prevent unauthorized use or relocation.
 
-## ![lockdown](https://lh3.googleusercontent.com/wpR9c-EkvHsekAXBkYMLLLbY3VIw8d0l1Ipf67UiP_PcAoxka9K7CIeLDK-ywcADP8P4_wi9JtcicUGpkLpMZifZ5A91zZNldSzj5jnTm1OIaDHZD9gltzWk9Hf2xOVZONFyrkgx)
+## ![lockdown](https://lh6.googleusercontent.com/QMP3UQHDQ4RWSa5Vnil9Aowk_ms8wDVQ5kOg3rk6mrS8aluQ9Y3XWba37DJZiza9wn1cwNe0buzHIl5ZNjQna2aavkRvaDe9lkvI9I8B0un25XJIm8atS1t7nBS0fF7pR6Val-g2)
 
-## When you click Lockdown, a custom message text box appears where you can enter the text you want the device user’s to see.
+When you click Lockdown, a custom message text box appears where you can enter the text you want the device user’s to see.
 
-## ![custom message](https://lh6.googleusercontent.com/83J3lMVUHbSbHTYHiNvkPuIlYa5EsqRIH2tikYW7kxlA4LOO-vkVzqoia9y2EGsprlC-7tKjWYiR_d-n3elVZ5UExpz-Q8uiex3Vi3vp74fJPG6NmP5Q6YZm70bihij2VfdtrKhh)
+## ![custom message](https://lh6.googleusercontent.com/-LbTcKvYY1CJNtS6dWTqfrYGfZTL53CHv8OgiuSJgFyDoFzfqkJyNNizPRy5eOatAsjZg5CgTW_tpL9sj1MRc_N1xLsIxMLRd5f-epid-cBjSPYR8F7lUEbORk9FgyxQEV019P3e)
 
-## After the device has been locked down, the user will see the following screen.
-
-## ![device](https://lh6.googleusercontent.com/GQfXgNVtkI5iY9rid4ALzQ-SYCzpE0LMKFJI4xy-oSnQi9dthDha88LEWea1Ug-Aq--aTiaSGjS650dhQt5SGgMUloXHIOVKD0yphWsAyn5x9kXyAILnzng0Jw1h30uYWecCrdkw)
+After the device has been locked down, the user will see the following screen.
+##
+![device](https://lh3.googleusercontent.com/5F9jAPzNQmGE1i4q0UXomoXelUM-QAZ2i_QiNByMpGQySXORlQ2TfI8-ldy7ZfUyevhty4fU_EsEjExgFFVmnffBy5L6L7gmylb7lwJSLayY4neugV4-E1UQHvQ6c16IFfh2yPaf)
 
 After a device is locked, the button will change to Unlock to enable you to unlock the device from the Console.
-
-
 
 ## Ping Device
 
 When you select the Ping Device, the Esper Console will attempt to ping the device. It is used when you want to check if your device is reachable or not.
 
+## Reapply Blueprint
+
+When you select Reapply Blueprint, this reapplies the device’s associated blueprint. So all settings defined in the blueprint will get pushed to the device.
+
+  
+
 ## Reboot
 
-When you click Reboot, the Esper Console will send the command to reboot the device. You can reboot the device if you are having trouble communicating with it.
+When you click Reboot, the Esper Console will send the command to reboot a device. You can reboot your device if you are having trouble communicating with the device.
 
 ## Screen Lock
 
-When you select Screen Lock, the Esper Console will send a command to lock the screen of the device. If you have a lock screen password set up on the device this feature can be used to require the user to enter the lock screen password before they can unlock the device.
+When you select Screen Lock, the Esper Console will send the command to lock the screen of the device. You can lock your device screen whenever you notice any suspicious activity.
+
+  
 
 ## Send Message
+
 
 Send message allows you to send a message to the selected device. Select the device you want to send a message to, click the ellipsis and choose “Send Message”.
 
@@ -86,4 +93,4 @@ If the device user executes a factory reset directly on the device, the device w
 
 If you select the ‘Delete approval of directory record’ option, the directory record is deleted.
 
-![Remove Device button](https://lh6.googleusercontent.com/7S3atPBMDyWeXp3E6WJEBerE6A3koGWNP4exnYauk0RFAT5rNsZF15VYh6ivuDnCUSjzK1DJsY98pQQZiYW7qCmPIS7WTUTYhBcN_-5hJzy8xfsOQhxjqv9ldE4YkUnESu8kZXv1)
+![Remove Device button](https://lh4.googleusercontent.com/IzAf_2XdfpU_uPWoPnZJLFpGJlmGHxbDdiqoyY4k89VrH6xDJA84Jlxo1K80UlM5qNr25mVhk-AWQqjkiR6CkPx85KlVukMJ3H0ofvGzx_z8yufTE_aSr-k3zyEY8Ip23z0Mo7U1)
