@@ -21,6 +21,7 @@ module.exports = {
           "unmanaged",
           "pending-action",
           "readyonboard-action",
+          "assign-action",
           "view",
           "customize",
           "download-csv",
