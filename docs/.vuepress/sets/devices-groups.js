@@ -26,13 +26,14 @@ module.exports = {
           "customize",
           "download-csv",
           "filters",
+          "add-group",
           "blueprint-settings",
           "static-info",
           "apps-device", 
           "device-app-install-uninstall",
           "remote-viewer",
-           "activity",
-           "add-group",
+          "activity",
+          "device-actions",
           ]
       },
     ]
