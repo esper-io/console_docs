@@ -19,6 +19,7 @@ module.exports = {
           "",
           "directory",
           "unmanaged",
+          "device-record",
           "pending-action",
           "readyonboard-action",
           "assign-action",
