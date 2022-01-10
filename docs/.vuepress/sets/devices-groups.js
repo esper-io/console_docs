@@ -35,6 +35,7 @@ module.exports = {
           "activity",
           "device-actions",
           "logs",
+          "event-feed",
           ]
       },
     ]
