@@ -1,37 +1,41 @@
-## How to Capture Logs For a Single Device?
+# How to Capture Logs on the Device?
+
+The ‘Request Bug Report’ button allows you to capture and upload a bug report from your device.
+
+Note: Once a bug report has been requested the user will need to manually approve this request. Approval requires the device to be in multi-app mode with the notification bar enabled.  
+This can be accomplished by enabling “Debugging Mode”. You can then pull down the notification bar and select the “Accept Bug Report” request on the device.
+
+![](https://lh4.googleusercontent.com/HV6Thz92ClPxo-LcNXz0Sha1F5mQKsc_3q73QmM6_pvPITB1c4Yap8HxakEujCeY64pS1qIEeHrPU6JjEzWfKwbEN06G7u1xzdoGWUNNCT8EAlauEEQ4DWRJyypQE1M0A0V36wn_)
+
+Share bug report prompt appears when clicking on notification
 
   
 
-This feature enables you to capture a bug report for the device.
+![](https://lh3.googleusercontent.com/D7gEXob_29osO8mIC15VE0M92Ghq185EeuV5iZ13ia_fBIqgBH0ieEpxKDQ-fokDf8YZ_aLwggeVpmBM4OvM0UAsWboh-ozv-D4aSrPuTruaZucyOt_T7Hng3HOFyQPZLrAKyJY4)
 
   
 
-![Create log](./images/logs/135_Groups_devices_details_capture_logs.png)
+Bug Report has finished generating, but has yet to be shared.
 
   
 
-### Generating a Bug Report of a Device From the Console
+![](https://lh5.googleusercontent.com/9rSDr9bhpYA_Q68h4t2YOyXSjNlivQ18uzOa44u-4hW_8WqHWvdgkhpqxwis2-amJAIFbw09hpm9QrnOcTHrkBz_nnvicMxrLbAR33eHpbIjG1Q-x1wrhMYXenKqP2l-Xtw0rk0n)
+
+Once the bug Report has finished generating you will see the following notification:
 
   
 
-Step 1: To generate a report, go to the ‘Capture logs’ tab and then click on **Start**.
-
-![Start button](./images/logs/136_Groups_devices_details_capture_logs_start.png)
+![](https://lh3.googleusercontent.com/zu8aPgTLxumqLR7NsliYhcOLs6PX_LoyXaW65htAVDzeFKHspSOezUEXShqiTAk8sCnKXr5jliFuSJQG48c08IQYVqFTC_fFK6SE9bPWMdk67MLgHpGDt1mscUns7BUnCNThlY-M)
 
   
 
-Step 2: As the report is gathered, the status will change from Requesting Report to Permission Granted to Download.
+  
+For EEA devices, the report will be generated automatically without requiring user consent.
+
+![](https://lh6.googleusercontent.com/mAWDIkyYuua1nCaW_A32FkRofZBfgxohWP1HaWOLnsnpjNnsRUjVz6rDSTrScxTnagMe7DMnmPvM-TyFrFChai-3_xDj2HBT31y3NTmuRWgwN6gZux6Jw2lo1WXICZVeTCuBGSv7)
 
   
 
-![Status](./images/logs/137_Groups_devices_details_capture_logs_loading.png)
+By default Debugging Mode will enable the Notification Bar and place the device into Kiosk mode. The user can also select the gear icon to modify the Debug Mode configurations to include enabling ADB. When Debugging Mode is disabled the device will return to the configuration defined in its Blueprint.
 
-  
-
-Step 3: The Download status is a live link. Clicking on Download will download the bug report with the date and timestamp for the device to help your technical staff debug any issues.
-
-When you request a capture log from a specific device, a notification will pop up on that device asking permission to share the report. The device user need to swipe down the notification bar, tap the bug report line, and click **Share**. If the device user clicks **Decline**, the report will not be shared and the status will change to Permission Denied by User.
-
-:::tip
-If the target device is in Kiosk mode or the notification bar is disabled, you will be unable to capture a bug report. Kiosk mode prevents the notification bar from being displayed and the device user will not be able to grant permission for the report. To get around this you can temporarily apply a compliance policy with a notification bar enabled.
-:::
+![](https://lh5.googleusercontent.com/VW-hFQ0hSJab8qfE7J21xYGdkRfkrpTvhBSaQ8Qzp5_OAQiyKh1rSOAlpjRMyxKPWBAuqLqv1bcNUGPMQb4mAR0VnumLzwC2HDZ6Kk3hniCwp46L_jhVoNKpVPjtYPrWnXZvr152)
