@@ -1,76 +1,79 @@
-## How to Use the Six-Tap Provisioning Method?
+# 6-Tap QR
 
-Android devices with Google Mobile Services (GMS) support and a camera can be enrolled and provisioned onto Esper using the Android for Work (AFW) provisioning method. The particular provisioning screens and device provisioning flow vary across Android versions.
+Android devices with Google Mobile Services (GMS) support and a camera can be enrolled and provisioned onto Esper using the 6-tap QR code onboarding method. The particular onboarding screens and device onboarding flow vary across Android versions.
 
-**Notes**: 
-1) 6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based provisioning, please email us.
-2) Xiaomi/Redmi devices do not support a 6-tap provisioning method.
+Notes:
+
+1.  6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based onboarding, please email us.
+    
+2.  Xiaomi/Redmi devices do not support a 6-tap onboarding method.
+    
 
 Device makers and carriers customize the setup process. Thus it is likely you’ll encounter unique setup screens specific to your device. Generally, you can either skip or decline most of the options.
 
-:::tip
 There is a handful of system-specific notifications called out in the instructions for which you’ll need to make the proper selections.
-:::
 
-From the Provisioning Methods screen, if you select 6 Tap QR Code, you will be taken step by step through instructions using the 6 Tap QR Code provisioning process. You can progress through these steps by clicking **Next**.
+The steps to onboard using this method are outlined below:
 
-![Factory Reset](./images/QR-image/SixTapFirstScreen.png)
-
-The steps outlined below are a more detailed version of the same steps provided in the Console. Be sure to have your Provisioning Template created to access the QR code you will use to provision your device.
-
-Step 1: Begin by [factory resetting](./factory-reset.md) your device.
+Step 1: Begin by [factory resetting](https://console-docs.esper.io/provisioning-methods/factory-reset.html) your device.
 
 Step 2: Once the factory reset is completed, on the first setup screen, tap anywhere on the screen six times.
 
-![Factory Reset](./images/QR-image/QR_StartButton.png)
+![Factory Reset](https://lh6.googleusercontent.com/wwJ-CZB43gDtUNniSeeGLjQIw5MCpHGG-XdII8wtW3HPtoEf3zG6I3pswXssm9tKmLqe6JAx7hR3azj1_OUaGQE_lOiZ3xTs0L-I7ChIDBsIwmRfZMVbmFf3KHJAeTls4VpfBaRW)
 
-Step 3: If your device first needs to download the QR code reader, you’ll see the QR code setup screen. Suppose you see this screen go to the QR Code Reader Setup  section.
+Step 3: If your device first needs to download the QR code reader, you’ll see the QR code setup screen. Suppose you see this screen go to the QR Code Reader Setup section.
 
-![Factory Reset](./images/QR-image/QRCodeSetup.png)
+![Factory Reset](https://lh5.googleusercontent.com/2e5tR5shDFMoE_l0S5wss8gnbkXW34ROoVeuRBcu_PlbBK32cf16WDXQy9quqjuSeqEdsi7jeRFygSxbAfYSwLNTwyoJ-ag_s3Q9BcwIEh0ZRCXYvmCzReq88U8H823Hsf2vxzfN)
 
 Step 4: If your device has the QR code reader in ROM, after tapping six times in the open space of the first set up screen, the QR code reader screen will be opened.
 
-![QRCode](./images/QR-image/AFW_QRcode.png)
+![QRCode](https://lh4.googleusercontent.com/EXC-gz5C3AHemacwQ880Pn6F6TyZSFMgAj-dZImKEC_PGv1BedvY65TZYlDKI1TIShlaN8WILQwta6tWxc42_wcmCi4cJwpinjFb3Q6PwDqCffPP_Qu1pzwIe-QSkL1yjCj_kwTO)
 
-Step 5: Go to the Esper Console and select 'Provisioning Templates' in the left menu bar. Find the template you want to use, and then select '**View QR code**.'
+Step 5: Go to the Esper Console and navigate to the ’Device and Groups’ section. Devices may be easily onboarded directly to the Directory-level or Group using the shortcut button for 6-tap QR code onboarding. Simply click on the QR code icon next to the Directory or a Group where you wish to onboard a device.
 
-![Factory Reset](./images/QR-image/AFW_ViewQRCode.png)
+![](https://lh5.googleusercontent.com/JLrDpoocxpc-EYCV7yX_-TS5IDewBQnLC2eEIEXsvhe8luwaK4Sy98699i8he8QiXjoENBX6TRtDQRWZ-Hmoa6QTWs0hBEi9HgnhrorqeWlcwseNLIMczIdLBLykD2LL6JsVzfbS)
 
-Step 6: The QR code for the template will now appear on your screen.
+Note: This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin provisioning with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
 
-Step 7: If you are using the instructions provided in 'Provisioning Methods,' you can also display the QR code by selecting the Provisioning Template from the Select Template drop-down menu and then clicking **View QR Code.**
+On the dropdown for Wi-Fi, you can choose from an existing network or add a new one. ![](https://lh6.googleusercontent.com/fgW-kJCG4AXIUOYskzubi3XpfB-Qe8LjHWhos7o1dFAy5G3yjfg4mu3Nrv2Wm10JOMoQDBdrckWrzPR_ycY9nXUERgXnxkZnRQ5q5b0-_4dUXJqgVt7x6ouLnzoTJPg5fTNu-ngi)
 
-![QRCode](./images/QR-image/SixTapQRCode.png)
+Once you click ‘Add’ the Wi-Fi the details will be reflected in the QR Code.
 
-Step 8: Hold up the device’s camera to your computer screen, centering it on the QR code.
+  
+
+You can view the 6-tap QR Code tutorial for help or click Alternative Onboarding Methods to select different methods. You can also download the config file from the modal.
+
+Step 6: Hold up the device’s camera to your computer screen, centering it on the QR code.
 
 The QR code is densely populated. If your device’s camera has trouble scanning it, follow these tips:
 
--   Increasing brightness of your PC’s screen 
+-   Increasing brightness of your PC’s screen
+    
 -   Changing the distance between the camera and the screen - move your device closer or further from the QR code
+    
 -   Hold the device still for a few seconds once you have adjusted the distance.
     
 
 Step 9: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for provisioning, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
 
-Step 10: You may then see a screen to accept specific terms from Google regarding Esper managing your device. Click **ACCEPT & CONTINUE**.
+Step 10: You may then see a screen to accept specific terms from Google regarding Esper managing your device. Click ACCEPT & CONTINUE.
 
-Step 11: Once the Esper agent has successfully downloaded, provisioning will start.
+Step 11: Once the Esper agent has successfully downloaded, onboarding will start.
 
-![alt text](./images/QR-image/AFW_PreparingDevice.png)![alt text](./images/QR-image/QR_PreparingDevice2.png)
+![alt text](https://lh4.googleusercontent.com/J9JcPr8lYkmVEhlK1JQlOI7H5znTAn511n2wT1VZibN0IktghIKzcByeaTbLPRDGHJvEJ6ogsWK_4xg00Mu8uWy6JGxHGvKucQo0K678ad5rCUmKNIJjfA1R1XopTeioDg5WjtMg)![alt text](https://lh3.googleusercontent.com/N53d_HQnCpRDCtYQXtuo_PrjNBm36_HHblyGyDNKbmaFzTmgtKJASXU04K4VycPT_POP5LLB3gq6UFpC_-YD5xqp2CKJBjTyzgJFGZJxOK2vo7A5-Zrks8AmTrpXOags4AKoSlUQ)
 
-If you wish to exit the provisioning process for any reason, click on the **Esper** logo six times to bring up the option to factory reset the device.
+If you wish to exit the onboarding process for any reason, click on the Esper logo six times to bring up the option to factory reset the device.
 
 Step 12: If your Provisioning Template enables Google Play, Google Play Services will not be updated. Be patient during this process, as it is conducted by Google and depends on their current service quality.
 
-![alt text](./images/QR-image/AFW_GooglePlay.png)
+![alt text](https://lh5.googleusercontent.com/IW5UVyE4a5D27DwbjHH3iu1GzXS0Sm2-SKXhc1XvnGKLlAO9XPhuv53txTlJRJn1w5aE0VB3Ll37C1MLTrR6Mmsx__rLR2z0ssSRGjyF-gmayeqksrd4FMlZ7ozs_lO-0q978uQw)
 
-Often, the device will complete provisioning without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify System settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
+Often, the device will complete onboarding without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify System settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
 
-Step 13: You will now return to the Esper agent to install any Esper Enterprise applications and complete the provisioning process.
+Step 13: You will now return to the Esper agent to install any Esper Enterprise applications and complete the onboarding process.
 
-![alt text](./images/QR-image/QR_DeviceInstalling.png)
+![alt text](https://lh5.googleusercontent.com/hRAkBKEJs971kHHHocyuP8Eum_x4BJAyUH39TY8miOh5fbRgBWrB678EpuILIXcZenDX6t0o_4rjhBI6nekjwGfcbu7ti7oq-_aT2w0TMFE36yZlxnq4aZzSJh4I0lIoON1l7ayZ)
 
-Provisioning will complete, and you’ll see your device set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
+Onboarding will complete and you’ll see your device set up according to your blueprint settings. In this example, we’ve onboarded the device in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
 
-![alt text](./images/QR-image/QR_DeviceScreen.png)
+![alt text](https://lh3.googleusercontent.com/37eXrL1Z9FpOUceYZ0MUt3qL6_QZiafNeWs_pv_INteOij01xLH7PeCM9DqrR8v5ITJcnUhaWTuIN2gQCW-jmg1VO_awLMAdUScNQBQPN2kncBNT0Xjclg6E0hjWb1pjQdymsdox)
