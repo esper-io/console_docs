@@ -28,6 +28,7 @@ module.exports = {
           "download-csv",
           "filters",
           "add-group",
+          "create-blueprint",
           "blueprint-settings",
           "static-info",
           "apps-device", 
