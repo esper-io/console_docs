@@ -33,7 +33,7 @@ Step 5: Go to the Esper Console and navigate to the ’Device and Groups’ sect
 
 ![](https://lh5.googleusercontent.com/JLrDpoocxpc-EYCV7yX_-TS5IDewBQnLC2eEIEXsvhe8luwaK4Sy98699i8he8QiXjoENBX6TRtDQRWZ-Hmoa6QTWs0hBEi9HgnhrorqeWlcwseNLIMczIdLBLykD2LL6JsVzfbS)
 
-Note: This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin provisioning with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
+Note: This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin onboarding with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
 
 On the dropdown for Wi-Fi, you can choose from an existing network or add a new one. ![](https://lh6.googleusercontent.com/fgW-kJCG4AXIUOYskzubi3XpfB-Qe8LjHWhos7o1dFAy5G3yjfg4mu3Nrv2Wm10JOMoQDBdrckWrzPR_ycY9nXUERgXnxkZnRQ5q5b0-_4dUXJqgVt7x6ouLnzoTJPg5fTNu-ngi)
 
@@ -64,7 +64,7 @@ Step 11: Once the Esper agent has successfully downloaded, onboarding will start
 
 If you wish to exit the onboarding process for any reason, click on the Esper logo six times to bring up the option to factory reset the device.
 
-Step 12: If your Provisioning Template enables Google Play, Google Play Services will not be updated. Be patient during this process, as it is conducted by Google and depends on their current service quality.
+Step 12: If your Blueprint enables Google Play, Google Play Services will be updated. Be patient during this process, as it is conducted by Google and depends on their current service quality.
 
 ![alt text](https://lh5.googleusercontent.com/IW5UVyE4a5D27DwbjHH3iu1GzXS0Sm2-SKXhc1XvnGKLlAO9XPhuv53txTlJRJn1w5aE0VB3Ll37C1MLTrR6Mmsx__rLR2z0ssSRGjyF-gmayeqksrd4FMlZ7ozs_lO-0q978uQw)
 
