@@ -1,6 +1,6 @@
 module.exports = {
   title: "Esper Console Documentation | %v",
-  setTitle: "Provisioning Methods",
+  setTitle: "Onboarding Methods",
   handle: "console",
   icon: "/icons/sidebar/provisioning_methods.svg",
   baseDir: "provisioning-methods",
@@ -8,7 +8,7 @@ module.exports = {
   //   ["introduction", { label: "1.x" }]
   // ],
   // defaultVersion: "introduction",
-  searchPlaceholder: "Search Provisioning methods (Press “/” to focus)",
+  searchPlaceholder: "Search Onboarding methods (Press “/” to focus)",
   primarySet: true,
   sidebar: {
     "/": [
@@ -17,8 +17,6 @@ module.exports = {
         collapsable: false,
         children: [
           "",
-          "select-method",
-          "help",
           "factory-reset",
           "android-for-work",
           "6-tap",

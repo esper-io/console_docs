@@ -1,19 +1,15 @@
 ## How to Provision Using Android-for-Work (AFW) Method?
 
-Android devices that have Google Mobile Services (GMS) support and a camera can be provisioned to Esper using the AFW provisioning method. The particular screens and flow vary across Android versions.
+Android devices that have Google Mobile Services (GMS) support and a camera can be provisioned to Esper using the AFW onboarding method. The particular screens and flow vary across Android versions.
 
 **Notes**:
 
-1.  AFW support was first delivered in Android 6.0. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with AFW-based provisioning, please email us at ([support@esper.io](mailto:support@esper.io)).
+1.  AFW support was first delivered in Android 6.0. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with AFW-based provisioning, please email ([us](mailto:support@esper.io)).
     
 2.  Device makers and carriers customize the setup process. You’ll likely encounter unique setup screens specific to your device. Generally, you can either skip or decline most of the options. There are a handful of system-specific notifications listed in the steps below, for which you’ll need to make the proper selections.
     
 
-On the Provisioning Methods screen, if you select Android for Work, you will be taken step-by-step through instructions using the AFW provisioning process. You may follow through with these steps by clicking **Next**.
-
-![Factory Reset](./images/AFW-image/1-AWF_Provisioning.png)
-
-Please have your Provisioning Template created so you can access the QR code to provision your device.
+Please have your Blueprint created so you can access the QR code to onboard your device.
 
 Step 1: Begin by [factory resetting](./factory-reset.md) your device.
 
