@@ -1,5 +1,5 @@
 
-## What is a Provisioning Method?
+## What is a Onboarding Method?
 
 Provisioning is the initial step of enrolling, configuring, and managing an Android device using the Esper platform and associated developer tools. Esper provides several different methods for provisioning Android devices, depending on the capabilities of the device being configured:
 

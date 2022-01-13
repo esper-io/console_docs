@@ -1,7 +1,7 @@
 
 ## How to Factory Reset a Device?
 
-It is required to factory reset the device before provisioning. Here are the instructions for how to factory reset a device. These steps use a typical Android device using a Pixel 3 running Android 9 as an example.
+It is required to factory reset the device before onboarding. Here are the instructions for how to factory reset a device. These steps use a typical Android device using a Pixel 3 running Android 9 as an example.
 
 Step 1: Open up the Settings application, and select ‘System.’
 
