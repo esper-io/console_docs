@@ -4,7 +4,7 @@ Android devices that have Google Mobile Services (GMS) support and a camera can 
 
 **Notes**:
 
-1.  AFW support was first delivered in Android 6.0. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with AFW-based provisioning, please email ([us](mailto:support@esper.io)).
+1.  AFW support was first delivered in Android 6.0. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with AFW-based provisioning, please email [us](mailto:support@esper.io).
     
 2.  Device makers and carriers customize the setup process. You’ll likely encounter unique setup screens specific to your device. Generally, you can either skip or decline most of the options. There are a handful of system-specific notifications listed in the steps below, for which you’ll need to make the proper selections.
     

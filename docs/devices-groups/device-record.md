@@ -1,4 +1,4 @@
-How to Create a Device Record?
+# How to Create a Device Record?
 Navigate to the Devices & Groups section of the Console. Click Add. You can choose ‘Onboard Device’ from the following options: 
 
 
