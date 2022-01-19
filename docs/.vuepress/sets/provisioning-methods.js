@@ -20,12 +20,12 @@ module.exports = {
           "factory-reset",
           "android-for-work",
           "6-tap",
-          "notification",
-          "imei-provisioning",
           "provisioner-tool",
           "seamless",
           "kme",
-          "zte"
+          "zte",
+          "imei-provisioning",
+          "notification"
         ]
       },
     ]
