@@ -1,10 +1,10 @@
-# 6-Tap QR
+# How to Onboard a device using 6-Tap QR code method?
 
 Android devices with Google Mobile Services (GMS) support and a camera can be enrolled and provisioned onto Esper using the 6-tap QR code onboarding method. The particular onboarding screens and device onboarding flow vary across Android versions.
 
 Notes:
 
-1.  6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based onboarding, please email us.
+1.  6 Tap QR Code support was first delivered in Android 7. On some Android versions, primarily Android 9 and above, some of these screens may not appear at all. If you have any questions or issues with 6 Tap QR Code-based onboarding, please [email us](mailto:support@esper.io).
     
 2.  Xiaomi/Redmi devices do not support a 6-tap onboarding method.
     
@@ -33,7 +33,9 @@ Step 5: Go to the Esper Console and navigate to the ’Device and Groups’ sect
 
 ![](https://lh5.googleusercontent.com/JLrDpoocxpc-EYCV7yX_-TS5IDewBQnLC2eEIEXsvhe8luwaK4Sy98699i8he8QiXjoENBX6TRtDQRWZ-Hmoa6QTWs0hBEi9HgnhrorqeWlcwseNLIMczIdLBLykD2LL6JsVzfbS)
 
-Note: This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin onboarding with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
+:::tip
+This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin onboarding with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
+:::
 
 On the dropdown for Wi-Fi, you can choose from an existing network or add a new one. ![](https://lh6.googleusercontent.com/fgW-kJCG4AXIUOYskzubi3XpfB-Qe8LjHWhos7o1dFAy5G3yjfg4mu3Nrv2Wm10JOMoQDBdrckWrzPR_ycY9nXUERgXnxkZnRQ5q5b0-_4dUXJqgVt7x6ouLnzoTJPg5fTNu-ngi)
 
@@ -41,7 +43,7 @@ Once you click ‘Add’ the Wi-Fi the details will be reflected in the QR Code.
 
   
 
-You can view the 6-tap QR Code tutorial for help or click Alternative Onboarding Methods to select different methods. You can also download the config file from the modal.
+You can view the 6-tap QR Code tutorial for help or click Alternative Onboarding Methods to select different methods. You can also download the config file from this modal.
 
 Step 6: Hold up the device’s camera to your computer screen, centering it on the QR code.
 
@@ -51,7 +53,7 @@ The QR code is densely populated. If your device’s camera has trouble scanning
     
 -   Changing the distance between the camera and the screen - move your device closer or further from the QR code
     
--   Hold the device still for a few seconds once you have adjusted the distance.
+-   Holding the device still for a few seconds once you have adjusted the distance.
     
 
 Step 9: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for provisioning, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
@@ -68,9 +70,9 @@ Step 12: If your Blueprint enables Google Play, Google Play Services will be upd
 
 ![alt text](https://lh5.googleusercontent.com/IW5UVyE4a5D27DwbjHH3iu1GzXS0Sm2-SKXhc1XvnGKLlAO9XPhuv53txTlJRJn1w5aE0VB3Ll37C1MLTrR6Mmsx__rLR2z0ssSRGjyF-gmayeqksrd4FMlZ7ozs_lO-0q978uQw)
 
-Often, the device will complete onboarding without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify System settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
+Often, the device will complete onboarding without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify system settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
 
-Step 13: You will now return to the Esper agent to install any Esper Enterprise applications and complete the onboarding process.
+Step 13: You will now return to the Esper Agent to install any Esper Enterprise applications and complete the onboarding process.
 
 ![alt text](https://lh5.googleusercontent.com/hRAkBKEJs971kHHHocyuP8Eum_x4BJAyUH39TY8miOh5fbRgBWrB678EpuILIXcZenDX6t0o_4rjhBI6nekjwGfcbu7ti7oq-_aT2w0TMFE36yZlxnq4aZzSJh4I0lIoON1l7ayZ)
 
