@@ -1,8 +1,6 @@
-## How to use IMEI/Serial Number Provisioning Method?
+## How to use IMEI/Serial Number Onboarding Method?
 
-Esper enables you to use IMEI and serial numbers to provision your devices using the Android for Work (AFW) method. Only Android GMS devices running Android 6.0 or above support AFW. It works by using the AFW provisioning process to pass the available IMEIs and serial number for the device to Esper which is then matched to a Provisioning Template that includes either the device's IMEI or serial number. That template is then used to provision the device.
-
-You first need to prepare a Provisioning Template and then go back to either edit the template or upload a CSV file from the Provisioning Template’s tile.
+Esper enables you to use IMEI and serial numbers to onboard your devices using the Android for Work (AFW) method. Only Android GMS devices running Android 6.0 or above support AFW. It works by using the AFW onboarding process to pass the available IMEIs and serial number for the device to Esper which is then matched to a Blueprint that includes either the device's IMEI or serial number. That Blueprint is then used to onboard the device. You need to prepare a Blueprint beforehad.
 
 
 Step 1: Begin by [factory resetting](./factory-reset.md) your device.
@@ -45,11 +43,11 @@ Step 7: In the Email or phone field, enter **afw#esper** and then select **Next*
 
 ![alt text](./images/AFW-image/7-emailphone.png)
 
-Step 8: You will need to give permission to install the Esper agent on your device to begin the enrollment process. Select **INSTALL**.
+Step 8: You will need to give permission to install the Esper Agent on your device to begin the enrollment process. Select **INSTALL**.
 
 ![alt text](./images/AFW-image/8-DeviceInstall.png)
 
-Step 9: The Esper agent will be downloaded to your device. Please be patient.
+Step 9: The Esper Agent will be downloaded to your device. Please be patient.
 
 ![alt text](./images/AFW-image/9-EsperAgent.png)
 
@@ -63,15 +61,15 @@ Step 10: A screen may display asking you to accept specific terms from Google re
 
 ![alt text](./images/AFW-image/11-AcceptContinue.png)
 
-The Esper agent will now start the installation, and a series of screens will display as Esper prepares for the enrollment.
+The Esper Agent will now start the installation, and a series of screens will display as Esper prepares for the enrollment.
 
 ![alt text](./images/AFW-image/12-StartingServices.png)
 
-Step 11: The screen flow will stop on the Authentication screen. Enter the Passcode that you set up in the associated Provisioning Template. If you purposely did not set a passcode, leave the Passcode field blank. Once the device is ready, click or tap on **CONTINUE**.
+Step 11: The screen flow will stop on the Authentication screen. Enter the Passcode that you set up in the associated Blueprint. If you purposely did not set a passcode, leave the Passcode field blank. Once the device is ready, click or tap on **CONTINUE**.
 
 ![alt text](./images/imei-image/IMEI_AuthenticationContinue.png)
 
-Step 12: Once Esper has successfully read the QR code, provisioning will start and the 'Starting Provisioning' screen will display.
+Step 12: Once Esper has successfully read the QR code, onboarding will start and the 'Starting Onboarding' screen will display.
 
 ![alt text](./images/AFW-image/16-PreparingDevice.png)
 
@@ -79,9 +77,9 @@ Step 12: Once Esper has successfully read the QR code, provisioning will start a
 
 **Notes**:
 
-1.  If you wish to exit the provisioning process for any reason, Click on the **Esper** logo 6 times to bring up the option to factory reset the device.
+1.  If you wish to exit the onboarding process for any reason, Click on the **Esper** logo 6 times to bring up the option to factory reset the device.
     
-2.  If your Provisioning Template enables Google Play, Google Play Services will not be updated. Be aware that this is done by Google and depends on their current quality of service.
+2.  If your Blueprint enables Google Play, Google Play Services will be updated. Be aware that this is done by Google and depends on their current quality of service.
     
 
 ![alt text](./images/AFW-image/18-GooglePlay.png)
@@ -114,7 +112,7 @@ Step 15: You will now be taken back to the 'Can modify system settings' screen. 
 
 ![alt text](./images/AFW-image/23-ModifySettingYesBack.png)
 
-Step 16: You will now return to the Esper agent. You will typically need to grant another permission to allow Esper to draw over other applications. This is done to ensure a smooth experience for Kiosk mode apps. Click on **RESOLVE** to open up the Android system settings application to provide the permission.
+Step 16: You will now return to the Esper Agent. You will typically need to grant another permission to allow Esper to draw over other applications. This is done to ensure a smooth experience for Kiosk mode apps. Click on **RESOLVE** to open up the Android system settings application to provide the permission.
 
 ![alt text](./images/AFW-image/19-GooglePlay-Resolve.png)
 
@@ -140,10 +138,10 @@ Step 20: You will now be taken back to the 'Display Over Other Apps' screen. Esp
 
 ![alt text](./images/AFW-image/27-DrawAppsEDMYes.png)
 
-Step 21: You will now return to the Esper agent to install any Esper Enterprise applications.
+Step 21: You will now return to the Esper Agent to install any Esper Enterprise applications.
 
 ![alt text](./images/AFW-image/28-DeviceInstalling.png)
 
-Now the provisioning is complete, and your device is set up according to your provisioning template. In this example, we’ve provisioned in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
+Now the onboarding is complete, and your device is set up according to your Blueprint. In this example, we’ve onboarded in multi-application mode with three Enterprise applications installed from the Esper Cloud and managed Google Play enabled.
 
 ![alt text](./images/AFW-image/29-DeviceScreen.png)
