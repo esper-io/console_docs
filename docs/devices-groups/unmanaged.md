@@ -41,3 +41,11 @@ These devices have been onboarded and should be moved out of the Directory level
   
 
 ![](https://lh4.googleusercontent.com/PVm4W0qWLUO-n-CHe9zrzis2ANBF8qFfEvlLdIC_m-14f_f5bEUz-fvxpjtIqsfggFwqiygDTcs6sGoiZ3ekXtunjkgOaeWO8CGZEPnjyGM5AIGEWnUQPhTPyvNzVOXEzDp2Mlqn)
+
+## Rejected Records
+
+This tab maintains a list of rejected records. From the pending Approval tab, if a record is rejected, it will be displayed in the ‘Rejected Record’ tab.
+
+  
+
+![](https://lh6.googleusercontent.com/BTVKjfyJD7OkhD16xvK0IhExdfYlGXjdXaWEwZoG5bCQvtx1CUe9sy6KYSzJwcmLBUhJODp-GxskaQHbU7U7O-tEXZKy-3ZRy2yULH4O_2WDoX9Mk3cajnqBIvMAKqrJhu8fizyt)
