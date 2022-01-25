@@ -2,16 +2,12 @@
 
 This method of onboarding can only be used if you have chosen to get devices from Esper. Esper provides the option to recommend hardware devices baked with Esper optimized Android OS, known as Esper Enhanced Android. These devices are the easiest to onboard as all information for onboarding is already baked into the OS of the device. All you need to do is boot the device.
 
-### On the Cloud Portal
+### On the Esper Console
 
-Here are IMEI provisioning steps if your device is running Esper Enhanced Android-
-
-1.  In the Esper Console, create a provisioning template then edit the same template.
-    
-2.  Go to 'Manage Devices’ to upload the required IMEI CSV file or by individual IMEI or Serial Numbers. Update the template.
+You can create upload IMEI or Serial number while creating  a device record. 
     
 
-If you need help, please refer to [Creating a Template with IMEI](./imei-provisioning.md).
+If you need help, please refer to [create a device record](../devices-groups/device-record.md).
 
 ### On the Device
 
