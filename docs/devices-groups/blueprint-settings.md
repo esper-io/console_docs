@@ -515,3 +515,10 @@ Note: Your application can still access the camera if this setting is off.
 Click Reset to Default for the default setting. Click Save and Continue to go to the next settings.
 
 ## Files
+
+You can upload and push files to all the devices onboarded using this Blueprint. Click Add file to upload a new file. You can edit and remove an already uploaded file. To clear the entire file list click Clear File List.
+
+  
+  
+
+![](https://lh6.googleusercontent.com/lPvqg-1wO077pXBDVQyeRKeh8mS2tYIE4lSaq2tLL3MTcax-EZPO7eZYO9cFBMnXENFTasTNzeidnDglafhmg4v7WRG5h-A8TS7rGx6Pg0u43UE5FruSq1nJ6x1wji37ged1OJIM)
