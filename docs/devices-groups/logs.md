@@ -3,11 +3,11 @@
 The ‘Request Bug Report’ button allows you to capture and upload a bug report from your device.
 
 Note: Once a bug report has been requested the user will need to manually approve this request. Approval requires the device to be in multi-app mode with the notification bar enabled.  
-This can be accomplished by enabling “Debugging Mode”. You can then pull down the notification bar and select the “Accept Bug Report” request on the device.
+This can be accomplished by enabling “Debugging Mode”.
 
-![](https://lh4.googleusercontent.com/HV6Thz92ClPxo-LcNXz0Sha1F5mQKsc_3q73QmM6_pvPITB1c4Yap8HxakEujCeY64pS1qIEeHrPU6JjEzWfKwbEN06G7u1xzdoGWUNNCT8EAlauEEQ4DWRJyypQE1M0A0V36wn_)
+You can then pull down the notification bar to track the progress of the bug report request. ![](https://lh4.googleusercontent.com/HV6Thz92ClPxo-LcNXz0Sha1F5mQKsc_3q73QmM6_pvPITB1c4Yap8HxakEujCeY64pS1qIEeHrPU6JjEzWfKwbEN06G7u1xzdoGWUNNCT8EAlauEEQ4DWRJyypQE1M0A0V36wn_)
 
-Share bug report prompt appears when clicking on notification
+Once the report is ready, the Share and Decline report options will be available in the notification bar.
 
   
 
@@ -15,26 +15,25 @@ Share bug report prompt appears when clicking on notification
 
   
 
-Bug Report has finished generating, but has yet to be shared.
+Click the notification to open up the following pop-up to share or decile the generated report.
 
   
 
 ![](https://lh5.googleusercontent.com/9rSDr9bhpYA_Q68h4t2YOyXSjNlivQ18uzOa44u-4hW_8WqHWvdgkhpqxwis2-amJAIFbw09hpm9QrnOcTHrkBz_nnvicMxrLbAR33eHpbIjG1Q-x1wrhMYXenKqP2l-Xtw0rk0n)
 
-Once the bug Report has finished generating you will see the following notification:
-
   
+
+If the “Share” option is selected, you can track the progress of the bug reports being uploaded in the following pop-up.
 
 ![](https://lh3.googleusercontent.com/zu8aPgTLxumqLR7NsliYhcOLs6PX_LoyXaW65htAVDzeFKHspSOezUEXShqiTAk8sCnKXr5jliFuSJQG48c08IQYVqFTC_fFK6SE9bPWMdk67MLgHpGDt1mscUns7BUnCNThlY-M)
 
   
 
-  
-For EEA devices, the report will be generated automatically without requiring user consent.
+Once the bug report is uploaded, it will be seen in the Console with an option to download.
 
 ![](https://lh6.googleusercontent.com/mAWDIkyYuua1nCaW_A32FkRofZBfgxohWP1HaWOLnsnpjNnsRUjVz6rDSTrScxTnagMe7DMnmPvM-TyFrFChai-3_xDj2HBT31y3NTmuRWgwN6gZux6Jw2lo1WXICZVeTCuBGSv7)
 
-  
+For EEA devices, the report will be generated automatically without requiring user consent.
 
 By default Debugging Mode will enable the Notification Bar and place the device into Kiosk mode. The user can also select the gear icon to modify the Debug Mode configurations to include enabling ADB. When Debugging Mode is disabled the device will return to the configuration defined in its Blueprint.
 
