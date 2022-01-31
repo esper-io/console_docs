@@ -36,6 +36,7 @@ module.exports = {
           "remote-viewer",
           "activity",
           "device-actions",
+          "group-action",
           "logs",
           "event-feed",
           ]
