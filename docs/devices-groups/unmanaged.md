@@ -16,11 +16,13 @@ Once approved the device will finish the Onboarding process. If rejected the dev
 
   
 
-For security reasons, we recommend you approve all the devices to onboard. But if you want to skip this process, turn OFF the Enhanced Onboarding Security under the Esper Settings on the Console. (On the Console, navigate to  User Management > Company Settings> Enhanced Onboarding Security).
+For security reasons, we recommend you approve all the devices to onboard. But if you want to skip this process, turn OFF the Enhanced Onboarding Security under the Esper Settings on the Console. (On the Console, navigate to  **User Management**> **Company Settings**> **Enhanced Onboarding Security**).
 
 In this case, you do not have to upload the serial numbers in advance.
 
-Note: The Enhanced Onboarding Security setting will be on by default
+:::tip
+The Enhanced Onboarding Security setting will be ON by default.
+:::
 
 ## Ready to Onboard
 
