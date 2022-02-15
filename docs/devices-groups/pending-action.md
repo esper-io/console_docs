@@ -2,13 +2,13 @@
 
   
 
-Navigate to the Directory view> Select Unmanaged Devices> Pending Approval. Click the ellipsis (...) for a selected device.
+Navigate to the Directory view> Unmanaged Devices> Pending Approval. Click the ellipsis (...) for a selected device.
 
 ![](https://lh6.googleusercontent.com/z_wOuvL-lQ8fxZYbdE3m2O7szGMoRWhOARRuj7-UlFUhenoqvwboypVWeJMfiq7Qc2WVwleNdTkfmGvL12Zf9HFV21GJCDUFfAQf-fXqOiMaBBWseLZFaWAkgmPd0DkEMT8-8gj0)
 
 ## Approve Onboarding
 
-Select Approve Onboarding from the drop-down. This option will allow you to approve or reject the selected device.
+Select 'Approve Onboarding' from the drop-down. This option will allow you to approve or reject the selected device.
 
 ![](https://lh3.googleusercontent.com/yS2HXfExRQ-1-JFV9clExK57APNrkrMoZYolkhbv9LYHR4tw9WFkqtWbZ8KdcKnrgB-oDVrl0voxKQaFIuHZJCj-AZMEP4J_GvZJfDUZ207SelrMofshZc80hBws9eAnksFIPuBh)
 
@@ -16,13 +16,13 @@ Select the desired action and click Continue. Once you accept the warning messag
 
 ## Move
 
-Select Move from the drop-down. This action allows you to move a device from the directory or Parent Group to another group. Select the destination group from the dropdown, add optional details and click Continue.
+Select 'Move' from the drop-down. This action allows you to move a device from the directory or Parent Group to another group. Select the destination group from the dropdown, add optional details and click Continue.
 
 ![](https://lh6.googleusercontent.com/Ltgn4BuG3GD6xlYV7xI9lJ50gaxOQRV-RQwUoyCABwzTbfz3HVfsG3ABbdKW4s_2uawWV5cFYNCatxsq4UaW9EpyrPf_NvA6bopSCMDyTnT5MZs4_ekpPzwGa9rPjy_hSbgI7hpP)
 
 ## Add Tags
 
-Tags make it easy to identify devices in a specific location, type, or SSID. You can add up to 5 tags. Select Add Tags from the dropdown. You can add a new tag or select from a list of already added tags.
+Tags make it easy to identify devices in a specific location, type, or SSID. You can add up to 5 tags. Select 'Add Tags' from the dropdown. You can add a new tag or select from a list of already added tags.
 
 ![](https://lh5.googleusercontent.com/4dd1ImZ_yc3Xv9WjczjE-iMG0pXD2XBPXK2u3nvfvBrRftwnL3WLxmXrUFZyikEaMeFYGznhZW8JS5fihna-gC3PmG9qpiDouaQJcaqJmP-qCVvVEZc7mVxLNaK-4tz2IOuSWeSr)
 
@@ -54,3 +54,8 @@ Rejecting the record will prevent this device from being onboarded to your endpo
 ## Delete Record
 
 Deleting the record will reject approval for onboarding and permanently remove the record from your endpoint. If another attempt is made to onboard this device, you may need to approve or reject the request again.
+
+
+:::tip
+A subset of the actions mentioned above— Approve Onboarding, Move, Reject Records, and Delete Records— is available when you select multiple devices.
+:::
