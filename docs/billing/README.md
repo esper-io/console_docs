@@ -20,11 +20,12 @@ Click “View Invoice” to view past purchases.
 
 Here, you can purchase the Essential plan. The slide bar helps you adjust the device count to reflect the price.
 
-Note: Essential Plan is available for devices 500 or less.
-
+:::tip
+Essential Plan is available for 500 devices or less.
+:::
   
 
-Click ‘Select’ and a typical payment modal. You can choose the monthly or the annual plan.
+Click ‘Select’ and a typical payment modal will pop-up. You can choose the monthly or the annual plan.
 
 ![](https://lh4.googleusercontent.com/f-Iu4rKx1gQx1ygg6Sy87ePjZzEKK4uCGPtZMmHwkCDvSvrG0v7HjRFNOeOofaJcWnh9wkbUWhotOVUM6lirhZdpJVdREEBR0rqgfvMiz-b0Vt62m9hCpFP0DZ5OSah4kAUojVgW)
 
