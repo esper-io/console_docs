@@ -49,5 +49,7 @@ module.exports = [
     }
   ],
   ["meta", { name: "msapplication-TileColor", content: "#f1f5fd" }],
-  ["meta", { name: "theme-color", content: "#f1f5fd" }]
+  ["meta", { name: "theme-color", content: "#f1f5fd" }],
+  ['meta', { property: "og:image", content:"https://console-docs.esper.io/icons/homepage/dashboard.png" }],
+  ['meta', { property: "twitter:card", content:"summary_large_image" }]
 ];
