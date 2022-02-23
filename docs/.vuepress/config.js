@@ -73,6 +73,7 @@ module.exports = {
       require('./sets/pipelines'),
       require('./sets/company-settings'),
       require('./sets/user-management'),
+     // require('./sets/billing'),
       require('./sets/learning-center'),
       require('./sets/esper-enhanced'),
       require('./sets/api-key-management'),
