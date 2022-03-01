@@ -44,15 +44,15 @@ Note: Chrome must always be in the “Show” state for unsecured HTTP web apps.
 4.  Fill out the information.
     
 
-1.  The name of the web app will appear on the app icon and in Esper Console.
+    a.  The name of the web app will appear on the app icon and in Esper Console.
     
-2.  URL destination
+    b.  URL destination
     
-3.  Display mode when the app opens
+    c.  Display mode when the app opens
     
-4.  Upload app icon (optional)
+    d.  Upload app icon (optional)
     
-5.  Default icon
+    e.  Default icon
     
 
 ![display option for a web app](./images/webapp/3-display.png)
