@@ -1,4 +1,4 @@
-# All About Web Apps
+# What are Web Apps?
 
 Web App converts a website/web page into an Android application. If your experience is via a website, you can access it in multi-app mode. But if you need to lock the device down to just your website, you can create a web app and use that application in Kiosk mode.
 
@@ -18,7 +18,9 @@ Following are the requirements for creating a web app:
 -   If Chrome is preloaded on the device (most likely), adding the app via package name com.android.chrome is recommended instead of installing a new one during onboarding.
     
 
-Note: Chrome must always be in the “Show” state for unsecured HTTP web apps.
+:::tip
+Chrome must always be in the “Show” state for unsecured HTTP web apps.
+:::
 
 ## How to create a web app?
 
