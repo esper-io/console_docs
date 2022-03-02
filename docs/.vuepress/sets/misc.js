@@ -21,6 +21,7 @@ module.exports = {
           "password",
           "url",
           "wrong-password",
+          "webapp",
         ]
       },
     ]
