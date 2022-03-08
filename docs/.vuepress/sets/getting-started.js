@@ -19,7 +19,7 @@ module.exports = {
           "",
           "upload-app", 
           "shortcode", 
-          "create-template", 
+          //"create-template", 
           "provision", 
           "find-device", 
           "add-member",
