@@ -35,3 +35,7 @@ Step 2: On the popup, select the Custom alias name radio button and enter the ne
   
 
 Step 3: Click the **Save Changes** button to rename the device.
+
+:::tip
+Follow the same steps to rename the device again.
+:::
