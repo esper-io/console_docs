@@ -57,7 +57,7 @@ All application APK files must adhere to certain conditions to succeed in upload
 -   The APK cannot be larger than 500 MB.
 -   The APK file itself must have the .apk extension.
 -   The APK file must include signature verification.
--   The application cannot set itself as the default launcher; this will cause conflict with the Esper Agent (DPC).
+-   The application cannot set itself as the default launcher; this will cause conflict with the Esper Agent.
 -   The application must adhere to the latest Android APK standards (currently we allow APKs without icons).
     
 
