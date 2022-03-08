@@ -15,25 +15,25 @@ Navigate directly to the section you want to explore.
     <LinkPanel 
     title="Dashboard"
     icon="/icons/homepage/dashboard.png"
-    subtitle=" The Esper Console Homepage that provides comprehensive information about your fleet of Android devices."
+    subtitle="Comprehensive information about your fleet of Android devices"
      link="/dashboard/" 
       />
     <LinkPanel 
-    title="Provisioning methods"
+    title="Onboarding methods"
     icon="/icons/homepage/provision_blog.png"
-    subtitle="Various methods you could use to enroll devices to Esper platform."
+    subtitle="Various methods you could use to onboard devices to Esper platform"
      link="/provisioning-methods/" 
       />
       <LinkPanel 
     title="Provisioning Templates"
     icon="/icons/homepage/templates.png"
-    subtitle="Learn about enrolling multiple devices with a specific configuration here."
+    subtitle="Configurations for Onboarding devices"
      link="/provisioning-template/" 
       />
       <LinkPanel 
     title="Apps"
     icon="/icons/homepage/apps.png"
-    subtitle="Learn about managing Enterprise and Google Play Store Applications here."
+    subtitle="Managing Enterprise and Google Play Store Applications"
      link="/apps/" 
       />
 </div>
