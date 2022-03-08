@@ -17,5 +17,5 @@ There are two different types of Applications you can authorize on your Android 
     
 
 :::tip
-You may approve in-ROM applications or preloaded applications in a device from a Provisioning Template during provisioning by entering the package name in the applications screen. You can find information about the package name ([here](../devices-groups/group-apps.md)).
+You may approve in-ROM applications or preloaded applications in a device from a Blueprint during provisioning by entering the package name in the applications screen. You can find information about the package name ([here](../devices-groups/group-apps.md)).
 :::
