@@ -1,6 +1,6 @@
 ## How to Contact Esper Team?
 
-If you face any issues while using Esper, we are here to help you! Support options available to you depend on your Esper tier:
+If you face any issues while using Esper, we are here to help you! Support options available to you depending on your Esper tier:
 
 -   Esper Starter -  [Esper Support Forum](https://support.esper.io)
 -   Esper Essentials - [support@esper.io](mailto:support@esper.io)
