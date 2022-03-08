@@ -2,7 +2,7 @@
 
 When you first enter your Esper Console, there are no applications available. If you want to include your application when you provision your first device, upload it to your Esper Endpoint as an Enterprise Application stored in the Esper Cloud. Uploading the application works with both AOSP and GMS devices. Be sure that your APK is signed with the V1 signature, as that’s the signature we check for when applications are uploaded. Upload your application by going to "Apps" section in your left menu of your Console, and then click the **Upload Apps** button. Learn more about uploading applications to the Esper Cloud [here.](../apps/upload-apps.md)
 
-If you're feeling adventurous, upload several versions of your application so you can try out pushing new versions to your device and explore Esper’s application management capabilities.
+If you're feeling adventurous, upload several versions of your application, try to push new versions to your device, and explore Esper’s application management capabilities.
 
 You can use Google Play applications when you provision a GMS device. You need to create a managed Google Play account.
 
