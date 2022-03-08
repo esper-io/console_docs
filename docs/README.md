@@ -15,25 +15,25 @@ Navigate directly to the section you want to explore.
     <LinkPanel 
     title="Dashboard"
     icon="/icons/homepage/dashboard.png"
-    subtitle=" The Esper Console Homepage that provides comprehensive information about your fleet of Android devices."
+    subtitle="Comprehensive information about your fleet of Android devices"
      link="/dashboard/" 
       />
     <LinkPanel 
     title="Provisioning methods"
     icon="/icons/homepage/provision_blog.png"
-    subtitle="Various methods you could use to enroll devices to Esper platform."
+    subtitle="Various methods used to enroll devices to Esper platform"
      link="/provisioning-methods/" 
       />
       <LinkPanel 
     title="Provisioning Templates"
     icon="/icons/homepage/templates.png"
-    subtitle="Learn about enrolling multiple devices with a specific configuration here."
+    subtitle="Specific configurations for enrolling devices"
      link="/provisioning-template/" 
       />
       <LinkPanel 
     title="Apps"
     icon="/icons/homepage/apps.png"
-    subtitle="Learn about managing Enterprise and Google Play Store Applications here."
+    subtitle="Managing Enterprise and Google Play Store Applications"
      link="/apps/" 
       />
 </div>
@@ -43,7 +43,7 @@ Navigate directly to the section you want to explore.
 <div class="sm:flex sm:flex-wrap">
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Esper Blog"
-            subtitle="Read articles published by Esper team."
+            subtitle="Read articles published by Esper team"
             link="https://blog.esper.io"
             icon="/icons/icon-knowledge-base.svg"
             icon-size="large"
@@ -51,7 +51,7 @@ Navigate directly to the section you want to explore.
     </div>
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Twitter"
-            subtitle="Catch up on the latest tweets from Esper."
+            subtitle="Catch up on the latest tweets from Esper"
             link="https://twitter.com/esperdev"
             icon="/icons/icon-twitter.svg"
             icon-size="large"
@@ -59,7 +59,7 @@ Navigate directly to the section you want to explore.
     </div>
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Esper Support"
-            subtitle="Our support forum with commonly asked questions and solutions."
+            subtitle="Our support forum with commonly asked questions and solutions"
             link="https://support.esper.io/"
             icon="/icons/link-list.svg"
             icon-size="large"
@@ -67,7 +67,7 @@ Navigate directly to the section you want to explore.
     </div>
     <div class="py-1 sm:w-1/2 sm:py-0">
         <IconLink title="Extended Documentation"
-            subtitle="Read about other Esper components - API, SDK, CLI."
+            subtitle="Read about other Esper components - API, SDK, CLI"
             link="https://docs.esper.io"
             icon="/icons/icon-knowledge-base.svg"
             icon-size="large"
