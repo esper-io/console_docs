@@ -9,6 +9,6 @@ This page displays a list of the 10 most recent Esper Agent releases. Here you c
 Here, select the devices, add stages if necessary and click Continue. You can choose to run the pipeline now.
 
 
-::tip
+::tips
 You must add more stages to stagger your release process.
 :::
