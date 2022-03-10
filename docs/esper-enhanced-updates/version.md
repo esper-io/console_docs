@@ -6,6 +6,6 @@ This page displays a list of the 10 most recent Esper Agent releases. Here you c
 
 ![version history landing page](./images/version.png)
 
-:::tips
+:::tip
 We recommend that you add more stages to stagger your release process.
 :::
