@@ -22,7 +22,7 @@ Step 3: Set the alert condition which is specific to the alert type, then click 
 *Network Alert Condition*: You can set the day, hour, and minutes to alert when the devices are offline.
 
 :::tip
-Minimum value for this alert is 5 min.
+Minimum value for this alert is 10 min.
 :::
 
 ![Network Alert](./images/newalert/3-networkCondition.png)
