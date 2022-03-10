@@ -18,5 +18,5 @@ Step 3: Under Settings, navigate to the "Organization Information" section. Clic
 
 
 :::warning
-Esper does not know when you delete your organization from google EMM enrollment. Hence it will cause the failure of provisioning when Esper will try to reach Google for setting up the device. It is advised that admin does NOT unsubscribe their Gmail ids from Google without consulting Esper support at [support@esper.io](mailto:support@esper.io)
+Esper does not know when you delete your organization from google EMM enrollment. Hence it will cause the failure of provisioning when Esper will try to reach Google for setting up the device. It is advised that admin does NOT unsubscribe their Gmail ids from Google without consulting [Esper support](mailto:support@esper.io).
 :::
