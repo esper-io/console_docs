@@ -1,6 +1,6 @@
 ## How to Unsubscribe your Google EMM Account?
 
-If you still wish to unsubscribe your email from Google Android for Work, get in touch with Esper support at ([support@esper.io](mailto:support@esper.io)) or follow these steps -
+If you still wish to unsubscribe your email from Google Android for Work, get in touch with [Esper support](mailto:support@esper.io) or follow these steps -
 
 Step 1: Go to  [the Google Play Admin Settings page](https://play.google.com/work/adminsettings). If you are already signed in, you will see an option to 'Switch Accounts'. Click **Switch Accounts** to switch to the Gmail id you used for enrollment.
 
