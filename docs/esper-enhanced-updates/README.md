@@ -1,15 +1,11 @@
 ## What are Esper Enhanced Updates?
 
-  
+Esper Software Updates gives you the flexibility to stay up-to-date with Esper Software and leverage new functionality enabled by the platform when you want.
 
-Esper Enhanced Android devices are shipped with custom Android OS for improved security, faster deployments, and superior debugging. Esper's custom Android OS creates a better user experience on single-purpose devices.
-
-  
-
-![Main screen](./images/updates.png)
+![](https://lh4.googleusercontent.com/bTTeBESYQt0pbkjL5bm62rhwo43sq1U7XshCKmmYlKQvJQWN4wDCg-822-fFqMaezZsfAJYIjvBWtOyn3mqvWe5viQtSiTWoTFEyVv0vTa1y-TsVtAnm34ghvuyeUpjEwzY4W6XW)
 
   
-  
-:::tip
-Only the latest thirty build versions of Esper Enhanced Android are listed for deployment.
-:::
+
+The landing page displays the details of the three latest Esper Agent releases. You can create and test a pipeline for each of these versions.
+
+This page also has a summary and the devices count of the various Esper Agent versions installed on your fleet.
