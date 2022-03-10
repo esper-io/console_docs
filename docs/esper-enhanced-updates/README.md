@@ -2,7 +2,7 @@
 
 Esper Software Updates gives you the flexibility to stay up-to-date with Esper Software and leverage new functionality enabled by the platform when you want.
 
-![](https://lh4.googleusercontent.com/bTTeBESYQt0pbkjL5bm62rhwo43sq1U7XshCKmmYlKQvJQWN4wDCg-822-fFqMaezZsfAJYIjvBWtOyn3mqvWe5viQtSiTWoTFEyVv0vTa1y-TsVtAnm34ghvuyeUpjEwzY4W6XW)
+![Esper Software Updates landing screen](./images/main.png)
 
   
 
