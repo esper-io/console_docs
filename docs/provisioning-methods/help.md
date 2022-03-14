@@ -7,7 +7,7 @@ If you find choosing between these methods confusing, we have provided an easy w
 You’ll need to provide the following information:
 
 -   Android version — Check the Android version on your device by navigating to **Settings** > **About** > **Android Version**. Choose the correct version of Android for your device from the dropdown menu.
--   Esper Enhanced — Esper Enhanced Android is a purpose-built Android OS optimized for deployment under the Esper system. Esper provides Esper Enhanced devices on request. Click **YES**, if your devices are Esper Enhanced.
+-   Esper Enhanced — Esper Foundation for Android is a purpose-built Android OS optimized for deployment under the Esper system. Esper provides Esper Enhanced devices on request. Click **YES**, if your devices are Esper Enhanced.
 -   GMS support — Click **YES** if your Android device supports Google Mobile Services.
     
 

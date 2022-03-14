@@ -1,6 +1,6 @@
 ## How to Upload Multiple IMEI/Serial Numbers to a Template for IMEI Provisioning?
 
-To upload a set of IMEI/Serial Numbers for devices you want to provision using Android for Work, or for Esper Enhanced Android devices with this template, click Upload IMEI CSV. The CSV file containing the IMEI and serial numbers must adhere to the following conditions:
+To upload a set of IMEI/Serial Numbers for devices you want to provision using Android for Work, or for Esper Foundation for Android devices with this template, click Upload IMEI CSV. The CSV file containing the IMEI and serial numbers must adhere to the following conditions:
 
 -   The CSV requires the first entry of "IMEI1, IMEI2, serial number".  
 -   Then on each cell below enter "[IMEI #], [IMEI #], [Serial Number]".
