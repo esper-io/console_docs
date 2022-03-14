@@ -1,0 +1,71 @@
+# Query: Esper Enhanced Android
+# ContextLines: 1
+
+14 results - 12 files
+
+docs/Device-Group-Old/group-pane.md:
+  10  
+  11: On the Group actions page you can acccess  - change Settings, view the group’s Event Feed, apply a new compliance policy, install or uninstall applications, or manage Esper Foundation for Android OS updates - for that group.
+  12  
+
+docs/Device-Group-Old/remote-viewer.md:
+  70  
+  71: On Esper Foundation for Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
+  72  
+
+docs/devices-groups/blueprint-settings.md:
+  59  
+  60: -   Over-the-Air OS updates for Esper Foundation for Android OS
+  61      
+
+docs/devices-groups/group-pane.md:
+  10  
+  11: On the Group actions page you can acccess  - change Settings, view the group’s Event Feed, apply a new compliance policy, install or uninstall applications, or manage Esper Enhanced Android OS updates - for that group.
+  12  
+
+docs/devices-groups/remote-viewer.md:
+  70  
+  71: On Esper Foundation for Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
+  72  
+
+docs/provisioning-methods/help.md:
+   9  -   Android version — Check the Android version on your device by navigating to **Settings** > **About** > **Android Version**. Choose the correct version of Android for your device from the dropdown menu.
+  10: -   Esper Enhanced — Esper Foundation for Android is a purpose-built Android OS optimized for deployment under the Esper system. Esper provides Esper Enhanced devices on request. Click **YES**, if your devices are Esper Enhanced.
+  11  -   GMS support — Click **YES** if your Android device supports Google Mobile Services.
+
+docs/provisioning-methods/seamless.md:
+   2  
+   3: This method of onboarding can only be used if you have chosen to get devices from Esper. Esper provides the option to recommend hardware devices baked with Esper optimized Android OS, known as Esper Enhanced Android. These devices are the easiest to onboard as all information for onboarding is already baked into the OS of the device. All you need to do is boot the device.
+   4  
+
+  13  
+  14: Ideally, you should see true zero-touch onboarding on your devices for which the IMEI or serial numbers was uploaded on the Blueprint. You should be able to boot the device and watch it onboard automatically by Esper according to your Blueprint. If you have known Wi-Fi in the deployment field, it can be baked in the Esper Enhanced Android OS. If the Wi-Fi SSID cannot be found an option to manually connect to Wi-Fi will appear. Connecting to a network/WiFi will then continue the onboarding process requiring no further input from the user.
+  15  
+
+docs/provisioning-methods/select-method.md:
+  58  
+  59: Seamless provisioning is only for devices running Esper Enhanced Android or AOSP custom-built devices that directly support Esper.
+  60  
+
+  62  
+  63: Contact Esper (mailto: [support@esper.io](mailto:support@esper.io)) to find out more about Esper Enhanced Android and Seamless Provisioning.
+
+docs/provisioning-template/actions.md:
+  73  
+  74: To upload a set of IMEI/Serial numbers for devices you want to provision using Android for Work, or for Esper Enhanced Android devices with this template, you can drag a file or browse a file from your computer. Click **Done** to upload the file. Click **Cancel** to return to the provisioning template landing page.
+  75  
+
+docs/provisioning-template/createtemplate.md:
+  115  
+  116: -   Over-the-Air OS updates for Esper Foundation for Android OS
+  117  -   Latest Device Agent updates for Devices running an Android version less than 6.0
+
+docs/provisioning-template/upload-imei.md:
+  2  
+  3: To upload a set of IMEI/Serial Numbers for devices you want to provision using Android for Work, or for Esper Enhanced Android devices with this template, click Upload IMEI CSV. The CSV file containing the IMEI and serial numbers must adhere to the following conditions:
+  4  
+
+docs/requirements/README.md:
+  6  
+  7: We will always support development devices running Esper Foundation for Android. Such devices open up additional features for developers when using Esper.
+  8  

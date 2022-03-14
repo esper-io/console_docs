@@ -56,8 +56,8 @@ If you set up your Esper Console login using Google SSO, then you need to go to 
 
 ### Seamless Provisioning
 
-Seamless provisioning is only for devices running Esper Enhanced Android or AOSP custom-built devices that directly support Esper.
+Seamless provisioning is only for devices running Esper Foundation for Android or AOSP custom-built devices that directly support Esper.
 
 IMEI/Serial Number method is used for bulk provisioning of devices. It enables true no-touch provisioning using a predetermined Wi-Fi access point.
 
-Contact Esper (mailto: [support@esper.io](mailto:support@esper.io)) to find out more about Esper Enhanced Android and Seamless Provisioning.
+Contact Esper (mailto: [support@esper.io](mailto:support@esper.io)) to find out more about Esper Foundation for Android and Seamless Provisioning.
