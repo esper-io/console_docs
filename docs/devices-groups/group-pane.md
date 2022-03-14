@@ -8,7 +8,7 @@ You can access the same via more icon and then select "Properties."
 
 ![properties](./images/grouppane/140_Groups_devices_main_screen_group_properties.png)
 
-On the Group actions page you can acccess  - change Settings, view the group’s Event Feed, apply a new compliance policy, install or uninstall applications, or manage Esper Enhanced Android OS updates - for that group.
+On the Group actions page you can acccess  - change Settings, view the group’s Event Feed, apply a new compliance policy, install or uninstall applications, or manage Esper Foundation for Android OS updates - for that group.
 
   
 
