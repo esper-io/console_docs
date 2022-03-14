@@ -68,7 +68,7 @@ There is a recorded history of all screenshots captured per device at the bottom
   
 ### Setup Remote Control on a Single Device
 
-On Esper Enhanced Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
+On Esper Foundation for Android Devices or devices that have a manufacturer signed Esper Agent in the system, there is an option to Remote Control the device.  
 
 :::tip
 Please make sure the device is unlocked before you start the Remote Controller session.

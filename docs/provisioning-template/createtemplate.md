@@ -113,7 +113,7 @@ If you select Default Android Launcher, the default Android launcher will be use
 
 Specifically, the following features will be unavailable:
 
--   Over-the-Air OS updates for Esper Enhanced Android OS
+-   Over-the-Air OS updates for Esper Foundation for Android OS
 -   Latest Device Agent updates for Devices running an Android version less than 6.0
     
 

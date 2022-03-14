@@ -57,7 +57,7 @@ If you select the Android Launcher, the device user will be able to exit the Esp
 
 Specifically, the following features will be unavailable:
 
--   Over-the-Air OS updates for Esper Enhanced Android OS
+-   Over-the-Air OS updates for Esper Foundation for Android OS
     
 -   Latest Device Agent updates for Devices running an Android version less than 6.0
     
