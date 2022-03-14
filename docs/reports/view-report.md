@@ -5,8 +5,9 @@ Esper automatically generates a daily report for your device fleet. The Reports 
 
 ![view ](./images/viewreports/1-viewButton.png)
 
+
 ::: tip
-The daily report is generated for the specifioed day based on the Console time.
+The daily report is generated for the specified day based on the Console time.
 :::
 
 The Daily Report lists the following information:

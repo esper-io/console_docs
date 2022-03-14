@@ -2,7 +2,7 @@
 
   
 
-Users can download the custom reports in the Excel, or CSV format. 
+You can download the custom reports in the Excel, or CSV format. 
 
 To download the report click the **Download** button on the top right corner of the 'Custom Reports' screen and choose a format. 
 
