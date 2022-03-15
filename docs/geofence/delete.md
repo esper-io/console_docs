@@ -2,7 +2,7 @@
 
   
 
-To delete any geofence, Go to more actions on the geofence homepage and Choose 'Delete Geofence.'
+To delete any geofence, go to more actions on the geofence homepage and Choose 'Delete Geofence.'
 
   
 

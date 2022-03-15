@@ -30,7 +30,7 @@ The admins can push files to multiple SD cards at the same time using the scheme
 
 E.g. internal://download/Esper/Notes in this, the scheme internal translates to: /storage/emulated/0.
 
-Esper is introducing the following 6 schemes:
+Esper allows the following 6 schemes:
  - internal- Translates to: /storage/emulated/0
  - external- Translates to: /storage/SD-card ID
  - forced_internal- Translates to: /storage/emulated/0
