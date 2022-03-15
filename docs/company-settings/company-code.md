@@ -12,7 +12,7 @@ Your short codes become a prefix to the name of all devices you control in Esper
 In this example, ESP is a three-letter abbreviation for our company, Esper. DOC signifies the documentation team.
 
 :::tip
-You can change your shortcode after you’ve provisioned devices. The devices provisioned before the change will display the old shortcode prefix. The new shortcode will be displayed in the Esper Console and used for API, SDK, and CLI calls. 
+You can change your shortcode after onboarding devices. The devices onboarded before the change will display the old shortcode prefix. The new shortcode will be displayed in the Esper Console and used for API, SDK, and CLI calls. 
 :::
 
 Step 1: Click the profile icon at the top right corner of the Console. Choose ‘Company Settings’ from the drop down.
