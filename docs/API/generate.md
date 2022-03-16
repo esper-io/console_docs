@@ -8,7 +8,11 @@ You can copy the Enterprise ID, necessary for API calls, by clicking on the copy
 
 ![Create key button](./images/1-generateKey.png)
 
-  
+
+:::tip
+It's always best to have a key dedicated to a single purpose.
+Naming the API key helps you ensure this principle sticks.
+::: 
   
 
 Enter a unique API name and description (optional) and click **Create Key**.
