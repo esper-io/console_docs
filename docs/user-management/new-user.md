@@ -17,7 +17,7 @@ Step 2: Click **New User**.
 
   
 
-Step 3: Enter the new user’s name, username, email address, and password. Re-enter the password and click **Next**.
+Step 3: Enter the new user’s first name, last name, username, and email address. Click **Continue**.
 
 ![details](./images/newuser/3-create.png)
 
@@ -35,6 +35,3 @@ Step 5: If you’re creating a Group Admin or Group Viewer, assign an appropriat
 
   
 
-:::tip
-After adding a user, be sure to provide the user with their login credentials so that the user can successfully log in.
-:::
