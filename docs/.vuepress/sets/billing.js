@@ -3,12 +3,12 @@ module.exports = {
     setTitle: "Billing",
     handle: "console",
     icon: "/icons/sidebar/company_settings.svg",
-    baseDir: "company-settings",
+    baseDir: "Billing",
     // versions: [
     //   ["introduction", { label: "1.x" }]
     // ],
     // defaultVersion: "introduction",
-    searchPlaceholder: "Search Company Settings (Press “/” to focus)",
+    searchPlaceholder: "Search Billing (Press “/” to focus)",
     primarySet: true,
     sidebar: {
       "/": [
