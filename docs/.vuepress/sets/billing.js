@@ -1,14 +1,14 @@
 module.exports = {
     title: "Esper Console Documentation | %v",
-    setTitle: "Billing",
+    setTitle: "billing",
     handle: "console",
     icon: "/icons/sidebar/company_settings.svg",
-    baseDir: "Billing",
+    baseDir: "billing",
     // versions: [
     //   ["introduction", { label: "1.x" }]
     // ],
     // defaultVersion: "introduction",
-    searchPlaceholder: "Search Billing (Press “/” to focus)",
+    searchPlaceholder: "Search billing (Press “/” to focus)",
     primarySet: true,
     sidebar: {
       "/": [
