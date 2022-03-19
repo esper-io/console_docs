@@ -21,9 +21,9 @@ Esper Pipelines currently supports application installation. It requires the use
 
 **Note:** We currently suppport manual trigger.
 
-A new pipeline (base) can be created with 5 stages using the Console (You can create more than 5 stages via the Esper CLI). Create a new job that will indicate the operation (Application Install in this case) and corresponding application/version.
+A new pipeline can be created with a maximum of 3 stages using the Console (You can create more than 3 stages via the Esper API). Create a new job that will indicate the operation (application install in this case) and corresponding application/version.
 
-Start a new run to initiate a pipeline - the user can choose to update the application version to be installed before starting a new run. A Run can be started, paused, resumed, or terminated. 
+Start a new run to initiate a pipeline - you can choose to update the application version to be installed before starting a new run. A Run can be started, paused, resumed, or terminated. 
 
 Any pipeline can have multiple jobs created, and each job can have multiple runs (only one run active at a time) associated with it.
 
