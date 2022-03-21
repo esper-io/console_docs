@@ -3,32 +3,19 @@
 
   
 
-Step 1: On the Pipeline landing page, click the ‘View Details’ link for the selected pipeline.
+Step 1: On the Pipeline landing page, click the Pipeline name in the run tab to view the details of the run. Alternatively, you can navigate to the Pipeline tab and click the pipeline name to view details of the Pipeline. 
 
   
 
 ![Run pipeline](./images/viewV2/1-viewDetails.png)
 
-Step 2: Click the ‘View Run’ link to view the live run preview for the pipeline. You can use the ‘Active’ pipeline toggle switch to turn the pipeline ON/OFF on the pipeline details.
-
-  
-::: tip
-You cannot run an inactive pipeline.
-:::
-  
+On the Run tab, click the name of the pipeline to enter the details page. Here, you cancel the run of the pipeline or cancel the run for a stage of the pipeline. 
 
 ![Run pipeline](./images/viewV2/2-livePreview.png)
 
   
 
-You will be able to view the line run preview for the pipeline. Here, you will be able to see the progress of each stage. Click **Cancel** to stop the pipeline in the process.
-
-When you click the “View Results” link, you will see details of the pipeline. Here you can find the list of targets, the operation performed, the start date and time, and the status of the pipeline. You also have the ability to cancel the running of the pipeline.
-
-  
-
-![View Results](./images/viewV2/3-viewResults.png)
-  
+You will be able to view the details of the entire pipeline from the pipeline tab on the landing page. (Pipelines tab> click the name). Click **Cancel Run** to stop the pipeline in the process.
 
 ::: tip
 The Cancel button will be disabled once the pipeline is successfully completed.
