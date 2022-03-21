@@ -11,7 +11,7 @@ Your first step is to [sign up for a free trial account](https://esper.io/signup
 Once you click **Get Started For Free**, you'll automatically log in to your new environment’s Console. You’ll also get an email with your temporary login credentials, along with the URL of your Console. (It will be something like foooo.esper.cloud, where “foooo” is the randomly generated five-letter name of your environment).
 
 :::tip
-New sign-ups can purchase the Ops plan from the Console. Click the profile icon on the top right corner to access the Billing page.
+For new sign-ups, the Enterprise admin can purchase the Bridge plan from the Console. Click the profile icon on the top right corner to access the billing page.
 :::
 
 

@@ -2,7 +2,7 @@
 
   
 
-Billing is a section in the Console to help users purchase the Ops plan, our basic MDM-catered offering.
+Billing is a section in the Console to help users purchase the Bridge plan, our basic MDM-catered offering.
 
   
 :::tip
@@ -24,10 +24,10 @@ Click the **View Invoice** link to view past purchases.
 
   
 
-Here, you can purchase the Ops plan. Click **Select**, and a typical payment modal is displayed. You can choose the monthly or the annual plan.
+Here, you can purchase the Bridge plan. Click **Select**, and a typical payment modal is displayed. You can choose the monthly or the annual plan.
 
 ![payment modal](./images/4-payment.png)
 
   
 
-You can upgrade to DevOps and Enterprise plans anytime. [Esper Sales](https://www.esper.io/contact-us) team will be happy to help!
+You can upgrade to Architect and Enterprise plans anytime. [Esper Sales](https://www.esper.io/contact-us) team will be happy to help!
