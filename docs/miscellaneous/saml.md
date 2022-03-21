@@ -48,6 +48,9 @@ We support Google, Ping Federate, and other SAML 2.0 SSOs.
 
  4.  Copy the generated ACS URL and Entity ID from Esper and add them to your IDP to finish configuring SAML SSO.
     
+:::tip
+Admin must set the Name ID Format in your IdP to Email Address.
+:::
 
 ![reset](./images/saml/6-copyandreset.png)
 
