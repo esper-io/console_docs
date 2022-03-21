@@ -10,3 +10,22 @@ Enter a different name and a description for the newly created pipeline on the m
 You can edit the properties of the stage— name, and description. Click Edit Stage Properties.
 
 ![](https://lh4.googleusercontent.com/Ebj97rMHzCO24Ri1Cts7u6BsQqPrcMAWnNjn5dC02VKScb0ZbFz48-WUqVnKFYKwgQXaP-WdiR_L3CjLGFCBVqNbDiH_IMmTuXYrcgDU2vPnhlPOZo4ZTsQPpxKEjlLwpal0lJM_)
+
+Navigate to the Pipelines tab on the landing page to edit the targets and operations. Click the name of the pipeline.
+
+  
+
+![](https://lh5.googleusercontent.com/TZNcopL1D8EQXiVP8T5i9NykDvd4IPQSvIiabI0vNJ-e47vAqpywnBOI2uuhMJur8T0YgQLGI2nMo-_obB7-QvAjxNAjFdxMvPsYaItY-7Tz9UcIMXzmmbVhEfr_l0O8d_lp98cA)
+
+Click **Configure New Run**.
+
+  
+
+![](https://lh4.googleusercontent.com/7C4UKkyrMFEGtybCNfbbC0Cwl84qICIKF8z9_iAxQupW6aecDf34aADE-yOagDBxQ6uNpzREdAgzJ8lQHtf9gNaCvrnc8rPhwlb9gl97ebdkMqCVKi6gHQknZLeSaMmqZ70mvBv3)
+
+You will be on the pipeline details page, where you can edit the operations and targets of each stage. Once done, click **Run Pipeline** to configure a new run.
+
+  
+
+![](https://lh3.googleusercontent.com/NfahPyr5zaJ3hX8_fCIE2sIppbHhT1uQTzWRqkp6Qy1xSEHA81cdm30-7URT7TBW79bX6kBODu89lr-33KAvnWJHlcWZfTUhDlrVPfwzpMg_xaaqb0OvwTGluSJqqzw-klqPgAcj)
+
