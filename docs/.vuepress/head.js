@@ -11,7 +11,7 @@ module.exports = [
     "link",
     {
       rel: "icon",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -19,7 +19,7 @@ module.exports = [
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -28,7 +28,7 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -37,14 +37,14 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
     "link",
     {
       rel: "mask-icon",
-      href: "https://esper.io/favicon-32x32.png",
+      href: "/icons/favicon.png",
       color: "#e5422b"
     }
   ],
