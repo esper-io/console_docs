@@ -31,3 +31,8 @@ The uploaded image must be in a .jpg or .png format and at least 180 x 180 px.
 Enter the group name and the description and click Create.
 
 You will be navigated into the newly created group, where you can add subgroups or devices to the created group.
+
+
+:::tip
+When a group is created, a Blueprint with [default settings]() is associated with it. You can use this blueprint to add a new one.
+:::
