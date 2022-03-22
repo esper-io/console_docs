@@ -1,5 +1,5 @@
 # How to Create a Device Record?
-Navigate to the Devices & Groups section of the Console. Click Add and choose ‘Device Record Registeration’ from the options.
+Navigate to the Devices & Groups section of the Console. Click Add and choose ‘Device Record Registration’ from the options.
 
 ## Individual Devices
 Choose Individual Devices from the options to create a record of a single device. On the modal, enter the unique identifier for the device you wish to upload. 
