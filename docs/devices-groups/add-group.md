@@ -34,5 +34,5 @@ You will be navigated into the newly created group, where you can add subgroups 
 
 
 :::tip
-When a group is created, a Blueprint with [default settings]() is associated with it. You can use this blueprint to add a new one.
+When a group is created, a Blueprint with [default settings](/blueprint_default_values.pdf) is associated with it. You can use this blueprint to add a new one.
 :::
