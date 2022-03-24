@@ -1,5 +1,7 @@
 # How to configure SAML SSO?
 
+:::warning
+On free Esper plan, this feature is not available by default. If you need this capability, reach out to [Esper](https://support.esper.io/s/) to upgrade your plan to Esper Architect.
   
 
 Click the Profile icon and navigate to your company settings.
