@@ -71,5 +71,5 @@ Note: You can assign a configuration to multiple devices at a time. Navigate to 
 
 Download an example from the pop-up, associate a configuration, and upload a CSV file.
 
-![csv](./images/ZTE/9-csv.png)1
+![csv](./images/ZTE/9-csv.png)
 
