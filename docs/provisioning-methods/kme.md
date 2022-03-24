@@ -34,7 +34,7 @@ Step 6: You will be taken to the Android enterprise profile settings screen.
 
 ![profile setting](./images/KME/7-profileSettings.png)
 
-To enter the Custom JSON data, go to the Esper Console and navigate to the template.
+To enter the Custom JSON data, login to the Esper Console and navigate to the Device and Group section. Click on a QR code icon assosiated with any group and download the config. 
 
 ![profile created](./images/KME/8-Config.png)
 

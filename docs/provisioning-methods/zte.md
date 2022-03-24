@@ -24,7 +24,7 @@ To enter the DPC extras, navigate to the Esper Console.
 
 ![download](./images/ZTE/3-downloadCOnfig.png)
 
-Copy the following contents from the downloaded Config file and paste it into the DPC extras. Click ADD.
+Login to the Esper Console and navigate to the Device and Group section. Click on a QR code icon assosiated with any group and download the config. Copy the following contents from the downloaded Config file and paste it into the DPC extras. Click ADD.
 
 `
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
