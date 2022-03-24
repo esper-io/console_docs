@@ -10,7 +10,7 @@ Step 2: You will be taken to the Configuration tab.
 
   
 
-![](https://lh3.googleusercontent.com/Uc5p99Di_KxcaSm3MeIOjn1988zduPozO7yS3iEr_OtAEiqnY7HNHiOguLW1XGfEiiEk1PAbdI7psPSAGUObTZH8x1BA_CsKFbHD3dtbe-dCqkJsE4UMZxB3I28ch-BQubaI3bhE)
+![portal](./images/ZTE/1-ZTE.png)
 
 Here you will be able to create a configuration to associate with a device.
 
@@ -18,14 +18,15 @@ Step 3: Click the ‘+’ symbol to add a new configuration.
 
 Step 4: On the pop-up, enter the details— configuration name and EMM DPC (Esper Device Management). Enter your organization’s information for the company name, support email address, support phone number.
 
-![](https://lh3.googleusercontent.com/xjU5a7woymxttXNg9ub6zRIs-2FZnwsqdDSCJptVmNMxWwVi3uHjyer3rEaKK_N-w3MTTFJsp1m_r6LV-hOzIpvKKJTCWXbEgrDnFa8UtLQRrodHZShy4c9DDuQHa1WV11IWN-Il)
+![create config](./images/ZTE/2-createConfig.png)
 
 To enter the DPC extras, navigate to the Esper Console.
 
-![](https://lh3.googleusercontent.com/rTSGZf4ODy9BqHyYfvpB4fci41e4jtHm1x1dfBzjVgu1uNnQiOXraOZdtiX4o-R3l10HGHocYFHui7eSiNFjPIuEUb4mdSpHbrudmkSM6F7GFfAIkWgcd8JEFhVDrC858GUf19lG)
+![download](./images/ZTE/3-downloadCOnfig.png)
 
 Copy the following contents from the downloaded Config file and paste it into the DPC extras. Click ADD.
 
+`
 "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
 
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
@@ -43,31 +44,32 @@ Copy the following contents from the downloaded Config file and paste it into th
 "provisionType": "QR_CODE"
 
 }
-
+`
   
 
 Step 5: The added configuration will be displayed on the Configuration tab.
 
-![](https://lh3.googleusercontent.com/JJFsZnVE54pZGmCKjoR2_uwUAUyDKoTfxH2BRgHAU0hAyna3MxZgh8YmNJz-yL8OwZRP809qTTGn5VVf77hg9DNDuTc1e99FuWltxdboX-V1194nndAfAoN6K4wC98msGmvtE4sg)
+![Add config](./images/ZTE/4-addedConfig.png)
 
 Step 6: Now, you need to add the configuration to the device. Navigate to the device tab. Here all the devices added by the reseller are displayed with no configuration.
 
-![](https://lh6.googleusercontent.com/J9OMEXRDOTrYd1HxWYz_iAl5nl6y6t9FNGQj4SHoA14MOXIOv9aY4H9K8n84_ow6QPW7LKeRBUgbSHSJ-cLsXjsGnbAMzg9Fx7-yayz8DpXEnKGeB_69Ah8LdsRFREvSD7WCY9J9)
+![devices](./images/ZTE/5-Devices.png)
 
 Step 7: Select the device you want to associate a configuration. Click on the dropdown and choose the configuration.
 
-![](https://lh6.googleusercontent.com/MRtwKWNB-U2wCuwzTLiHFQ05GJ8bMB7i_4XZTWkrowS8PbRQYCECn45pJjNbC3KP1qdK9mToWvcIobq6kYTRmIY_1kob2eoKC6dBXzhDs0KHlDcuxDji1UXzVn9gs4XIVjBXD4Sk)
+![Config](./images//ZTE/6-dropdownConfig.png)
 
 Step 8: Confirm your choice, and the device will be associated with the configuration.
 
-![](https://lh4.googleusercontent.com/HopKdvnYn3A29Tm7-8lf8ITZOwBgoyloegpeWPpz2rjll2N1AzCM1j8yFDsnD7Ldbbs7RoRa9VIjzbjh41IEXusM-fanp3sJz0F07l3j9a4t7PDw7RiolWZDiKVuJragh-TKiKTn)
+![confirm](./images/ZTE/7-confirm.png)
 
 When you factory reset the device, you will go through the Android standard setup process. Suppose you connect to the internet during this setup process, the Zero-touch profile will be found. It will automatically start the provisioning process after a few license/onboarding prompts.
 
 Note: You can assign a configuration to multiple devices at a time. Navigate to the Device section for bulk upload and choose ‘Upload batch configurations’ from the menu.
 
-![](https://lh3.googleusercontent.com/Y6OSXGr4holvSEubo_zL3pXh5YZ5Iqwv2W8farOhL1dalL9xXXgoIrrBHW5NGTOaVXPa9oRYf_j3qqSq0wk69SHDeqS0UpTMHjly6qUHRd6EIEZGYhpqbPKc4jh8XBaQlFcY2Ko0)
+![bulk upload](./images/ZTE/8-bulkUpload.png)
 
 Download an example from the pop-up, associate a configuration, and upload a CSV file.
 
-![](https://lh5.googleusercontent.com/RQKRhBT0sn6sQZsCYoq5AEO5dCULr7t6O9d1Za9k8DuNv2hSxuZlar9dI4VxfQPyF7y8wVrKY00OegJrUGGCftVZE0i6sTKtMK1vnsXxiRSsO1FC_QoeIonDpmvsWgYCtH6_zd3z)
+![csv](./images/ZTE/9-csv.png)1
+
