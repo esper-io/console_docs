@@ -2,7 +2,7 @@ module.exports = {
   title: "Esper Console Documentation | %v",
   setTitle: "Onboarding Methods",
   handle: "console",
-  icon: "/icons/sidebar/provisioning_methods.svg",
+  icon: "/icons/sidebar/Onboarding.svg",
   baseDir: "provisioning-methods",
   // versions: [
   //   ["introduction", { label: "1.x" }]
