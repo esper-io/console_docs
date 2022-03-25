@@ -23,6 +23,7 @@ module.exports = {
           "wrong-password",
           "frp",
           "saml",
+          "webapp",
         ]
       },
     ]

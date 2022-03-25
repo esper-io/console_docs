@@ -1,6 +1,6 @@
 ## How to Sign Up for a Trial Account?
 
-To try out Esper, sign up for a developer trial account on the [Esper Website](https://esper.io/signup/). Once the account set up is complete, you generate your API key. You can test out all the features of our innovative platform—whether building out a kiosk, point of sale solution, or for an entirely new Dedicated Device category. It is the best platform designed for the Android application developer targeting Dedicated Devices. 
+To try out Esper, sign up for a developer trial account on the [Esper Website](https://esper.io/signup/). Once the account set up is complete, you can generate your API key. You can test out all the features of our innovative platform—whether building out a kiosk, point of sale solution, or for an entirely new Dedicated Device category. It is the best platform designed for the Android application developer targeting Dedicated Devices. 
 
 ### Set Up an Account
 

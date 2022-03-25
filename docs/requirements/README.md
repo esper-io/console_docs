@@ -7,4 +7,4 @@ We now support the Android version 12 on our platform.
 We will always support development devices running Esper Foundation for Android. Such devices open up additional features for developers when using Esper.
 
 
-You can also send us an email at ([support@esper.io](mailto:support@esper.io)) for any questions or concerns.
+You can also send us an [email](mailto:support@esper.io) for any questions or concerns.

@@ -11,7 +11,7 @@ module.exports = [
     "link",
     {
       rel: "icon",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -19,7 +19,7 @@ module.exports = [
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -28,7 +28,7 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -37,17 +37,19 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
     "link",
     {
       rel: "mask-icon",
-      href: "https://esper.io/favicon-32x32.png",
+      href: "/icons/favicon.png",
       color: "#e5422b"
     }
   ],
   ["meta", { name: "msapplication-TileColor", content: "#f1f5fd" }],
-  ["meta", { name: "theme-color", content: "#f1f5fd" }]
+  ["meta", { name: "theme-color", content: "#f1f5fd" }],
+  ['meta', { property: "og:image", content:"https://console-docs.esper.io/icons/homepage/dashboard.png" }],
+  ['meta', { property: "twitter:card", content:"summary_large_image" }]
 ];
