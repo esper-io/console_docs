@@ -42,7 +42,7 @@ Copy the contents of the Admin Extra Bundle from the downloaded Config file and 
 
 The created profile will be displayed on the profile screen.
 
-![profile created](./images/KME/9-profileCreated%20.png)
+![profile created](./images/KME/9-profileCreated.png)
 
 If you click the profile name, you will be able to edit and save the created profile.
 
