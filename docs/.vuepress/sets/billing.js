@@ -2,7 +2,7 @@ module.exports = {
     title: "Esper Console Documentation | %v",
     setTitle: "Billing",
     handle: "console",
-    icon: "/icons/sidebar/company_settings.svg",
+    icon: "/icons/sidebar/Billing.svg",
     baseDir: "billing",
     // versions: [
     //   ["introduction", { label: "1.x" }]
