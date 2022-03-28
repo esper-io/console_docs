@@ -14,5 +14,5 @@ Step 2: Here you can see various Runs for this pipeline.
 
 ![Run pipeline](./image/view/2-pipelineDetails.png)
 
-Further, click on the run to view its details. You can also congigure a new run.
+Further, click on the run to view its details. You can also configure a new run.
 
