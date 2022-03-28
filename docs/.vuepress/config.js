@@ -74,7 +74,7 @@ module.exports = {
       require('./sets/company-settings'),
       require('./sets/user-management'),
       require('./sets/billing'),
-     // require('./sets/esper-enhanced'),
+      require('./sets/esper-enhanced'),
       require('./sets/api-key-management'),
       require('./sets/misc'),
     ],
