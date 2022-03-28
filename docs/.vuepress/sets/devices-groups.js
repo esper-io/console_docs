@@ -18,7 +18,7 @@ module.exports = {
         children: [
           "",
           "directory",
-          "unmanaged",
+          "management",
           "device-record",
           "pending-action",
           "readyonboard-action",

@@ -1,4 +1,4 @@
-# What is the Unmanaged Device Group in the Directory View?
+# What is the Directory Management Device Group in the Directory View?
 
 All the devices that do not have a group assigned to them will be placed in the Unmanaged Devices Group. To edit and manage the device settings, the devices need to be a part of a group.
 
