@@ -2,7 +2,7 @@
 
 All the devices that do not have a group assigned to them will be placed in the Unmanaged Devices Group. To edit and manage the device settings, the devices need to be a part of a group.
 
-## Pending Approval
+<!-- ## Pending Approval
 
 This tab displays a list of devices that are pending onboarding approval.
 
@@ -22,7 +22,7 @@ In this case, you do not have to upload the serial numbers in advance.
 
 :::tip
 The Enhanced Onboarding Security setting will be ON by default.
-:::
+::: -->
 
 ## Ready to Onboard
 
@@ -36,7 +36,7 @@ You can create a record to automate onboarding approval by uploading a device's 
 :::tip
 These are all the pre-approved devices, and you can onboard the devices whenever you are ready using one of the onboarding methods.
 :::
-
+<!-- 
 ## Assign to Group
 
 If you Onboard a device directly to the Directory level, the device will be placed in the ‘Assign to Group’ tab with default settings.  
@@ -52,4 +52,5 @@ This tab maintains a list of rejected records. From the pending Approval tab, if
 
   
 
-![](https://lh6.googleusercontent.com/BTVKjfyJD7OkhD16xvK0IhExdfYlGXjdXaWEwZoG5bCQvtx1CUe9sy6KYSzJwcmLBUhJODp-GxskaQHbU7U7O-tEXZKy-3ZRy2yULH4O_2WDoX9Mk3cajnqBIvMAKqrJhu8fizyt)
+![](https://lh6.googleusercontent.com/BTVKjfyJD7OkhD16xvK0IhExdfYlGXjdXaWEwZoG5bCQvtx1CUe9sy6KYSzJwcmLBUhJODp-GxskaQHbU7U7O-tEXZKy-3ZRy2yULH4O_2WDoX9Mk3cajnqBIvMAKqrJhu8fizyt) -->
+
