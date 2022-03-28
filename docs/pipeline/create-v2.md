@@ -33,5 +33,9 @@ Select the device you wish to push the update to.
 
 Your pipeline is now created and ready to run.
 
+:::tip
+
+You can select group as a target. Select groups from the drop-down (select target). Click the group name to add sub-groups. 
+:::
 
 
