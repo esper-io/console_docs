@@ -16,4 +16,6 @@ _Run_  - An instance of pipeline in execution.
 
 _Trigger_  - A prompt to force the execution of a pipeline stage. This could be manual (prompted by a user) or automatic (prompted as a result of successful criteria like an online device).
 
-**Note:**  We currently suppport manual trigger.
+::: tip
+We currently suppport manual trigger.
+:::
