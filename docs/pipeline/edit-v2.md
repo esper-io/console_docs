@@ -1,5 +1,7 @@
 ## How to Edit a Pipeline?
 
+### To edit pipeline properties
+
 Click Edit Properties.
 
 ![edit pipeline](./image/edit/1-edit.png)
@@ -8,10 +10,13 @@ Enter a different name and a description for the newly created pipeline on the m
 
 ![details](./image/edit/2-enterdetails.png)
 
+### To edit stage properties
+
 You can edit the properties of the stage— name, and description. Click Edit Stage Properties.
 
 ![stage properties](./image/edit/3-device.png)
 
+### To edit the operation or target
 Navigate to the Pipelines tab on the landing page to edit the targets and operations. Click the name of the pipeline.
 
 ![pipeline](./image/edit/4-pipelines.png)
