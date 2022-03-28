@@ -12,4 +12,4 @@ Any pipeline can have multiple jobs created, and each job can have multiple runs
 
 ![pipeline main screen](./image/Pipeline-main.png)
 
-The landing page displays a summary of all the Pipeline runs for the enterprise. Click the ellipsis for a particular run to view the pipeline or cancel a run. The Pipelines tab displays all the pipelines created for the enterprise. You can also create a new pipeline.
+The landing page displays a summary of all the Pipelines and the Runs for the enterprise. Click the ellipsis for a particular run to view the pipeline or cancel a run. The Pipelines tab displays all the pipelines created for the enterprise. You can also create a new pipeline.
