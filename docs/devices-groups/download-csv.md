@@ -8,7 +8,7 @@ Click the view icon and select the List:Device view.  Clicking the cloud icon  t
 
   
 
-![Download list](./images/7-downloadcsv.png)
+![Download list](./images/downloadCsv.png)
 
   
 
