@@ -24,7 +24,7 @@ module.exports = {
           "readyonboard-action",
           //"assign-action",
           "view",
-          "customize",
+          //"customize",
           "download-csv",
           "filters",
           "add-group",
