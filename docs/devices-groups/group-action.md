@@ -6,7 +6,8 @@ On the Group’s page, click the Action button.
 
 ![](https://lh6.googleusercontent.com/vIO7oRebrI5oJQLyYEPQOdYWIPdqUT9AYzhij4BGLAziD7GIuwtbGUhMiNlm8ShTTppF45EHQIXIsNsuKflC-kDJFiSxL9taSUO1G0mC6VfflaulBbodljjMeoyyqXS_eG5uOz4Z)
 
-  
+## App management
+Here you can manage the application install,un-install, app state and apply manage configurations to all the application in the group. This action is simialr to the device app section. You can find more info [here](./groups-apps-install-uninstall.md).  
 
 ## Ping
 
@@ -24,7 +25,7 @@ When you select Screen Lock, the Esper Console will send the command to lock the
 
 ## Reboot
 
-## The Esper Console will send the command to reboot a device when you click Reboot. You can reboot your device if you are having trouble communicating with the device.
+The Esper Console will send the command to reboot a device when you click Reboot. You can reboot your device if you are having trouble communicating with the device.
 
 ## Send Message
 
