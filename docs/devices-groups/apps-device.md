@@ -30,7 +30,9 @@ An Application can have 3 states: Show, Hide, and Disable.
 -   Disable state: If you want to prevent an application from running, use ‘Disable’. Disable state is helpful for in-ROM applications that you cannot uninstall. This state prevents the running of such applications and avoids impacting the user experience. It ensures no needless data consumption.
     
 
-Note: In-ROM (preloaded) applications cannot be uninstalled. They can be hidden.
+:::tip
+In-ROM (preloaded) applications cannot be uninstalled. They can be hidden.
+:::
 
 Click Actions and select the app state from the drop-down as a group action when you choose multiple applications.
 
@@ -40,7 +42,11 @@ Alternatively, you can select the app state from the ‘App State’ column for 
 
 ![](https://lh4.googleusercontent.com/8IjvabC6VC5CNDlac7_RSqcWk8CHWJvk0u8_-YRPk3SxmhSN5chXZyiHKuVJG5JMv2mnr_QcH5Z_j3cRV9Lknlfb5tI9Q7JSv8UVgtl-d3I30KP5YnXATLrYHDvCtEEOA7cQPCDv)
 
-Note: You will be able to track progress in the event log.
+
+:::tip
+You will be able to track progress in the event log.
+:::
+
 
 ### Manage Configurations for Existing Applications on a Device from the Console
 
@@ -52,9 +58,10 @@ On the pop-up under the Configurations tab, type the JSON code for the key-value
 
 Following is a sample code for Chrome (version 86 and above) Manage Configuration:
 
+```java
 {"URLBlocklist":[
 
-"example.com",
+    "example.com",
 
 "https://ssl.server.com",
 
@@ -83,9 +90,11 @@ Following is a sample code for Chrome (version 86 and above) Manage Configuratio
 "DefaultGeolocationSetting":3
 
 }
+```
 
 Following is a sample code for Chrome (Version below 86) Manage Configuration:
 
+```java
 {"URLBlacklist":[
 
 "example.com",
@@ -119,7 +128,7 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
 "DefaultGeolocationSetting":3
 
 }
-
+```
 Click Apply Changes to save the changes. If you have managed configurations applied for an application, you will be able to edit the configurations. Only valid key-value pairs will be applied to the application.
 
 ![Edit manage config](https://lh4.googleusercontent.com/G91EXdbyHOAz4LotHS18DPjWim3GqY7Lz8SPr66tdOZS0Pcw2nrAzQKsmEkIAJURiAD3jhX3jkC3s02AxtWuro-wytnFxEXzMjEWLBjEmKzfQb1EvlbHF7RFOxtj6RPua0vNh54Y)
