@@ -34,7 +34,7 @@ module.exports = {
           "apps-device", 
           "device-app-install-uninstall",
           "remote-viewer",
-          "activity",
+          //"activity",
           "device-actions",
           "group-action",
           "logs",
