@@ -6,7 +6,7 @@ When you click the Blueprint link, you will view/edit various categories of the 
 
   
 
-Note: The lock Section link helps you lock the selected section of the Blueprint. Once locked, other Blueprints cannot override it, and the child devices and groups will inherit that sections.
+<!-- Note: The lock Section link helps you lock the selected section of the Blueprint. Once locked, other Blueprints cannot override it, and the child devices and groups will inherit that sections. -->
 
 ## Apps & Configurations
 
@@ -324,87 +324,87 @@ Click Reset to Default for the default setting. Click Save and Continue to go to
 
 #### Wi-Fi Access Points
 
-## You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after provisioning.
+You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after provisioning.
 
-## The Wi-Fi on/off and WiFi access points features are not available for devices running Android 10.0 and above.
+The Wi-Fi on/off and WiFi access points features are not available for devices running Android 10.0 and above.
 
-## When you are adding a new access point, you have four fields to configure: Wi-Fi SSID, Wi-Fi Password, Wi-Fi Security type, Hidden. The Wi-Fi SSID and Wi-Fi Password fields are text fields for the SSID and password. Select the security type from the dropdown menu. There are four possible choices:
+When you are adding a new access point, you have four fields to configure: Wi-Fi SSID, Wi-Fi Password, Wi-Fi Security type, Hidden. The Wi-Fi SSID and Wi-Fi Password fields are text fields for the SSID and password. Select the security type from the dropdown menu. There are four possible choices:
 
--   ## NONE
+-   NONE
     
--   ## WPA- Wireless Protected Access
+-   WPA- Wireless Protected Access
     
--   ## WEP- Wired Equivalent Privacy
+-   WEP- Wired Equivalent Privacy
     
--   ## EAP- Extensible Authentication Protocol
+-   EAP- Extensible Authentication Protocol
     
 
-## None: None is a open type network. Requirement: SSID
+None: None is a open type network. Requirement: SSID
 
-## WEP: WEP is a open type network with password. Requirements: SSID, Password (limit: 13 characters)
+WEP: WEP is a open type network with password. Requirements: SSID, Password (limit: 13 characters)
 
-## WPA :Android refers to WPA as WPA/WPA2 but technically WPA and WPA2 are little different from each other. WPA is an enhanced version of WEP. ß Requirements: SSID,Password (limit: 63 characters) EAP: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
+WPA :Android refers to WPA as WPA/WPA2 but technically WPA and WPA2 are little different from each other. WPA is an enhanced version of WEP. ß Requirements: SSID,Password (limit: 63 characters) EAP: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
 
-## ![wifi access point](https://lh5.googleusercontent.com/DbkhiVBmZIgDuRGCoI5POpr2NSK3pbywfAhyZCVzmJTRkydWpTSjyUCCCiYhZpcybZ7MQ5jum4Rl1sOIy0fOwCNEcf8nLgMZWhW_-qeVBtLyxkcVE-1ULVynAi4M63PD1Vb3WlYM)
+![wifi access point](https://lh5.googleusercontent.com/DbkhiVBmZIgDuRGCoI5POpr2NSK3pbywfAhyZCVzmJTRkydWpTSjyUCCCiYhZpcybZ7MQ5jum4Rl1sOIy0fOwCNEcf8nLgMZWhW_-qeVBtLyxkcVE-1ULVynAi4M63PD1Vb3WlYM)
 
-## If you select EAP, you will be prompted to enter additional information.
+If you select EAP, you will be prompted to enter additional information.
 
-## ![EAP](https://lh3.googleusercontent.com/wvgMTRF5hSNcuhsUOd6wdgv-i-W5bpT0na3N2PccB8_LnHi3g19FuvB71D3Eyvazovcx28NrNHMFmiGB9q20C5eEIT9wFZkLWMZpkxQ_GdHJmDIxYxJWW-REPc7vtLF5XyB-hpCR)
+![EAP](https://lh3.googleusercontent.com/wvgMTRF5hSNcuhsUOd6wdgv-i-W5bpT0na3N2PccB8_LnHi3g19FuvB71D3Eyvazovcx28NrNHMFmiGB9q20C5eEIT9wFZkLWMZpkxQ_GdHJmDIxYxJWW-REPc7vtLF5XyB-hpCR)
 
-## Wi-Fi EAP Method is a drop-down with the following options:
+Wi-Fi EAP Method is a drop-down with the following options:
 
--   ## PEAP-  
+-   PEAP-  
     Phase 2 Authentication  
     Identity (Optional)  
     Anonymous Identity (Optional)  
     Password
     
--   ## TLS-  
+-   TLS-  
     Identity (Optional)
     
--   ## TTLS-  
+-   TTLS-  
     Identity (Optional)  
     Anonymous Identity (Optional)
     
 
-## Password
+Password
 
--   ## PWD-  
+-   PWD-  
     Identity (Optional)  
     Password (Optional)
     
 
-## Similarly, the Phase 2 Authentication is also a dropdown with the following options:
+Similarly, the Phase 2 Authentication is also a dropdown with the following options:
 
--   ## NONE
+-   NONE
     
--   ## PAP  
+-   PAP  
     Identity (Optional)  
     Anonymous Identity (Optional)  
     Password
     
--   ## MSCHAP  
+-   MSCHAP  
     Identity (Optional)  
     Anonymous Identity (Optional)  
     Password
     
--   ## MSCHAPV2  
+-   MSCHAPV2  
     Anonymous Identity (Optional)  
     Password
     
--   ## GTC Do not valid  
+-   GTC Do not valid  
     Identity (Optional)  
     Anonymous Identity (Optional)  
     Password
     
--   ## SIM
+-   SIM
     
--   ## AKA
+-   AKA
     
--   ## AKA_PRIME
+-   AKA_PRIME
     
 
-## In Android 10 and above, when a WiFi access point is added directly from the device, it is recommended that GPS is ON so that WiFi access point can reflect back on the Console.
+In Android 10 and above, when a WiFi access point is added directly from the device, it is recommended that GPS is ON so that WiFi access point can reflect back on the Console.
 
 ## Display & Branding
 
@@ -498,7 +498,7 @@ This setting allows you to connect external devices. If you want device users to
 
 ### USB Tethering
 
-### USB tethering allows users to connect USB devices, such as flash drive, digital camera, mouse, or keyboard to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to On. If you don’t, set it Off.
+USB tethering allows users to connect USB devices, such as flash drive, digital camera, mouse, or keyboard to the device. If you want device users to be able to connect other hardware to the device, set USB Connectivity to On. If you don’t, set it Off.
 
 ### File Transfer
 
@@ -522,3 +522,4 @@ You can upload and push files to all the devices onboarded using this Blueprint.
   
 
 ![](https://lh6.googleusercontent.com/lPvqg-1wO077pXBDVQyeRKeh8mS2tYIE4lSaq2tLL3MTcax-EZPO7eZYO9cFBMnXENFTasTNzeidnDglafhmg4v7WRG5h-A8TS7rGx6Pg0u43UE5FruSq1nJ6x1wji37ged1OJIM)
+
