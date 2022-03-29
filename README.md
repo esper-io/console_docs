@@ -14,11 +14,3 @@ npm run docs:dev
 ```
 
 Quit the process and re-run if you’ve made changes to any `.js` config files.
-
-## Storybook
-
-You can examine some of the theme’s custom styles and components by running Storybook:
-
-```
-npm run storybook
-```
