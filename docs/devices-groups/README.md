@@ -2,7 +2,7 @@
 
 The Devices & Groups section enables you to manage devices and groups in one place. You can assign blueprints, manage settings for the devices or the groups, move devices/groups from one group to another, and a lot more. Once the devices are assigned to groups, you can use a single command to perform an action on all the devices in the group. You can, for example, apply a blueprint to all the devices in the group at once.
 
-![](https://lh4.googleusercontent.com/FGT9WiVT-MYCR-X3W10Ct1hmREWSdBIiCOpS1osoYXEhGxlrtXxWHVDQWwor3WFl_kiQE7dDSbFmlHJE6TIvGOIiQCjdPgcUBw130Dx_iJQhEIx3oOnLykmEj6zLdy71v8JjZN1f)
+![landing page](./images/Devices-main.png)
 
 Once your devices are enrolled to Esper, the Devices & Groups view will display all the devices and group structure.
 
