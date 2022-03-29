@@ -34,7 +34,7 @@ Once the bug report is uploaded, it will be seen in the Console with an option t
 
 ![](https://lh6.googleusercontent.com/mAWDIkyYuua1nCaW_A32FkRofZBfgxohWP1HaWOLnsnpjNnsRUjVz6rDSTrScxTnagMe7DMnmPvM-TyFrFChai-3_xDj2HBT31y3NTmuRWgwN6gZux6Jw2lo1WXICZVeTCuBGSv7)
 
-For EEA devices, the report will be generated automatically without requiring user consent.
+For EFA devices, the report will be generated automatically without requiring user consent.
 
 By default Debugging Mode will enable the Notification Bar and place the device into Kiosk mode. The user can also select the gear icon to modify the Debug Mode configurations to include enabling ADB. When Debugging Mode is disabled the device will return to the configuration defined in its Blueprint.
 
