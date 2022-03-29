@@ -24,24 +24,28 @@ Click ‘X’ to remove the existing tag. Deleting a tag will also remove it fro
 
 Choosing the ‘Rename Device’ option from the dropdown allows you to select the device ID or add a Custom Alias name for the device.
 
-![](https://lh5.googleusercontent.com/TL6SnXDaECkfafEvRGUcYeYXfnGg_zyps2Tpva9z5hOohEboesbYy0Nxt35N_IVblIrj1c6_7HjJRtfLSiGW3IzBs8anGw004ERHE0fpgLl7JDzUPlt20OGaP6OtuHjs7Xbav4qj)
+![](https://lh6.googleusercontent.com/70vszMYraNfO2wsogNwvsVKggcXO4nuqYjBiPc0mKFPQ-eoSnjdkIlwU5qXwkIvbMIKVhxxqiTcsrqsVLJhRMHxSUGaUo_YOhEELYy1RaVubcdwZ8g1ohQOcWbzyclMiDN7AZu0Y)
+ 
 
-  
+Click Rename to change the alias name.
 
-Click Rename to change the device name.
+:::tip
+
+You cannot change the device Id. When you rename a device, you are adding an alias name.
+:::
 
 ## Lockdown
 
 The lockdown option from the menu triggers a complete lockdown of the device. This is useful to prevent unauthorized use or relocation.
 
-## ![lockdown](https://lh6.googleusercontent.com/QMP3UQHDQ4RWSa5Vnil9Aowk_ms8wDVQ5kOg3rk6mrS8aluQ9Y3XWba37DJZiza9wn1cwNe0buzHIl5ZNjQna2aavkRvaDe9lkvI9I8B0un25XJIm8atS1t7nBS0fF7pR6Val-g2)
+![lockdown](https://lh6.googleusercontent.com/QMP3UQHDQ4RWSa5Vnil9Aowk_ms8wDVQ5kOg3rk6mrS8aluQ9Y3XWba37DJZiza9wn1cwNe0buzHIl5ZNjQna2aavkRvaDe9lkvI9I8B0un25XJIm8atS1t7nBS0fF7pR6Val-g2)
 
 When you click Lockdown, a custom message text box appears where you can enter the text you want the device user’s to see.
 
-## ![custom message](https://lh6.googleusercontent.com/-LbTcKvYY1CJNtS6dWTqfrYGfZTL53CHv8OgiuSJgFyDoFzfqkJyNNizPRy5eOatAsjZg5CgTW_tpL9sj1MRc_N1xLsIxMLRd5f-epid-cBjSPYR8F7lUEbORk9FgyxQEV019P3e)
+ ![custom message](https://lh6.googleusercontent.com/-LbTcKvYY1CJNtS6dWTqfrYGfZTL53CHv8OgiuSJgFyDoFzfqkJyNNizPRy5eOatAsjZg5CgTW_tpL9sj1MRc_N1xLsIxMLRd5f-epid-cBjSPYR8F7lUEbORk9FgyxQEV019P3e)
 
 After the device has been locked down, the user will see the following screen.
-##
+
 ![device](https://lh3.googleusercontent.com/5F9jAPzNQmGE1i4q0UXomoXelUM-QAZ2i_QiNByMpGQySXORlQ2TfI8-ldy7ZfUyevhty4fU_EsEjExgFFVmnffBy5L6L7gmylb7lwJSLayY4neugV4-E1UQHvQ6c16IFfh2yPaf)
 
 After a device is locked, the button will change to Unlock to enable you to unlock the device from the Console.

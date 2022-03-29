@@ -32,17 +32,17 @@ Click Rename to change the device name.
 
 ## Lockdown
 
-## The lockdown option from the menu triggers a complete lockdown of the device. This is useful to prevent unauthorized use or relocation.
+The lockdown option from the menu triggers a complete lockdown of the device. This is useful to prevent unauthorized use or relocation.
 
-## ![lockdown](https://lh3.googleusercontent.com/wpR9c-EkvHsekAXBkYMLLLbY3VIw8d0l1Ipf67UiP_PcAoxka9K7CIeLDK-ywcADP8P4_wi9JtcicUGpkLpMZifZ5A91zZNldSzj5jnTm1OIaDHZD9gltzWk9Hf2xOVZONFyrkgx)
+![lockdown](https://lh3.googleusercontent.com/wpR9c-EkvHsekAXBkYMLLLbY3VIw8d0l1Ipf67UiP_PcAoxka9K7CIeLDK-ywcADP8P4_wi9JtcicUGpkLpMZifZ5A91zZNldSzj5jnTm1OIaDHZD9gltzWk9Hf2xOVZONFyrkgx)
 
-## When you click Lockdown, a custom message text box appears where you can enter the text you want the device user’s to see.
+When you click Lockdown, a custom message text box appears where you can enter the text you want the device user’s to see.
 
-## ![custom message](https://lh6.googleusercontent.com/83J3lMVUHbSbHTYHiNvkPuIlYa5EsqRIH2tikYW7kxlA4LOO-vkVzqoia9y2EGsprlC-7tKjWYiR_d-n3elVZ5UExpz-Q8uiex3Vi3vp74fJPG6NmP5Q6YZm70bihij2VfdtrKhh)
+![custom message](https://lh6.googleusercontent.com/83J3lMVUHbSbHTYHiNvkPuIlYa5EsqRIH2tikYW7kxlA4LOO-vkVzqoia9y2EGsprlC-7tKjWYiR_d-n3elVZ5UExpz-Q8uiex3Vi3vp74fJPG6NmP5Q6YZm70bihij2VfdtrKhh)
 
-## After the device has been locked down, the user will see the following screen.
+After the device has been locked down, the user will see the following screen.
 
-## ![device](https://lh6.googleusercontent.com/GQfXgNVtkI5iY9rid4ALzQ-SYCzpE0LMKFJI4xy-oSnQi9dthDha88LEWea1Ug-Aq--aTiaSGjS650dhQt5SGgMUloXHIOVKD0yphWsAyn5x9kXyAILnzng0Jw1h30uYWecCrdkw)
+![device](https://lh6.googleusercontent.com/GQfXgNVtkI5iY9rid4ALzQ-SYCzpE0LMKFJI4xy-oSnQi9dthDha88LEWea1Ug-Aq--aTiaSGjS650dhQt5SGgMUloXHIOVKD0yphWsAyn5x9kXyAILnzng0Jw1h30uYWecCrdkw)
 
 After a device is locked, the button will change to Unlock to enable you to unlock the device from the Console.
 
