@@ -5,12 +5,6 @@
 
 ![Run pipeline](./image/1-runButton.png)
 
-  
-
-![Run pipeline](./images/runV2/1-runButton.png)
-
-
-::: tip
 Only one instance of a pipeline can be run at a time.
 
-The **Configure New Run** button is disabled when a pipeline is running.
+The  **Configure New Run**  button is disabled when a pipeline is running.
