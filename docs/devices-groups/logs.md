@@ -2,8 +2,9 @@
 
 The ‘Request Bug Report’ button allows you to capture and upload a bug report from your device.
 
-Note: Once a bug report has been requested the user will need to manually approve this request. Approval requires the device to be in multi-app mode with the notification bar enabled.  
-This can be accomplished by enabling “Debugging Mode”.
+:::tip
+Once a bug report has been requested the user will need to manually approve this request. Approval requires the device to be in multi-app mode with the notification bar enabled. This can be accomplished by enabling “Debugging Mode”.
+:::
 
 You can then pull down the notification bar to track the progress of the bug report request. ![](https://lh4.googleusercontent.com/HV6Thz92ClPxo-LcNXz0Sha1F5mQKsc_3q73QmM6_pvPITB1c4Yap8HxakEujCeY64pS1qIEeHrPU6JjEzWfKwbEN06G7u1xzdoGWUNNCT8EAlauEEQ4DWRJyypQE1M0A0V36wn_)
 
