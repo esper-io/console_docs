@@ -87,7 +87,7 @@ When you select the ‘Schedule Delivery’ checkbox, you will be prompted to en
 
 Click Send Message when you are ready to send the message. Clicking Cancel will take you back to the Unmanaged Group screen.
 
-## Remove / Factory Reset Device
+## Factory Reset Device
 
 Users will have an option to remove devices from the Esper Dashboard. There is a checkbox for ‘Delete approval of directory record’ and for ‘Wipe external device.’ If you do not select either option, the Console will factory reset your device.
 
