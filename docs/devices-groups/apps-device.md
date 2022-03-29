@@ -2,7 +2,7 @@
 
 On the device view, navigate to the "Apps" tab. This section lists the applications that are installed on the device. For each application, the information about the Application Name, the Application Type, the Version Code, the Package Name, and the Application State are displayed.
 
-![](https://lh5.googleusercontent.com/JWtOgcQ5LxpmEWc6IqTcAUi0Iuya9AIdef24zk0S2ds4p1oNX__XioFw55utG5_2WW6N7GXZShJw7AFJpMhfmZJTleGTTyYz3u3VPBb1qXcTuKqT50mGkjc82e3sRxf3lM_k2-sB)
+![](./images/manageApps/1-manage.png)
 
 You can search for a particular application by entering part or entire application name.
 
@@ -17,7 +17,7 @@ The applications that are already installed on the device are specified in this 
 -   Preloaded Applications- Applications that were pre-installed by the device maker in ROM.
     
 
-![Preload apps](https://lh4.googleusercontent.com/moUymoyXWXYUUOoyvqAQEXS560bYxx9yxO7C7iYX2LvaSg2kQ9ero39DsWH0xySja9AA0RapwdvAqJfDKabfcEfXdGZdW21h6N282aZ20HEv16-RoKDFahxrN4ZprnDEzFLD0nCj)
+![Preload apps](./images/manageApps/2-options.png)
 
 ### [#](https://console-docs.esper.io/devices-groups/apps-device.html#set-an-application-state-on-the-device-from-the-console)Set an Application State on the Device from the Console
 
@@ -36,11 +36,9 @@ In-ROM (preloaded) applications cannot be uninstalled. They can be hidden.
 
 Click Actions and select the app state from the drop-down as a group action when you choose multiple applications.
 
-![](https://lh4.googleusercontent.com/YxUftXZ5mv3I3duCEqLaUvDRxbaLrUvwxZrtMclpPoyDz9Blw8KIT7-Hfp5LU46KqTJxQLkxKL62Z3_UqGMK6wXj1wuFNfz3VE8j8ya0irspQFExyJLqBRjMkArkQJkZnDTlGcG_)
+![](./images/manageApps/3-state.png)
 
 Alternatively, you can select the app state from the ‘App State’ column for individual applications.
-
-![](https://lh4.googleusercontent.com/8IjvabC6VC5CNDlac7_RSqcWk8CHWJvk0u8_-YRPk3SxmhSN5chXZyiHKuVJG5JMv2mnr_QcH5Z_j3cRV9Lknlfb5tI9Q7JSv8UVgtl-d3I30KP5YnXATLrYHDvCtEEOA7cQPCDv)
 
 
 :::tip
@@ -54,7 +52,7 @@ Manage configuration gives the admins the flexibility to manage work application
 
 On the pop-up under the Configurations tab, type the JSON code for the key-value pair.
 
-![JSON code](https://lh3.googleusercontent.com/_Y4rqKarMN7GbhDxNMOJofmVXOmgarm6DA9hR8_dux7yIjmZxwy3dqxiFVitAZk7bUKkyXMUB8L8yVh9T4OVFd6z3swH9es1Xr8GUkYX0tLyZnLMxR6gaj0p6DOtF5IhhZsPz32Q)
+![JSON code](./images/manageApps/4-manage.png)
 
 Following is a sample code for Chrome (version 86 and above) Manage Configuration:
 
@@ -131,7 +129,7 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
 ```
 Click Apply Changes to save the changes. If you have managed configurations applied for an application, you will be able to edit the configurations. Only valid key-value pairs will be applied to the application.
 
-![Edit manage config](https://lh4.googleusercontent.com/G91EXdbyHOAz4LotHS18DPjWim3GqY7Lz8SPr66tdOZS0Pcw2nrAzQKsmEkIAJURiAD3jhX3jkC3s02AxtWuro-wytnFxEXzMjEWLBjEmKzfQb1EvlbHF7RFOxtj6RPua0vNh54Y)
+![Edit manage config](./images/manageApps/5-edit.png)
 
 A toast message will indicate success or failure for the action.
 
@@ -139,7 +137,7 @@ For an application, click the ‘manage’ link. On the pop-up under the Permiss
 
 Application permissions allow users to configure multiple permissions state on a device like camera access to an application, read and write to external storage permissions, contacts access ad accounts permissions.
 
-![](https://lh4.googleusercontent.com/fJStmNM_CNQSzF6KPBqX1XlBDZytLLsx6USuxXlKWC_JLTQxhvQf2-qDvz2Q74WvO-QRS0jGJgoUJtxY0-hBC_7THKXe5Oxa-b2vaNSiuJIWNb0DHhmlE2uGrJRe555tK39NU4eT)
+![](./images/manageApps/6-permissions.png)
 
 You can change the following permissions:
 
@@ -154,7 +152,7 @@ You can change the following permissions:
 
 You have three options for each attribute to choose from for app permissions viz Default, Denied, and Granted.
 
-![App permissions](https://lh6.googleusercontent.com/ICWOF7Dq8RYNOBmJaD5wrhi1mrXJh2gveQzSqDJ-ViWA_oXsSGKShqS-r5x5GI8_Hdl5yCOicupk3CqDsO9081YcXZARROzrWZrouL_1iecK_rnoOcgWzUNyqxJJjsG99T1J3Uzl)
+![App permissions](./images/manageApps/7-access.png)
 
 ### Clear the Application Data on the Device from the Console
 
@@ -162,6 +160,6 @@ This is a group action available when multiple applications are selected. Esper 
 
 To access the “Clear data”, select multiple applications and click the Actions. Select the “Clear” option from the drop-down.
 
-![](https://lh5.googleusercontent.com/ntAttAcXtUQ4aiJ7Juu9XaoSEXtKAXxYAE_9caQZiZBI5NAkjievCBpJTRPhjd1ZWEvMFhRDt94NxuH5h8EiyA8qBsk3qjEMxh46w57twyLUwAlmw6Z4jyycM2ZqX6hHl4mHnHvN)
+![](./images/manageApps/8-clear.png)
 
 This will send a request to the device to clear application data. Upon success, you will get a successful response message where you will be able to apply view the queued request.
