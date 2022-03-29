@@ -6,8 +6,6 @@ All the settings which you manage in provisioning templates during provisioning 
 
   
 
-![Device setting tab](./images/devicesettings/1_Groups_devices_details_screen_tab_bar_settings.png)
-
   
 
 :::tip
@@ -39,7 +37,6 @@ Quick actions allow the user to perform some troubleshooting commands and some q
 
   
 
-![Quick Actions](./images/devicesettings/2-QuickActions.png)
 
   
 
@@ -51,7 +48,6 @@ When you click **Reboot**, the Esper Console will send the command to reboot a d
 
   
 
-![Reboot](./images/devicesettings/3_Groups_devices_details_screen_settings_quick_actions_reboot.png)
 
   
 
@@ -63,7 +59,6 @@ When you click **Screen Lock**, the Esper Console will send the command to lock 
 
   
 
-![lock screen](./images/devicesettings/4_Groups_devices_details_screen_settings_quick_actions_screenlock.png)
 
   
 
@@ -75,9 +70,7 @@ When you click the **Ping Device**, the Esper Console will attempt to ping the d
 
   
 
-![heart beat](./images/devicesettings/5_Groups_devices_details_screen_settings_quick_actions_heartbeat.png)
 
-  
 
 #### Device Lockdown
 
@@ -87,15 +80,11 @@ Clicking the **Lockdown** button triggers a complete lockdown of the device. Thi
 
   
 
-![lockdown](./images/devicesettings/6_Groups_devices_details_screen_settings_quick_actions_device_lockdown.png)
-
   
 
 When you click Lockdown, a custom message text box appears where you can enter the text you want the device user to see.
 
   
-
-![custom message](./images/devicesettings/7_Groups_devices_details_screen_settings_quick_actions_device_lockdown_message_modal.png)
 
   
 
@@ -103,7 +92,7 @@ After the device has been locked down, the user will see the following screen.
 
   
 
-![device](./images/devicesettings/8-device.png)
+
 
 After a device is locked, the button will change to Unlock to enable you to unlock the device from the Console.
 
@@ -121,7 +110,6 @@ For online devices, the factory reset option will be enabled by default.
   
   
 
-![Remove Device button](./images/devicesettings/9-Remove_Factory_reset.png)
 
   
 
@@ -143,8 +131,6 @@ To change a device to Kiosk mode, click **Switch to Kiosk Mode**. On the slide-o
 
   
 
-![Device mode](./images/devicesettings/10_Groups_devices_details_screen_settings_quick_actions_device_mode.png)
-
 
   
 
@@ -164,13 +150,11 @@ Step 1: Click the **Send Message** button.
 
   
 
-![Send Message](./images/devicesettings/11_Groups_devices_details_screen_settings_quick_actions_send_message.png)
 
   
 
 Step 2: Enter the subject and the body of the message. You can also include an optional link. You need to enter the end date and time for the message. For devices at a different location, you can reference the date and time from the device or the Console. The Console will not send the message after the specified end date and time.
 
-![message details](./images/devicesettings/12_Groups_devices_details_screen_settings_quick_actions_send_message_modal.png)
 
   
 
@@ -181,7 +165,6 @@ The message is sent only to the online devices immediately. System will attempt 
 
 When you select the ‘Schedule Delivery’ checkbox, you will be prompted to enter the start date and the time. You can choose the date and time to correspond with the Console time zone or the device time zone.
 
-![Scheduled delivery](./images/devicesettings/13_Groups_devices_details_screen_settings_quick_actions_send_message_modal_schedul_delivery.png)
 
   
 
@@ -197,7 +180,6 @@ This section lets you adjust the display settings of the device.
 
   
 
-![display settings](./images/devicesettings/14_Groups_devices_details_screen_settings_display_settings.png)
 
   
 
@@ -221,7 +203,6 @@ Select screen timeout duration—the time after which the device screen will tur
 
 A toast message will appear in the bottom left section of the screen indicating success or failure for each change applied to the device.
 
-![toast message](./images/devicesettings/15_Groups_devices_details_screen_settings_display_settings_toast_message.png)
 
   
   
@@ -236,7 +217,6 @@ You can add branding to the device by setting wallpapers for Home Screen and Loc
   
   
 
-![branding](./images/devicesettings/16_Groups_devices_details_screen_settings_branding_settings.png)
 
   
   
@@ -249,7 +229,6 @@ This section lets you adjust the sound settings of the devices in the group. Use
 
   
 
-![sound](./images/devicesettings/17_Groups_devices_details_screen_settings_sound_settings.png)
 
   
   
@@ -264,7 +243,6 @@ It enables you to turn Wi-Fi connectivity on or off for the selected device.
 
   
 
-![wifi](./images/devicesettings/18_Groups_devices_details_screen_settings_WiFi.png)
 
   
 
@@ -302,11 +280,10 @@ Requirements: SSID, Password (limit: 13 characters)
 Requirements: SSID,Password (limit: 63 characters)
 **EAP**: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
 
-![wifi access point](./images/devicesettings/19_Groups_devices_details_screen_settings_add_WAP.png)
+
 
 If you select EAP, you will be prompted to enter additional information.
 
-![EAP](./images/devicesettings/20_Groups_devices_details_screen_settings_adding_WAP_EAP.png)
 
 Wi-Fi EAP Method is a drop-down with the following options:
 
@@ -390,7 +367,6 @@ This section lets you adjust the use of the Global Positioning System (GPS) by t
 
   
 
-![GPS](./images/devicesettings/21_Groups_devices_details_screen_settings_location.png)
 
 There are four GPS accuracy settings:
 
@@ -408,13 +384,11 @@ Once a change is made, a toast message will appear in the bottom left corner of 
 
 This feature allows you to control any Bluetooth connections to the device. Turning OFF the toggle button turns the device’s Bluetooth off.
 
-![Bluetooth](./images/devicesettings/22_Groups_devices_details_screen_settings_bluetooth.png)
 
 When you turn the toggle button ON, the information under “Paired Devices” will show all the Bluetooth devices paired and their connection status. Until the device user removes the device by choosing to “Forget Device” from the list of paired Bluetooth devices, the device will be visible in the Paired Devices list.
 
   
 
-![Bluetooth connected](./images/devicesettings/23_Groups_devices_details_screen_settings_bluetooth_connected.png)
 
 Once a change is made, a toast message will appear in the bottom left corner of the screen indicating success or error for turning Bluetooth on or off.
 
@@ -435,8 +409,6 @@ The Time Zone field has a robust search capability. As you begin to type, sugges
   
   
 
-![time zone](./images/devicesettings/24_Groups_devices_details_screen_settings_dat3_and_time.png)
-  
   
 
 ### Android Debug Bridge (ADB)
@@ -447,7 +419,6 @@ Android Debug Bridge (ADB) is a command-line tool that enables administrators to
 
   
 
-![ADB](./images/devicesettings/25_Groups_devices_details_screen_settings_ADB.png)
 
 On a managed device, you can turn on ADB using the toggle switch to enable a secure remote ADB session using Esper. When you turn on ADB, you must set the duration of the ADB session:
 
@@ -469,8 +440,6 @@ We never allow turning on ADB from the device on any Esper-provisioned device.
 Once all changes are made, click Apply Changes link to push them out to the device, or Cancel if you wish to keep the current settings.
 
   
-
-![Apply changes link](./images/devicesettings/26_Groups_devices_details_screen_settings_cancel_apply_button.png)
 
   
 
