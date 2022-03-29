@@ -6,7 +6,7 @@ The Esper Console gives you access to Play for Work, the enterprise version of G
 
   
 :::tip
-Google Play deos not support AOSP devices.
+Google Play does not support AOSP devices.
 :::
 
   
