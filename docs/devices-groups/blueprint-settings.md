@@ -1,6 +1,6 @@
 # What are the different Blueprint settings?
 
-When you click the Blueprint link for a parent group, you will view/edit various categories of the settings depending on your selection. To Navigate to a different setting category, simply choose a different option from the drop-down.
+When you click the Blueprint link, you will view/edit various categories of the settings depending on your selection. To Navigate to a different setting category, simply choose a different option from the drop-down.
 
 ![](https://lh3.googleusercontent.com/HsyOhxxR0IeRnx2ZTioaZHP4Y60r_0O0gySdStPiv6lmND7874y2UIxtekQe1jkLVb3dx6kxv4W2jyLeNvV-MmsAmj2Q2OqkxENoP0c3Q7MhpI6VyS2i6eaUj64tmUUgu53o5nqp)
 
