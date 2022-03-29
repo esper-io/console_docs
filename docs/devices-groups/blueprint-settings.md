@@ -2,7 +2,7 @@
 
 When you click the Blueprint link, you will view/edit various categories of the settings depending on your selection. To Navigate to a different setting category, simply choose a different option from the drop-down.
 
-![](https://lh3.googleusercontent.com/HsyOhxxR0IeRnx2ZTioaZHP4Y60r_0O0gySdStPiv6lmND7874y2UIxtekQe1jkLVb3dx6kxv4W2jyLeNvV-MmsAmj2Q2OqkxENoP0c3Q7MhpI6VyS2i6eaUj64tmUUgu53o5nqp)
+![](./images/blueprintSettings/settingOptions.png)
 
   
 
@@ -16,7 +16,8 @@ When you click the Blueprint link, you will view/edit various categories of the 
 
 Default App Permissions determine enforcement of the runtime rules across all the apps on a device, including Enterprise applications installed by Esper, in-ROM applications that are enabled, as well as applications installed via Managed Google Play. This ensures you can control the user experience on the device regarding how run-time permissions are granted.
 
-![](https://lh6.googleusercontent.com/7BmYA19uM76PSazu2tq-SN8IPmLvopN5DKpvxuC3BWbQII7W32Pmr-Hdkz2b-kq7WJp5WFZntJiul-_3f0tc-JFEi_4stuS_7Eq1BksgexH91X5sH3yv1nx4POG18aFvwaenGVDJ)
+![](./images/blueprintSettings/1-AppPermissions.png)
+
 
 There are three possible settings:
 
@@ -45,7 +46,8 @@ The Device mode function enables you to switch a device between Multi-app mode a
 
 Often, provisioning Kiosk-mode devices with additional applications prove to be useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done. Use the drop-down for Device Mode to switch between the Mulip-app mode and the Kiosk mode.
 
-![](https://lh4.googleusercontent.com/2_6c6fLM5jnGhOwlAW7ecWaki7fv38fYGulqCDo1LHVi3RI_2H36t6LHN62Rp72yxA6nNX6ZYVXKwVn4rHS22OCUma4LL5m1ZCwVF8pT9fI65v7OCjb7xNp9iEkppfmqyNUgTUsK)
+![](./images/blueprintSettings/2-deviceMode.png)
+
 
 Note: If a device provisioned in Kiosk mode cannot connect to the Internet, the Esper Dock can open the Esper Settings application giving access to Wi-Fi settings locally on the device.
 
@@ -62,7 +64,7 @@ Specifically, the following features will be unavailable:
 -   Latest Device Agent updates for Devices running an Android version less than 6.0
     
 
-![](https://lh5.googleusercontent.com/GLJ3y4aqd9wa9ATJ8rhaNeht-j0fNsIc03tKFJZUFsErXLTImrFSzhHENm39AUoW9QpPMwLxsFfNB1FuIWziAHGtgzxjlOOmf4OvCr95dGkMYgmbN_xkCHARMRv57FVyUJYiOhgO)
+![](./images/blueprintSettings/3-launcher.png)
 
 If you are unsure about the launcher for your use case, please contact Esper.
 
@@ -70,13 +72,13 @@ If you are unsure about the launcher for your use case, please contact Esper.
 
 This setting will allow you to install applications during provisioning.
 
-![](https://lh3.googleusercontent.com/PVfIJWoNyu8bhw3_KKHPGOfimnG-xc8hnGp8xBNnaNepSC4vd55cpL7gTJQ0OGRKtH2C3Wz2Ie6kjLyOEOncwTf8DQJWUSn0KIqqk03k1LfqrWyRuLYjpko7XZ3YZJvDEVny96cX)
+![](./images/blueprintSettings/4-Application.png)
 
 You can upload an APK, choose from the existing application and version, or add a preinstalled app. For a pre-installed application, you have the following options:
 
   
 
-![](https://lh3.googleusercontent.com/xruVslA0S7qw2IMVv58GlmusPyp0P3-uMbqitBkjjH5EHqKdMnWp-pngWMkiVJTVWy4zQjPwvanZZAW3MVH3cE7WJPIqZk73lnB-QiH1GLaH5l0YRyZhEGy9lAFcF99UKvk7zNaa)
+![](./images/blueprintSettings/5-state.png)
 
 Show: will display the app on the home screen
 
@@ -236,7 +238,7 @@ Factory Reset controls if users can perform a factory reset using the Android Se
 
 The Lock Screen Password specifies the conditions for the device unlock password; the default is None.
 
-![](https://lh3.googleusercontent.com/qiSftEqOOwCQmIcdlqWzOlNbyXlxIAE_a55UxNb9gahfdKkVlKkDwEZmQzH3anEVmWpHyQInndS0xCLHOfysRcH9Ii8lUf7KRlh5NClTyCE5bN0MrY1gJSvcvRPVn4znGAZdycto)
+![](./images/blueprintSettings/6-lockScreenPswd.png)
 
 If you choose alphabetic or alphanumeric, you must set a password length of at least 4 characters and up to 25. Use the up/down arrows to set the required password length.
 
@@ -250,8 +252,9 @@ If you choose alphabetic or alphanumeric, you must set a password length of at l
 The user will set up the password for a device during the initial setup. The lock screen setting must be enabled in order to set the password type and character limit. If you select either Alphabetic or Alphanumeric password rules, then the lock screen will be set to On by Esper if it is currently Off.
 
   
-
-Note: When the Compliance policy is applied with password type "None", but a password is already set by the user on the device, then the device will get priority. You can remove the password from the device remotely using our API. Contact [Esper team](https://support.esper.io/) for more information.
+:::tip
+When the blueprint is applied with password type "None", but a password is already set by the user on the device, then the device will get priority. You can remove the password from the device remotely using our API. Contact [Esper team](https://support.esper.io/) for more information.
+:::
 
 Click Reset to Default for the default setting. Click Save and Continue to go to the next settings.
 
@@ -277,13 +280,14 @@ If you want device users to use near-field communication (NFC) on their devices 
 
 Selecting allow you to add the caller to block incoming calls.
 
-![](https://lh3.googleusercontent.com/f67tNiIAa9u9noZK5ZgVkKTircOqh716i_4ToIiowg8vwHyHIglQCl39dPveu2r9dRy5dV9GCSdQQE4NTEg2J_pkhv-WacAJHbx5Ixw_1aWOibAVs8LRMpScSrOZIACuNn4u4BHu)
+![](./images/blueprintSettings/8-incoming.png)
 
 Click Add/Edit Contacts to enter the caller details.
 
 You can add phone numbers or upload a CSV file of contacts to add to the allowed list only.
 
-![](https://lh4.googleusercontent.com/16UVHLHfG1Kq6TUIZee8eSCtpeDACU3BQhnc65PTcGBavT48i3y2Jx5OICFJk9c00H1jGivb0rrMXb_rRg72l_DyAWKLhBZy4emMBBK9GRo247iPolamnqCYVOZb2gAZFKWbc8VW)
+![](./images/blueprintSettings/7-restrictCalls.png)
+
 
 All numbers must be preceded by +country code (for example, +1 for the US). A comma must separate all numbers.
 
@@ -304,7 +308,7 @@ The following are some general guidelines for the CSV when uploading the CSV for
 
 Selecting allow you to add the caller to block outgoing calls.
 
-![](https://lh4.googleusercontent.com/1OQtNZOQSvg5wXx8D-EBgmCv_zQ3HHh2L-y0pzP0w0xWdYH99XjCmEBEHdNtIGzdE37MZpDkL9JBWKiblRCuvI5tQwn2GjkwzQvEEZ3kwE4n1AABbW3BdZ8hXC0nIqUX5p0F3Sy4)
+![](./images/blueprintSettings/9-outgoing.png)
 
 Adding/Editing Contacts is similar to the incoming calls.
 
@@ -314,7 +318,7 @@ Adding/Editing Contacts is similar to the incoming calls.
 
 When you add a Wi-Fi access point to the Blueprint, you need to enter the details of the Wi-Fi access point. To add, click on Add Wi-Fi Access Point link.
 
-![](https://lh4.googleusercontent.com/CYvQy9Td8_3px-XsdXW1hUFnUyE5S1LP5biEuHCvbv1JwqOpLBzZRYumKGq5mOtR8PODyx-nzfPLbTBwdONLarwIy9gtbmlLJLRduTAwWLQtZlSsQoDq_npygwl0WGDd7zGX3Q3y)
+![](./images/blueprintSettings/10-WifiAP.png)
 
 Enter the details and click Add.
 
@@ -345,11 +349,11 @@ WEP: WEP is a open type network with password. Requirements: SSID, Password (lim
 
 WPA :Android refers to WPA as WPA/WPA2 but technically WPA and WPA2 are little different from each other. WPA is an enhanced version of WEP. ß Requirements: SSID,Password (limit: 63 characters) EAP: Internally EAP is known as WPA/WPA2/WPA3-Enterprise.
 
-![wifi access point](https://lh5.googleusercontent.com/DbkhiVBmZIgDuRGCoI5POpr2NSK3pbywfAhyZCVzmJTRkydWpTSjyUCCCiYhZpcybZ7MQ5jum4Rl1sOIy0fOwCNEcf8nLgMZWhW_-qeVBtLyxkcVE-1ULVynAi4M63PD1Vb3WlYM)
+![wifi access point](./images/blueprintSettings/11-add_WAP.png)
 
 If you select EAP, you will be prompted to enter additional information.
 
-![EAP](https://lh3.googleusercontent.com/wvgMTRF5hSNcuhsUOd6wdgv-i-W5bpT0na3N2PccB8_LnHi3g19FuvB71D3Eyvazovcx28NrNHMFmiGB9q20C5eEIT9wFZkLWMZpkxQ_GdHJmDIxYxJWW-REPc7vtLF5XyB-hpCR)
+![EAP](./images/blueprintSettings/12-settings_EAP.png)
 
 Wi-Fi EAP Method is a drop-down with the following options:
 
@@ -440,7 +444,7 @@ Click Save and Continue to move to the next setting or choose a different settin
 
 This section lets you adjust the sound settings of the devices in the group. Use the sliders to adjust the Alarm volume, Notification volume, Music volume, and Ring volume.
 
-![](https://lh5.googleusercontent.com/-mdyfAzsHOMDcPGXAweAoAY4dWYEpW6dsBcgJNmTIPc0K3X_huzCcM0R9E3tlw6JdXXxUfZyRNzqMMVB8GRnpzGqJtV5-Ju6NkSiq6grnATEssy-HoYVlJJAIgWhjkL_dzar_nAT)
+![](./images/blueprintSettings/13-sound.png)
 
 Click Reset to Default for the default setting. Click Save and Continue to go to the next settings.
 
@@ -454,7 +458,7 @@ Using the toggle button, enable/disable the device user’s ability to edit the 
 
 Select the time zone in which the device will be deployed. After deployment, you will have the ability to change the device’s time zone remotely via the Blueprint.
 
-![](https://lh6.googleusercontent.com/0hdlBqYBWIP_21aSZws9jb86MUiiOwUYCZMw9QdLHPS_cDGUHb55UrL-l3ypzcf4olrq6D8X18zDw5kgeHLHOblNjJj55SH4a_yaixT96QFL6cEUj8InLjhft0LR7huEnvQVVF1N)
+![](./images/blueprintSettings/14-timeZone.png)
 
 Note: If you don’t specify a device time zone, the time zone set by the device will be used.
 
@@ -464,7 +468,7 @@ The Time Zone field has a robust search capability. As you begin to type, sugges
 
 You can set the language for the device under the ‘Language’ setting while creating or editing a Blueprint.
 
-![](https://lh6.googleusercontent.com/JT7Mcd9Qh5-9s2ku6HWbNnM-rhZygRvD6hY7Bx7oRbTeOswOE57oEXhqigExxDcFFh3aLPEg2VIciqJe8n81dS8b_7pyPPjnYk1bDQhoAJVLmEYBv60UlAVqbCcSuZSJ28CO9aUu)
+![](./images/blueprintSettings/15-language.png)
 
 Click Reset to Default for the default setting. Click Save and Continue to go to the next settings.
 
@@ -476,7 +480,7 @@ Click Reset to Default for the default setting. Click Save and Continue to go to
 
 This drop-down lets you choose your preference for updates.
 
-![](https://lh5.googleusercontent.com/WNUe1rxRVD2soWXpcnu7qmE8Dhgp6uw7kLsjz2XNUYeO3CG_oq0yU1Bw01Yqs8EIK1mLAa6u7WQblfs7D8W80H-mwRNALYayaFNkcwSUOXQE4hPFmt25JML7Q06kwbtFiEn5Wp6b)
+![](./images/blueprintSettings/16-SysUpdates.png)
 
 Update automatically: This setting will update all the devices as soon as an update is available.
 
