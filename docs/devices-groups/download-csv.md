@@ -1,6 +1,10 @@
 ## How to Download the CSV List of Devices?
 
-Clicking the Download Device List icon enables you to download the device data for your current set of devices in Grid View or list view to a CSV or Excel spreadsheet.
+:::tip
+The download CSV option is only available in the List: Device view. 
+:::
+
+Click the view icon and select the List:Device view.  Clicking the cloud icon  to download the device data for your current set of devices to a CSV or Excel spreadsheet.
 
   
 
