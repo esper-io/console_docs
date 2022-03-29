@@ -14,24 +14,17 @@ The Overview tab displays all the important device information. For your conveni
 
   
 
-The top of the page displays a summary of the device status- online/offline. You can see the storage, battery, memory, alert, and drift information at the top of the screen.
+The top of the page displays a summary of the device status- online/offline. You can see the storage, battery, memory, and drift information at the top of the screen.
 
-Here, you can access all the critical device information. It displays the blueprint nesting. In case the device is inheriting a blueprint from the parent, this visual will give a clear understanding. Clicking the Parent Group name will redirect you to the parent view. Clicking the blueprint will open up a view of the blueprint where you will be able to view all the configurations on one page. The map shows the device’s location.
+<!-- Here, you can access all the critical device information. 
 
-  
+It displays the blueprint nesting. In case the device is inheriting a blueprint from the parent, this visual will give a clear understanding. 
 
-![](https://lh6.googleusercontent.com/J6f6_uu1WZNTULdwUJRWzPrTvytpqBf339EBp9uEULl-WeGfu51trFcQz037-Fe2A1fKkM0U5bqvjpaXgHV-wR1G0IVUc7D4b6x5FkavzTRsv5YYQpNm9Lx8SU4GgafEsPKIF4j_)
+Clicking the Parent Group name will redirect you to the parent view. Clicking the blueprint will open up a view of the blueprint where you will be able to view all the configurations on one page. The map shows the device’s location. -->
 
-  
-  
-
-All the dedicated information sections are expandable. All the sections give you irrespective information with actionable Network and Bluetooth sections. These topics are discussed below:
+All the dedicated information sections are expandable. All the sections give you respective information with actionable Network and Bluetooth sections. These topics are discussed below:
 
 ![](https://lh3.googleusercontent.com/SSly4_xPfb-FWpPxKt4AIH5Gu4a02Cj7QFG8dJ-52SoyyGsK00bwsuOx3Bf0LAx0qLHR2welcLHK4Tc1eaiDE7L1HQIsTIXdqFELw6Ow7Ea2-LnnPWDltheDo9W9bSwl_d2BlUql)
-
-  
-  
-  
 
 -   Network
     
@@ -156,3 +149,4 @@ This feature lists the devices that are currently paired and their connection st
 ![Bluetooth](https://lh6.googleusercontent.com/0x8HnJTIEobdWJA5zWAhl0wQ352pDL2X2RgqgNF-uXuebEGvj872okxLzb7rjsZZtSD-Y4c9EpEBynldBc3rYfQT1nAJNRf9M0qIOpLRn0FSURTjeFCYOimyd5Sa3TTUe0oYOfC3)
 
 Once a change is made, a toast message will appear in the bottom left corner of the screen indicating success or error for turning Bluetooth on or off.
+
