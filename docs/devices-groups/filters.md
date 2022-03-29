@@ -6,7 +6,7 @@ The filters on the ‘Device & Groups’ section allows you to search devices fa
 
   
 
-![filters](./images/6-filters.png)
+![filters](./images/filters/1-filters.png)
 
   
 :::tip
@@ -14,4 +14,4 @@ The blue dot in the upper right corner on the filter button indicates a filter h
 :::
 
 
-![filters](./images/6-filters.png)
+![filters](./images/filters/2-applied.png)
