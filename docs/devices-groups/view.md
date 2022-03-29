@@ -7,9 +7,8 @@ The Directory allows you to manage the nested architecture and oversee your flee
 ![](https://lh4.googleusercontent.com/4XTKDQ9AaFnsvC_v7hbmZx9SAjL9HJO-tBUb47ysP70YAfMYWUrzYdHPYJ8e0sdvSKFmtLqf51YwJ_tHeCVAJgT62IlOi36vtRCsKIerVz7XciL1FCCAZ-4tsYKy5gZzvkvKvxmd)
 
 
-Each view provides different benefits depending on your use case. The two grid views offer a compact, high-level view of your entire fleet, broken down by Parent-level Groups. The two List views provide a more detailed view of your Parent Groups and nested Subgroups. List views also allow you to fire commands to Groups or individual devices without having to separately navigate to each device.
+Each view provides different benefits depending on your use case. The grid views offer a compact, high-level view of your entire fleet, broken down by Parent-level Groups. The two List views provide a more detailed view of your Parent Groups and nested Subgroups. List views also allow you to fire commands to Groups or individual devices without having to separately navigate to each device.
 
-Once a list or grid view is selected, that view will be used for their continued navigation until you select a different view. For example, if you click on a Parent Group from the Directory-level grid view, you will be taken to that parent group grid view. When the group contains no subgroups, you will always be taken to the List: Devices view.
 
 ## Directory-level Views:
 
