@@ -1,13 +1,14 @@
 ##  How to Find the Esper Agent Version for the Device?
 
-Step 1: Navigate to the 'Devices and Groups' section of the Console. Select the device for which you want to view the Esper Agent version. Click a device name from the left-hand device pane.
+Step 1: Navigate to the 'Devices and Groups' section of the Console. Switch to the [device view](./view.md). 
+Select the device for which you want to view the Esper Agent version. Click a device id.
 
-![Device main screen](./images/agentVersion/1-mainScreen.png)
-
-  
-
-Step 2: On the ‘Information’ tab, scroll to the Software information section. The Esper Agent Version for the device is listed.
+![Device main screen](./images/version/1-device.png)
 
   
 
-![Esper Agent Version](./images/agentVersion/2-AgentVersion.png)
+Step 2: The Esper Agent Version will be listed in the overview tab.
+
+  
+
+![Esper Agent Version](./images/version/agentVersion.png)

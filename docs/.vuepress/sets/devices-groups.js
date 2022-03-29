@@ -36,10 +36,13 @@ module.exports = {
           "remote-viewer",
           //"activity",
           "device-actions",
+          "device-settings",
           "group-action",
           //"groups-apps-install-uninstall",
           "logs",
           "event-feed",
+          "agent-version",
+          "device-security",
           ]
       },
     ]
@@ -63,3 +66,5 @@ module.exports = {
     // }
   // }
 };
+
+

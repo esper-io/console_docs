@@ -5,11 +5,6 @@
 The Security tab shows the security risks faced by the device if any. If there are risks, it will show the threat level, cause of the threat, and provide recommendations to secure the device.
 
   
-
-![Security tab](./images/9-securtiydevice.png)
-
-  
-
 ### Security Criteria
 
 The following are the basis on which security risks are calculated:
