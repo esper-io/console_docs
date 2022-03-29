@@ -29,7 +29,7 @@ The Enhanced Onboarding Security setting will be ON by default.
 This tab displays a list of devices that are ready for onboarding.
 
 You can create a record to automate onboarding approval by uploading a device's unique identifier. You can then select a group, adding optional fields- such as the alias and tags.  
-![](https://lh6.googleusercontent.com/ZUM8EVVZVYmFUCd1uRFCPL4_CkaSb_wanZaQnzThfEj0nC0Lr3uapvicVyqYnoz65AhZYw1OVHidvUY-NV0RKmsROjGPo-8zeJ5Fk29KJ9MyqwhNUM-vLI7HF3MtpLRV3S2ITZYW)
+![ready to onboard tab](./images/deviceManagement/1-readytoOnboard.png)
 
   
 
