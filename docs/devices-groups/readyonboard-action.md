@@ -13,7 +13,7 @@ Select 'Onboarding Methods' from the drop-down. This option will open a pop-up t
 
 ![](https://lh4.googleusercontent.com/R8UwPuQCoABEVRuZXLL26sW3yn1fbfxPUvMaNQOl2qcdl6863rEOqubDLLFNBLXz-ME0c_YWkyt_SXFIqKl_rCPPmC2Ob3OrB0qB1BJUyRX8iSLuAbbUj-hm32cU_e0lytYxDk9f)
 
-Click select for the [Onboarding method](https://console-docs.esper.io/provisioning-methods/) you wish to use. This will walk you through the process.
+Click select for the [Onboarding method](../provisioning-methods/README.md) you wish to use. This will walk you through the process.
 
 ## Move
 
@@ -36,10 +36,15 @@ Click ‘X’ to remove the existing tag. Deleting a tag will also remove it fro
 Choosing the ‘Rename Device’ option from the dropdown allows you to select the device ID or add a Custom Alias name for the device.
 
 ![](https://lh6.googleusercontent.com/70vszMYraNfO2wsogNwvsVKggcXO4nuqYjBiPc0mKFPQ-eoSnjdkIlwU5qXwkIvbMIKVhxxqiTcsrqsVLJhRMHxSUGaUo_YOhEELYy1RaVubcdwZ8g1ohQOcWbzyclMiDN7AZu0Y)
+ 
 
-  
+Click Rename to change the alias name.
 
-Click Rename to change the device name.
+:::tip
+
+You cannot change the device Id. When you rename a device, you are adding an alias name.
+:::
+
 
   
 
