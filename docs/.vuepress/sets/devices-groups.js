@@ -37,6 +37,7 @@ module.exports = {
           //"activity",
           "device-actions",
           "group-action",
+          "groups-apps-install-uninstall",
           "logs",
           "event-feed",
           ]
