@@ -99,6 +99,9 @@ Step 5: You can see the “In progress” status in the status section when the 
 
  Upon successful installation, you will see the application installation success message in the status section.
 
+ :::tip
+ Group app install is same as device. In case of group, the app will be installed on all the devices in that group. 
+ :::
 
 ### Uninstall Application
 You can uninstall the application on your device from the application section. Following are the steps to uninstall an application:

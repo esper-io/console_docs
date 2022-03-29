@@ -7,7 +7,7 @@ On the Group’s page, click the Action button.
 ![](./images/groupAction/1-menu.png)
 
 ## App management
-Here you can manage the application install,un-install, app state and apply manage configurations to all the application in the group. This action is simialr to the device app section. You can find more info [here](./groups-apps-install-uninstall.md).  
+Here you can manage the application install,un-install, app state and apply manage configurations to all the application in the group. This action is simialr to the device app section. You can find more info [here](./device-app-install-uninstall.md).  
 
 ![](./images/groupAction/2-app.png)
 
