@@ -3,6 +3,7 @@
 
 To delete a pipeline, navigate to the Pipeline tab on the landing page. Click the ellipsis (...) for the pipeline you wish to delete. 
 
+![Edit pipeline](./image/delete.png)
 
 ![Edit pipeline](./images/v2/1-deleteOption.png)
 

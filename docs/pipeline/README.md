@@ -1,6 +1,6 @@
 ## What is a Pipeline?
 
-Esper Pipelines enable you to ensure smooth completion of actions on large fleets of devices by providing a way to automate them. Using a pipeline you define the stages through which the actions must complete and the events that trigger each of those stages, providing an effective way to control complex or large processes.
+Esper Pipelines enable you to ensure the smooth completion of actions on large fleets of devices by providing a way to automate them. Using a pipeline you define the stages through which the actions must be complete and the events that trigger each of those stages, providing an effective way to control complex or large processes.
 
 Esper Pipelines currently supports application installation. It requires the user to manually promote to the next stage. 
 
