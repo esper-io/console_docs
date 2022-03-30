@@ -10,7 +10,7 @@ Following are the requirements for creating a web app:
     
 -   On your endpoint, you must [enroll in Managed Google](../apps/appactions.md) Play.
     
--   Onboard devices with the Managed Google Play enabled in the template.
+-   Onboard devices with the Managed Google Play enabled in the blueprint.
     
 -   The devices must have Chrome installed and state set to “Show” state. We recommend that you upload Chrome via a blueprint and select the app state to “Show.” You can set the state to “Hide” after accepting terms of service, but “Disabled” cannot be the app state.
     

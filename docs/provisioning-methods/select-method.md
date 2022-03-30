@@ -21,7 +21,7 @@ The AFW method is best used for:
 
 * Factory reset of device required
 
-You can also use IMEI / Serial Numbers with the AFW provisioning method on some devices. This is useful when shipping a device directly to a customer, so they can provision it themselves or for the devices without a camera. Provisioning devices using IMEI/Serial number also prevents users from repurposing the device by exploiting the ability to conduct a factory reset. To learn more about provisioning devices using the IMEI or serial number method, please review [IMEI/Serial Number Based Provisioning](./imei-provisioning.md). Please view the [Upload IMEI CSV](../provisioning-template/upload-imei.md) page for more information on loading IMEIs and Serial Numbers into a Provisioning Template.
+You can also use IMEI / Serial Numbers with the AFW provisioning method on some devices. This is useful when shipping a device directly to a customer, so they can provision it themselves or for the devices without a camera. Provisioning devices using IMEI/Serial number also prevents users from repurposing the device by exploiting the ability to conduct a factory reset. To learn more about provisioning devices using the IMEI or serial number method, please review [IMEI/Serial Number Based Provisioning](./imei-provisioning.md). 
 
 ### Six Tap QR Code Provisioning
 
@@ -35,7 +35,7 @@ You can also use IMEI / Serial Numbers with the AFW provisioning method on some 
 
 * Factory reset of device required
 
-Beginning with Android 9, you can include credentials for the Wi-Fi network to be used for provisioning in your template. They’ll be included in the QR code, thus eliminating the need to enter them on the device to establish the required Internet connectivity.
+Beginning with Android 9, you can include credentials for the Wi-Fi network to be used for provisioning in your blueprint. They’ll be included in the QR code, thus eliminating the need to enter them on the device to establish the required Internet connectivity.
 
 :::tip
 Xiaomi/Redmi devices do not support a 6-tap provisioning method.

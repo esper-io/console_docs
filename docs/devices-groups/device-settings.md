@@ -2,7 +2,7 @@
 
   
 
-All the settings which you manage in provisioning templates during provisioning time can be separately managed and controlled for each device at any time. 'Settings' is the second tab on the device details screen.
+All the settings which you manage in blueprint during onboarding time can be separately managed and controlled for each device at any time. 'Settings' is the second tab on the device details screen.
 
   
 
