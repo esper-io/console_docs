@@ -1,4 +1,4 @@
-# What are the different Blueprint settings?
+# What are the Blueprint settings?
 
 When you click the Blueprint link, you will view/edit various categories of the settings depending on your selection. To Navigate to a different setting category, simply choose a different option from the drop-down.
 
