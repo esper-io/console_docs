@@ -14,7 +14,7 @@ You can access the device details when you click on the name of the device on th
 
   
 
-The Settings section lets you determine levels for most of the device settings. These include screen brightness, wallpaper, alarm volume, and screen timeout. You can also set up devices with Wi-Fi credentials, along with determining the duration of an ADB session if ADB was enabled in the 'Compliance Policy' section.
+The Settings section lets you determine levels for most of the device settings. These include screen brightness, wallpaper, alarm volume, and screen timeout. You can also set up devices with Wi-Fi credentials, along with determining the duration of an ADB session if ADB was enabled in the blueprint.
 
   
 
@@ -415,7 +415,7 @@ The Time Zone field has a robust search capability. As you begin to type, sugges
 
   
 
-Android Debug Bridge (ADB) is a command-line tool that enables administrators to use a Unix shell to communicate with an Android device. If ADB was checked in the Compliance Policy section, you can turn on ADB here for a configurable time period. If ADB wasn’t checked in the Compliance Policy section, ADB can not be turned ON.
+Android Debug Bridge (ADB) is a command-line tool that enables administrators to use a Unix shell to communicate with an Android device. If ADB was checked in the blueprint, you can turn on ADB here for a configurable time period. If ADB wasn’t checked in the blueprint, ADB can not be turned ON.
 
   
 
