@@ -1,4 +1,4 @@
-## What are Esper Enhanced Updates?
+## What are Esper Software Updates?
 
   
 
