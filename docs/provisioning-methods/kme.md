@@ -58,5 +58,5 @@ The profile will be added to the device and displayed on the device screen.
 
 ![device profile](./images/KME/12-deviceProfile.png)
 
-When you factory reset the device, you will go through the Android standard setup process on the device. If you connect to the internet during this setup process the Knox profile will be found and it will automatically start the provisioning process after a few license/onboarding prompts.
+When you factory reset the device, you will go through the Android standard setup process on the device. If you connect to the internet during this setup process the Knox profile will be found and it will automatically start the onboarding process after a few license/onboarding prompts.
 

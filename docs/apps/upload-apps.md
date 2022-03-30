@@ -51,7 +51,7 @@ Step 5: Click **Close** or click outside of the window to exit the 'Application 
 
 ### APK file upload conditions
 
-All application APK files must adhere to certain conditions to succeed in uploading and provisioning:
+All application APK files must adhere to certain conditions to succeed in uploading and onboarding:
 
 -   The APK must have a unique version name and number.
 -   The APK cannot be larger than 500 MB.

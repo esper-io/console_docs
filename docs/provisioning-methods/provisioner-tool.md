@@ -1,4 +1,4 @@
-## How to use the Device Provisioner Tool for Provisioning?
+## How to use the Device Provisioner Tool for Onboarding?
 
 For your ease, we have created a tool for onboarding which internally uses the ADB (Android Debugging Tool).
 

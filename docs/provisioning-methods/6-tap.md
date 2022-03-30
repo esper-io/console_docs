@@ -56,7 +56,7 @@ The QR code is densely populated. If your device’s camera has trouble scanning
 -   Holding the device still for a few seconds once you have adjusted the distance.
     
 
-Step 9: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for provisioning, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
+Step 9: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for onboarding, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
 
 Step 10: You may then see a screen to accept specific terms from Google regarding Esper managing your device. Click ACCEPT & CONTINUE.
 

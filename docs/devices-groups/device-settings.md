@@ -123,7 +123,7 @@ If the device user executes a factory reset directly on the device, the device w
 
   
 
-The Device mode function enables you to switch a device between Multi-Application mode and kiosk mode. When a device is in Multi-Application mode, the user can see and use all the approved apps. When a device is in Kiosk mode, the device acts as a kiosk, and users can only use the kiosk app. Oftentimes, provisioning kiosk-mode devices with additional applications proves to be useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done.
+The Device mode function enables you to switch a device between Multi-Application mode and kiosk mode. When a device is in Multi-Application mode, the user can see and use all the approved apps. When a device is in Kiosk mode, the device acts as a kiosk, and users can only use the kiosk app. Oftentimes, onboarding kiosk-mode devices with additional applications proves to be useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done.
 
   
 
@@ -254,7 +254,7 @@ If you switch off Wi-Fi when no other connection is available, Esper will turn W
 
   
 
-You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after provisioning.
+You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after onboarding.
 
 :::tip
 The Wi-Fi on/off and WiFi access points features are not available for devices running Android 10.0 and above.
@@ -429,7 +429,7 @@ On a managed device, you can turn on ADB using the toggle switch to enable a sec
 -   1 day
     
 
-After the completion of this time period from the point of provisioning, ADB will automatically turn off for the device.
+After the completion of this time period from the point of onboarding, ADB will automatically turn off for the device.
 
 You can choose the Always On option to keep ADB on, but Esper does not recommend this practice; as ADB is a gateway to communication with the core of the device and should be used in a highly secure manner. 
 

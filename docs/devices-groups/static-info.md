@@ -30,7 +30,7 @@ Click add Wi-Fi Access Point link to push an access point. It enables you to tur
 
 ![wifi](./images/deviceInfo/4-wifi.png)
 
-You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after provisioning.
+You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after onboarding.
 
 The Wi-Fi on/off and WiFi access points features are not available for devices running Android 10.0 and above.
 

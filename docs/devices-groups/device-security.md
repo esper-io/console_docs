@@ -54,6 +54,6 @@ Risk classification based on points is as follows:
 
 Basic Integrity and CtsProfileMatch are calculated on three instances:
 
--   During provisioning
+-   During onboarding
 -   Every five hours thereafter
 -   When requested from the Esper Console

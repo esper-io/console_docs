@@ -11,7 +11,7 @@ Each view provides different benefits depending on your use case. The grid views
 
 The top section for all the views at the Directory-level display a summary of the entire fleet. The ‘Show More’ link will display the most recent devices in each category.
 
-You can scan the QR code to onboard devices directly to the Directory. However, onboarding to groups is an efficient way to begin provisioning devices automatically when the group has a Blueprint applied. If you scan the QR code for the directory, that device will not be associated with any group and you cannot automate device management until a device is moved into a group. Following are the view available at the Directory level:
+You can scan the QR code to onboard devices directly to the Directory. However, onboarding to groups is an efficient way to begin onboarding devices automatically when the group has a Blueprint applied. If you scan the QR code for the directory, that device will not be associated with any group and you cannot automate device management until a device is moved into a group. Following are the view available at the Directory level:
 
   
 

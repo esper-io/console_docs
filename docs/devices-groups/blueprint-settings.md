@@ -44,7 +44,7 @@ Note: Application Uninstall setting is not needed if you are running Android 6.0
 
 The Device mode function enables you to switch a device between Multi-app mode and Kiosk mode. When a device is in Multi-app mode, the user can see and use multiple approved apps through the Esper home screen. When a device is in Kiosk mode, the device acts as a kiosk, and users can use only one kiosk app.
 
-Often, provisioning Kiosk-mode devices with additional applications prove to be useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done. Use the drop-down for Device Mode to switch between the Mulip-app mode and the Kiosk mode.
+Often, onboarding Kiosk-mode devices with additional applications prove to be useful for setup and diagnostics at customer sites. Device mode makes it easy to switch out of Kiosk mode to make those applications available for use by a field technician or customer, and then switch back into Kiosk mode when done. Use the drop-down for Device Mode to switch between the Mulip-app mode and the Kiosk mode.
 
 ![](./images/blueprintSettings/2-deviceMode.png)
 
@@ -70,7 +70,7 @@ If you are unsure about the launcher for your use case, please contact Esper.
 
 ### Application
 
-This setting will allow you to install applications during provisioning.
+This setting will allow you to install applications during onboarding.
 
 ![](./images/blueprintSettings/4-Application.png)
 
@@ -155,7 +155,7 @@ A hidden dock is available in both the kiosk mode and the multi-app mode. You ca
 
 ### Set Admin Pin
 
-Admin Mode is password protected to prevent unauthorized access. This password controls access to the hidden dock available in kiosk mode, the Esper Settings app, and serves as the PIN used for IMEI-based provisioning via AfW. The password is alphanumeric and can have 1 to 10 characters.
+Admin Mode is password protected to prevent unauthorized access. This password controls access to the hidden dock available in kiosk mode, the Esper Settings app, and serves as the PIN used for IMEI-based onboarding via AfW. The password is alphanumeric and can have 1 to 10 characters.
 
 The default password is 1234. It is possible to set up a template without a password for these features or just leave the default password; Esper strongly recommends setting up a more complex password for stronger security. The same password will be set for all devices provisioned using the Blueprint.
 
@@ -202,7 +202,7 @@ Note: On some devices, this setting may need to be on if you wish to have Google
 
 Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found [here](https://console-docs.esper.io/compliance-policy/frp.html).
 
-When you turn On the FRP button in the provisioning template, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
+When you turn On the FRP button in the blueprint, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
 Note: Factory reset protection is only available on GMS devices running Android 5.1 and above.
 
@@ -328,7 +328,7 @@ Click Reset to Default for the default setting. Click Save and Continue to go to
 
 #### Wi-Fi Access Points
 
-You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after provisioning.
+You can preload preferred Wi-Fi networks to which the provisioned device will automatically connect as they become available. The device will automatically connect to the given Wi-Fi access points as per the availability and network strength after onboarding.
 
 The Wi-Fi on/off and WiFi access points features are not available for devices running Android 10.0 and above.
 

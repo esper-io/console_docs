@@ -51,5 +51,5 @@ Step 6: Select the radio button next to 'how you would like to handle new applic
   
   
 :::tip
-Be sure the application supports the appropriate minimum API level and country for the GMS devices' application. If either of these is mismatched, Google Play will prevent installing the application onto non-conforming devices either during provisioning or while installing from Esper.
+Be sure the application supports the appropriate minimum API level and country for the GMS devices' application. If either of these is mismatched, Google Play will prevent installing the application onto non-conforming devices either during onboarding or while installing from Esper.
 :::

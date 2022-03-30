@@ -14,11 +14,11 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 -   13.52.132.230 (required only if you want to allow secure remote ADB access to your devices)
     
 
-For customers that are provisioning devices behind a firewall, there are a few additional URLs to allow:
+For customers that are onboarding devices behind a firewall, there are a few additional URLs to allow:
 
 -   dpcdownloads.esper.cloud
 -   [downloads.esper.io](http://downloads.esper.io/)
--   [services.shoonyacloud.com](http://services.shoonyacloud.com/) (only for serial number-based provisioning)
+-   [services.shoonyacloud.com](http://services.shoonyacloud.com/) (only for serial number-based onboarding)
     
 
 ### Ports

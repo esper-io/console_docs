@@ -1,4 +1,4 @@
-## Do you Need Help Choosing a Provisioning Method?
+## Do you Need Help Choosing a Onboarding Method?
 
 If you find choosing between these methods confusing, we have provided an easy way to find the best provisioning method: Fill the form on the right side of the Provisioning Method screen on your Console.
 

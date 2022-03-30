@@ -1,5 +1,5 @@
 
-## How to Handle Notifications During Provisioning?
+## How to Handle Notifications During Onboarding?
 
 If you plan to use the Esper Cloud to install your own Enterprise applications, we recommend not enabling Google Play Protect to prevent your applications from being blocked. You also don’t need to report the Esper agent application to Google Play Protect.
 

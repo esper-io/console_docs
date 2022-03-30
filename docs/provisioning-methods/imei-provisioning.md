@@ -39,7 +39,7 @@ Step 6: You will see a ‘Checking for updates’… screen that may change to �
 It will take a few moments for the Google ‘Sign-in’ screen to appear.
 :::
 
-Step 7: In the Email or phone field, enter **afw#esper** and then select **Next**. As a certified Google EMM partner, this is a particular keyword used by the AFW provisioning process that will then start the process to enroll your device into Esper.
+Step 7: In the Email or phone field, enter **afw#esper** and then select **Next**. As a certified Google EMM partner, this is a particular keyword used by the AFW onboarding process that will then start the process to enroll your device into Esper.
 
 ![alt text](./images/AFW-image/7-emailphone.png)
 
