@@ -23,7 +23,7 @@ module.exports = {
           "provision", 
           "find-device", 
           "add-member",
-          "contact"
+          //"contact"
         ]
       },
     ]
