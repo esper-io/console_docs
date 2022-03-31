@@ -4,9 +4,13 @@ Navigate to the Devices & Groups section of the Console. Click **Add**. Choose N
 
 ![option](./images/addgroup/1-option.png)
 
-## New Group
 
-Choose New Group from the options. On the modal, enter the group details.
+:::tip
+If you onboard a device to a group before you add a blueprint, the device will inherit the  [default settings](/blueprint_default_values.pdf). You can use this blueprint or add a new one.
+:::
+
+
+On the modal, enter the group details.
 
 ![details](./images/addgroup/2-details.png)
 
@@ -30,7 +34,7 @@ Enter the group name and the description and click **Create**.
 
 You will be navigated into the newly created group, where you can add subgroups or devices to the created group.
 
-
 :::tip
-If you onboard a device to a group before you add a blueprint, the device will inherit the  [default settings](/blueprint_default_values.pdf). You can use this blueprint or add a new one.
+To delete a group, click the ellipsis (in list: group view) corresponding to the group and choose delete. You can delete a group only when it does not have any onboarded devices. 
 :::
+
