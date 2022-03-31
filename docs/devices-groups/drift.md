@@ -46,7 +46,7 @@ Once you select the device(s) or group, click resolve drift.
 
   
 
-![](./images/drift/4-resolve%20drift.png)
+![](./images/drift/4-resolvedrift.png)
 
   
   
@@ -68,6 +68,6 @@ You can also resolve the drift from the device view. Click Review Drift.
 
 You will navigate to the drift tab. This tab is only present when there is a drift.
 
-![](./images/drift/7-drift%20tab.png)
+![](./images/drift/7-drifttab.png)
 
 Click Resolve drift.
