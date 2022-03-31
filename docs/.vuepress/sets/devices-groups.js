@@ -31,6 +31,7 @@ module.exports = {
           "create-blueprint",
           "blueprint-settings",
           "static-info",
+          "drift",
           "apps-device", 
           "device-app-install-uninstall",
           "remote-viewer",
