@@ -25,10 +25,10 @@ Navigate directly to the section you want to explore.
      link="/provisioning-methods/" 
       />
       <LinkPanel 
-    title="Provisioning Templates"
+    title="Content Management"
     icon="/icons/homepage/templates.png"
-    subtitle="Configurations for Onboarding devices"
-     link="/provisioning-template/" 
+    subtitle="Upload files for transfer"
+     link="/content-management/" 
       />
       <LinkPanel 
     title="Apps"
