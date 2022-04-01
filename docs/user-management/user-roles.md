@@ -23,5 +23,5 @@ There are four user roles for the Esper Console: Enterprise Administrator, Enter
 | Onboarding                  | Read, Write Access |     Read access    |          Read,Write access          |                      No                     |
 | Reports                     | Read, Write Access |     Read access    | Yes, for devices in assigned groups |                      No                     |
 | User management             | Read, Write Access |         No         |                  No                 |                      No                     |
-| SAML SSO             | Read, Write Access |         No         |                  No                 |                      No                     |
+| SAML SSO Configuration setup           | Read, Write Access |         No         |                  No                 |                      No                     |
 | Company settings            | Read, Write Access |         No         |                  No                 |                      No                     |
