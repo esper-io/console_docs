@@ -1,6 +1,6 @@
 ## What are the terms associated with Pipelines? 
 
-Following are the key terms related to pipelines:
+Following are the key terms for pipelines:
 
 
 *Pipeline* - A chain of processes/functions connected in a serial manner.

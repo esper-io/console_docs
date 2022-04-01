@@ -1,7 +1,7 @@
 
 ## How to Run a Pipeline?
 
- Step 1: Once you have created the pipeline and added the operations and the targets, click the  **Run Pipeline**  button.
+ Step 1: Once you have created the pipeline and added the operations and the targets, click the  **Run Pipeline** button.
 
 ![Run pipeline](./image/1-runButton.png)
 

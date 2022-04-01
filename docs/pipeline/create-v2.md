@@ -2,13 +2,13 @@
 
 Step 1: Log in to the Console and navigate to the Pipeline menu from the left pane. To create a new pipeline, click Create Pipeline on the landing page.
 
-![](https://lh5.googleusercontent.com/j3uanOfqqpVp5pJDY8MuNF8NKWlJIl8cU9TwOSCup6EeGDga3R_xIdOrXd5a_SaqL8zwmtO7wqhI9xG0YGwKSPDIpcZfJa0H5AW5YMK6DEYr0PFqft1y-TVd5tF_HQfGnJ3Ws3e5)
+![](./image/create/1-createButton.png)
 
 Step 2: The Console will create a pipeline with 1 stage. The pipeline will adopt its name from the creation date and time by default. Here you can edit the pipeline details.
 
-![](https://lh6.googleusercontent.com/JRQv87bAZ2OC8aBHwdknQqLm-3omy_lcHF-HF1D_WolneSWdxBjN62uV_fsZy_AfKdRRA53wcI6dIVcqjqvLpT3B2V2jBLNZvi3Dp1jU4Vqyn5Rdth1OjkzgXHIvigibn1P9z5Zg)
+![](./image/create/2-pipelineCreated.png)
 
-Step 3: Click Edit Properties. ![](https://lh5.googleusercontent.com/9EBy-Tyb6ZmoRHhOIKDZTamWI8mH-of8fIG5Jv2iJ9FxpbOIE00MR0EWC8UWJ4akf2xQ_Eefn67Bnm491N2Yb5wwFcijrX8QB2LRFtkt3pYuJrbohvNOyoqtmmMeuF47PVDs13wj)
+Step 3: Click Edit Properties. ![](./image/create/3-pipelineEdit.png)
 
 Enter a different name and a description for the newly created pipeline on the modal. Click Update.
 
