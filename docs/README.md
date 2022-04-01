@@ -6,7 +6,7 @@ home: true
 # Introduction
 
 :::warning
-If you signed up for Esper on or after April 12, 2022, please [click](https://console-docs-v2.esper.io/) here for the Console documentation.
+If you signed up for Esper on or after April 12, 2022, please click [here](https://console-docs-v2.esper.io/) for the Console documentation.
 :::
 
 Welcome to the Esper Console. The Console is your single stop for onboarding, managing, and maintaining a fleet of devices. Here Android™ developers can build, test, deploy, diagnose, and manage their applications seamlessly and securely to Android-based dedicated devices. Through the Esper Console, you can access all the features and capabilities you need to orchestrate and manage dedicated device fleets effectively. You can provision your devices through the Seamless Enrollment and Bulk Enrollment (afw#, QR Code, NFC-based, IMEI/Serial number) options provided by Esper. Once the devices are enrolled, you can take advantage of different features like Remote View and Remote Control, Device Monitoring, Device Groups, Device Graphs, Device Security State Assessment, Unlimited Private Application Storage, Unlimited Application Versions, Android Enterprise (AKA Android for Work), Application Install Scheduler, Application Management, Enforce compliance policies, Firmware-over-the-air (FOTA) Android OS Updates.
