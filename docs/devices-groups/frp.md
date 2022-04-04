@@ -29,7 +29,7 @@ As a result, an unauthorized user cannot simply factory reset your device and us
 
 Once your device is factory reset, you will see the following screen on boot. Enter the email account corresponding to the Google Account ID entered in policy, and the device will get unlocked!
 
-![Esper Get Google Account Id](./images/frp/5-factoryresetdevice.png)
+![Esper Get Google Account Id](./images/frp/5-factoryresetdevice.jpeg)
 
 An unauthorized user cannot get through this security feature which protects the device against unauthorized factory reset.
 
