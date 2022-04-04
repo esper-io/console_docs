@@ -20,7 +20,7 @@ module.exports = {
           "upload-app", 
           "shortcode", 
           //"create-template", 
-          "provision", 
+          "onboard", 
           "find-device", 
           "add-member",
           //"contact"
