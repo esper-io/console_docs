@@ -3,7 +3,7 @@ module.exports = {
   setTitle: "Onboarding Methods",
   handle: "console",
   icon: "/icons/sidebar/Onboarding.svg",
-  baseDir: "provisioning-methods",
+  baseDir: "onboarding-methods",
   // versions: [
   //   ["introduction", { label: "1.x" }]
   // ],
