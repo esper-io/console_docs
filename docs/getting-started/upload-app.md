@@ -10,6 +10,6 @@ You can use Google Play applications when you provision a GMS device. You need t
 You need to set up an account before Google Play applications are available for approval to be used in your Endpoint and for installation on your provisioned devices.
 :::
 
-Go to Applications, and then click Google Play to get started. Find out more about enrolling in managed Google Play [here.](../apps/googleplaysignup.md)
+Go to Applications, and then click Google Play to get started. Find out more about enrolling in managed Google Play [here.](../apps/appactions.md)
 
 This is an optional step; you don’t have to include any applications when you start—but depending on your use case, you may wish to have your Enterprise application available, a desired Play Store application, or any combination of the two.
