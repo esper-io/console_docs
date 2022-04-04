@@ -23,7 +23,7 @@ If you’d like to simulate an Android device, click **Simulate Device**. A noti
 
 1.  Capabilities such as Apps, Remote View, and Capture Log may not be available on a simulated device.
     
-2.  The Simulate feature is only available on accounts created after Friday, September 27, 2019. If you became an Esper client before then and would like access to a simulated device, please [contact us](support@esper.io).
+2.  The Simulate feature is only available on accounts created after Friday, September 27, 2019. If you became an Esper client before then and would like access to a simulated device, please [contact us](https://support.esper.io/s/).
     
 
 Once you onboarded your first device, this screen changes to the full Dashboard view.
