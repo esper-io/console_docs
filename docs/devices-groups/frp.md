@@ -1,4 +1,4 @@
-## How To Get Google ID and Use FRP (Factory Reset Protection) Feature?
+# How To Get Google ID and Use FRP (Factory Reset Protection) Feature?
 
 To get the google account id, please visit [this](https://developers.google.com/people/api/rest/v1/people/get?apix=true&apix_params=%7B%22resourceName%22%3A%22people%2Fme%22%2C%22personFields%22%3A%22metadata%22%7D) page.
 
