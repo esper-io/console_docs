@@ -14,7 +14,7 @@ module.exports = [
     document.addEventListener("DOMContentLoaded", function() {
       var banner = document.createElement("div");
       var text1a = document.createElement("span");
-      text1a.innerHTML = "If you signed up for Esper on or after April 12, 2022, please click ";
+      text1a.innerHTML = "If you have signed up for Esper on or after 12th April, 2022, please click ";
       var text1b = document.createElement("span");
       text1b.innerHTML = " for the Console documentation.";
 
