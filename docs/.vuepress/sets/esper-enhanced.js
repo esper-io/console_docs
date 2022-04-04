@@ -3,7 +3,7 @@ module.exports = {
   setTitle: "Esper Software Updates",
   handle: "console",
   icon: "/icons/sidebar/esper_enhanced.svg",
-  baseDir: "esper-software-updates",
+  baseDir: "esper-enhanced-updates",
   // versions: [
   //   ["introduction", { label: "1.x" }]
   // ],
