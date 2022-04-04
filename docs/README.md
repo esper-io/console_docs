@@ -5,10 +5,11 @@ home: true
 ---
 # Introduction
 
-Welcome to the Esper Console. The Console is your single stop for onboarding, managing, and maintaining a fleet of devices. Here Android™ developers can build, test, deploy, and diagnose their applications while the IT operators can seamlessly manage and securely deploy the applications to an Android-based dedicated device fleet. 
+Welcome to the Esper Console. The Console is your single stop for onboarding, managing, and maintaining a fleet of devices. Here Android™ developers can build, test, deploy, and diagnose their applications while the IT operators can seamlessly manage and securely deploy the applications to an Android-based dedicated device fleet.  
+  
 
+Once you provision your devices through the available onboarding methods — seamless provisioning, Android for Work, 6- tap QR Code, and the device provisioner— you can take advantage of the variety of features provided by Esper.
 
-Once you provision your devices through the available onboarding methods — seamless provisioning, Android for Work, 6- tap QR Code, and the device provisioner—  you can take advantage of the variety of features provided by Esper. 
 
 # Learn More
 Navigate directly to the section you want to explore. 
