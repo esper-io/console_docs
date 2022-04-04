@@ -1,4 +1,4 @@
-# What is a Drift?
+# What is Drift?
 
 A device goes in a drift when the blueprint applied to the device does not match the blueprint applied to the group.
 
