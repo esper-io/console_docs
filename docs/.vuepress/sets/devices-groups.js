@@ -27,6 +27,7 @@ module.exports = {
           //"customize",
           "download-csv",
           "filters",
+          "frp",
           "add-group",
           "create-blueprint",
           "blueprint-settings",
