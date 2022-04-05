@@ -33,4 +33,4 @@ Once your device is factory reset, you will see the following screen on boot. En
 
 An unauthorized user cannot get through this security feature which protects the device against unauthorized factory reset.
 
-If you forget your google account id or cannot use this feature and have more questions, send us an email at ([support@esper.io](mailto:support@esper.io)). 
+If you forget your google account id or cannot use this feature and have more questions, send us an ([email](mailto:support@esper.io)). 
