@@ -32,6 +32,7 @@ module.exports = {
           "create-blueprint",
           "blueprint-settings",
           "static-info",
+          "device-graph",
           "drift",
           "apps-device", 
           "device-app-install-uninstall",

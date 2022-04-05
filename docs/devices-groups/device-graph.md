@@ -1,4 +1,4 @@
-## How to View the Graphs of a Single Device?
+# How to View the Graphs of a Single Device?
 
   
 
