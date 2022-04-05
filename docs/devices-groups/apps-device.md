@@ -10,7 +10,7 @@ The applications that are already installed on the device are specified in this 
 
 -   All Apps- All applications installed on the device.
     
--   Enterprise Applications- Private applications that are installed using the [Esper Cloud](https://console-docs.esper.io/apps/upload-apps.html).
+-   Enterprise Applications- Private applications that are installed using the [Esper Cloud](../apps/upload-apps.md).
     
 -   Play Store Apps- Google applications installed using your managed Google Play account.
     
