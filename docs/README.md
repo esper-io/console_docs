@@ -25,7 +25,7 @@ Navigate directly to the section you want to explore.
     title="Onboarding methods"
     icon="/icons/homepage/provision_blog.png"
     subtitle="Various methods you could use to onboard devices to Esper platform"
-     link="/onboarding-methods/" 
+     link="/provisioning-methods/" 
       />
       <LinkPanel 
     title="Content Management"
