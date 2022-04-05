@@ -30,7 +30,7 @@ The Device Location panel shows the physical location reported by each of your d
 
 #### Alert
 
-The Alerts panel provides a summary of alerts you’ve created in the last 7 days. It displays the name of the alert and the number of times each has fired. When you click on the name of the alert, you will be taken to the alert section to view the details.
+The Alerts panel provides a summary of alerts you’ve created in the last 7 days. It displays the name of the alert and the number of times each has fired. When you click on the name of the alert, you will be taken to the alert section to view the details. You can learn more about alerts [here](../alerts/README.md).
 
   
 
@@ -38,7 +38,7 @@ The Alerts panel provides a summary of alerts you’ve created in the last 7 day
 
 ### Recent Pipelines
 
-This status panel holds a summary of the tasks in the pipeline. It displays the information about the name, id of the job in the pipeline along with the status of the job. When you click on the View Run button or the Run Id link, you will be taken to the pipeline section where you can view the details.
+This status panel holds a summary of the tasks in the pipeline. It displays the information about the name, id of the job in the pipeline along with the status of the job. When you click on the View Run button or the Run Id link, you will be taken to the pipeline section where you can view the details. You can learn more about the pipelines [here](../pipeline/README.md).
 
   
 
