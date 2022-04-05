@@ -70,7 +70,7 @@ If a device stays inactive for more than seven days, you will see an alert stati
 
   
 
-However, you can get 100+ data points to monitor via our Grafana API interfaces to your existing system and can integrate it faster. For more details contact Esper support at ([support@esper.io](mailto:support@esper.io)).
+However, you can get 100+ data points to monitor via our Grafana API interfaces to your existing system and can integrate it faster. For more details contact [Esper support](mailto:support@esper.io).
 
   
 
