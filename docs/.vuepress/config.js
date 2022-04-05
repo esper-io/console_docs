@@ -61,7 +61,7 @@ module.exports = {
       require('./sets/requirements'),
       require('./sets/getting-started'),
       require('./sets/dashboard'),
-      require('./sets/onboarding-methods'),
+      require('./sets/provisioning-methods'),
      // require('./sets/provisioning-templates'),
       require('./sets/devices-groups'),
       require('./sets/apps'),
