@@ -30,4 +30,4 @@ To learn more about managing enterprise and google applications on devices, plea
 
 [How to manage applications on a single device?](../devices-groups/apps-device.md)
 
-[How to Manage applications on device groups?](../devices-groups/group-apps.md)
+[How to Manage applications on device groups?](../devices-groups/apps-device.md)
