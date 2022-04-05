@@ -3,7 +3,7 @@
 
 The Directory allows you to manage the nested architecture and oversee your fleet status using a variety of views. You can freely move between views by selecting it from the top right side of their screen. 
 
-![customize view](./images/view/menu.png)
+![menu](./images/view/menu.png)
 
 Each view provides different benefits depending on your use case. The grid views offer a compact, high-level view of your entire fleet, broken down by Parent-level Groups. The List views provide a more detailed view of your Parent Groups and nested Subgroups. List views also allow you to fire commands to Groups or individual devices without having to separately navigate to each device.
 
