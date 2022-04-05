@@ -25,7 +25,7 @@ There are three possible settings:
     
 -   Ask User: This keeps the default behavior intact about permission management. All applications on the device will show a prompt to the user to request permission. For example, each time before accessing a device module, all applications will prompt the user with a message such as “Allow application X to access Gallery? Allow/Deny. Ask user options might not be ideal in some solutions, especially Kiosk-based applications. It can help certain unusual situations dealing with App permissions— contact us directly to find out more.
     
--   Deny Automatically: This rule will deny any permission request from any application on the device. The Console will not notify the user. You can  [grant permissions to applications individually](https://console-docs.esper.io/apps/control.html)  from the Esper Console.
+-   Deny Automatically: This rule will deny any permission request from any application on the device. The Console will not notify the user. You can  [grant permissions to applications individually](../apps/control.md) from the Esper Console.
     
 
 ### Local Application Install Configuration via Policy
@@ -230,7 +230,7 @@ The screen will timeout after the chosen time from the drop-down.
 
 ### Factory Reset
 
-Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](https://console-docs.esper.io/provisioning-methods/factory-reset.html) to prevent hard-key factory reset.
+Factory Reset controls if users can perform a factory reset using the Android Settings App. When Factory Reset is off, the user will not be able to perform a factory reset on the device. This does not prevent a hard-key factory reset, see [Factory Reset Protection](./frp.md) to prevent hard-key factory reset.
 
   
 
