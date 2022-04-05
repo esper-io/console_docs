@@ -6,7 +6,7 @@ This section provides a graphic representation of various telemetry for a specif
 
   
 
-![Device graphs](./images/devicegraphs/84_Groups_devices_details_screen_tab_bar_graphs.png)
+![Device graphs](./images/devicegraphs/device-menu.png)
 
   
 
