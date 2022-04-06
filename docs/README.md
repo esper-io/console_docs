@@ -29,7 +29,7 @@ Navigate directly to the section you want to explore.
       />
       <LinkPanel 
     title="Content Management"
-    icon="/icons/homepage/templates.png"
+    icon="/icons/homepage/Content-ManagementConsole.png"
     subtitle="Upload files for transfer"
      link="/content-management/" 
       />
