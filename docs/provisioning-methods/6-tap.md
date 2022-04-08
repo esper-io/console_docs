@@ -31,7 +31,7 @@ Step 4: If your device has the QR code reader in ROM, after tapping six times in
 
 Step 5: Go to the Esper Console and navigate to the ’Device and Groups’ section. Devices may be easily onboarded directly to the Directory-level or Group using the shortcut button for 6-tap QR code onboarding. Simply click on the QR code icon next to the Directory or a Group where you wish to onboard a device.
 
-![](https://lh5.googleusercontent.com/JLrDpoocxpc-EYCV7yX_-TS5IDewBQnLC2eEIEXsvhe8luwaK4Sy98699i8he8QiXjoENBX6TRtDQRWZ-Hmoa6QTWs0hBEi9HgnhrorqeWlcwseNLIMczIdLBLykD2LL6JsVzfbS)
+![](./images/QR-image/group.png)
 
 :::tip
 This modal will pop up when you click the QR code for the Group. A similar modal will pop up when you click the QR code at the directory level. Devices will be onboarded to the endpoint and the Esper Agent will be installed. Devices that are onboarded directly to a Group will automatically begin onboarding with the Group’s Blueprint if one exists. If a device is onboarded to the Directory level, it will not be provisioned until it is moved to a Group with a Blueprint.
