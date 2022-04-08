@@ -6,7 +6,7 @@ Navigate to the Devices & Groups section of the Console. Click **Add**. Choose N
 
 
 :::tip
-If you onboard a device to a group before you add a blueprint, the device will inherit the  [default settings](/blueprint_default_values.pdf). You can use this blueprint or add a new one.
+If you scan a QR code and onboard a device to a group before you add a blueprint, the Esper launcher is set as the default launcher. If the user has registered an EMM Play Store account to the endpoint it will be pushed to the device.
 :::
 
 
