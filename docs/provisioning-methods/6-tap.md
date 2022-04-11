@@ -56,23 +56,23 @@ The QR code is densely populated. If your device’s camera has trouble scanning
 -   Holding the device still for a few seconds once you have adjusted the distance.
     
 
-Step 9: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for onboarding, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
+Step 7: If your device does not have an active cellular data network connection or isn’t set up to connect to a Wi-Fi access point specified in the QR code to use for onboarding, you will need to connect the device to the internet either using the cellular data or via Wi-Fi. To do so, you will need to either enable your SIM or enter your Wi-Fi access point credentials.
 
-Step 10: You may then see a screen to accept specific terms from Google regarding Esper managing your device. Click ACCEPT & CONTINUE.
+Step 8: You may then see a screen to accept specific terms from Google regarding Esper managing your device. Click ACCEPT & CONTINUE.
 
-Step 11: Once the Esper agent has successfully downloaded, onboarding will start.
+Step 9: Once the Esper agent has successfully downloaded, onboarding will start.
 
 ![alt text](https://lh4.googleusercontent.com/J9JcPr8lYkmVEhlK1JQlOI7H5znTAn511n2wT1VZibN0IktghIKzcByeaTbLPRDGHJvEJ6ogsWK_4xg00Mu8uWy6JGxHGvKucQo0K678ad5rCUmKNIJjfA1R1XopTeioDg5WjtMg)![alt text](https://lh3.googleusercontent.com/N53d_HQnCpRDCtYQXtuo_PrjNBm36_HHblyGyDNKbmaFzTmgtKJASXU04K4VycPT_POP5LLB3gq6UFpC_-YD5xqp2CKJBjTyzgJFGZJxOK2vo7A5-Zrks8AmTrpXOags4AKoSlUQ)
 
 If you wish to exit the onboarding process for any reason, click on the Esper logo six times to bring up the option to factory reset the device.
 
-Step 12: If your Blueprint enables Google Play, Google Play Services will be updated. Be patient during this process, as it is conducted by Google and depends on their current service quality.
+Step 10: If your Blueprint enables Google Play, Google Play Services will be updated. Be patient during this process, as it is conducted by Google and depends on their current service quality.
 
 ![alt text](https://lh5.googleusercontent.com/IW5UVyE4a5D27DwbjHH3iu1GzXS0Sm2-SKXhc1XvnGKLlAO9XPhuv53txTlJRJn1w5aE0VB3Ll37C1MLTrR6Mmsx__rLR2z0ssSRGjyF-gmayeqksrd4FMlZ7ozs_lO-0q978uQw)
 
 Often, the device will complete onboarding without any permissions needing to be granted on the device. Occasionally, you will need to resolve permissions for Esper to modify system settings and/or Esper to draw over other applications. Please grant these permissions if prompted.
 
-Step 13: You will now return to the Esper Agent to install any Esper Enterprise applications and complete the onboarding process.
+Step 11: You will now return to the Esper Agent to install any Esper Enterprise applications and complete the onboarding process.
 
 ![alt text](https://lh5.googleusercontent.com/hRAkBKEJs971kHHHocyuP8Eum_x4BJAyUH39TY8miOh5fbRgBWrB678EpuILIXcZenDX6t0o_4rjhBI6nekjwGfcbu7ti7oq-_aT2w0TMFE36yZlxnq4aZzSJh4I0lIoON1l7ayZ)
 
