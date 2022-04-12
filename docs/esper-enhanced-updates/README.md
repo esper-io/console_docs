@@ -1,8 +1,8 @@
-## What are Esper Enhanced Updates?
+## What are Esper Software Updates?
 
   
 
-Esper Enhanced Android devices are shipped with custom Android OS for improved security, faster deployments, and superior debugging. Esper's custom Android OS creates a better user experience on single-purpose devices.
+Esper Foundation for Android devices are shipped with custom Android OS for improved security, faster deployments, and superior debugging. Esper's custom Android OS creates a better user experience on single-purpose devices.
 
   
 
@@ -11,5 +11,5 @@ Esper Enhanced Android devices are shipped with custom Android OS for improved s
   
   
 :::tip
-Only the latest thirty build versions of Esper Enhanced Android are listed for deployment.
+Only the latest thirty build versions of Esper Foundation for Android are listed for deployment.
 :::

@@ -8,10 +8,37 @@ module.exports = [
     }`
   ],
   [
+    "script",
+    {},
+    `
+    document.addEventListener("DOMContentLoaded", function() {
+      var banner = document.createElement("div");
+      var text1a = document.createElement("span");
+      text1a.innerHTML = "If you have signed up for Esper on or after 12th April, 2022, please click ";
+      var text1b = document.createElement("span");
+      text1b.innerHTML = " for the Console documentation.";
+
+      let a = document.createElement('a');
+      let anchorText = document.createTextNode("here");
+      a.appendChild(anchorText);
+      a.title = "Console docs v2";
+      a.href = "https://console-docs-v2.esper.io/";
+      banner.appendChild(text1a)
+      banner.appendChild(a);
+      banner.appendChild(text1b);
+
+      banner.className = "bg-yellow-500 text-gray-800 p-2 mb-4 text-center";
+      if(document.getElementsByTagName('body')[0]) {
+        document.getElementsByTagName('body')[0].prepend(banner)
+      }
+    })
+    `
+  ],
+  [
     "link",
     {
       rel: "icon",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -19,7 +46,7 @@ module.exports = [
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -28,7 +55,7 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
@@ -37,14 +64,14 @@ module.exports = [
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      href: "https://esper.io/favicon-32x32.png"
+      href: "/icons/favicon.png"
     }
   ],
   [
     "link",
     {
       rel: "mask-icon",
-      href: "https://esper.io/favicon-32x32.png",
+      href: "/icons/favicon.png",
       color: "#e5422b"
     }
   ],

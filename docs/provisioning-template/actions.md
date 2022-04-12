@@ -71,7 +71,7 @@ A toast message, on the bottom right, will indicate success or failure in duplic
 
 ### Upload IMEI CSV
 
-To upload a set of IMEI/Serial numbers for devices you want to provision using Android for Work, or for Esper Enhanced Android devices with this template, you can drag a file or browse a file from your computer. Click **Done** to upload the file. Click **Cancel** to return to the provisioning template landing page.
+To upload a set of IMEI/Serial numbers for devices you want to provision using Android for Work, or for Esper Foundation for Android devices with this template, you can drag a file or browse a file from your computer. Click **Done** to upload the file. Click **Cancel** to return to the provisioning template landing page.
 
 ![imei](./images/7_ProvisioningTemplates_IMEI_Upload.png)
   

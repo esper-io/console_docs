@@ -1,9 +1,31 @@
 ## How to Edit a Pipeline?
 
-To edit an existing pipeline, click the ellipsis (...) on its tile and select ‘Edit’ from the options.
+### To edit pipeline properties
 
-![Edit pipeline](./images/v2/1-editOption.png)
+Click Edit Properties.
 
-This will allow you to edit the name or description for the pipeline and the stage. You can add more stages as well as edit the operations and the targets.
+![edit pipeline](./image/edit/1-edit.png)
 
-![Edit pipeline](./images/v2/2-editPipeline.png)
+Enter a different name and a description for the newly created pipeline on the modal. Click **Update**.
+
+![details](./image/edit/2-enterdetails.png)
+
+### To edit stage properties
+
+You can edit the properties of the stage— name, and description. Click Edit Stage Properties.
+
+![stage properties](./image/edit/3-device.png)
+
+### To edit the operation or target
+Navigate to the Pipelines tab on the landing page to edit the targets and operations. Click the name of the pipeline.
+
+![pipeline](./image/edit/4-pipelines.png)
+
+Click  **Configure New Run**.
+
+![configure run](./image/edit/5-configureRun.png)
+
+You will be on the pipeline details page, where you can edit the operations and targets of each stage. Once done, click  **Run Pipeline**  to configure a new run.
+
+![edit](./image/edit/6-pipelineRun.png)
+

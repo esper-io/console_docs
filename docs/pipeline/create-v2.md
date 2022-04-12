@@ -1,54 +1,41 @@
 ## How to Create a New Pipeline?
 
-Step 1: To create a new pipeline, click **New Pipeline**.
+Step 1: Log in to the Console and navigate to the Pipeline menu from the left pane. To create a new pipeline, click Create Pipeline on the landing page.
 
-![New pipeline creation button](./images/createV2/1-createButton.png)
+![create pipeline](./image/create/1-createButton.png)
 
-Step 2 The Console will create a pipeline with 1 stage. Here you can edit the pipeline details. 
+Step 2: The Console will create a pipeline with 1 stage. The pipeline will adopt its name from the creation date and time by default. Here you can edit the pipeline details.
 
-![New pipeline creation screen](./images/createV2/2-pipeline.png)
+![create pipeline](./image/create/2-pipelineCreated.png)
 
-Step 3: You can edit a name and a description for the newly created pipeline.
+Step 3: Click Edit Properties.
 
-![edit pipeline details](./images/createV2/3-editName.png)
+![edit properties](./image/create/3-pipelineEdit.png)
 
-Step 4: To add an operation, click the “Add Operation” link.
+Enter a different name and a description for the newly created pipeline on the modal. Click Update.
 
-![add operations](./images/createV2/4-addOperation.png)
+![edit details](./image/create/4-Editpopup.png)
 
-Step 5: On the pop-up, select the ‘App.’
+Step 4: To add an operation, click the “Operation” link.
 
-If you select the ‘App’ tab, select the application and the version, and click the **Add Application** button.
+![operation](./image/create/57-satge.png)
 
-![add operations](./images/createV2/5-addApps.png)
+Choose the operations and the version from the menu list and click Add. The added application will be displayed to the right.
 
-The added application will be displayed.
+![select Operation](./image/create/6-operation.png)
 
-![add operations](./images/createV2/6-addedAppList.png)
+Step 5: Click Target to add devices.
 
-You can add more applications. Once done, click the **Done** button.
+![select target](./image/create/57-satge.png) 
+Select the device you wish to push the update to.
 
-Step 6: On the created pipeline, you can see the operations you added.
+![select device](./image/create/8-targets.png)
 
-![add operations](./images/createV2/8-operationsDisplayed.png)
+Your pipeline is now created and ready to run.
 
-Step 7: Click the” Add Target” link to select the devices or groups.
+:::tip
 
-![add targets](./images/createV2/9-addTarget.png)
-
-Step 8: On the pop-up, select the devices or groups. Click **Add** to select the device. Click **Remove** to remove the selected device.
-
-![add targets](./images/createV2/10-addDevice.png)
-
-Use the switch to move between groups and devices. Click **Done** when you have chosen the required devices or groups.
-
-![add targets](./images/createV2/11-selectedDevice.png)
-
-
-::: tip
-You can add a list of devices or groups in one stage but not both.
+You can select group as a target. Select groups from the drop-down (select target). Click the group name to add sub-groups. 
 :::
 
-Step 9: The created pipeline is displayed on the ‘Pipeline’ landing page.
 
-![created pipeline](./images/createV2/12-createdPipeline.png)
