@@ -17,3 +17,12 @@ User should have access to Esper endpoint, have the Blueprint created, the devic
 ![Provisioner Tool](./images/Esper_device_Provisioner.png)
 
 Download the compatible version for Windows, Linux and Mac system and follow the steps to provision via Provisioner Tool from  [here](https://docs.esper.io/home/provisioner.html).
+
+:::tip
+We are working to make our provisioner tool optimise for newly launched DevOps features. If you have signed up for Esper platform on or after 12th April 2022, please use the provisioner beta build. We will be releasing production build by end of this week.
+
+Link for downloading beta builds:
+
+1. Mac build - [Download here](https://downloads.esper.io/esper-provisioner/mac/EsperDeviceProvisioner-beta.dmg)
+2. Windows - [Download here](https://downloads.esper.io/esper-provisioner/windows/EsperDeviceProvisioner-beta.exe)
+:::
