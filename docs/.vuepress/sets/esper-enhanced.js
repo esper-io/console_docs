@@ -1,14 +1,14 @@
 module.exports = {
   title: "Esper Console Documentation | %v",
-  setTitle: "Esper Enhanced Updates",
+  setTitle: "Esper Software Updates",
   handle: "console",
   icon: "/icons/sidebar/esper_enhanced.svg",
-  baseDir: "esper-enhanced-updates",
+  baseDir: "esper-software-updates",
   // versions: [
   //   ["introduction", { label: "1.x" }]
   // ],
   // defaultVersion: "introduction",
-  searchPlaceholder: "Search Esper Enhanced Updates (Press “/” to focus)",
+  searchPlaceholder: "Search Esper Software Updates (Press “/” to focus)",
   primarySet: true,
   sidebar: {
     "/": [
