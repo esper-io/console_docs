@@ -17,7 +17,7 @@ Click the Profile icon and navigate to your company settings.
 
   
 :::tip
-Only Enterprise Administrators are allowed to configure SAML SSO.
+Only Enterprise Administrators are allowed to configure SAML SSO. Configuring SSO does not change how you add different user types to the Console. [Learn](../user-management/new-user.md) to add different user types.
 :::
   
 
