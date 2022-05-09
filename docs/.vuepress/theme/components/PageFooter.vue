@@ -268,7 +268,7 @@ export default {
     },
     getIssueUrl() {
       return encodeURI(
-        `https://github.com/${this.$themeConfig.docsRepo}/issues/new?title=Improve “${this.$page.title}”&body=I have a suggestion for https://docs.esper.io/${this.$route.fullPath}:\n`
+        `https://github.com/${this.$themeConfig.docsRepo}/issues/new?title=Improve “${this.$page.title}”&body=I have a suggestion for https://console-docs-v2.esper.io/${this.$route.fullPath}:\n`
       );
     },
   },
