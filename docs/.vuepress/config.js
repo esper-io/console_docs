@@ -5,7 +5,7 @@ module.exports = {
     [
       'sitemap',
       {
-          hostname: 'https://docs.esper.io',
+          hostname: 'https://console-docs-v2.esper.io/',
       },
     ],
     [
