@@ -428,6 +428,22 @@ This setting will allow or restrict the device user from taking a screenshot.
 
 This setting will enable/disable the notification bar on the device.
 
+Notification Disabled:
+
+1.  App running in Kiosk Mode: Only the Kiosk app will be visible along with the back key in the navigation bar. No status bar also.
+    
+2.  App running in multi App Mode: The status bar will be visible along with the Navigation bar.
+    
+
+Notification Enabled
+
+1.  App running in Kiosk mode: The status bar will be visible along with the Kiosk app. No drop-down to view notifications.
+    
+2.  App running in multi App Mode: The status bar and a notification bar will be shown along with a drop-down to show Notifications.
+    
+
+You may choose to leave this setting On if you request bug report submissions from device users. User bug report requests from Esper must be sent via the notification bar.
+
 ### Home Screen Wallpaper
 
 You can upload wallpaper files in either the portrait or the landscape mode. Click upload and browse a file up to 5MB in size.
