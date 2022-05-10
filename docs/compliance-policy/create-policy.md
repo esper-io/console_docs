@@ -201,7 +201,23 @@ Factory Reset controls if users can perform a factory reset using the Android Se
 
 ### Notification Bar Configuration via Policy
 
-If you want device users to be able to swipe down to see the notification bar, set Notification Bar to on. If you don’t, set it off. You will typically want the notification bar turned off for Android kiosk mode. But, you may choose to leave this setting On if you will request bug report submissions from device users. User bug report requests from Esper generally must be sent via the notification bar.
+If you want device users to swipe down to see the notification bar, set Notification Bar to on. If you don’t, set it off. 
+
+Notification Disabled:
+
+1. App running in Kiosk Mode: Only the Kiosk app will be visible along with the back key in the navigation bar. No status bar also.
+    
+2. App running in multi App Mode: The status bar will be visible along with the Navigation bar.
+    
+
+Notification Enabled
+
+1. App running in Kiosk mode: The status bar will be visible along with the Kiosk app. No drop-down to view notifications.
+    
+2. App running in multi App Mode: The status bar and a notification bar will be shown along with a drop-down to show Notifications.
+
+
+ You may choose to leave this setting On if you request bug report submissions from device users. User bug report requests from Esper must be sent via the notification bar.
 
 ### Screenshot Configuration via Policy
 
@@ -310,7 +326,7 @@ All numbers must be preceded by +country code (for example, +1 for the US). All 
 The following are some general guidelines on what the CSV should look like when uploading the CSV for Contacts.
 
 For example,
-1) Download the template CSV file.
+1) Download the [template CSV](/example_contact.csv) file.
 
 2) Fill in the Contact's information according to the Header (e.g. Phone Number, Tag, Tag, Tag)
 
