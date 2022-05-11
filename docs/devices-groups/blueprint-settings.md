@@ -293,7 +293,7 @@ All numbers must be preceded by +country code (for example, +1 for the US). A co
 
 The following are some general guidelines for the CSV when uploading the CSV for Contacts.
 
-1.  Download the template CSV file.
+1.  Download the [template CSV](/example_contact.csv) file.
     
 2.  Fill in the Contact's information according to the Header (e.g. Phone Number, Tag, Tag, Tag)  
     a. Please make sure that the Country Code is included in the Phone Number (e.g., +1)  
