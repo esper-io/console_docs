@@ -86,6 +86,10 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
       "DefaultGeolocationSetting":3     
     }
 
+:::tip
+ Nested JSON format is not supported. 
+ :::
+
 
 Step 4: Preview the applictaion details and then click **Install** button, when ready.
 

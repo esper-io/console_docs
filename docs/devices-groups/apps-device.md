@@ -215,6 +215,11 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
     }
 ```
 
+:::tip
+ Nested JSON format is not supported. 
+ :::
+
+
 Step 3: Click **Apply** to save the changes. Clicking **Cancel** will take you back to the 'app setting' screen.
 
 :::tip
