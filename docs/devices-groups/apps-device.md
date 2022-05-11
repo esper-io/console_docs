@@ -129,6 +129,11 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
 ```
 Click Apply Changes to save the changes. If you have managed configurations applied for an application, you will be able to edit the configurations. Only valid key-value pairs will be applied to the application.
 
+:::tip
+ Nested JSON format is not supported. 
+ :::
+
+
 ![Edit manage config](./images/manageApps/5-edit.png)
 
 A toast message will indicate success or failure for the action.
