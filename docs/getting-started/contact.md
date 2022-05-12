@@ -1,10 +1,6 @@
 ## How to Contact Esper Team?
 
-If you face any issues while using Esper, we are here to help you! Support options available to you depending on your Esper tier:
+If you face any issues while using Esper, we are here to help you! Please reach out to [Esper Support Forum](https://support.esper.io) or contact us at [Esper support](mailto:support@esper.io). 
 
--   Esper Starter -  [Esper Support Forum](https://support.esper.io)
--   Esper Essentials - [support@esper.io](mailto:support@esper.io)
--   Esper Pro - Direct ticketing of support issues by customers
-
-Esper Trial users receive 15 days of evaluation support after signup ([support@esper.io](mailto:support@esper.io)). Please be sure to check our support forums first before emailing support.
+Esper Trial users receive 15 days of evaluation support after signup. Please be sure to check our support forums first before emailing support.
   
