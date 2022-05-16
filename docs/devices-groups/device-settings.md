@@ -380,6 +380,8 @@ Similarly, the Phase 2 Authentication is also a dropdown with the following opti
 -   AKA
 -   AKA_PRIME
 
+Choose 'Yes' from the hidden field drop-down to create hidden Wi-Fi networks. You cannot scan a hidden Wi-Fi network from the device. For example, when you open the Wi-Fi section of your device, you will not see a hidden network even if one is within range.
+
 In Android 10 and above, when a WiFi access point is added directly from the device, it is recommended that GPS is ON so that  WiFi access point can reflect back on the Console.
 
 ###  Location Settings
