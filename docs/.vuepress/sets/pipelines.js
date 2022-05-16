@@ -22,6 +22,7 @@ module.exports = {
           "run-pipelinev2",
           "view-pipelinev2",
          "delete-v2",
+         "stage",
          "terms",
         ]
       },

@@ -23,7 +23,7 @@ module.exports = {
           "onboard", 
           "find-device", 
           "add-member",
-          //"contact"
+          "contact"
         ]
       },
     ]
