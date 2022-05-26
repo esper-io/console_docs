@@ -5,14 +5,14 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
  <table>
     <tr>
-        <td>Description</td>
-        <td>JSON</td>
-        <td>Supervisor plugin</td>
-        <td>Comments</td>
+        <td style="width:70%">Description</td>
+        <td style="width:50%">JSON</td>
+        <td style="width:20%">Supervisor plugin</td>
+        <td style="width:20%">Comments</td>
     </tr>
     <tr>
-        <td>Set notification sound file to “None”</td>
-        <td>
+        <td style="width:70%">Set notification sound file to “None”</td>
+        <td style="width:50%">
         "{
             ""system"": [
         {
@@ -22,8 +22,8 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     ]
     }"
 </td>
-        <td>No</td>
-        <td>N/A</td>
+        <td style="width:20%">>No</td>
+        <td style="width:20%">>N/A</td>
     </tr>
     <tr>
         <td>Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.</td>
