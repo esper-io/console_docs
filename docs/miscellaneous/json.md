@@ -5,15 +5,17 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
 | Description                                                                            | JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Supervisor plugin          | Comments                                                                                 |
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------------------------------------------|
-| Set notification sound file to “None”                                                  | "{
+| Set notification sound file to “None”                                                  | ```
+{
       ""system"": [
       {
         ""key"": ""notification_sound"",
         ""value"": null
       }
     ]
-}"                                                                                                                                                                                                                                                                                                                                                                                                          | No                         | N/A                                                                                      |
-| Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.       | "{
+}                                                                                                                                              ```                                                                                                                                                                                                                                                           | No                         | N/A                                                                                      |
+| Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.       | ```
+{
   ""settings"": {
     ""secure"": [
       {
@@ -26,7 +28,8 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
       },
     ],
  }
-}"                                                                                                                                                                                                                                                                          | Yes                        | N/A                                                                                      |
+}
+```                                                                                                                                                                                                                                                                         | Yes                        | N/A                                                                                      |
 | Disable all notifications on the lock screen                                           | {  
   "settings": {
     "secure": [   
