@@ -5,7 +5,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
  <table>
     <tr>
-        <td>Description12</td>
+        <td>Description11</td>
         <td>JSON</td>
         <td>Supervisor plugin</td>
         <td >Comments</td>
@@ -13,7 +13,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Set notification sound file to “None”</td>
         <td>
-         ```json
+         <pre>
     {
         "system": [
         {
@@ -22,7 +22,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
         }
       ]
     }
-    ```
+    </pre>
         </td>
         <td>No</td>
         <td>N/A</td>
@@ -30,7 +30,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.</td>
         <td>
-        ```json
+       <pre>
 {
        "settings": {
        "secure": [
@@ -45,7 +45,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     ],
  }
 }
-```
+</pre>
 </td> 
         <td>Yes</td>
         <td>N/A</td>
@@ -53,7 +53,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Disable all notifications on the lock screen</td>
         <td>
-        ```json
+        <pre>
     {  
     "settings": {
     "secure": [   
@@ -68,7 +68,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
   ],
  } 
 }
-```
+</pre>
 </td>
         <td>Yes</td>
         <td>N/A</td>
