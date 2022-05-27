@@ -16,7 +16,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
    <div class="scrollit">
  <table>
     <tr>
-        <td>Description222</td>
+        <td>Description</td>
         <td>JSON</td>
         <td>Supervisor plugin</td>
         <td >Comments</td>
