@@ -13,7 +13,9 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Set notification sound file to “None”</td>
         <td>
+
         ```json
+
         "{
             ""system"": [
         {
@@ -29,7 +31,10 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     </tr>
     <tr>
         <td>Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.</td>
-        <td>"{
+        <td>
+
+        ```json
+        "{
   ""settings"": {
     ""secure"": [
       {
@@ -42,7 +47,9 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
       },
     ],
  }
-}"</td>
+}"
+```
+</td>
         <td>Yes</td>
         <td>N/A</td>
     </tr>
