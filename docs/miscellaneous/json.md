@@ -12,7 +12,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     </tr>
     <tr>
         <td>Set notification sound file to “None”</td>
-        <td>
+        <td style="max-width:150px;">
          <pre>
     {
         "system": [
@@ -231,7 +231,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     </tr>
     <tr>
         <td>APN config</td>
-        <td>
+        <td style="max-width:150px;">
         <pre>
 {
   "dpcParams": [
