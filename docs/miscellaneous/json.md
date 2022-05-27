@@ -13,9 +13,10 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
       }
     </style>
   </head>
+   <div class="scrollit">
  <table>
     <tr>
-        <td>Description</td>
+        <td>Description222</td>
         <td>JSON</td>
         <td>Supervisor plugin</td>
         <td >Comments</td>
@@ -304,5 +305,6 @@ For SM-T547U and AT&amp;T M2X IoT data service"</td>
         <td>No</td>
         <td>N/A</td>
     </tr>
+</div>
 </table>
 </html>
