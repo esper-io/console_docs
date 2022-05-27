@@ -3,16 +3,17 @@
 This page is a knowledge base for all the additional configurable settings via JSON. These settings are not available in the Console or Esper settings app on the device. 
 Adding JSON can be done in Provisioning Templates on the “Settings” page, or in Blueprints in the “Settings App” section.
 
- <table style="width:100%">
+ <table>
     <tr>
-        <td style="width:30%">Description</td>
-        <td style="width:50%">JSON</td>
-        <td style="width:10%">Supervisor plugin</td>
-        <td style="width:10%">Comments</td>
+        <td>Description</td>
+        <td>JSON</td>
+        <td>Supervisor plugin</td>
+        <td >Comments</td>
     </tr>
     <tr>
-        <td style="width:30%">Set notification sound file to “None”</td>
-        <td style="width:50%">
+        <td>Set notification sound file to “None”</td>
+        <td>
+        ```json
         "{
             ""system"": [
         {
@@ -21,9 +22,10 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
       }
     ]
     }"
+    ```
 </td>
-        <td style="width:10%">>No</td>
-        <td style="width:10%">>N/A</td>
+        <td>No</td>
+        <td>N/A</td>
     </tr>
     <tr>
         <td>Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.</td>
