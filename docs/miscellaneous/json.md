@@ -5,9 +5,9 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
  <table>
     <tr>
-        <td>Description</td>
+        <td>Description12</td>
         <td>JSON</td>
-        <td>Supervisor plugin1</td>
+        <td>Supervisor plugin</td>
         <td >Comments</td>
     </tr>
     <tr>
@@ -30,9 +30,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Disable accessibility shortcut for TalkBack. Ensure TalkBack itself is disabled.</td>
         <td>
-
         ```json
-
 {
        "settings": {
        "secure": [
@@ -48,17 +46,14 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
  }
 }
 ```
-
-</td>
+</td> 
         <td>Yes</td>
         <td>N/A</td>
     </tr>
     <tr>
         <td>Disable all notifications on the lock screen</td>
         <td>
-  
         ```json
-
     {  
     "settings": {
     "secure": [   
@@ -74,7 +69,6 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
  } 
 }
 ```
-
 </td>
         <td>Yes</td>
         <td>N/A</td>
