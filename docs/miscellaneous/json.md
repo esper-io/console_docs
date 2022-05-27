@@ -5,7 +5,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
  <table>
     <tr>
-        <td>Description</td>
+        <td>Description121</td>
         <td>JSON</td>
         <td>Supervisor plugin</td>
         <td >Comments</td>
@@ -231,7 +231,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     </tr>
     <tr>
         <td>APN config</td>
-        <td style="max-width:50px;">  
+        <td style="max-width:10px;">  
         <pre>
 {
   "dpcParams": [
