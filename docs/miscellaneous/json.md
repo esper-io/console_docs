@@ -16,14 +16,14 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
 
         ```json
 
-        "{
-            ""system"": [
         {
-         ""key"": ""notification_sound"",
-        ""value"": null
-      }
-    ]
-    }"
+        "system": [
+        {
+          "key": "notification_sound",
+          "value": null
+        }
+      ]
+    }
     ```
 </td>
         <td>No</td>
@@ -34,29 +34,35 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
         <td>
 
         ```json
-        "{
-  ""settings"": {
-    ""secure"": [
+
+{
+       "settings": {
+       "secure": [
       {
-        ""key"": ""accessibility_shortcut_enabled"",
-        ""value"": ""0""
+        "key": "accessibility_shortcut_enabled",
+        "value": "0"
       },
       {
-        ""key"": ""enabled_accessibility_services"",
-        ""value"": null
+        "key": "enabled_accessibility_services",
+        "value": null
       },
     ],
  }
-}"
+}
 ```
+
 </td>
         <td>Yes</td>
         <td>N/A</td>
     </tr>
     <tr>
         <td>Disable all notifications on the lock screen</td>
-        <td>{  
-  "settings": {
+        <td>
+  
+        ```json
+
+    {  
+    "settings": {
     "secure": [   
      {
         "key": "lock_screen_show_notifications",
@@ -68,7 +74,10 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
      } 
   ],
  } 
-}</td>
+}
+```
+
+</td>
         <td>Yes</td>
         <td>N/A</td>
     </tr>
