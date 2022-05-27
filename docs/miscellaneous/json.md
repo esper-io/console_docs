@@ -13,10 +13,8 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Set notification sound file to “None”</td>
         <td>
-
-        ```json
-
-        {
+         ```json
+    {
         "system": [
         {
           "key": "notification_sound",
@@ -25,7 +23,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
       ]
     }
     ```
-</td>
+        </td>
         <td>No</td>
         <td>N/A</td>
     </tr>
