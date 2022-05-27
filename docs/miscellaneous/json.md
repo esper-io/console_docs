@@ -7,7 +7,7 @@ Adding JSON can be done in Provisioning Templates on the “Settings” page, or
     <tr>
         <td>Description</td>
         <td>JSON</td>
-        <td>Supervisor plugin</td>
+        <td>Supervisor plugin1</td>
         <td >Comments</td>
     </tr>
     <tr>
