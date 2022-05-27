@@ -3,10 +3,20 @@
 This page is a knowledge base for all the additional configurable settings via JSON. These settings are not available in the Console or Esper settings app on the device. 
 Adding JSON can be done in Provisioning Templates on the “Settings” page, or in Blueprints in the “Settings App” section.
 
+ <html>
+ <head>
+    <title>Title of the document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+    </style>
+  </head>
  <table>
     <tr>
-        <td>Description101</td>
-        <td style="overflow:hidden; width:50px;">JSON</td>
+        <td>Description</td>
+        <td>JSON</td>
         <td>Supervisor plugin</td>
         <td >Comments</td>
     </tr>
@@ -295,4 +305,4 @@ For SM-T547U and AT&amp;T M2X IoT data service"</td>
         <td>N/A</td>
     </tr>
 </table>
-
+</html>
