@@ -22,7 +22,7 @@ module.exports = {
           "url",
           "wrong-password",
           "json",
-          "acessibility-json",
+          "accessibility-json",
           "webapp",
         ]
       },

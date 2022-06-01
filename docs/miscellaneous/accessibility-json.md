@@ -1,6 +1,6 @@
-# What Are the Acessibility JSON Settings?
+# What Are the Accessibility JSON Settings?
 
-This page is a knowledge base for all the additional acessibility settings via JSON. These settings are not available in the Console or Esper settings app on the device.
+This page is a knowledge base for all the additional accessibility settings via JSON. These settings are not available in the Console or Esper settings app on the device.
 Adding JSON can be done in Provisioning Templates on the “Settings” page, or in Blueprints in the “Settings App” section.
 
 <div class="scrollit">
