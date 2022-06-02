@@ -5,7 +5,7 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 | FQDNs                                 | Ports                           | Features                                                                                 |
 |---------------------------------------|---------------------------------|------------------------------------------------------------------------------------------|
 | *.amazonaws.com                       | 443 and 8883                    | For provisioning, app management and device management                                   |
-|  [mqtt.shoonyacloud.com:1883](http://mqtt.shoonyacloud.com:1883/)                           | Backup device managemnt channel                                                          |
+|  [mqtt.shoonyacloud.com:1883](http://mqtt.shoonyacloud.com:1883/) |                          | Backup device managemnt channel                                                          |
 | mqtt2.shoonyacloud.com                | 1883                            | Backup device managemnt channel                                                          |
 | [services.shoonyacloud.com]           | TCP: 80 (HTTP), 443 (HTTPS)     | IMEI/ Seamless provisioning and remote viewer APK                                        |
 | [turn.shoonyacloud.com](http://turn.shoonyacloud.com/)               | "TCP: 3478, 5349                | For remote viewer and control                                                            |
