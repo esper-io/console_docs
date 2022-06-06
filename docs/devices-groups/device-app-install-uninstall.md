@@ -90,6 +90,7 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
  Nested JSON format is not supported. 
  :::
 
+Click the links to find more [JSON settings](../miscellaneous/json.md) and [accessibility settings](../miscellaneous/accessibility-json.md). 
 
 Step 4: Preview the applictaion details and then click **Install** button, when ready.
 

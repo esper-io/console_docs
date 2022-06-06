@@ -97,6 +97,8 @@ Following is a sample code for Chrome (Version below 86) Manage Configuration:
       "DefaultGeolocationSetting":3     
     }
 
+Click the links to find more [JSON settings](../miscellaneous/json.md) and [accessibility settings](../miscellaneous/accessibility-json.md). 
+
 You can check the history of application installation/schedules. Click the ‘View’ link under the manage configurations column to see the JSON code.
 
   
