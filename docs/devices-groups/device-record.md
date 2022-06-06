@@ -8,11 +8,11 @@ Choose Individual Devices from the options to create a record of a single device
 
 ![individual device record option](./images/deviceRecord/2-individual.png)
 
-You have an option to upload a device to the directory or choose a group/subgroup for the device. This device is managed using a Blueprint. If you choose to upload the device to the directory, it will be a part of the unmanaged devices group and the device need to be moved into a group to manage it using a blueprint. 
+You have an option to upload a device to the directory or choose a group/subgroup for the device. This device is managed using a Blueprint. If you choose to upload the device to the directory, it will be a part of the unmanaged devices group and the device need to be moved into a group to manage it using a Blueprint. 
 Once you select the group/sub-group to onboard the device, enter the optional alias and tags. Click the Review & Add button.
 
 :::tip
-You can scan a QR code for a group and onboard the device to it. The device will be added to the selected group with the associated blueprint.
+You can scan a QR code for a group and onboard the device to it. The device will be added to the selected group with the associated Blueprint.
 :::
 
 
