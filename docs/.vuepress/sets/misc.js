@@ -24,6 +24,7 @@ module.exports = {
           "json",
           "accessibility-json",
           "webapp",
+          "supervisor",
         ]
       },
     ]

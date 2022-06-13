@@ -2,6 +2,10 @@
 
 Remote Viewer enables you to view the  device's current screen on your Console. The Control allows you to take control of the device. This means you may interact with the remote device using your mouse as though you were physically touching the screen. In this section, you can also take screen-shots.
 
+:::tip
+If you want to use remote control functionality on devices, please contact the Esper team for a [Supervisor plugin](../miscellaneous/supervisor.md). 
+:::
+
 **Note:** Only a single device-to-Esper Console session is allowed at a time. 
 
 If you have the ‘Viewer’ role, you can remotely view the device. However, you won’t be able to control the device.
