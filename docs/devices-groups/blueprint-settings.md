@@ -4,7 +4,9 @@ When you click the Blueprint link, you will view/edit various categories of the 
 
 ![](./images/blueprintSettings/settingOptions.png)
 
-  
+:::tip
+You need a supervisor plugin if your application needs to access some Secure and Global settings. Learn more about this plugin [here](../miscellaneous/supervisor.md). 
+:::
 
 <!-- Note: The lock Section link helps you lock the selected section of the Blueprint. Once locked, other Blueprints cannot override it, and the child devices and groups will inherit that sections. -->
 
