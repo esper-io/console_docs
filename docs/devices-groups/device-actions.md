@@ -56,7 +56,7 @@ When you select the Ping Device, the Esper Console will attempt to ping the devi
 
 ## Reapply Blueprint
 
-When you select Reapply Blueprint, this reapplies the device’s associated blueprint. So all settings defined in the blueprint will get pushed to the device.
+When you select Reapply Blueprint, this reapplies the device’s associated Blueprint. So all settings defined in the Blueprint will get pushed to the device.
 
   
 

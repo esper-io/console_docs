@@ -6,7 +6,7 @@ Once you have created a group, you can add a Blueprint to it. Click ellipsis(...
 
 ![](./images/addBlueprint/1-menu.png)
 
-Alternatively, you can add a blueprint by clicking the Add Blueprint link in the summary section of the group.
+Alternatively, you can add a Blueprint by clicking the Add Blueprint link in the summary section of the group.
 
 ![](./images/addBlueprint/2-option.png)
 
@@ -29,7 +29,7 @@ Step 2: Here, you will be able to apply the different settings to the Blueprint.
 <!-- Note: You can also lock particular sections of the Blueprint settings. -->
 
  
-Click **Save and Continue** when you have chosen the desired settings. You have the option to add the comments if you have modified the blueprint.
+Click **Save and Continue** when you have chosen the desired settings. You have the option to add the comments if you have modified the Blueprint.
 
 We recommend that you add comments to track the changed settings.
 
@@ -44,6 +44,6 @@ Step 3: You will be prompted with an option to apply the Blueprint immediately o
 You will be prompted with a pop-up to confirm your choice.
 
 :::tip
-If your group does not have a devices onboarded, click 'X' and the blueprint will be assiciated with the group. 
+If your group does not have a devices onboarded, click 'X' and the Blueprint will be assiciated with the group. 
 :::  
 

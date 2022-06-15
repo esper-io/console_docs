@@ -23,7 +23,10 @@ module.exports = {
           "wrong-password",
           "frp",
           "saml",
+          "json",
+          "accessibility-json",
           "webapp",
+          "supervisor",
         ]
       },
     ]

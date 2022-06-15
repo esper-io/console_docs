@@ -1,6 +1,6 @@
 ## What is the Devices & Groups Section?
 
-The Devices & Groups section enables you to manage devices and groups in one place. You can assign blueprints, manage settings for the devices or the groups, move devices/groups from one group to another, and a lot more. Once the devices are assigned to groups, you can use a single command to perform an action on all the devices in the group. You can, for example, apply a blueprint to all the devices in the group at once.
+The Devices & Groups section enables you to manage devices and groups in one place. You can assign Blueprints, manage settings for the devices or the groups, move devices/groups from one group to another, and a lot more. Once the devices are assigned to groups, you can use a single command to perform an action on all the devices in the group. You can, for example, apply a Blueprint to all the devices in the group at once.
 
 ![landing page](./images/Devices-main.png)
 

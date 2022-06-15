@@ -36,7 +36,7 @@ Each Parent Group tile provides an overview of the devices and subgroups within 
 
 ## Parent Group and Sub-groups:
 
-Each view at the Parent-level and the sub-group level displays the summary of the number of devices and the subgroups. It also displays the description if added while creating the group. You can scan the QR code to onboard a device to this Parent Group. You can also add, edit, and view a blueprint. 
+Each view at the Parent-level and the sub-group level displays the summary of the number of devices and the subgroups. It also displays the description if added while creating the group. You can scan the QR code to onboard a device to this Parent Group. You can also add, edit, and view a Blueprint. 
 
 Parent-level and sub-groups have the same view as the Directory level with one addition— Customize List View. 
 

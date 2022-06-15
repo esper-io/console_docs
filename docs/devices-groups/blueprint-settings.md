@@ -4,7 +4,9 @@ When you click the Blueprint link, you will view/edit various categories of the 
 
 ![](./images/blueprintSettings/settingOptions.png)
 
-  
+:::tip
+You need a supervisor plugin if your application needs to access some Secure and Global settings. Learn more about this plugin [here](../miscellaneous/supervisor.md). 
+:::
 
 <!-- Note: The lock Section link helps you lock the selected section of the Blueprint. Once locked, other Blueprints cannot override it, and the child devices and groups will inherit that sections. -->
 
@@ -120,7 +122,7 @@ Note: It is advised to pair and use only one device. In case another device is r
     
 -   Display: Manage screen rotation, screen brightness, and screen timeout.
     
--   Factory Reset: Perform a factory reset of the device, regardless of the blueprint applied.
+-   Factory Reset: Perform a factory reset of the device, regardless of the Blueprint applied.
     
 -   Esper Branding: Turn Off the Esper logo on the 'Home' screen.
     
@@ -202,7 +204,7 @@ Note: On some devices, this setting may need to be on if you wish to have Google
 
 Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if a user factory resets it with soft or hard keys. FRP will auto-lock the device and keep it locked until a pre-authorized Google account ID is entered. Additional information about getting your Google Account ID can be found [here](./frp.md).
 
-When you turn On the FRP button in the blueprint, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
+When you turn On the FRP button in the Blueprint, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
 Note: Factory reset protection is only available on GMS devices running Android 5.1 and above.
 
@@ -253,7 +255,7 @@ The user will set up the password for a device during the initial setup. The loc
 
   
 :::tip
-When the blueprint is applied with password type "None", but a password is already set by the user on the device, then the device will get priority. You can remove the password from the device remotely using our API. Contact [Esper team](https://support.esper.io/) for more information.
+When the Blueprint is applied with password type "None", but a password is already set by the user on the device, then the device will get priority. You can remove the password from the device remotely using our API. Contact [Esper team](https://support.esper.io/) for more information.
 :::
 
 Click Reset to Default for the default setting. Click Save and Continue to go to the next settings.

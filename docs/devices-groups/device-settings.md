@@ -2,7 +2,7 @@
 
   
 
-A sub-set of the settings available in blueprint can be separately managed and controlled for each device at any time. 
+A sub-set of the settings available in Blueprint can be separately managed and controlled for each device at any time. 
 
 Navigate to the devcie view and click in the device Id for the device you want to change settings. Click Settings tab on the device details screen.
 
@@ -90,7 +90,7 @@ Step 3: Click Send Message when you are ready to send the message. Clicking Canc
 
 #### Reapply Blueprint 
 
-When you click **Reapply Blueprint** button a command is fired to reapply a blueprint. This will remove any drift and ensure the device matches the current blueprint applied to the group.
+When you click **Reapply Blueprint** button a command is fired to reapply a Blueprint. This will remove any drift and ensure the device matches the current Blueprint applied to the group.
 
 
 

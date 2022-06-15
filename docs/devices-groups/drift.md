@@ -1,6 +1,6 @@
 # What is Drift?
 
-A device goes in a drift when the blueprint applied to the device does not match the blueprint applied to the group.
+A device goes in a drift when the Blueprint applied to the device does not match the Blueprint applied to the group.
 
 You will see a drift notification in the summary section at the group level.
 
@@ -16,9 +16,9 @@ Devices will go in drift in the following two situations:
 
   
 
-1.  You just created a group— not applied a blueprint yet. You onboarded a device(s) to this group. It's provisioned to the Esper platform using the default settings. You now apply a blueprint to the group.
+1.  You just created a group— not applied a Blueprint yet. You onboarded a device(s) to this group. It's provisioned to the Esper platform using the default settings. You now apply a Blueprint to the group.
     
-2.  You have created a group, added a blueprint, and onboarded a device(s). The device(s) goes offline. You make some changes to the blueprint settings and reapply the blueprint to the group.
+2.  You have created a group, added a Blueprint, and onboarded a device(s). The device(s) goes offline. You make some changes to the Blueprint settings and reapply the Blueprint to the group.
     
 
 ## Resolve the drift

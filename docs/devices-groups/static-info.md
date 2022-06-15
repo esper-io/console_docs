@@ -13,9 +13,9 @@ The top of the page displays a summary of the device status- online/offline. You
 
 <!-- Here, you can access all the critical device information. 
 
-It displays the blueprint nesting. In case the device is inheriting a blueprint from the parent, this visual will give a clear understanding. 
+It displays the Blueprint nesting. In case the device is inheriting a Blueprint from the parent, this visual will give a clear understanding. 
 
-Clicking the Parent Group name will redirect you to the parent view. Clicking the blueprint will open up a view of the blueprint where you will be able to view all the configurations on one page. The map shows the device’s location. -->
+Clicking the Parent Group name will redirect you to the parent view. Clicking the Blueprint will open up a view of the Blueprint where you will be able to view all the configurations on one page. The map shows the device’s location. -->
 
 All the dedicated information sections are expandable. All the sections give you respective information with actionable Network and Bluetooth sections. These topics are discussed below:
 

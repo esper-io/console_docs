@@ -8,6 +8,9 @@ Only a single device-to-Esper Console session is allowed at a time.
 
 If you have the ‘Viewer’ role, you can remotely view the device. However, you won’t be able to control the device.
 
+:::tip
+If you want to use remote control functionality on devices, please contact the [Esper team](https://support.esper.io/s/) for a [Supervisor plugin](../miscellaneous/supervisor.md). 
+:::
 
 ### Setup Remote Viewer on a Single Device
  
