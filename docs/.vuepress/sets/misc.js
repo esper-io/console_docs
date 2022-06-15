@@ -21,7 +21,10 @@ module.exports = {
           "password",
           "url",
           "wrong-password",
+          "json",
+          "accessibility-json",
           "webapp",
+          "supervisor",
         ]
       },
     ]

@@ -16,7 +16,9 @@ Enter a unique name for the new compliance policy in the Policy Name field; ente
 
 ![Policy name](./images/createpolicy/2-namePolicy.png)
 
-  
+ :::tip
+You need a supervisor plugin if your application needs to access some Secure and Global settings. Learn more about this plugin [here](../miscellaneous/supervisor.md). 
+ ::: 
 
 ### Set Lock Screen Password via Policy
 
