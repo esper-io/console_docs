@@ -18,6 +18,7 @@
             <td class="edition">Android 9.0 (Pie)</td>
             <td class="edition">Android 10.0</td>
             <td class="edition">Android 11.0</td>
+            <td class="edition">Android 12.0</td>
           </tr>
           <tr v-for="item in feature.items" :key="item.name">
             <td class="table-sticky-col">
@@ -442,6 +443,44 @@
                   supervisor is available.
                 </span>
               </info-hud>
+              </td>
+              <td class="support">
+              <info-hud
+                v-if="item.an012 === rowItems.supported"
+                type="supported"
+                class="info"
+              >
+                <span class="smaller"> supported in Android 12.0.</span>
+              </info-hud>
+
+              <info-hud
+                v-if="item.an012 === rowItems.unsupported"
+                type="unsupported"
+                class="info"
+              >
+                <span class="smaller"> Not supported in Android 12.0.</span>
+              </info-hud>
+              <info-hud
+                v-if="item.an012 === rowItems.prompt"
+                class="info"
+                type="prompt"
+              >
+                <span class="smaller">
+                  A prompt will be provided to the user, which then has to be
+                  approved unless a supervisor is present, in which case silent
+                  application install/uninstall is supported.</span
+                >
+              </info-hud>
+              <info-hud
+                v-if="item.an012 === rowItems.partially"
+                type="partial"
+                class="info-hud-warning"
+              >
+                <span class="smaller"
+                  >Partially supported. This option is only supported if a
+                  supervisor is available.
+                </span>
+              </info-hud>
             </td>
           </tr>
         </fragment>
@@ -482,6 +521,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "App Install/Uninstall",
@@ -496,6 +536,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "App Permission Management",
@@ -510,6 +551,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Remote Viewer & Screenshot",
@@ -524,6 +566,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Reboot command",
@@ -538,6 +581,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Location Control command",
@@ -552,6 +596,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Brightness command",
@@ -566,6 +611,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Volume control",
@@ -580,6 +626,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Rotation Control",
@@ -594,6 +641,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Screen Timeout control",
@@ -608,6 +656,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Lockscreen Policy",
@@ -622,6 +671,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Camera Policy",
@@ -636,6 +686,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Status Bar Policy",
@@ -650,6 +701,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable NFC Beam Policy",
@@ -664,6 +716,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Outgoing Calls Policy",
@@ -678,6 +731,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Factory Reset Policy",
@@ -692,6 +746,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable USB Connectivity Policy",
@@ -706,6 +761,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Screenshot Policy",
@@ -720,6 +776,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable Safe Mode Policy",
@@ -734,6 +791,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Disable SMS Policy",
@@ -748,6 +806,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Enforce Password Rules Policy",
@@ -762,6 +821,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Enforce Default App Permissions Policy",
@@ -776,6 +836,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Safety Net Policy",
@@ -790,6 +851,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Device Telemetry Policy",
@@ -804,6 +866,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
             {
               name: "Kiosk Mode & Lockdown Policy",
@@ -818,6 +881,7 @@ export default {
               an090: RowItems.supported,
               an010: RowItems.supported,
               an011: RowItems.supported,
+              an012: RowItems.supported,
             },
           ],
         },
