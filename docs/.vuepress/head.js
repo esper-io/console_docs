@@ -14,7 +14,7 @@ module.exports = [
     document.addEventListener("DOMContentLoaded", function() {
       var banner = document.createElement("div");
       var text1a = document.createElement("span");
-      text1a.innerHTML = "If you signed up for Esper using out website- https://www.esper.io/, please click ";
+      text1a.innerHTML = "If you signed up for Esper using our website- https://www.esper.io/, please click ";
       var text1b = document.createElement("span");
       text1b.innerHTML = " for the Console documentation.";
 
