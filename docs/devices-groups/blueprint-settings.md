@@ -40,7 +40,11 @@ For example, if the device user chooses Chrome, they will download and install a
 
 This feature blocks the device user from uninstalling an app. For devices below Andriod 6.0, the toggle button is turned Off will block app uninstallation. This is especially important for private apps.
 
-Note: Application Uninstall setting is not needed if you are running Android 6.0 or above.
+**Note:** Application Uninstall setting is not needed if you are running Android 6.0 or above.
+
+:::tip
+Applications won't uninstall in the Kiosk Mode. We recommend to set the Blueprint to Multi-app Mode, and remove the old Kiosk app from the Blueprint.
+:::
 
 ### Device Mode
 
