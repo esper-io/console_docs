@@ -386,8 +386,9 @@ Click Customize Setting to select different settings for the two modes.
     
 -   Bluetooth: Navigate to the Android settings application on Android 8.1 and lower devices to change the Bluetooth setting. The scan button on the bottom right will allow searching and show nearby devices. Click the Connect button to pair the device; the connection will happen immediately. You can connect only non-A2DP devices like headphones, mouse, and keyboards and can’t connect mobile phones and laptops.
     
-
-**Note:** It is advised to pair and use only one device. If another device is required, delete and unpair the old device before connecting the new one.
+:::tip
+It is advised to pair and use only one device. If another device is required, delete and unpair the old device before connecting the new one.
+:::
 
 -   Clear App Data: Clears the data and cache for a particular application.
     
@@ -403,7 +404,7 @@ Click Customize Setting to select different settings for the two modes.
     
 -   Keyboard: Navigate to Android settings on Android 8.1 and lower devices to change the keyboard settings.
     
--   Kiosk App Selection: Change the App that runs in kiosk mode. The device user can choose any app installed on the device to act as the kiosk app, with the Esper Console kept in sync with the configuration stats.
+-   Kiosk App Selection: Change the App that runs in Kiosk Mode. The device user can choose any app installed on the device to act as the kiosk app, with the Esper Console kept in sync with the configuration stats.
     
 -   Language: Navigate to Android settings on Android 8.1 and lower devices to change the language setting.
     
@@ -424,15 +425,17 @@ Click Customize Setting to select different settings for the two modes.
 
 This toggle button helps you hide the Esper Settings App. The Esper Setting App can be accessed only by the hidden dock.
 
-A hidden dock is available in both the kiosk mode and the multi-app mode. You can access it with 3-taps on the right corner in kiosk mode or 3-clicks on the power button in multi-app mode.
+A hidden dock is available in both the Kiosk Mode and the Multi-app Mode. You can access it with 3-taps on the right corner in Kiosk Mode or 3-clicks on the power button in Multi-app Mode.
 
 ### Set Admin Pin
 
-Admin Mode is password protected to prevent unauthorized access. This password controls access to the hidden dock available in kiosk mode, the Esper Settings app, and serves as the PIN used for IMEI-based onboarding via AfW. The password is alphanumeric and can have 1 to 10 characters.
+Admin Mode is password protected to prevent unauthorized access. This password controls access to the hidden dock available in Kiosk Mode, the Esper Settings app, and serves as the PIN used for IMEI-based onboarding via AfW. The password is alphanumeric and can have 1 to 10 characters.
 
 The default password is 1234. It is possible to set up a template without a password for these features or just leave the default password; Esper strongly recommends setting up a more complex password for stronger security. The same password will be set for all devices provisioned using the Blueprint.
 
-**Note:** A hidden doc is available in both the Kiosk and Multi-app Modes. You can access it with 3-taps on the right corner in Kiosk Mode or 3-clicks on the power button in Multi-app Mode.
+:::tip
+A hidden doc is available in both the Kiosk and Multi-app Modes. You can access it with 3-taps on the right corner in Kiosk Mode or 3-clicks on the power button in Multi-app Mode.
+:::
 
 ### Android Setting App
 
@@ -466,7 +469,7 @@ This setting enables you to restrict the number of Google accounts that can be a
 
 **Notes:**
 
-1. If you don’t check the Google account restrictions box and plan to provision your device in Multi-application mode, we recommend disabling Google Play Store to prevent the installation of unapproved applications.
+1. If you don’t check the Google account restrictions box and plan to provision your device in Multi-app Mode, we recommend disabling Google Play Store to prevent the installation of unapproved applications.
     
 2. The Google Account Restriction feature is applicable only to Google Mobile Services (GMS) Android devices. If you include the Android Settings App and wish to prevent any Google accounts from being added, set the number of accounts to 0.
     
@@ -479,7 +482,9 @@ This setting will allow the Google Play Store on the device’s home screen. Tog
 
 If you’d like device users to be able to use voice commands via Google Assistant on supported devices, set Google Assistant to On; if you don’t, set it to Off.
 
-**Note:** On some devices, this setting may need to be on if you wish to have Google Play Store show up on the device.
+:::tip
+On some devices, this setting may need to be on if you wish to have Google Play Store show up on the device.
+:::
 
 ### Factory Reset Protection
 
@@ -487,7 +492,9 @@ Factory Reset Protection (FRP) places an auto-lock on a GMS-certified device if 
 
 When you turn On the FRP button in the Blueprint, you’ll need to pick a Google account to authorize future device unlocks. Your chosen Google account ID will reverse any future auto-lock events triggered by user factory resets for all devices provisioned with this template.
 
-**Note:** Factory reset protection is only available on GMS devices running Android 5.1 and above.
+:::tip
+Factory reset protection is only available on GMS devices running Android 5.1 and above.
+:::
 
 Click Done Editing when you are ready to save the Blueprint; choose another setting from the drop-down. 
 
@@ -509,7 +516,9 @@ If you’d like device users to be able to transfer files from the device using 
 
 If you want device users to be able to use the camera, set Camera Access to On. If you don’t, set it Off.
 
-**Note:** Your application can still access the camera if this setting is off.
+:::tip
+Your application can still access the camera if this setting is off.
+:::
 
 ### Location
 
@@ -571,7 +580,9 @@ Select the time zone in which the device will be deployed. After deployment, you
 
 ![](./images/blueprintSettings/14-timeZone.png)
 
-**Note:** If you don’t specify a device time zone, the time zone set by the device will be used.
+:::tip
+If you don’t specify a device time zone, the time zone set by the device will be used.
+:::
 
 The Time Zone field has a robust search capability. As you begin to type, suggestions will be displayed. For example, typing "Pacific" will bring up all the time zones that start with "Pacific." Listings are by country, for example, to find the timezones for the USA, search for "America" or "US".
 
