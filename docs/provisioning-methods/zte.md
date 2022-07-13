@@ -24,7 +24,10 @@ To enter the DPC extras, navigate to the Esper Console.
 
 ![download](./images/ZTE/3-downloadCOnfig.png)
 
-Login to the Esper Console and navigate to the Device and Group section. Click a QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Open the downloaded JSON config file, and you will need to copy the following contents. 
+Login to the Esper Console and navigate to the Device and Group section. Click a QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Open the downloaded JSON config file, and you will need to copy the following contents: 
+
+**Note:** In the downloaded config file, there will be a section of the code that is not needed. Copy only the section below, and use a formatter such as [JSON formatter](https://jsonformatter.curiousconcept.com/) to ensure the code is correctly formatted.
+
 ```json
  {
    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
@@ -40,9 +43,9 @@ Login to the Esper Console and navigate to the Device and Group section. Click a
       }
     }
 ```
+Once pasted into The DPC Extras in Google ZTE, click ADD to finish the process.
 
-Once pasted into DPC Extras in Google ZTE, click ADD to finish the process.
-  
+
 Step 5: The added configuration will be displayed on the Configuration tab.
 
 ![Add config](./images/ZTE/4-addedConfig.png)
