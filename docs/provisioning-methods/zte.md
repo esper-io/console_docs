@@ -24,29 +24,25 @@ To enter the DPC extras, navigate to the Esper Console.
 
 ![download](./images/ZTE/3-downloadCOnfig.png)
 
-Login to the Esper Console and navigate to the Device and Group section. Click on a QR code icon assosiated with any group and download the config. Copy the following contents from the downloaded Config file and paste it into the DPC extras. Click ADD.
-
+Login to the Esper Console and navigate to the Device and Group section. Click a QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Open the downloaded JSON config file, and you will need to copy the following contents. 
+```json
+ {
+   "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
+   "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
+      "V":"0",
+      "EID":"your-enterprise-id",
+      "E":"your-endpoint-name",
+      "P":"type-of-provisioning method",
+      "OE":true,
+      "G":"your-group-code",
+      "T":"your-template-code",
+      "AT":"your-auth-token"
+      }
+    }
 ```
-"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
 
-"android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
-
-"templateUrl": "https://{your-endpoint-name}-api.esper.cloud/api/v0/enterprise/{your-enterprise-id}/devicetemplate/17/",
-
-"authToken": "{your-auth-token}",
-
-"groupUrl": "https://{your-endpoint-name}-api.esper.cloud/api/enterprise/{your-enterprise-id}/devicegroup/bb170524-14ad-463a-9120-8060a7c0c9dc/?format=json",
-
-"enterpriseId": "{your-enterprise-id}",
-
-"environment": "https://{your-endpoint-name}-api.esper.cloud",
-
-"provisionType": "QR_CODE"
-
-}
-```
+Once pasted into DPC Extras in Google ZTE, click ADD to finish the process.
   
-
 Step 5: The added configuration will be displayed on the Configuration tab.
 
 ![Add config](./images/ZTE/4-addedConfig.png)
@@ -63,7 +59,7 @@ Step 8: Confirm your choice, and the device will be associated with the configur
 
 ![confirm](./images/ZTE/7-confirm.png)
 
-When you factory reset the device, you will go through the Android standard setup process. Suppose you connect to the internet during this setup process, the Zero-touch profile will be found. It will automatically start the provisioning process after a few license/onboarding prompts.
+You will go through the standard Android setup steps when you factory reset the device. The Zero-touch profile will be found when you connect to the internet during this setup process. It will automatically start the Esper provisioning flow after a few license/onboarding prompts.
 
 Note: You can assign a configuration to multiple devices at a time. Navigate to the Device section for bulk upload and choose ‘Upload batch configurations’ from the menu.
 
