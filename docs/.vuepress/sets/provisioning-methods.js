@@ -25,7 +25,8 @@ module.exports = {
           "notification",
           "imei-provisioning",
           "provisioner-tool",
-          "seamless"
+          "seamless",
+          "zte",
         ]
       },
     ]
