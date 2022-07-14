@@ -27,6 +27,7 @@ module.exports = {
           "provisioner-tool",
           "seamless",
           "zte",
+          "kme",
         ]
       },
     ]
