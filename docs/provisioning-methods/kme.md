@@ -44,7 +44,7 @@ To enter the Custom JSON data, login to the Esper Console and navigate to the "D
 
 Copy the contents of the Admin Extra Bundle from the downloaded Config file and paste it into the Custom JSON data. Under device settings > System applications, select ‘Leave all system app enabled.’ Enter the company name and click Create.
 
-The created profile will be displayed on the profile screen.
+You will see the created profile on the screen.
 
 ![profile created](./images/KME/9-profileCreated.png)
 
@@ -62,5 +62,5 @@ The profile will be added to the device and displayed on the device screen.
 
 ![device profile](./images/KME/12-deviceProfile.png)
 
-When you factory reset the device, you will go through the Android standard setup process on the device. If you connect to the internet during this setup process the Knox profile will be found and it will automatically start the onboarding process after a few license/onboarding prompts.
+When you factory reset the device, you will go through the Android standard setup process on the device. If you connect to the internet during this setup process, the Knox Portal will find your device and automatically start the onboarding process after a few license/onboarding prompts.
 
