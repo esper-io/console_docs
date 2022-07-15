@@ -42,7 +42,7 @@ To enter the Custom JSON data, login to the Esper Console and navigate to the "D
 
 ![profile created](./images/KME/8-Config.png)
 
-Copy the contents of the Admin Extra Bundle from the downloaded Config file and paste it into the Custom JSON data. Under device settings> System applications, select ‘Leave all system app enabled.’ Enter the company name and click Create.
+Copy the contents of the Admin Extra Bundle from the downloaded Config file and paste it into the Custom JSON data. Under device settings > System applications, select ‘Leave all system app enabled.’ Enter the company name and click Create.
 
 The created profile will be displayed on the profile screen.
 
