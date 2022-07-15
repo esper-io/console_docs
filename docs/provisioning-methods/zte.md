@@ -31,7 +31,7 @@ In the downloaded config file, you will not need a section of the code. Copy onl
 :::
 
 ```json
- {
+{
    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
    "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
       "V":"0",
@@ -42,8 +42,8 @@ In the downloaded config file, you will not need a section of the code. Copy onl
       "G":"your-group-code",
       "T":"your-template-code",
       "AT":"your-auth-token"
-      }
-    }
+   }
+}
 ```
 Once pasted into The DPC Extras in Google ZTE, click ADD to finish the process.
 
