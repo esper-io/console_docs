@@ -13,6 +13,7 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 | [customer endpoint].esper.cloud       | N/A                             | For Esper Console                                                                        |
 | [customer endpoint]-api.esper.cloud   | TCP: 443                        | For communicating from the device to the Esper Endpoint. (example: device status events and command success/failure messages) |
 | mqtt-telemetry-prod.esper.cloud       | 1883                        | Deep telemetry from devices                                                              |
+| N/A           | 13.52.132.230 Port range: 40000 - 50000 | For allowing secure remote ADB access to your devices                       |
 | firebaseinstallations.googleapis.com and fcm.googleapis.com| 1883                            | Backup channel, also used for ping command to wake up a device (Only for GMS devices)       |
 
 
