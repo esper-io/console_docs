@@ -1,6 +1,6 @@
 # How to Onboard a Device Using ZTE?
 
-Zero-touch Enrollment (ZTE) is an onboarding method offered by Google for the [selected devices](https://androidenterprisepartners.withgoogle.com/devices). Upon first boot or factory reset, ZTE forces Android devices to enroll into Esper. Follow the steps below to onboard a device using ZTE.
+Zero-touch Enrollment (ZTE) is an enrollment method offered by Google for the [selected devices](https://androidenterprisepartners.withgoogle.com/devices). Upon first boot or factory reset, ZTE forces Android devices to enroll into Esper. Follow the steps below to onboard a device using ZTE.
 
   
 
@@ -16,7 +16,7 @@ Here you will be able to create a configuration to associate with a device.
 
 Step 3: Click the ‘+’ symbol to add a new configuration.
 
-Step 4: On the pop-up, enter the details— configuration name and EMM DPC (Esper Device Management). Enter your organization’s information for the company name, support email address, support phone number.
+Step 4: On the pop-up, enter the details — configuration name and EMM DPC (Esper Device Management). Enter your organization’s information for the company name, support email address, support phone number.
 
 ![create config](./images/ZTE/2-createConfig.png)
 
@@ -26,7 +26,9 @@ To enter the DPC extras, navigate to the Esper Console.
 
 Login to the Esper Console and navigate to the "Device and Group" section. Click the QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Open the downloaded JSON config file, and copy the following contents: 
 
-**Note:** In the downloaded config file, there will be a section of the code that is not needed. Copy only the section below, and use a formatter such as [JSON formatter](https://jsonformatter.curiousconcept.com/) to ensure the code is correctly formatted.
+:::tip
+In the downloaded config file, you will not need a section of the code. Copy only the section below, and use a formatter such as [JSON formatter](https://jsonformatter.curiousconcept.com/) to ensure the code is correctly formatted.
+:::
 
 ```json
  {
@@ -62,9 +64,9 @@ Step 8: Confirm your choice, and the device will be associated with the configur
 
 ![confirm](./images/ZTE/7-confirm.png)
 
-You will go through the standard Android setup steps when you factory reset the device. The Zero-touch profile will be found when you connect to the internet during this setup process. It will automatically start the Esper provisioning flow after a few license/onboarding prompts.
+You will go through the standard Android setup steps when you factory reset the device. The Zero-touch Portal will find your device and automatically start the onboarding process after a few license/onboarding prompts.
 
-Note: You can assign a configuration to multiple devices at a time. Navigate to the Device section for bulk upload and choose ‘Upload batch configurations’ from the menu.
+Note: You can assign the same configuration to multiple devices at a time. Navigate to the Device section for bulk upload and choose ‘Upload batch configurations’ from the menu.
 
 ![bulk upload](./images/ZTE/8-bulkUpload.png)
 
