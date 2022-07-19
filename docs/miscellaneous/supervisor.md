@@ -1,6 +1,6 @@
 # What is a Supervisor Plugin?
 
-Android OS has different permissions to restrict certain actions and data access for applications. For security reasons, these permissions limit control/access to system-level details. While the applications can access all the [System](https://developer.android.com/reference/android/provider/Settings.System) settings, Android restricts access to [Secure](https://developer.android.com/reference/android/provider/Settings.Secure) and [Global](https://developer.android.com/reference/android/provider/Settings.Global) settings along with special permissions like even injection (used for remote control), APN configuration, etc. Thus requiring a platform signature for the apps.
+Android OS has different permissions to restrict certain actions and data access for applications. For security reasons, these permissions limit control/access to system-level details. While the applications can access all the [System](https://developer.android.com/reference/android/provider/Settings.System) settings, Android restricts access to [Secure](https://developer.android.com/reference/android/provider/Settings.Secure) and [Global](https://developer.android.com/reference/android/provider/Settings.Global) settings along with special permissions like event injection (used for remote control), APN configuration, etc. Thus requiring a platform signature for the apps.
 
   
 
@@ -39,9 +39,9 @@ While most global settings require the plugin, below is a list of some global se
 
 ## Getting a Supervisor Plugin
 
-If your application uses secure or global Android settings, depending on your devices — Lenovo TBX-606L, Nokia2.2, SM-T295, etc., you might need a Supervisor Plugin. The Esper team can help you build a customized Supervisor Plugin. To learn more, please reach out to the [Esper team](https://support.esper.io/s/) with your device model information.
+
+If your application uses secure or global Android settings, depending on your devices — Lenovo TBX-606L, Nokia2.2, etc., you might need a Supervisor Plugin. At Esper, we have a library of Supervisor Plugins, and we can also help you build a customized one.
 
   
-
-**Note:** If you want to use remote control functionality on devices, please contact the [Esper team](https://support.esper.io/s/) for a plugin.
+***Note***: Depending on your device, you may need a Supervisor plugin to enable the Remote Control functionality on the Console. To learn more and request a Supervisor Plugin, please reach out to the [Esper team](https://support.esper.io/s/) with your device model information. 
 
