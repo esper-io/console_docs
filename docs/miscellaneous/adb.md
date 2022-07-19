@@ -3,7 +3,7 @@
 
 Android Debug Bridge (ADB) is a command line tool that lets you communicate with a device, enabling you to access certain features of the Android platform that are not otherwise accessible. To set up a device with Esper Foundation for Android (EFA), you must send commands to the device — requiring you to install the ADB tool on your computer, be it Windows or macOS. Windows devices do not have ADB drivers installed. These drivers are required to detect the device when using the Esper Device Provisioner Tool on a Windows machine. Mac devices come with ADB drivers, but we recommend installing the tool.
 
-<!-- ## Installing ADB on Windows
+## Installing ADB on Windows
 
   
 
@@ -57,10 +57,6 @@ Run command line > Windows key + R > cmd > enter
 
 ## Installing ADB on Mac
 
-Method 1: By adding the ‘platform tools’
-
-You must set the Terminal’s path to the platform-tools folder to run ADB and Fastboot commands.
-
 1.  Download the latest [SDK Platform-tools.zip file](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip).
     
 2.  Extract the .zip file using Mac's default Archive Utility app. You'll have a new folder called 'platform-tools' on your default download path.
@@ -69,8 +65,6 @@ You must set the Terminal’s path to the platform-tools folder to run ADB and F
     
 4.  You'll find Terminal among the list of Mac Utilities. Double-click it to launch the Terminal.
     
-
-  
 
 5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.
 
@@ -90,5 +84,5 @@ You are all set to run ADB commands in the Mac Terminal. To verify that you have
 
 ```
 ./adb
-``` -->
+``` 
 
