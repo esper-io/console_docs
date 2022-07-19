@@ -66,16 +66,16 @@ Run command line > Windows key + R > cmd > enter
 4.  You'll find Terminal among the list of Mac Utilities. Double-click it to launch the Terminal.
     
 
-5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.
+<!-- 5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.
 
-<!-- ![](./images/adb/ADBInstall.gif) -->
+![](./images/adb/ADBInstall.gif)
     
 
 Alternatively, you can type the path of the ‘platform-tools‘ folder and press enter.
 
 Example: cd /Users/username/Desktop/platform-tools
 
-<!-- ![](./images/adb/ADBMethod2.gif) -->
+![](./images/adb/ADBMethod2.gif) -->
 
 6.  This will change directory (cd) and set the Terminal's path to the folder with the ADB and Fastboot files.
     
