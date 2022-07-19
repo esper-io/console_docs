@@ -87,6 +87,7 @@ Example: cd /Users/username/Desktop/platform-tools
     
 
 You are all set to run ADB commands in the Mac Terminal. To verify that you have done everything correctly, type the following command and press enter.
+
 ```
 ./adb
 ```
