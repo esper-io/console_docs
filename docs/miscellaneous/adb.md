@@ -74,6 +74,7 @@ Alternatively, you can type the path of the ‘platform-tools‘ folder and pres
 
 Example: cd /Users/username/Desktop/platform-tools
 
+![gif for dragging the folder](./images/adb/ADBMethod2.gif)
 
 6.  This will change directory (cd) and set the Terminal's path to the folder with the ADB and Fastboot files.
     
