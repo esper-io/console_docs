@@ -10,47 +10,5 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 2.  Once installed, click the “More Actions” button, and select “SDK Manager” from the drop-down.
     
 
-![](./images/adb/1-menu.png)
-
-3.  In the SDK manager, click “SDK Tools” and select the following for installation:
-    
-
-    1.  Android SDK Command-Line tools
-    
-    2.  Android SDK Platform-Tools
-    
-    3.  Google USB Driver
-    
-
-![](./images/adb/2-androidtools.png)
-
-4.  Once installed, you need to set the platform-tools file into the path.
-    
-
-    1.  In your search bar, type environment and click “Edit the system environment variables”.
-    
-    2.  Click “Environment Variables”.
-    
-    3.  Under “User variables,” click “New”.
-    
-    4.  Set the variable name to “Android”.
-    
-    5.  For the variable value, you need to find where your platform tools are located on your hard drive. In general, when installed with Android Studio, it will live here: C:\Users\{Your username}\AppData\Local\Android\Sdk\platform-tools
-    
-
-        **Note:** You need to turn on the view hidden files function to access app data.
-
-    6.  Once you have verified the location of your platform tools, click “OK”.
-    
-
-5.  Now, you need to verify the path is working correctly:
-    
-
-         Run command line > Windows key + R > cmd > enter
-
-6.  Type “adb devices”, and then press enter. If pathed correctly, you will get the below response, and the system is ready to start the ADB commands.
-    
-
-![](./images/adb/3-androidtools.png)
 
 
