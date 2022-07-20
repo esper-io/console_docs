@@ -63,11 +63,11 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 3.  Now, click the “Go”option on the Finder and select Utilities.
     
 4.  You'll find Terminal among the list of Mac Utilities. Double-click it to launch the Terminal.
-    
-
   
 
 5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.
+
+![gif for dragging the folder](./images/adb/ADBInstall.gif)
     
 
 Alternatively, you can type the path of the ‘platform-tools‘ folder and press enter.
