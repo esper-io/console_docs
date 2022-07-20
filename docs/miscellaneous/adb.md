@@ -9,6 +9,49 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
     
 2.  Once installed, click the “More Actions” button, and select “SDK Manager” from the drop-down.
     
+![](https://lh3.googleusercontent.com/b9jczwKEEPmls1TsLkKIZlKG1amn0qYqNN7zYYn46OjcmQrkfK_aPAHyRpX1BuMvV4rHbhD1Fwy-PEWffuMNO0BMT9ccOZxzmTbmk-RuwfipoAlhOID_xDn-Lop9qLw2xaDffT4EpzZQ36_39g6_Qu0)
 
+1.  In the SDK manager, click “SDK Tools” and select the following for installation:
+    
+
+1.  Android SDK Command-Line tools
+    
+2.  Android SDK Platform-Tools
+    
+3.  Google USB Driver
+    
+
+![](https://lh4.googleusercontent.com/bXt0WK46VYAmA9Xnq6oYerzV_Dqy61VsEAI5XXXnXlzWoDzPzCefxHd-0TmRo4BZpKd-iGvTeHDezSkIsuyJqxuIAarRBVDLR1DnLxUp_brcYKkdcKYLBGulIbRKQ646ScoOFM7Ipx64gFKSgfj4WZU)
+
+2.  Once installed, you need to set the platform-tools file into the path.
+    
+
+1.  In your search bar, type environment and click “Edit the system environment variables”.
+    
+2.  Click “Environment Variables”.
+    
+3.  Under “User variables,” click “New”.
+    
+4.  Set the variable name to “Android”.
+    
+5.  For the variable value, you need to find where your platform tools are located on your hard drive. In general, when installed with Android Studio, it will live here: C:\Users\{Your username}\AppData\Local\Android\Sdk\platform-tools
+    
+
+Note: You need to turn on the view hidden files function to access app data.
+
+6.  Once you have verified the location of your platform tools, click “OK”.
+    
+
+3.  Now, you need to verify the path is working correctly:
+    
+
+Run command line > Windows key + R > cmd > enter
+
+4.  Type “adb devices”, and then press enter. If pathed correctly, you will get the below response, and the system is ready to start the ADB commands.
+    
+
+![](https://lh3.googleusercontent.com/4ri6PsVT1-IO4RdyhTHFFJ2wUutkBke4IaLazzK-WWhFL35dwnOVTTqUYmN2uTeNllNLDObM2NAhmUnIOkDFmT_-i7i_VSIZ0EDuxfw9DgBnl_7PL046DrlJoS2f7pXNVkIchiacYwHUuRrLAWUW0_0)
+
+### Installing ADB on Mac
 
 
