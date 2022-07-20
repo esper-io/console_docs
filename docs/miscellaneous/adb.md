@@ -9,7 +9,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
     
 2.  Once installed, click the “More Actions” button, and select “SDK Manager” from the drop-down.
     
-![](https://lh3.googleusercontent.com/b9jczwKEEPmls1TsLkKIZlKG1amn0qYqNN7zYYn46OjcmQrkfK_aPAHyRpX1BuMvV4rHbhD1Fwy-PEWffuMNO0BMT9ccOZxzmTbmk-RuwfipoAlhOID_xDn-Lop9qLw2xaDffT4EpzZQ36_39g6_Qu0)
+![](./images/adb/1-menu.png)
 
 1.  In the SDK manager, click “SDK Tools” and select the following for installation:
     
@@ -21,7 +21,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
     3.  Google USB Driver
     
 
-![](https://lh4.googleusercontent.com/bXt0WK46VYAmA9Xnq6oYerzV_Dqy61VsEAI5XXXnXlzWoDzPzCefxHd-0TmRo4BZpKd-iGvTeHDezSkIsuyJqxuIAarRBVDLR1DnLxUp_brcYKkdcKYLBGulIbRKQ646ScoOFM7Ipx64gFKSgfj4WZU)
+![](./images/adb/2-androidtools.PNG)
 
 2.  Once installed, you need to set the platform-tools file into the path.
     
@@ -50,7 +50,7 @@ Run command line > Windows key + R > cmd > enter
 4.  Type “adb devices”, and then press enter. If pathed correctly, you will get the below response, and the system is ready to start the ADB commands.
     
 
-![](https://lh3.googleusercontent.com/4ri6PsVT1-IO4RdyhTHFFJ2wUutkBke4IaLazzK-WWhFL35dwnOVTTqUYmN2uTeNllNLDObM2NAhmUnIOkDFmT_-i7i_VSIZ0EDuxfw9DgBnl_7PL046DrlJoS2f7pXNVkIchiacYwHUuRrLAWUW0_0)
+![](./images/adb/3-androidtools.PNG)
 
 ### Installing ADB on Mac
 
@@ -65,7 +65,7 @@ Run command line > Windows key + R > cmd > enter
 
   
 
-5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.![](https://lh5.googleusercontent.com/FWJjK2QgjbPnOXcNj365YFDmwzQuyWbVyTNL5LDhxkgebCQNKi48BDSa9oz4vQRcZmRCeTElc0fPijQGlHG-lTMQPghhAu2paaOWeaHNP8l6TD7zqdOdJSTH68Ws6Knb3P_gWGUdGT53p80PhKw-Ayk)
+5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.![](./images/adb/ADBInstall.gif)
     
 
 Alternatively, you can type the path of the ‘platform-tools‘ folder and press enter.
