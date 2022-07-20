@@ -10,7 +10,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 2.  Once installed, click the “More Actions” button, and select “SDK Manager” from the drop-down.
     
 
-![](https://lh6.googleusercontent.com/U2G_S2nSnWZOdXXyfzPA21la8j94ANrvBO89bD_KNwHkX0O3kfksqRMjbqVt4KPdB_lCsggT1nKjjOBCJ-pk2PCo55dr2zFmZ4UysDsab7xwYwFdKOWhKdqLumTve-SGRqcaeSkY4plWQ7SVaZyFSaI)
+![](./images/adb/1-menu.png)
 
 3.  In the SDK manager, click “SDK Tools” and select the following for installation:
     
@@ -22,7 +22,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
     3.  Google USB Driver
     
 
-![](https://lh4.googleusercontent.com/mRCWBGMG7Z3dAer04nbLqn24wSqZbKZ067rGq9yf3O7HjSo32bIllgmKoHPgrMq31qanZsKMSPgK_mhDcZ9xIRo6FoSqeWe7D_jdGPwHgsDSB_9odiMC5asQ9MTRxyNTu3O-iqD4hpC7d84lv3P_K7s)
+![](./images/adb/2-androidtools.png)
 
 4.  Once installed, you need to set the platform-tools file into the path.
     
@@ -51,7 +51,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 6.  Type “adb devices”, and then press enter. If pathed correctly, you will get the below response, and the system is ready to start the ADB commands.
     
 
-![](https://lh5.googleusercontent.com/-OyeeLECUvT420zMBi4vnwflIXCZZNSANlAygP20w2VwiG9ybjmYGpKBTgGE0t5o081U6MR8doYZfzjBsn4TkmZObLcLZAe4g-xewa2JBiSjhu1TARO5V6jtMjf6xfVx12cT9I1qhNhwm4-6jcHXpxY)
+![](./images/adb/3-androidtools.png)
 
 
 ## Installing ADB on Mac
