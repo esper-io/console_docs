@@ -70,6 +70,8 @@ Run command line > Windows key + R > cmd > enter
 
 Alternatively, you can type the path of the ‘platform-tools‘ folder and press enter.
 
+![](./images/adb/ADBMethod2.gif)
+
 Example: cd /Users/username/Desktop/platform-tools
 
 6.  This will change directory (cd) and set the Terminal's path to the folder with the ADB and Fastboot files.
