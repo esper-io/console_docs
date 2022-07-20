@@ -54,33 +54,3 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 ![](./images/adb/3-androidtools.png)
 
 
-## Installing ADB on Mac
-
-1.  Download the latest [SDK Platform-tools.zip file](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip).
-    
-2.  Extract the .zip file using Mac's default Archive Utility app. You'll have a new folder called 'platform-tools' on your default download path.
-    
-3.  Now, click the “Go”option on the Finder and select Utilities.
-    
-4.  You'll find Terminal among the list of Mac Utilities. Double-click it to launch the Terminal.
-  
-
-5.  When the Terminal is launched, click the 'platform-tools' folder icon, hold the Command button and drag it to the Terminal window.
-
-![gif for dragging the folder](./images/adb/ADBInstall.gif)
-    
-
-Alternatively, you can type the path of the ‘platform-tools‘ folder and press enter.
-
-Example: cd /Users/username/Desktop/platform-tools
-
-![gif for dragging the folder](./images/adb/ADBMethod2.gif)
-
-6.  This will change directory (cd) and set the Terminal's path to the folder with the ADB and Fastboot files.
-    
-
-You are all set to run ADB commands in the Mac Terminal. To verify that you have done everything correctly, type the following command and press enter.
-
-```
-./adb
-```
