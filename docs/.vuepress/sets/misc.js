@@ -27,6 +27,7 @@ module.exports = {
           "accessibility-json",
           "webapp",
           "supervisor",
+          "adb",
         ]
       },
     ]
