@@ -1,5 +1,6 @@
 {
   "private": true,
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@vuepress/core": "^1.8.3",
