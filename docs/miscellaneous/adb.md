@@ -22,7 +22,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
     3.  Google USB Driver
     
 
-![](./images/adb/2-androidtools.png)
+![](./images/adb/2-androidtools-new.png)
 
 4.  Once installed, you need to set the platform-tools file into the path.
     
@@ -51,7 +51,7 @@ Android Debug Bridge (ADB) is a command line tool that lets you communicate with
 6.  Type “adb devices”, and then press enter. If pathed correctly, you will get the below response, and the system is ready to start the ADB commands.
     
 
-![](./images/adb/3-androidtools.png)
+![](./images/adb/3-androidtools-new.png)
 
 
 ## Installing ADB on Mac
