@@ -32,17 +32,22 @@ In the downloaded config file, you will not need a section of the code. Copy onl
 
 ```json
 {
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME":"io.shoonya.shoonyadpc/com.shoonyaos.shoonyadpc.receivers.AdminReceiver",
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM":"e1R16odhXqWyfLK1aqbC8CcYC_01uVJAf0ePoMbTlR4",
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://dpcdownloads.esper.cloud/esper/alpha/shoonya_dpc_esper_v70087488_v7.8.7488.apk",
+   "android.app.extra.PROVISIONING_SKIP_ENCRYPTION":true,
    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
    "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
       "V":"0",
       "EID":"your-enterprise-id",
       "E":"your-endpoint-name",
-      "P":"type-of-provisioning method",
+      "P":"Q",
       "OE":true,
       "G":"your-group-code",
       "T":"your-template-code",
       "AT":"your-auth-token"
-   }
+   },
+   "android.app.extra.PROVISIONING_LOCALE":"en_io"
 }
 ```
 Once pasted into The DPC Extras in Google ZTE, click ADD to finish the process.
