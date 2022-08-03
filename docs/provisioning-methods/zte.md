@@ -34,16 +34,21 @@ In the downloaded config file, you will not need a section of the code. Copy onl
 
 ```json
 {
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME":"io.shoonya.shoonyadpc/com.shoonyaos.shoonyadpc.receivers.AdminReceiver",
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM":"ezIy3_pmDzmElrIU4rpmEmYN-vBX-38xiKk3sjedP-c",
+   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://dpcdownloads.esper.cloud/esper/prod/shoonya_dpc_esper_v70086341_v7.8.6341.apk",
+   "android.app.extra.PROVISIONING_SKIP_ENCRYPTION":true,
    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
+   "android.app.extra.PROVISIONING_LOCALE":"eu_es",
    "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
       "V":"0",
+      "T":"your-template-code",
+      "AT":"your-auth-token",
       "EID":"your-enterprise-id",
       "E":"your-endpoint-name",
-      "P":"type-of-provisioning method",
-      "OE":true,
       "G":"your-group-code",
-      "T":"your-template-code",
-      "AT":"your-auth-token"
+      "P":"Q",
+      "OE":false
    }
 }
 ```
