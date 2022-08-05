@@ -24,32 +24,8 @@ To enter the DPC extras, navigate to the Esper Console.
 
 ![download](./images/ZTE/3-downloadCOnfig.png)
 
-Login to the Esper Console and navigate to the "Device and Group" section. Click the QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Open the downloaded JSON config file, and copy the following contents: 
+Login to the Esper Console and navigate to the "Device and Group" section. Click the QR code icon associated with the group you want to configure with ZTE and click the “Download Config” button at the bottom of the pop-up window with your QR code. Copy and paste the contents of the JSON file into the DPC extras field.
 
-:::tip
-In the downloaded config file, you will not need a section of the code. Copy only the section below, and use a formatter such as [JSON formatter](https://jsonformatter.curiousconcept.com/) to ensure the code is correctly formatted.
-:::
-
-```json
-{
-   "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME":"io.shoonya.shoonyadpc/com.shoonyaos.shoonyadpc.receivers.AdminReceiver",
-   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM":"e1R16odhXqWyfLK1aqbC8CcYC_01uVJAf0ePoMbTlR4",
-   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":"https://dpcdownloads.esper.cloud/esper/alpha/shoonya_dpc_esper_v70087488_v7.8.7488.apk",
-   "android.app.extra.PROVISIONING_SKIP_ENCRYPTION":true,
-   "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
-   "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
-      "V":"0",
-      "EID":"your-enterprise-id",
-      "E":"your-endpoint-name",
-      "P":"Q",
-      "OE":true,
-      "G":"your-group-code",
-      "T":"your-template-code",
-      "AT":"your-auth-token"
-   },
-   "android.app.extra.PROVISIONING_LOCALE":"en_io"
-}
-```
 Once pasted into The DPC Extras in Google ZTE, click ADD to finish the process.
 
 
