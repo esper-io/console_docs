@@ -14,7 +14,7 @@ You will be taken to the device page, where you can see all the devices added to
 
 ![all devices](./images/KME/3-allDevices.png)
 
-Note: If you don’t see a device here, please contact your reseller and get the devices added to the KME portal.
+**Note:** If you don’t see a device here, please contact your reseller and get the devices added to the KME portal.
 
 Step 3: Select Profile from the left menu. Click Create Profile.
 
@@ -38,7 +38,23 @@ To enter the Custom JSON data, login to the Esper Console and navigate to the "D
 
 ![profile created](./images/KME/8-Config.png)
 
-Copy the contents of the Admin Extra Bundle from the downloaded Config file and paste it into the Custom JSON data. Under device settings > System applications, select ‘Leave all system app enabled.’ Enter the company name and click Create.
+Copy the contents of the Admin Extra Bundle from the downloaded Config file and paste it into the Custom JSON data. 
+
+```json
+{
+   "V":"0",
+   "EID":"your Enterprise Id",
+   "E":"Endpoint name",
+   "P":"Q",
+   "OE":true,
+   "G":"Group-Id",
+   "T":"Template Id",
+   "AT":"Authorization Token"
+}
+```
+
+
+Under device settings > System applications, select ‘Leave all system app enabled.’ Enter the company name and click Create.
 
 You will see the created profile on the screen.
 
