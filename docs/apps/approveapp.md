@@ -2,7 +2,7 @@
 
   
 
-The Esper Console gives you access to Play for Work, the enterprise version of Google Play. Within Play for Work, you can approve applictaions, which can be downloaded to your devices. You can also unapproved applications, which will then cease to be available in the Google Play store on your devices.
+The Esper Console gives you access to Play for Work, the enterprise version of Google Play. Within Play for Work, you can approve applications, which can be downloaded to your devices. You can also unapproved applications, which will then cease to be available in the Google Play store on your devices.
 
   
 
