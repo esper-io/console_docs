@@ -32,7 +32,7 @@ Step 5: Fill in the Profile details. Enter the Profile name and optional descrip
 
 ![profile info](./images/KME/6-profileInfo.png)
 
-Under the MDM Information, select ‘Force Device Owner enrollment.’ In the Pick our MDM drop-down, select the 'Other' option. To enter the MDM Agent APK link, you can enter the default Esper Agent link ([https://play.google.com/managed/downloadManagingApp?identifier=esper](https://play.google.com/managed/downloadManagingApp?identifier=esper)) from Google Play. If you are using a custom Esper Agent, please contact [Esper](https://support.esper.io/s/) for the URL for the APK. Click Continue when done.
+Under the MDM Information, select ‘Force Device Owner enrollment.’ In the Pick our MDM drop-down, select the 'Other' option. To enter the MDM Agent APK link, you can enter the default Esper Agent link [https://shoonya-dpc.s3.ap-south-1.amazonaws.com/downloads/shoonyadpc-latest-master.apk](https://shoonya-dpc.s3.ap-south-1.amazonaws.com/downloads/shoonyadpc-latest-master.apk). If you are using a custom Esper Agent, please contact [Esper](https://support.esper.io/s/) for the URL for the APK. Click Continue when done.
 
 Step 6: You will be taken to the Android enterprise profile settings screen.
 
