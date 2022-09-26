@@ -215,7 +215,7 @@ Select screen orientation from the four options: Auto, Landscape, Portrait, Inve
 
 ####  Screen Timeout:
 
-Select screen timeout duration—the time after which the device screen will turn off if left idle—ranging from 15 seconds to Never (meaning the screen will always be on), important for Kiosk mode deployments.
+Select screen timeout duration—the time after which the device screen will turn off if left idle—ranging from 15 seconds to Never (meaning the screen will always be on), important for Kiosk mode deployments especially when you never want the screen to turn off.
 
   
 
@@ -223,7 +223,7 @@ A toast message will appear in the bottom left section of the screen indicating 
 
 ![toast message](./images/devicesettings/15_Groups_devices_details_screen_settings_display_settings_toast_message.png)
 
-  
+Some Android devices do not support Never as a screen timeout option. This is easily verifiable on the device by going to Android Settings and selecting the Screen Timeout Option. If Never is not offered as an option, the device does not support this configuration. If you have instructed this type of device to be configured with Screen Timeout set to Never, the setting will remain on the last set Screen Timeout configuration in place.
   
   
 
