@@ -7,7 +7,6 @@
             <td class="feature table-sticky-col">
               <b>{{ feature.category }}</b>
             </td>
-            <td class="edition">Android 4.4 (KitKat)</td>
             <td class="edition">Android 5.0 (Lollipop)</td>
             <td class="edition">Android 5.1 (Lollipop MR1)</td>
             <td class="edition">Android 6.0 (Marshmallow)</td>
@@ -25,43 +24,6 @@
               <span>{{ item.name }}</span>
               <info-hud v-if="item.info" class="info">
                 <span class="smaller">{{ item.info }}</span>
-              </info-hud>
-            </td>
-            <td class="support">
-              <info-hud
-                v-if="item.an044 === rowItems.supported"
-                type="supported"
-                class="info"
-              >
-                <span class="smaller"> supported in Android 4.4.</span>
-              </info-hud>
-              <info-hud
-                v-if="item.an044 === rowItems.unsupported"
-                type="unsupported"
-                class="info"
-              >
-                <span class="smaller"> Not supported in Android 4.4.</span>
-              </info-hud>
-              <info-hud
-                v-if="item.an044 === rowItems.prompt"
-                class="info"
-                type="prompt"
-              >
-                <span class="smaller">
-                  A prompt will be provided to the user, which then has to be
-                  approved unless a supervisor is present, in which case silent
-                  application install/uninstall is supported.</span
-                >
-              </info-hud>
-              <info-hud
-                v-if="item.an044 === rowItems.partially"
-                type="partial"
-                class="info-hud-warning"
-              >
-                <span class="smaller"
-                  >Partially supported. This option is only supported if a
-                  supervisor is available.
-                </span>
               </info-hud>
             </td>
             <td class="support">
