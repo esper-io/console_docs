@@ -15,6 +15,16 @@ To upload a set of IMEI/Serial Numbers for devices you want to provision using A
 -   Don’t switch the order of IMEI and serial numbers.
 -   Any time a CSV is uploaded, the previous IMEIs and Serial Numbers for that template will be deleted and replaced by the new additions from the CSV. This will not impact any devices that have already been provisioned.
     
+    **Proposed solution **
+**Need to add a note saying DO NOT USE COMMA WHILE ADDING OR UPLOADING THE IMEI1, IMEI2, SERIALNUMBER IN THE SAMPLE CSV FORMAT. As when we say
+imei1,imei2,serialnumber
+,,HDF345D 
+and save the above format as csv then we get an error while uploading it which says imei1, imei2 and serialnumber headers cannot be missing. But when we use the below format
+ imei1,imei2,serialnumber
+blank blank HDF345D  
+then this works as expected. and the same thing we wil have to update in the  help doc which we have in Manage Device section under template. ******
+
+**Note**: Added screenshot in this document explain the format correctly but points mentioned in this doc is not correct.
 
 The example below is using a text editor to create the CSV file:
 
