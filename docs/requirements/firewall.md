@@ -15,6 +15,7 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 | IP: 13.52.132.230          |  TCP: 40000 - 50000 | For allowing secure remote ADB access to your devices                       |
 | firebaseinstallations.googleapis.com and fcm.googleapis.com| TCP: 443 (HTTPS), TCP: 5228 (HTTPS), TCP: 5229 (HTTPS), TCP: 5230 (HTTPS)  | Backup channel, also used for ping command to wake up a device (Only for GMS devices)       |
 | IP: 8.8.8.8                           |	TCP: 443 (HTTPS)                   |	For verifying internet connectivity on the device                             |
+| mqtt.esper.cloud                      | TCP:8883 (MQTT over ssl)            | For MQTT communication to devices for commands (with TLS) |
 
 :::tip
 For static IP, please get in touch with Esper

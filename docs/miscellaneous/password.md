@@ -24,6 +24,10 @@ Step 3: Click on the ‘Change password’ link to edit the password. Click on *
 
   
 
-Step 4: Preview the user’s role and click on **Confirm** to commit the changes. Clicking on the **Back** button will take you to step1 where you can edit the information. Clicking **Cancel** will take you back to the ‘User management’ screen.
+Step 4: Preview the user’s role and click on **Confirm** to commit the changes. Clicking on the **Back** button will take you to step1 where you can edit the information. Clicking **Cancel** will take you back to the ‘User Management’ screen.
 
 ![confirm](./images/password/4-confirm.png)
+
+<!---
+If SSO is configured, users will need to go through their identity providers to change their passwords.
+-->
