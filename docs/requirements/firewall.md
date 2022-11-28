@@ -12,9 +12,9 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 | [customer endpoint].esper.cloud       | TCP: 443 (HTTPS)                            | Grants access to the Esper Console when operating under a network with a restricted outbound firewall                                                                        |
 | [customer endpoint]-api.esper.cloud   | TCP: 443 (HTTPS)                      | For communicating from the device to the Esper Endpoint. (example: device status events and command success/failure messages) |
 | mqtt-telemetry-prod.esper.cloud       | TCP: 1883 (MQTT)                     | Deep telemetry from devices                                                              |
+mqtt.esper.cloud | TCP:8883 (MQTT over ssl) | For MQTT communication to devices for commands (with TLS) |
 | IP: 13.52.132.230          |  TCP: 40000 - 50000 | For allowing secure remote ADB access to your devices                       |
 | firebaseinstallations.googleapis.com and fcm.googleapis.com| TCP: 443 (HTTPS), TCP: 5228 (HTTPS), TCP: 5229 (HTTPS), TCP: 5230 (HTTPS)  | Backup channel, also used for ping command to wake up a device (Only for GMS devices)       |
-
 
 :::tip
 For static IP, please get in touch with the [Esper team](https://support.esper.io/s/).
