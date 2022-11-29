@@ -16,7 +16,7 @@ Not every organization will need SSO. Before setting up the sign-on experience, 
 - Deleting a Connection
 
 ## SSO Setup Process 
-[Flowchart for adding a new SSO connection](./images/setupsso/add-new-connection-flow.png)
+![Flowchart for adding a new SSO connection](./images/setupsso/add-new-connection-flow.png)
 
 The SSO setup process consists of: 
 - Adding a new connection in Esper 

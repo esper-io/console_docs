@@ -2,7 +2,7 @@ module.exports = {
     title: "Esper Console Documentation | %v",
     setTitle: "SSO",
     handle: "console",
-    // icon: "/icons/sidebar/geofence.svg",
+    icon: "/icons/sidebar/sso.svg",
     baseDir: "sso",
     // versions: [
     //   ["introduction", { label: "1.x" }]
