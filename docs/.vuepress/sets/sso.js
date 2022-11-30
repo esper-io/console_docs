@@ -16,7 +16,8 @@ module.exports = {
           title: "Introduction",
           collapsable: false,
           children: [
-            ""
+            "",
+            "saml-okta",
           ]
         },
       ]
