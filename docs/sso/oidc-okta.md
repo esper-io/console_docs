@@ -2,8 +2,6 @@
 
 This guide provides steps for setting up OpenID Connect (OIDC) for the Esper console using the Okta identity provider. 
 
-For general OIDC SSO setup, click here. 
-
 **To access SSO, you will need the following:**
 - Enterprise Administrator access to the Esper console 
 - Administrative access to Okta
@@ -65,7 +63,7 @@ Your [Okta Issuer URL](https://support.okta.com/help/s/article/What-is-theIssuer
 
 Press **Continue.** 
 
-Copy the "Callback ID"
+Copy the "Callback ID".
 
 **Step 3 Adding OIDC Credentials** 
 
