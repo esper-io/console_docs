@@ -7,10 +7,7 @@ This guide provides steps for setting up OpenID Connect (OIDC) for the Esper con
 - Administrative access to Okta
 
 **In this article:**
-- Do I Need OIDC SSO? 
-- Creating an OIDC Integration in Okta 
-- Setting Up OIDC in Esper 
-- Granting Access to Users
+[[toc]]
 
 ### Do I Need OIDC SSO? 
 
