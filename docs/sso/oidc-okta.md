@@ -65,11 +65,13 @@ Your [Okta Issuer URL](https://support.okta.com/help/s/article/What-is-theIssuer
 
 Press **Continue.** 
 
+Copy the "Callback ID"
+
 **Step 3 Adding OIDC Credentials** 
 
 In Okta, go to the application and **Edit** the General Settings section. 
 
-Input the Client ID from Esper into the “Login” > “Sign-in redirect URI.” 
+Input the Callback ID from Esper into the “Login” > “Sign-in redirect URI.” 
 
 ![The login setup screen in Okta. The Sign In Redirect URL is filled out.](./images/oidcokta/sign-in-redirect-in-okta.png)
 
