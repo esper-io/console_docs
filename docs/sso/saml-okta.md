@@ -129,7 +129,7 @@ In “Signature Certificate,” upload the certificate from Esper (it should be 
 
 Then input Esper’s “Logout URL.” 
 
-![The signature certificate, enable single logout option, and single logout URL. The enable single logout option is checked.](docs/sso/images/samlokta/signature-certificate-in-okta.png)
+![The signature certificate, enable single logout option, and single logout URL. The enable single logout option is checked.](./images/samlokta/signature-certificate-in-okta.png)
 
 :::
 

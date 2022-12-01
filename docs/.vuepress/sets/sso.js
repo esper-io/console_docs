@@ -1,5 +1,6 @@
 module.exports = {
     title: "Esper Console Documentation | %v",
+    description: "Onboard, manage, and maintain a fleet of devices with Esper.",
     setTitle: "SSO",
     handle: "console",
     icon: "/icons/sidebar/sso.svg",
@@ -18,6 +19,8 @@ module.exports = {
           children: [
             "",
             "saml-okta",
+            "oidc-okta", 
+            "delete-sso"
           ]
         },
       ]
