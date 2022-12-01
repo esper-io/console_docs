@@ -18,6 +18,8 @@ module.exports = {
           children: [
             "",
             "saml-okta",
+            "oidc-okta", 
+            "delete-sso"
           ]
         },
       ]
