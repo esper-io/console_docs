@@ -7,10 +7,7 @@ This guide provides steps for setting up SAML for the Esper Console using the Ok
 - Administrative access to Okta
 
 **In this article:**
-- Do I Need SAML SSO? 
-- Creating a SAML Integration in Okta 
-- Setting Up SAML in Esper 
-- Granting Access to Users
+[[toc]]
 
 ## Do I Need SAML SSO? 
 
@@ -118,7 +115,7 @@ Under the Configure SAML tab, making the following changes:
 
 ![The General SAML settings page in Okta.Single sign on URL and Audience URI now show the correct information.](./images/samlokta/SAML-settings-page-in-okta.png)
 
-### Providing the Logout Certificate to Okta (optional)
+### Providing the Logout Certificate to Okta (Optional)
 
 ::: details
 Select “Show Advanced Settings.”

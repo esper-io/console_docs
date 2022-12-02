@@ -9,11 +9,7 @@ Not every organization will need SSO. Before setting up the sign-on experience, 
 - Administrative access to an identity provider (for example, Okta)
 
 **In this article:**
-- SSO Setup Process
-- Setting Up SAML 
-- Setting Up OIDC
-- Adding Users
-- Deleting a Connection
+[[toc]]
 
 ## SSO Setup Process 
 ![Flowchart for adding a new SSO connection](./images/setupsso/add-new-connection-flow.png)
