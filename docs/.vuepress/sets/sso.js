@@ -1,5 +1,5 @@
 module.exports = {
-    title: "Esper Console Documentation | %v",
+    title: "Esper Console Documentation",
     description: "Onboard, manage, and maintain a fleet of devices with Esper.",
     setTitle: "SSO",
     handle: "console",

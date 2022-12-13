@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Esper Console Documentation | %v",
+  title: "Esper Console Documentation",
   setTitle: "Apps",
   handle: "console",
   icon: "/icons/sidebar/apps.svg",

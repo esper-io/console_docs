@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Esper Console Documentation | %v",
+  title: "Esper Console Documentation",
   setTitle: "Content Management",
   handle: "console",
   icon: "/icons/sidebar/cms.svg",
