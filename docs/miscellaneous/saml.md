@@ -1,7 +1,7 @@
 # How to configure SAML SSO?
 
 :::warning
-This feature is being deprecated. Please refer to the Single Sign-on section for the latest SSO set up instructions. 
+This feature is being deprecated. Please refer to the SSO section for the latest Single Sign-on set up instructions. 
 :::  
 
 Click the Profile icon and navigate to your company settings.
