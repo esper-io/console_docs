@@ -1,4 +1,10 @@
-# How to Set Up OIDC in Okta?
+# Setting Up OIDC with Okta
+
+::: tip Coming Soon 
+
+This feature will begin rolling out in Janurary 2023. 
+
+:::
 
 This guide provides steps for setting up OpenID Connect (OIDC) for the Esper console using the Okta identity provider. 
 
