@@ -21,6 +21,7 @@ module.exports = {
         },
       ]
     }
+
     // locales: {
     //   "/": {
     //     lang: "en-US",
@@ -40,4 +41,4 @@ module.exports = {
       // }
     // }
   };
-  
+
