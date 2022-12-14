@@ -1,6 +1,6 @@
 module.exports = {
     title: "Esper Console Documentation | %v",
-    setTitle: "SSO",
+    setTitle: "sso",
     handle: "console",
     icon: "/icons/sidebar/sso.svg",
     baseDir: "sso",
@@ -17,11 +17,28 @@ module.exports = {
           collapsable: false,
           children: [
             "",
-            "saml-okta",
-            "oidc-okta", 
-            "delete-sso"
           ]
         },
       ]
     }
+
+    // locales: {
+    //   "/": {
+    //     lang: "en-US",
+    //     name: "English",
+    //     title: "Esper Console Documentation | %v",
+    //     config: require("./Introduction/introduction-to-esper-en.js")
+    //   },
+      // "/ja/": {
+      //   lang: "ja",
+      //   title: "Esper Console ドキュメント | %v",
+      //   config: require("./esper-console-ja.js")
+      // },
+      // "/fr/": {
+      //   lang: "fr",
+      //   title: "Esper Console Documentation | %v",
+      //   config: require("./esper-console-fr.js")
+      // }
+    // }
   };
+

@@ -1,8 +1,20 @@
+
 # How to Set Up Single Sign-on (SSO)?
+
+
+::: tip Coming Soon
+
+This feature will begin rolling out in January 2023.
+
+:::
 
 Some organizations may have security needs that go beyond traditional sign-in methods. This article covers the setup process for Security Assertion Markup Language (SAML) or Open ID Connect (OIDC). SAML is one option for organizations that want to enable single sign-on for browser-based applications. OIDC also offers lightweight performance for sign-on. Esper supports both, but only one method may be used at a time. 
 
 Not every organization will need SSO. Before setting up the sign-on experience, choose an identity provider and method that works best for your organization.
+
+
+ **In this article:**
+[[toc]]
 
 **To access SSO setup, you will need the following:**
 - Enterprise Administrator access to the Esper console 
@@ -26,6 +38,7 @@ The SSO setup process consists of:
 - Adding users
 
 ## Setting Up SAML
+
 
 **Step 1** Adding a New Connection
 
@@ -89,7 +102,8 @@ Once you’ve set up an OIDC app in your identity provider, copy the following c
 - Issuer URL. Learn more about Issuer URLs [here](https://developer.okta.com/docs/reference/api/oidc/#well-known-openid-configuration).
 - Client ID
 
-**Step 1** Add a New Connection
+
+**Step 1 Add a New Connection**
 
 To add an OIDC SSO,  click on your profile section and select Single Sign-on (SSO). Then click on **+Add New Connection**. 
 
@@ -116,7 +130,9 @@ After configuring SSO, you’ll need to add users to both your identity provider
 In your identity provider, assign users to the Esper application. 
 
 In Esper, select your profile and select User Management. Add a new user by pressing ‘New User’.
- 
+
+![A screen showing access privileges and the option to Invite a user](./images/setupsso/add-new-user.png)
+
 Enter their information and press **Continue**, then select their access privileges and press **Invite**. The user will receive an email to sign up to the Esper tenant.
 
 Until they accept the invitation, the user will appear in the Pending tab. Invitations may also be deleted from this tab. 
@@ -142,6 +158,6 @@ If you would like users to only log in via SSO, you should delete other credenti
 
 ### How to Accept the SSO Invite 
 
-Invited users will receive an invitation in their inbox. Once they click on the invitation link, they should choose the SSO login method. Choosing another login method (such as password or Google) will not satisfy the SSO criteria. 
+Invited users will receive an invitation in their inbox. Once they click on the invitation link, they should choose the SSO login method. Choosing a different login method (such as password or Google) will not satisfy the SSO criteria. 
 
 
