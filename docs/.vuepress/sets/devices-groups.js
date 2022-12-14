@@ -46,7 +46,7 @@ module.exports = {
           "event-feed",
           "agent-version",
           "device-security",
-          "static-ip"
+          //"static-ip"
           ]
       },
     ]
