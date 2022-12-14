@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Esper Console Documentation | %v",
+  title: "Esper Console Documentation",
   setTitle: "Devices and Groups",
   handle: "console",
   icon: "/icons/sidebar/devices_and_groups.svg",
@@ -46,6 +46,7 @@ module.exports = {
           "event-feed",
           "agent-version",
           "device-security",
+          "static-ip"
           ]
       },
     ]
