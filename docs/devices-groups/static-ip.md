@@ -1,9 +1,16 @@
 # How Do I Set a Static IP?
 
+:::tip  
+
+Need this feature? Reach out to [Esper Support](mailto:support@esper.io).
+
+:::
+
 This guide walks you through the process of setting up a static IP on a device. Not every device fleet will need static IP addresses, however, some fleets may need a static IP for security reasons. Discuss with your organization if static IP is right for your fleet.
 
 **Product Requirements**
 - Must have Administrative Privileges
+- Additional requirements may apply
 
 
 **Device Requirements** 

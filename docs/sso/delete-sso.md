@@ -1,4 +1,10 @@
-# How to delete an SSO connection? 
+# Deleting an SSO Connection
+
+:::tip Coming Soon 
+
+This feature will begin rolling out in Janurary 2023. 
+
+:::
 
 **In this article:**
 [[toc]]
