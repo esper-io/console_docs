@@ -1,5 +1,11 @@
 # Setting Up SSO 
 
+::: tip Coming Soon
+
+This feature will begin rolling out in January 2023.
+
+:::
+
 Some organizations may have security needs that go beyond traditional sign-in methods. This article covers the setup process for Security Assertion Markup Language (SAML) or Open ID Connect (OIDC). SAML is one option for organizations that want to enable single sign-on for browser-based applications. OIDC also offers lightweight performance for sign-on. Esper supports both, but only one method may be used at a time. 
 
 Not every organization will need SSO. Before setting up the sign-on experience, choose an identity provider and method that works best for your organization.
@@ -136,6 +142,6 @@ If you would like users to only log in via SSO, you should delete other credenti
 
 ### How to Accept the SSO Invite 
 
-Invited users will receive an invitation in their inbox. Once they click on the invitation link, they should choose the SSO login method. Choosing another login method (such as password or Google) will not satisfy the SSO criteria. 
+Invited users will receive an invitation in their inbox. Once they click on the invitation link, they should choose the SSO login method. Choosing a different login method (such as password or Google) will not satisfy the SSO criteria. 
 
 
