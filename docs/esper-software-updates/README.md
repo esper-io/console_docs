@@ -1,4 +1,4 @@
-# Esper Software Updates
+# Deploying Esper Software Updates
 
 Here at Esper, we love to continuously improve our platform and services, but how can you be sure those updates are right for your fleet? With Esper Software Updates (ESU), you’re in control of which updates you push to your devices and when. 
 

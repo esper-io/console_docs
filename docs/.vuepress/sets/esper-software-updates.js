@@ -17,7 +17,7 @@ module.exports = {
         collapsable: false,
         children: [
           "",
-          "deploy",
+          // "deploy",
           "version",
           "setting",
         ]
