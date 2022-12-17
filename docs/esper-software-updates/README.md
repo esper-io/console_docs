@@ -2,6 +2,9 @@
 
 Here at Esper, we love to continuously improve our platform and services, but how can you be sure those updates are right for your fleet? With Esper Software Updates (ESU), you’re in control of which updates you push to your devices and when. 
 
+<iframe src="https://player.vimeo.com/video/782012774?h=b78d24be11&byline=0&portrait=0" width="640" height="368" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/782012774">Esper Software Updates</a> from <a href="https://vimeo.com/esperacademy">Esper</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 **Requirements**: 
 - Enterprise Admin 
 
