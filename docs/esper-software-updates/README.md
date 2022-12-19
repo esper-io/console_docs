@@ -85,9 +85,9 @@ Test whether or not an update will work for a single device, Group, or your whol
 
 ## Seeing the Status of the Update in Pipelines 
 
-Once you’ve run the update, check its ![status in Pipelines](./images/pipelines-status.png).
+Once you’ve run the update, check its [status in Pipelines.](https://console-docs-v2.esper.io/pipeline/stage.html)
 
-![The Pipeline screen shows the status for the different pipelines that were run.]()
+![The Pipeline screen shows the status for the different pipelines that were run.](./images/pipelines-status.png)
 
 Once the update is applied, we recommend you test your devices to ensure the apps and user flows are working as expected. Once reviewed, roll out updates to the larger Group or fleet, or reach out to [Esper Support](mailto:support@esper.io) with any problems you encountered.
 
