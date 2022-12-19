@@ -1,6 +1,6 @@
 module.exports = {
-    title: "Esper Console Documentation | %v",
-    setTitle: "sso",
+    title: "Esper Console Documentation",
+    setTitle: "SSO",
     handle: "console",
     icon: "/icons/sidebar/sso.svg",
     baseDir: "sso",
@@ -17,6 +17,9 @@ module.exports = {
           collapsable: false,
           children: [
             "",
+            "saml-okta",
+            "oidc-okta",
+            "delete-sso"
           ]
         },
       ]

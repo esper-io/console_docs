@@ -1,5 +1,11 @@
 # How to Set Up SSO with SAML in Okta?
 
+::: tip Coming Soon
+
+This feature will begin rolling out in January 2023.
+
+:::
+
 This guide provides steps for setting up SAML for the Esper Console using the Okta identity provider. 
 
 **To access SSO, you will need the following:**

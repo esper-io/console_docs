@@ -1,5 +1,11 @@
 # How to delete an SSO connection? 
 
+::: tip Coming Soon
+
+This feature will begin rolling out in January 2023.
+
+:::
+
 **In this article:**
 - What Happens When I Delete a Connection? 
 - Deleting a Connection 
