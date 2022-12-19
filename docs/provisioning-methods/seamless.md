@@ -2,7 +2,7 @@
 
 Esper’s Seamless Provisioning provides the code and guidance to integrate Esper software on first boot. It’s available to customers who reached out to our Sales and Technical teams for implementation. 
 
-The Seamless Provisioning process involves integrating Esper code into your Android image or the custom Esper Foundation build for your device. Seamless Provisioning also allows you to place the device’s serial or IMEI number into a Provisioning Template. Once the device connects to the internet, there’s no need to follow the standard Android enrollment steps. It will automatically enroll onto Esper based on the template you set. 
+The Seamless Provisioning process involves integrating Esper code into your Android image so your devices boot up with Esper similar to a custom Esper Foundation. Seamless Provisioning also allows you to place the device’s serial or IMEI number into a Provisioning Template. Once the device connects to the internet, there’s no need to follow the standard Android enrollment steps. It will automatically enroll onto Esper based on the template you set. 
 
 **Requirements:** 
 Reach out to our Sales or Technical Team for details on implementation
