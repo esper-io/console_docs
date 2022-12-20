@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Esper Console Documentation | %v",
+  title: "Esper Console Documentation",
   setTitle: "Provisioning Methods",
   handle: "console",
   icon: "/icons/sidebar/provisioning_methods.svg",
