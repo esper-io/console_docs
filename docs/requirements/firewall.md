@@ -15,6 +15,8 @@ Dedicated devices are often behind corporate firewalls, preventing Esper's backe
 mqtt.esper.cloud | TCP:8883 (MQTT over ssl) | For MQTT communication to devices for commands (with TLS) |
 | IP: 13.52.132.230          |  TCP: 40000 - 50000 | For allowing secure remote ADB access to your devices                       |
 | firebaseinstallations.googleapis.com and fcm.googleapis.com| TCP: 443 (HTTPS), TCP: 5228 (HTTPS), TCP: 5229 (HTTPS), TCP: 5230 (HTTPS)  | Backup channel, also used for ping command to wake up a device (Only for GMS devices)       |
+| time.android.com | UDP: 123 NTP(SNTP) | Used to actively synchronize the device's time.                                      |
+| ip-api.com       | TCP: 444 (HTTP)    | Used when the OS boots for the first time (post-installation) to set up the timezone. |
 
 
 :::tip
