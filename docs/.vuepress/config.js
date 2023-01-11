@@ -75,7 +75,7 @@ module.exports = {
       require('./sets/user-management'),
      // require('./sets/billing'),
       require('./sets/sso'),
-      require('./sets/learning-center'),
+      // require('./sets/learning-center'),
       require('./sets/esper-enhanced'),
       require('./sets/api-key-management'),
       require('./sets/misc'),
