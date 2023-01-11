@@ -1,9 +1,8 @@
 ## What are the Dashboard components?
 
-The Dashboard mainly hosts the status panel. It also has a section to display the recent pipeline activities. It has other static components like the navigation menu on the left. The top-right corner has quick links to the Esper Console documentation and the Learning Center.
+The Dashboard mainly hosts the status panel. It also has a section to display the recent pipeline activities. It has other static components like the navigation menu on the left. The top-right corner also has quick links to the Esper Console documentation.
 
   
-
 ### Status Panels
 
 The main body of the Dashboard contains the following status panels:
