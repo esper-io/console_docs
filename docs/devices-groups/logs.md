@@ -1,8 +1,7 @@
 ## How to Capture Logs For a Single Device?
 
   
-
-This feature enables you to capture a bug report for the device.
+Capture bug reports to diagnose your devices. Bug reports can be enabled through mutli-app or kiosk mode. A notification will appear requesting permission before each device can upload the report to the console. 
 
   
 
@@ -32,6 +31,3 @@ Step 3: The Download status is a live link. Clicking on Download will download t
 
 When you request a capture log from a specific device, a notification will pop up on that device asking permission to share the report. The device user need to swipe down the notification bar, tap the bug report line, and click **Share**. If the device user clicks **Decline**, the report will not be shared and the status will change to Permission Denied by User.
 
-:::tip
-If the target device is in Kiosk mode or the notification bar is disabled, you will be unable to capture a bug report. Kiosk mode prevents the notification bar from being displayed and the device user will not be able to grant permission for the report. To get around this you can temporarily apply a compliance policy with a notification bar enabled.
-:::
