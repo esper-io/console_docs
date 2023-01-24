@@ -1,7 +1,7 @@
 ## How to Capture Logs For a Single Device?
 
   
-Capture bug reports to diagnose your devices. Bug reports can be enabled through mutli-app or kiosk mode. A notification will appear requesting permission before each device can upload the report to the console. 
+Capture bug reports to diagnose your devices. Bug reports can be enabled through mutli-app. A notification will appear requesting permission before each device can upload the report to the console. 
 
   
 
