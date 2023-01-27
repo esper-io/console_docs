@@ -49,6 +49,7 @@ module.exports = {
           "groups-feed",
           "groups-settings",
           "group-delete",
+          "remove-offline-device"
          ]
       },
     ]
