@@ -2,7 +2,7 @@
 
 ::: tip Coming Soon
 
-This feature will begin rolling out in January 2023.
+This feature will begin rolling out in February 2023.
 
 :::
 
@@ -12,7 +12,9 @@ This feature will begin rolling out in January 2023.
 
 ## What Happens When I Delete a Connection? 
 
-When you delete an SSO connection, all users using that sign-on method will no longer be able to log in. We recommend ensuring that users have a non-SOS sign-on method before deleting a connection. 
+When you delete an SSO connection, all users using that sign-on method will no longer be able to log in. We recommend ensuring that users have a non-SSO sign-on method before deleting a connection. 
+
+Deleting an SSO connection also means that your users will need to use Google Sign-in or email address and password to log in. 
 
 ## Deleting a Connection 
 
