@@ -3,7 +3,7 @@
 
 ::: tip Coming Soon
 
-This feature will begin rolling out in January 2023.
+This feature will begin rolling out in February 2023.
 
 :::
 
