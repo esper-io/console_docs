@@ -109,17 +109,16 @@ After a device is locked, the button will change to Unlock to enable you to unlo
 
   
 
-#### Remove / Factory Reset Device
+#### Remove / Factory Reset an Online Device
 
-Users will have an option to remove devices from the Esper Dashboard. This is applicable to one or more devices or groups. There is a checkbox for ‘Factory Reset the Devices’ and for ‘Wipe External Storage.’ Once the WIPE command is fired, the device will be wiped and removed immediately from the dashboard if its online. For offline devices, our system will wait for it to come online for next 24 hours and if it does, it will wipe and remove the device. If it doesn't come online in 24 hours, then device will be removed from the console only between 24 to 36 hours.
+Users will have an option to remove devices from the Esper Dashboard. This is applicable to one or more devices or groups whihc are online. There is a checkbox for ‘Factory Reset the Devices’ and for ‘Wipe External Storage.’ Once the WIPE command is fired, the device will be wiped and removed immediately from the dashboard if its online. For offline devices, our system will wait for it to come online for next 24 hours and if it does, it will wipe and remove the device. If it doesn't come online in 24 hours, then device will be removed from the console only between 24 to 36 hours.
 
 :::tip
 For online devices, the factory reset option will be enabled by default.
 :::
 
   
-  
-  
+Need to remove an offline device? See [Removing Offline Devices](./remove-offline-device.md).
 
 ![Remove Device button](./images/devicesettings/9-Remove_Factory_reset.png)
 
