@@ -1,5 +1,11 @@
 ## Deleting an SSO Connection
 
+::: tip Coming Soon
+
+This feature will begin rolling out in February 2023.
+
+:::
+
 You may delete an SSO connection with an identity provider at any time. However, there are a few things to keep in mind before deleting one. This article provides the steps on how to delete a connection and what that means for users currently using SSO.
 
 **In this article:**
