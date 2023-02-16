@@ -186,6 +186,14 @@ When you select the ‘Schedule Delivery’ checkbox, you will be prompted to en
 
 Step 3: Click Send Message when you are ready to send the message. Clicking Cancel will take you back to the settings screen.
 
+### Beep
+
+The Beep Device command was designed for finding a single device in a warehouse or out in the field. If the device is online, the Beep command will issue a continuous beeping sound that lasts for five minutes. You can tap on the device or its power button to stop the beeping.
+
+![beep button](./images/devicesettings/beepdevicebutton.png)
+
+The Beep Device command won't work for devices without sound capabilities. If you don't hear a beeping sound after executing the command try adjusting the sound settings.
+
   
 
 ### Display Settings
