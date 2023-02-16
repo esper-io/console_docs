@@ -190,7 +190,7 @@ Step 3: Click Send Message when you are ready to send the message. Clicking Canc
 
 The Beep Device command was designed for finding a single device in a warehouse or out in the field. If the device is online, the Beep command will issue a continuous beeping sound that lasts for five minutes. You can tap on the device or its power button to stop the beeping.
 
-![Beep Device Button](.images/devicesettings/beepdevicebutton.png)
+![beep button](./images/devicesettings/beepdevicebutton.png)
 
 The Beep Device command won't work for devices without sound capabilities. If you don't hear a beeping sound after executing the command try adjusting the sound settings.
 
