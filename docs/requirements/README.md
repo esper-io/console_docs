@@ -13,6 +13,7 @@ We support the following Android versions:
 - 10.0 Q
 - 11.0 Red Velvet Cake 
 - 12.0 Snow Cone
+- 13.0 Tiramisu
 
 We will always support development devices running Esper Foundation for Android. Such devices open up additional features for developers when using Esper.
 
