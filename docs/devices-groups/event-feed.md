@@ -6,4 +6,4 @@ The Event Feed tab lists all the interactions the device has had with the Consol
 
   
 
-![event feed](./images/8-eventfeed.png)
+![event feed](./images/Device-Event-Feed.png)
