@@ -1,17 +1,28 @@
 # Redirects from what the browser requests to what we serve
-/devices-groups/remote-viewer.html#setup-remote-control-on-a-single-device              https://help.esper.io/hc/en-us/articles/12525592608273-Using-Remote-Viewer-and-Control#h_01GRMH9ZDPPPDZ2MSTEJYSRT4P
-/requirements/firewall.html#what-are-the-firewall-requirements              https://help.esper.io/hc/en-us/articles/12686306564881-Firewall-Requirements
-/provisioning-methods/6-tap.html              https://help.esper.io/hc/en-us/articles/12592452200721-6-tap-QR-Code-Provisioning
-/devices-groups/create-blueprint.html              https://help.esper.io/hc/en-us/articles/12433730688017-Adding-a-Blueprint
-/apps/              https://help.esper.io/hc/en-us/sections/12523776439953-Apps
-/reports/#what-are-reports              https://help.esper.io/hc/en-us/articles/12654902134801-Introduction-to-Reports
-/provisioning-methods/seamless.html              https://help.esper.io/hc/en-us/articles/12624142021649-Seamless-Provisioning
-/provisioning-methods/provisioner-tool.html              https://help.esper.io/hc/en-us/articles/12624029797137-Provisioner-Tool
-/provisioning-methods/android-for-work.html              https://help.esper.io/hc/en-us/articles/12592134759953-Android-for-Work-AFW-Provisioning
-/provisioning-methods/kme.html              https://help.esper.io/hc/en-us/articles/12624434294289-Knox-Mobile-Enrollment-KME-Provisioning
-/provisioning-methods/zte.html              https://help.esper.io/hc/en-us/articles/12624188351121-Zero-touch-Enrollment-ZTE-Provisioning
-/provisioning-methods/              https://help.esper.io/hc/en-us/articles/12591606038417-Types-of-Provisioning-Methods
-/devices-groups/blueprint-settings.html#restrict-incoming-calls              https://help.esper.io/hc/en-us/articles/12435967300753#h_01GTJXXGBDRCRXP48KGZNBY70A
-/devices-groups/frp.html#on-the-device              https://help.esper.io/hc/en-us/articles/12654781202705-Enabling-Factory-Reset-Protection-FRP-through-Google-
-/devices-groups/frp.html              https://help.esper.io/hc/en-us/articles/12654781202705-Enabling-Factory-Reset-Protection-FRP-through-Google-
-/              https://help.esper.io/hc/en-us/categories/11385047923217-Console
+/devices-groups/remote-viewer.html#setup-remote-control-on-a-single-device              https://help.esper.io/hc/en-us/articles/12525592608273-Using-Remote-Viewer-and-Control#h_01GRMH9ZDPPPDZ2MSTEJYSRT4P             301!
+/devices-groups/remote-viewer.html                                                      https://help.esper.io/hc/en-us/articles/12525592608273-Using-Remote-Viewer-and-Control#h_01GRMH9ZDPPPDZ2MSTEJYSRT4P             301!
+
+/requirements/firewall.html#what-are-the-firewall-requirements                          https://help.esper.io/hc/en-us/articles/12686306564881-Firewall-Requirements                                                    301!
+/requirements/firewall.html                                                             https://help.esper.io/hc/en-us/articles/12686306564881-Firewall-Requirements                                                    301!
+
+/provisioning-methods/6-tap.html                                                        https://help.esper.io/hc/en-us/articles/12592452200721-6-tap-QR-Code-Provisioning                                               301!
+/devices-groups/create-blueprint.html                                                   https://help.esper.io/hc/en-us/articles/12433730688017-Adding-a-Blueprint                                                       301!
+/apps/                                                                                  https://help.esper.io/hc/en-us/sections/12523776439953-Apps                                                                     301!
+
+/reports/#what-are-reports                                                              https://help.esper.io/hc/en-us/articles/12654902134801-Introduction-to-Reports                                                  301!
+/reports/                                                                               https://help.esper.io/hc/en-us/articles/12654902134801-Introduction-to-Reports                                                  301!
+
+/provisioning-methods/seamless.html                                                     https://help.esper.io/hc/en-us/articles/12624142021649-Seamless-Provisioning                                                    301!
+/provisioning-methods/provisioner-tool.html                                             https://help.esper.io/hc/en-us/articles/12624029797137-Provisioner-Tool                                                         301!
+/provisioning-methods/android-for-work.html                                             https://help.esper.io/hc/en-us/articles/12592134759953-Android-for-Work-AFW-Provisioning                                        301!
+/provisioning-methods/kme.html                                                          https://help.esper.io/hc/en-us/articles/12624434294289-Knox-Mobile-Enrollment-KME-Provisioning                                  301!
+/provisioning-methods/zte.html                                                          https://help.esper.io/hc/en-us/articles/12624188351121-Zero-touch-Enrollment-ZTE-Provisioning                                   301!
+/provisioning-methods/                                                                  https://help.esper.io/hc/en-us/articles/12591606038417-Types-of-Provisioning-Methods                                            301!
+
+/devices-groups/blueprint-settings.html#restrict-incoming-calls                         https://help.esper.io/hc/en-us/articles/12435967300753#h_01GTJXXGBDRCRXP48KGZNBY70A                                             301!
+/devices-groups/blueprint-settings.html                                                 https://help.esper.io/hc/en-us/articles/12435967300753#h_01GTJXXGBDRCRXP48KGZNBY70A                                             301!
+
+/devices-groups/frp.html#on-the-device                                                  https://help.esper.io/hc/en-us/articles/12654781202705-Enabling-Factory-Reset-Protection-FRP-through-Google-                    301!
+/devices-groups/frp.html                                                                https://help.esper.io/hc/en-us/articles/12654781202705-Enabling-Factory-Reset-Protection-FRP-through-Google-                    301!
+
+/*              https://help.esper.io/hc/en-us/categories/11385047923217-Console        301!
