@@ -1,9 +1,21 @@
-/devices-groups/remote-viewer.html#setup-remote-control-on-a-single-device              https://help.esper.io/hc/en-us/articles/12525592608273
-/apps/approveapp.html#how-to-approve-google-play-apps              https://help.esper.io/hc/en-us/articles/12652339776401
-/compliance-policy/create-policy.html#google-account-restriction-via-policy              https://help.esper.io/hc/en-us/articles/12653670683537#h_01GTJWGWVYBMFHDKVVEQ3C2XBP
-/compliance-policy/create-policy.html#protect-device-from-hard-soft-factory-reset-via-policy              https://help.esper.io/hc/en-us/articles/12653670683537#h_01GTJWQGZK4X4HWFPETRZ4Z8EB
-/provisioning-template/               https://help.esper.io/hc/en-us/articles/12624990282897
-/reports/              https://help.esper.io/hc/en-us/articles/12654902134801
-/provisioning-template/              https://help.esper.io/hc/en-us/articles/12624990282897
-/provisioning-methods/factory-reset.html              https://help.esper.io/hc/en-us/articles/12591788107921
-/apps/               https://help.esper.io/hc/en-us/articles/12652127923857
+# Redirects from what the browser requests to what we serve
+
+/devices-groups/remote-viewer.html#setup-remote-control-on-a-single-device              https://help.esper.io/hc/en-us/articles/12525592608273          301!
+/devices-groups/remote-viewer.html                                                      https://help.esper.io/hc/en-us/articles/12525592608273          301!
+
+/apps/approveapp.html#how-to-approve-google-play-apps                                   https://help.esper.io/hc/en-us/articles/12652339776401          301!
+/apps/                                                                                  https://help.esper.io/hc/en-us/articles/12652127923857          301!
+
+/compliance-policy/create-policy.html#google-account-restriction-via-policy                                     https://help.esper.io/hc/en-us/articles/12653670683537#h_01GTJWGWVYBMFHDKVVEQ3C2XBP                                                                     301!
+/compliance-policy/create-policy.html#protect-device-from-hard-soft-factory-reset-via-policy                    https://help.esper.io/hc/en-us/articles/12653670683537#h_01GTJWQGZK4X4HWFPETRZ4Z8EB                                                                     301!
+/compliance-policy/create-policy.html                                                                           https://help.esper.io/hc/en-us/articles/12653670683537                                                                                                  301!    
+
+/getting-started/upload-app.html#how-to-upload-your-application-to-the-esper-cloud                              https://help.esper.io/hc/en-us/articles/12405124975633-Step-2-Upload-Your-Application-to-the-Esper-Cloud                                                301!
+/getting-started/upload-app.html                                                                                https://help.esper.io/hc/en-us/articles/12405124975633-Step-2-Upload-Your-Application-to-the-Esper-Cloud                                                301!
+
+/provisioning-template/                                 https://help.esper.io/hc/en-us/articles/12624990282897              301!
+/reports/                                               https://help.esper.io/hc/en-us/articles/12654902134801              301!
+/provisioning-template/                                 https://help.esper.io/hc/en-us/articles/12624990282897              301!
+/provisioning-methods/factory-reset.html                https://help.esper.io/hc/en-us/articles/12591788107921              301!
+
+/*                                                      https://help.esper.io                                               301!
